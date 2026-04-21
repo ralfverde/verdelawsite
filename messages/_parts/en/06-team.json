@@ -1,0 +1,63 @@
+{
+  "team": {
+    "seo": {
+      "title": "Our Team — Verde Law Immigration Attorneys",
+      "description": "Meet the Verde Law attorneys, paralegals, and support team fighting for immigrant families across the country."
+    },
+    "eyebrow": "Our Team",
+    "title": "The people fighting for your family.",
+    "subtitle": "Two attorneys, four paralegals, and a support team that treats every phone call like it matters — because it does.",
+    "attorneysEyebrow": "Attorneys",
+    "attorneysTitle": "The lawyers on your case.",
+    "paralegalsEyebrow": "Legal Team",
+    "paralegalsTitle": "Paralegals who know your file.",
+    "supportEyebrow": "Support",
+    "supportTitle": "The people who keep the doors open.",
+    "paralegal": "Paralegal",
+    "attorneys": {
+      "rafael": { "title": "Founder & Managing Attorney" },
+      "jennifer": { "title": "Associate Attorney" }
+    },
+    "support": {
+      "officeManager": "Office Manager",
+      "intakeSupervisor": "Intake Supervisor",
+      "billing": "Billing Coordinator",
+      "marketing": "Marketing Director"
+    },
+    "bookWith": "Book with {name}",
+    "bios": {
+      "rafael-verde": {
+        "p1": "Rafael Verde founded Verde Law in 2024 — weeks after passing the bar and with one belief: that immigrants in the United States deserved the same caliber of representation the corporate world takes for granted.",
+        "p2": "Before founding the firm he spent his law school years interning at Miami-Dade's Public Defender's Office and at a federal immigration clinic, where he took on detained clients pro bono while most of his classmates were prepping for biglaw summers.",
+        "p3": "Today he personally reviews every new case at Verde Law, argues merits hearings across the Eleventh Circuit, and runs a TikTok that's taught over 61,000 people their rights under U.S. immigration law.",
+        "education": { "label": "Education", "value": "Georgetown University Law Center · J.D., 2014" },
+        "barAdmissions": { "label": "Bar Admissions", "value": "Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida" },
+        "languages": { "label": "Languages", "value": "English · Español" }
+      },
+      "jennifer-colon": {
+        "p1": "Jennifer Colón Rodríguez joined Verde Law as an associate attorney in 2025 after five years of humanitarian work with immigrant survivors of violence. Her practice focuses on VAWA, U-Visa, and SIJS cases.",
+        "p2": "She is a native Spanish speaker, a graduate of the University of Puerto Rico School of Law, and a trauma-informed interviewer certified by the Vera Institute of Justice. Clients regularly say she is the first attorney who made them feel safe enough to tell their full story.",
+        "p3": "Jennifer leads the firm's VAWA practice and supervises the paralegal team on humanitarian filings.",
+        "education": { "label": "Education", "value": "University of Puerto Rico School of Law · J.D., 2020" },
+        "barAdmissions": { "label": "Bar Admissions", "value": "Florida Bar · Puerto Rico Bar" },
+        "languages": { "label": "Languages", "value": "Español (native) · English" }
+      }
+    },
+    "teamBios": {
+      "aniela": "Aniela handles bond and detained matters, working directly with families from the moment a loved one is taken into ICE custody.",
+      "mayerli": "Mayerli manages asylum and VAWA files, and prepares personal declarations alongside the attorneys.",
+      "flor": "Flor coordinates family-based petitions, consular processing, and USCIS filings from intake to approval.",
+      "alba": "Alba supports our removal defense practice with evidence gathering, court filings, and client communication.",
+      "daliana": "Daliana keeps the firm running day to day — scheduling, vendor relationships, and the small things that matter to clients.",
+      "jeanine": "Jeanine runs our intake team, which means she's usually the first person you talk to when you call.",
+      "yunetsy": "Yunetsy handles billing with the transparency our clients deserve — clear invoices, flexible payment plans, zero surprises.",
+      "vianney": "Vianney leads our marketing and community outreach, including the TikTok education channel that reaches tens of thousands of immigrants every week."
+    },
+    "join": {
+      "eyebrow": "Careers",
+      "title": "Work with us.",
+      "body": "We're hiring attorneys, paralegals, and bilingual intake specialists. If you want to practice immigration law the right way — with real resources, flat fees, and a team that respects your time — we'd like to meet you.",
+      "cta": "See open positions"
+    }
+  }
+}

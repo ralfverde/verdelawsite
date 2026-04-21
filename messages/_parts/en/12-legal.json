@@ -1,0 +1,62 @@
+{
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How Verde Law collects, uses, and protects your information.",
+      "updated": "Last updated: April 21, 2026",
+      "s1": {
+        "heading": "Scope",
+        "body": "This policy applies to verdelaw.com and to the information you share with Verde Law, PLLC when you contact us through this website, our WhatsApp line, email, phone, or in person. It does not apply to third-party services we link to."
+      },
+      "s2": {
+        "heading": "What we collect",
+        "body": "When you fill out a form or contact us, we collect the information you give us — name, phone number, email, and any details about your case. When you browse the site, we collect standard web analytics (pages visited, approximate location, device type) using cookies and server logs."
+      },
+      "s3": {
+        "heading": "How we use your information",
+        "body": "We use the information you share to evaluate your case, communicate with you about representation, and provide the legal services you request. We use analytics data to improve the website. We do not sell your information. We do not share it with advertisers or brokers."
+      },
+      "s4": {
+        "heading": "Confidentiality and immigration status",
+        "body": "Your communications with Verde Law are confidential. We do not share your information with immigration authorities unless legally required by a valid court order. If you are considering contacting us and you're worried about confidentiality, please call so we can walk you through the protections that apply to attorney consultations."
+      },
+      "s5": {
+        "heading": "Your rights",
+        "body": "You can request access to the information we have about you, request correction, or request deletion (subject to legal retention requirements). Email info@verdelaw.com to make a request."
+      },
+      "s6": {
+        "heading": "Contact",
+        "body": "Questions about this policy can be directed to info@verdelaw.com or 850 NW 42nd Ave, Suite 306, Miami, FL 33126."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "The terms that govern your use of verdelaw.com.",
+      "updated": "Last updated: April 21, 2026",
+      "s1": {
+        "heading": "Acceptance",
+        "body": "By using verdelaw.com you agree to these terms. If you don't agree, please don't use the site."
+      },
+      "s2": {
+        "heading": "No attorney-client relationship",
+        "body": "Using this website, contacting us through a form, or sending us a message does not by itself create an attorney-client relationship. A relationship is formed only when we both sign a written engagement letter."
+      },
+      "s3": {
+        "heading": "Informational only",
+        "body": "Content on this site is for general information about immigration law. It is not legal advice for your specific situation. Every case is different, and past results do not guarantee future outcomes."
+      },
+      "s4": {
+        "heading": "Attorney advertising",
+        "body": "Materials on this site may be considered attorney advertising under Florida Bar rules. The hiring of a lawyer is an important decision that should not be based solely on advertisements."
+      },
+      "s5": {
+        "heading": "Intellectual property",
+        "body": "All content, design, code, and branding on verdelaw.com is the property of Verde Law, PLLC. You may share links to pages but may not copy or reproduce content without permission."
+      },
+      "s6": {
+        "heading": "Contact",
+        "body": "Questions about these terms can be directed to info@verdelaw.com or 850 NW 42nd Ave, Suite 306, Miami, FL 33126."
+      }
+    }
+  }
+}

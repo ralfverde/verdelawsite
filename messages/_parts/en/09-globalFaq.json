@@ -1,0 +1,64 @@
+{
+  "globalFaq": {
+    "consultation": {
+      "question": "What is a free consultation and what does it include?",
+      "answer": "A free consultation is a 20–30 minute conversation — by phone, WhatsApp, or video — with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
+    },
+    "cost": {
+      "question": "How much does it cost to hire an immigration attorney?",
+      "answer": "Our services are priced with flat fees, published on our Practice Areas page so there are no surprises. Fees range from $750 for simple work permits and FOIA requests to $10,000+ for complex removal defense with federal circuit appeals. Every engagement comes with a written payment plan."
+    },
+    "outsideFlorida": {
+      "question": "Can I get representation if I don't live in Florida?",
+      "answer": "Yes. Immigration law is federal, so a Florida-licensed attorney can represent you in immigration courts, USCIS offices, and federal circuit courts across the country. Most of our communication is remote; we travel or appear by video for court dates."
+    },
+    "deportationOrder": {
+      "question": "What happens if I have a deportation order?",
+      "answer": "A prior order does not mean your options are gone. Depending on the type of order and when it was issued, we may file a motion to reopen, a motion to stay removal, an I-246 stay of removal with ICE, or a federal habeas petition. The first step is obtaining your A-file through a FOIA so we know exactly what's on the record."
+    },
+    "asylumProcess": {
+      "question": "How does the asylum process work?",
+      "answer": "Asylum has two tracks. Affirmative asylum is filed with USCIS for people who are not in removal proceedings — it leads to an interview at the asylum office. Defensive asylum is pursued inside immigration court as a defense to removal. Both require a detailed personal declaration, corroborating evidence, and proof that you fear persecution on account of a protected ground."
+    },
+    "bondHearing": {
+      "question": "What is a bond hearing?",
+      "answer": "A bond hearing is when an immigration judge decides whether a detained person can be released from ICE custody while the removal case proceeds. The judge looks at flight risk, danger to the community, and community ties. A prepared case — with sponsor affidavits, tax records, and proof of ties — dramatically changes the outcome."
+    },
+    "timeline": {
+      "question": "How long will my case take?",
+      "answer": "Timelines depend on the case type and the agency. Work permits typically take 3–6 months. I-130 petitions for immediate relatives run 8–16 months. Asylum can take years. Removal defense in court can last 12–36 months. During your consultation we'll give you a realistic estimate for your specific case."
+    },
+    "workWhilePending": {
+      "question": "Can I work while my case is pending?",
+      "answer": "Often yes — through an Employment Authorization Document (EAD), Form I-765. Eligibility depends on the case type and filing dates. We file the EAD as part of every qualifying case package."
+    },
+    "documents": {
+      "question": "What documents should I bring to my consultation?",
+      "answer": "If you have them: your passport, any prior immigration paperwork (notices from USCIS or ICE, court notices), any prior applications you've filed, police reports or evidence if you're pursuing asylum/VAWA/U-visa, and the names and dates for family relationships. If you don't have documents, come anyway — we'll tell you what to gather."
+    },
+    "paymentPlans": {
+      "question": "Do you offer payment plans?",
+      "answer": "Yes. Every engagement includes a written payment plan that divides the flat fee into manageable installments, usually with a reasonable deposit up front. We bill transparently — no surprise charges."
+    },
+    "vawaEligibility": {
+      "question": "What is VAWA and who qualifies?",
+      "answer": "The Violence Against Women Act (VAWA) lets abused spouses, children, and parents of U.S. citizens or lawful permanent residents petition for their own immigration status — confidentially, without the abuser's knowledge or involvement. It applies to men and women. The case depends on proof of the abuse and the qualifying relationship."
+    },
+    "iceDetention": {
+      "question": "What should I do if ICE detains me?",
+      "answer": "Stay calm. You have the right to remain silent, the right to speak with a lawyer, and the right to refuse to sign anything until you understand what it says. Do not sign a Stipulated Order of Removal or a voluntary departure form without legal advice. Ask to call Verde Law — our phone number is answered 24/7."
+    },
+    "detainedHelp": {
+      "question": "Can you help if my family member is already detained?",
+      "answer": "Yes. Detained cases are one of our core practice areas. We move fast on bond hearings, we know the Krome facility staff, and we coordinate transfers when ICE moves a loved one to another state. The first 48 hours matter — call us right away."
+    },
+    "uVisa": {
+      "question": "What is the U-Visa?",
+      "answer": "The U-Visa is an immigration status for noncitizen victims of serious crimes (domestic violence, sexual assault, felonious assault, trafficking, and others) who have suffered substantial harm and are helpful to law enforcement. It requires a certification from the investigating agency and a detailed personal statement. Current waits are long, but applicants on the waitlist receive work authorization and deferred action."
+    },
+    "citizenship": {
+      "question": "How do I become a U.S. citizen?",
+      "answer": "Most people apply via the N-400 after five years as a lawful permanent resident (three years if married to a U.S. citizen). You need continuous residence, physical presence, good moral character, and basic English and civics. We audit for issues that could derail the application — taxes, criminal history, travel patterns — before we file."
+    }
+  }
+}

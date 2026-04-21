@@ -1,0 +1,42 @@
+{
+  "locations": {
+    "seo": {
+      "title": "Locations — Verde Law Immigration Attorneys",
+      "description": "Miami-based immigration firm serving clients in all 50 states. Virtual consultations available anywhere in the U.S."
+    },
+    "eyebrow": "Locations",
+    "title": "Based in Miami. Fighting nationwide.",
+    "subtitle": "Our office is in Coral Way. Our clients are everywhere — from Krome detention to immigration courts in Chicago, New York, Los Angeles, and every circuit in between.",
+    "office": {
+      "eyebrow": "Main Office",
+      "title": "Come in person, or don't — both work.",
+      "directions": "Get directions"
+    },
+    "national": {
+      "eyebrow": "Nationwide Coverage",
+      "title": "All 50 states. One firm.",
+      "body": "Immigration is federal law. It doesn't matter which state you live in — a Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We appear in person when required, remotely when allowed, and we handle the logistics so you don't have to.",
+      "topStatesLabel": "States we serve most often",
+      "states": {
+        "florida": "Florida",
+        "texas": "Texas",
+        "california": "California",
+        "newYork": "New York",
+        "illinois": "Illinois",
+        "georgia": "Georgia",
+        "arizona": "Arizona",
+        "nevada": "Nevada"
+      }
+    },
+    "virtual": {
+      "eyebrow": "Virtual Consultations",
+      "title": "Meet us from anywhere.",
+      "body": "Most of our consultations happen by phone, WhatsApp, or video. You don't need to travel to Miami, and you don't need to take a day off work. Pick the channel that works for you — we're there.",
+      "channels": {
+        "phone": { "title": "Phone", "desc": "Call (305) 786-3003. A real person answers in English or Spanish, day or night." },
+        "whatsapp": { "title": "WhatsApp", "desc": "Message us at any hour. We reply as soon as we're back in the office, usually within minutes during the day." },
+        "video": { "title": "Video call", "desc": "Zoom, Google Meet, or FaceTime. We'll send the link after you book." }
+      }
+    }
+  }
+}

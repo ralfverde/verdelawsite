@@ -949,5 +949,613 @@
       "step5Title": "Follow-up",
       "step5Desc": "Written summary of what happened and next steps."
     }
+  },
+  "about": {
+    "seo": {
+      "title": "About Verde Law — Humanitarian Immigration Firm",
+      "description": "A Miami-based firm founded to make quality immigration representation accessible. 600+ families. 50 states. One mission."
+    },
+    "eyebrow": "About Us",
+    "title": "A firm built for the people the system is hardest on.",
+    "subtitle": "Verde Law was founded with a single idea: that every immigrant in the United States deserves an attorney who answers the phone, speaks their language, and fights like it's personal.",
+    "story": {
+      "eyebrow": "Our Story",
+      "title": "From law school bet to 600 families strong.",
+      "p1": "Rafael Verde founded Verde Law in 2024, straight out of Georgetown Law — before most of his classmates had decided which firm to join. The bet was simple: that there was a real market for a humanitarian immigration firm that treated Spanish-speaking families the way corporate clients get treated everywhere else.",
+      "p2": "The first year was two of us in a borrowed office. The second year we'd grown to eight. Today the team is twenty-two strong — two attorneys, four paralegals, and a support team that keeps every case moving.",
+      "p3": "We now serve clients in all fifty states, from bond hearings at Krome to federal appeals in the Eleventh Circuit. Our TikTok audience is over 61,000 and growing, because free education matters as much as paid representation.",
+      "p4": "Every new case still gets Rafael's personal review. That hasn't changed. It won't change.",
+      "imageCaption": "Miami office — Coral Way, 2026.",
+      "milestones": {
+        "founded": {
+          "value": "Founded 2024",
+          "label": "Year the firm opened"
+        },
+        "employees": {
+          "value": "22 employees",
+          "label": "Team members today"
+        },
+        "families": {
+          "value": "600+ families",
+          "label": "Served since launch"
+        }
+      }
+    },
+    "mission": {
+      "eyebrow": "Our Mission",
+      "title": "Why we do this.",
+      "quote": "We believe every immigrant deserves quality legal representation — regardless of their financial situation.",
+      "values": {
+        "accessibility": {
+          "title": "Accessibility",
+          "desc": "Flat fees. Payment plans. Free consultations. Language access in four languages. Representation should never depend on who you know or what you can pay up front."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "desc": "We prepare every case like it's heading to federal court. Evidence binders, mock hearings, expert declarations. The standard doesn't drop when the client can't afford a retainer."
+        },
+        "humanity": {
+          "title": "Humanity",
+          "desc": "The people on the other side of our desk are scared, exhausted, and out of options. We meet them with patience and respect, every time. That's not a nice-to-have — it's the job."
+        }
+      }
+    },
+    "numbers": {
+      "cases": "Families served",
+      "attorneys": "Attorneys",
+      "paralegals": "Paralegals",
+      "states": "States served",
+      "team": "Team members"
+    },
+    "office": {
+      "eyebrow": "Our Office",
+      "title": "Come see us in Miami.",
+      "addressLabel": "Verde Law, PLLC",
+      "hours": "Hours"
+    }
+  },
+  "team": {
+    "seo": {
+      "title": "Our Team — Verde Law Immigration Attorneys",
+      "description": "Meet the Verde Law attorneys, paralegals, and support team fighting for immigrant families across the country."
+    },
+    "eyebrow": "Our Team",
+    "title": "The people fighting for your family.",
+    "subtitle": "Two attorneys, four paralegals, and a support team that treats every phone call like it matters — because it does.",
+    "attorneysEyebrow": "Attorneys",
+    "attorneysTitle": "The lawyers on your case.",
+    "paralegalsEyebrow": "Legal Team",
+    "paralegalsTitle": "Paralegals who know your file.",
+    "supportEyebrow": "Support",
+    "supportTitle": "The people who keep the doors open.",
+    "paralegal": "Paralegal",
+    "attorneys": {
+      "rafael": {
+        "title": "Founder & Managing Attorney"
+      },
+      "jennifer": {
+        "title": "Associate Attorney"
+      }
+    },
+    "support": {
+      "officeManager": "Office Manager",
+      "intakeSupervisor": "Intake Supervisor",
+      "billing": "Billing Coordinator",
+      "marketing": "Marketing Director"
+    },
+    "bookWith": "Book with {name}",
+    "bios": {
+      "rafael-verde": {
+        "p1": "Rafael Verde founded Verde Law in 2024 — weeks after passing the bar and with one belief: that immigrants in the United States deserved the same caliber of representation the corporate world takes for granted.",
+        "p2": "Before founding the firm he spent his law school years interning at Miami-Dade's Public Defender's Office and at a federal immigration clinic, where he took on detained clients pro bono while most of his classmates were prepping for biglaw summers.",
+        "p3": "Today he personally reviews every new case at Verde Law, argues merits hearings across the Eleventh Circuit, and runs a TikTok that's taught over 61,000 people their rights under U.S. immigration law.",
+        "education": {
+          "label": "Education",
+          "value": "Georgetown University Law Center · J.D., 2014"
+        },
+        "barAdmissions": {
+          "label": "Bar Admissions",
+          "value": "Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida"
+        },
+        "languages": {
+          "label": "Languages",
+          "value": "English · Español"
+        }
+      },
+      "jennifer-colon": {
+        "p1": "Jennifer Colón Rodríguez joined Verde Law as an associate attorney in 2025 after five years of humanitarian work with immigrant survivors of violence. Her practice focuses on VAWA, U-Visa, and SIJS cases.",
+        "p2": "She is a native Spanish speaker, a graduate of the University of Puerto Rico School of Law, and a trauma-informed interviewer certified by the Vera Institute of Justice. Clients regularly say she is the first attorney who made them feel safe enough to tell their full story.",
+        "p3": "Jennifer leads the firm's VAWA practice and supervises the paralegal team on humanitarian filings.",
+        "education": {
+          "label": "Education",
+          "value": "University of Puerto Rico School of Law · J.D., 2020"
+        },
+        "barAdmissions": {
+          "label": "Bar Admissions",
+          "value": "Florida Bar · Puerto Rico Bar"
+        },
+        "languages": {
+          "label": "Languages",
+          "value": "Español (native) · English"
+        }
+      }
+    },
+    "teamBios": {
+      "aniela": "Aniela handles bond and detained matters, working directly with families from the moment a loved one is taken into ICE custody.",
+      "mayerli": "Mayerli manages asylum and VAWA files, and prepares personal declarations alongside the attorneys.",
+      "flor": "Flor coordinates family-based petitions, consular processing, and USCIS filings from intake to approval.",
+      "alba": "Alba supports our removal defense practice with evidence gathering, court filings, and client communication.",
+      "daliana": "Daliana keeps the firm running day to day — scheduling, vendor relationships, and the small things that matter to clients.",
+      "jeanine": "Jeanine runs our intake team, which means she's usually the first person you talk to when you call.",
+      "yunetsy": "Yunetsy handles billing with the transparency our clients deserve — clear invoices, flexible payment plans, zero surprises.",
+      "vianney": "Vianney leads our marketing and community outreach, including the TikTok education channel that reaches tens of thousands of immigrants every week."
+    },
+    "join": {
+      "eyebrow": "Careers",
+      "title": "Work with us.",
+      "body": "We're hiring attorneys, paralegals, and bilingual intake specialists. If you want to practice immigration law the right way — with real resources, flat fees, and a team that respects your time — we'd like to meet you.",
+      "cta": "See open positions"
+    }
+  },
+  "locations": {
+    "seo": {
+      "title": "Locations — Verde Law Immigration Attorneys",
+      "description": "Miami-based immigration firm serving clients in all 50 states. Virtual consultations available anywhere in the U.S."
+    },
+    "eyebrow": "Locations",
+    "title": "Based in Miami. Fighting nationwide.",
+    "subtitle": "Our office is in Coral Way. Our clients are everywhere — from Krome detention to immigration courts in Chicago, New York, Los Angeles, and every circuit in between.",
+    "office": {
+      "eyebrow": "Main Office",
+      "title": "Come in person, or don't — both work.",
+      "directions": "Get directions"
+    },
+    "national": {
+      "eyebrow": "Nationwide Coverage",
+      "title": "All 50 states. One firm.",
+      "body": "Immigration is federal law. It doesn't matter which state you live in — a Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We appear in person when required, remotely when allowed, and we handle the logistics so you don't have to.",
+      "topStatesLabel": "States we serve most often",
+      "states": {
+        "florida": "Florida",
+        "texas": "Texas",
+        "california": "California",
+        "newYork": "New York",
+        "illinois": "Illinois",
+        "georgia": "Georgia",
+        "arizona": "Arizona",
+        "nevada": "Nevada"
+      }
+    },
+    "virtual": {
+      "eyebrow": "Virtual Consultations",
+      "title": "Meet us from anywhere.",
+      "body": "Most of our consultations happen by phone, WhatsApp, or video. You don't need to travel to Miami, and you don't need to take a day off work. Pick the channel that works for you — we're there.",
+      "channels": {
+        "phone": {
+          "title": "Phone",
+          "desc": "Call (305) 786-3003. A real person answers in English or Spanish, day or night."
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "desc": "Message us at any hour. We reply as soon as we're back in the office, usually within minutes during the day."
+        },
+        "video": {
+          "title": "Video call",
+          "desc": "Zoom, Google Meet, or FaceTime. We'll send the link after you book."
+        }
+      }
+    }
+  },
+  "education": {
+    "seo": {
+      "title": "Immigration Education Center — Verde Law",
+      "description": "Free guides, articles, and video explainers about immigration law. Know your rights in the U.S. system."
+    },
+    "eyebrow": "Education",
+    "title": "Immigration education, free and in your language.",
+    "subtitle": "Short articles, step-by-step guides, and straight-talk videos about how the U.S. immigration system actually works. No legalese.",
+    "articles": {
+      "eyebrow": "Articles & Guides",
+      "title": "Read what matters.",
+      "readMore": "Read more",
+      "categories": {
+        "all": "All topics",
+        "deportation": "Deportation & Defense",
+        "asylum": "Asylum",
+        "bond": "Bond",
+        "family": "Family",
+        "work": "Work Permits",
+        "citizenship": "Citizenship",
+        "news": "Immigration News"
+      },
+      "items": {
+        "a1": {
+          "category": "Deportation & Defense",
+          "title": "What to do the first 48 hours after a family member is detained by ICE",
+          "excerpt": "The steps you need to take while the person you love is in custody. What to say, who to call, what not to sign.",
+          "date": "April 2026",
+          "readTime": "6 min read"
+        },
+        "a2": {
+          "category": "Asylum",
+          "title": "The one-year asylum filing deadline — exceptions you should know",
+          "excerpt": "Most people who miss the one-year deadline still have options. Here are the exceptions that save cases.",
+          "date": "March 2026",
+          "readTime": "8 min read"
+        },
+        "a3": {
+          "category": "Bond",
+          "title": "How bond hearings actually work: the evidence judges care about",
+          "excerpt": "Flight risk, danger to the community, community ties. What judges look at and how we prove each one.",
+          "date": "March 2026",
+          "readTime": "7 min read"
+        },
+        "a4": {
+          "category": "Family",
+          "title": "I-130 timelines in 2026: what priority dates mean for your case",
+          "excerpt": "Processing times for immediate relatives, preference categories, and why the visa bulletin matters.",
+          "date": "February 2026",
+          "readTime": "5 min read"
+        },
+        "a5": {
+          "category": "Work Permits",
+          "title": "Five categories that qualify for an EAD you probably didn't know about",
+          "excerpt": "Beyond the obvious: U-Visa waitlist, VAWA, adjustment applicants, and more.",
+          "date": "February 2026",
+          "readTime": "4 min read"
+        },
+        "a6": {
+          "category": "Citizenship",
+          "title": "Preparing for the N-400 interview: what really happens in the room",
+          "excerpt": "The civics test, the English portion, the good moral character questions, and what to bring with you.",
+          "date": "January 2026",
+          "readTime": "9 min read"
+        }
+      }
+    },
+    "videos": {
+      "eyebrow": "Video Library",
+      "title": "Learn from the attorney, free.",
+      "viewMore": "View more on YouTube",
+      "items": {
+        "v1": {
+          "title": "What to do if ICE knocks on your door"
+        },
+        "v2": {
+          "title": "The 5 mistakes that sink asylum cases"
+        },
+        "v3": {
+          "title": "I-130 processing times explained, 2026"
+        },
+        "v4": {
+          "title": "Bond hearings: what the judge really wants to see"
+        },
+        "v5": {
+          "title": "VAWA: you do not need your abuser's signature"
+        },
+        "v6": {
+          "title": "The citizenship interview, step by step"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Frequently Asked Questions",
+      "title": "Answers to the questions we hear most."
+    },
+    "newsletter": {
+      "eyebrow": "Stay Informed",
+      "title": "Immigration news, straight from us.",
+      "body": "One email a month. New articles, policy updates that affect your case, and upcoming free webinars. No spam, unsubscribe anytime.",
+      "formLabel": "Newsletter signup",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "subscribe": "Subscribe",
+      "legal": "By subscribing you agree to receive email from Verde Law. You can unsubscribe at any time.",
+      "follow": "Follow on Instagram"
+    }
+  },
+  "globalFaq": {
+    "consultation": {
+      "question": "What is a free consultation and what does it include?",
+      "answer": "A free consultation is a 20–30 minute conversation — by phone, WhatsApp, or video — with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
+    },
+    "cost": {
+      "question": "How much does it cost to hire an immigration attorney?",
+      "answer": "Our services are priced with flat fees, published on our Practice Areas page so there are no surprises. Fees range from $750 for simple work permits and FOIA requests to $10,000+ for complex removal defense with federal circuit appeals. Every engagement comes with a written payment plan."
+    },
+    "outsideFlorida": {
+      "question": "Can I get representation if I don't live in Florida?",
+      "answer": "Yes. Immigration law is federal, so a Florida-licensed attorney can represent you in immigration courts, USCIS offices, and federal circuit courts across the country. Most of our communication is remote; we travel or appear by video for court dates."
+    },
+    "deportationOrder": {
+      "question": "What happens if I have a deportation order?",
+      "answer": "A prior order does not mean your options are gone. Depending on the type of order and when it was issued, we may file a motion to reopen, a motion to stay removal, an I-246 stay of removal with ICE, or a federal habeas petition. The first step is obtaining your A-file through a FOIA so we know exactly what's on the record."
+    },
+    "asylumProcess": {
+      "question": "How does the asylum process work?",
+      "answer": "Asylum has two tracks. Affirmative asylum is filed with USCIS for people who are not in removal proceedings — it leads to an interview at the asylum office. Defensive asylum is pursued inside immigration court as a defense to removal. Both require a detailed personal declaration, corroborating evidence, and proof that you fear persecution on account of a protected ground."
+    },
+    "bondHearing": {
+      "question": "What is a bond hearing?",
+      "answer": "A bond hearing is when an immigration judge decides whether a detained person can be released from ICE custody while the removal case proceeds. The judge looks at flight risk, danger to the community, and community ties. A prepared case — with sponsor affidavits, tax records, and proof of ties — dramatically changes the outcome."
+    },
+    "timeline": {
+      "question": "How long will my case take?",
+      "answer": "Timelines depend on the case type and the agency. Work permits typically take 3–6 months. I-130 petitions for immediate relatives run 8–16 months. Asylum can take years. Removal defense in court can last 12–36 months. During your consultation we'll give you a realistic estimate for your specific case."
+    },
+    "workWhilePending": {
+      "question": "Can I work while my case is pending?",
+      "answer": "Often yes — through an Employment Authorization Document (EAD), Form I-765. Eligibility depends on the case type and filing dates. We file the EAD as part of every qualifying case package."
+    },
+    "documents": {
+      "question": "What documents should I bring to my consultation?",
+      "answer": "If you have them: your passport, any prior immigration paperwork (notices from USCIS or ICE, court notices), any prior applications you've filed, police reports or evidence if you're pursuing asylum/VAWA/U-visa, and the names and dates for family relationships. If you don't have documents, come anyway — we'll tell you what to gather."
+    },
+    "paymentPlans": {
+      "question": "Do you offer payment plans?",
+      "answer": "Yes. Every engagement includes a written payment plan that divides the flat fee into manageable installments, usually with a reasonable deposit up front. We bill transparently — no surprise charges."
+    },
+    "vawaEligibility": {
+      "question": "What is VAWA and who qualifies?",
+      "answer": "The Violence Against Women Act (VAWA) lets abused spouses, children, and parents of U.S. citizens or lawful permanent residents petition for their own immigration status — confidentially, without the abuser's knowledge or involvement. It applies to men and women. The case depends on proof of the abuse and the qualifying relationship."
+    },
+    "iceDetention": {
+      "question": "What should I do if ICE detains me?",
+      "answer": "Stay calm. You have the right to remain silent, the right to speak with a lawyer, and the right to refuse to sign anything until you understand what it says. Do not sign a Stipulated Order of Removal or a voluntary departure form without legal advice. Ask to call Verde Law — our phone number is answered 24/7."
+    },
+    "detainedHelp": {
+      "question": "Can you help if my family member is already detained?",
+      "answer": "Yes. Detained cases are one of our core practice areas. We move fast on bond hearings, we know the Krome facility staff, and we coordinate transfers when ICE moves a loved one to another state. The first 48 hours matter — call us right away."
+    },
+    "uVisa": {
+      "question": "What is the U-Visa?",
+      "answer": "The U-Visa is an immigration status for noncitizen victims of serious crimes (domestic violence, sexual assault, felonious assault, trafficking, and others) who have suffered substantial harm and are helpful to law enforcement. It requires a certification from the investigating agency and a detailed personal statement. Current waits are long, but applicants on the waitlist receive work authorization and deferred action."
+    },
+    "citizenship": {
+      "question": "How do I become a U.S. citizen?",
+      "answer": "Most people apply via the N-400 after five years as a lawful permanent resident (three years if married to a U.S. citizen). You need continuous residence, physical presence, good moral character, and basic English and civics. We audit for issues that could derail the application — taxes, criminal history, travel patterns — before we file."
+    }
+  },
+  "verdePlus": {
+    "seo": {
+      "title": "Verde+ — The Immigration App for Hispanic Families in the U.S.",
+      "description": "Track your case, scan documents, learn your rights, and connect with your attorney. Free for everyone. Exclusive features for Verde Law clients."
+    },
+    "hero": {
+      "title": "Your immigration case, simplified.",
+      "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone — with exclusive features for Verde Law clients.",
+      "ctaDownload": "Download the app",
+      "ctaMore": "See features"
+    },
+    "features": {
+      "caseTracker": {
+        "eyebrow": "Feature 01",
+        "title": "Know exactly where your case stands.",
+        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you see what's happening and when.",
+        "h1": "Visual timeline of your case",
+        "h2": "Automatic notifications on changes",
+        "h3": "24/7 access from any device"
+      },
+      "judgeStats": {
+        "eyebrow": "Feature 02",
+        "title": "Know your judge before the hearing.",
+        "desc": "Real approval rates for every immigration judge in your jurisdiction. Know what you're walking into, so nothing surprises you.",
+        "h1": "Approval rates by case type",
+        "h2": "Historical decision patterns",
+        "h3": "Compare judges in the same court"
+      },
+      "documentScanner": {
+        "eyebrow": "Feature 03",
+        "title": "Digitize documents instantly.",
+        "desc": "Scan passports, work permits, and legal documents straight from your phone. Stored securely, shareable in one tap with your attorney.",
+        "h1": "Automatic document-type detection",
+        "h2": "Encrypted cloud storage",
+        "h3": "Share directly with your attorney"
+      },
+      "aiAssistant": {
+        "eyebrow": "Feature 04",
+        "title": "Immediate answers to your questions.",
+        "desc": "Our AI assistant answers common immigration questions in Spanish, 24 hours a day. Attorney-verified, zero hallucinations on legal rules.",
+        "h1": "Available 24/7",
+        "h2": "Answers in Spanish",
+        "h3": "Information vetted by attorneys"
+      },
+      "academy": {
+        "eyebrow": "Feature 05",
+        "title": "Learn your rights.",
+        "desc": "Free courses, step-by-step guides, and educational resources to understand the U.S. immigration system. Made for immigrants, in plain Spanish.",
+        "h1": "Video courses",
+        "h2": "Downloadable guides",
+        "h3": "Citizenship test prep"
+      },
+      "community": {
+        "eyebrow": "Feature 06",
+        "title": "Connect with other immigrants.",
+        "desc": "Share experiences, ask questions, and find support in our community. Moderated by our team to keep it safe and respectful.",
+        "h1": "Topic-based forums",
+        "h2": "Success stories",
+        "h3": "A support network that gets it"
+      }
+    },
+    "comparison": {
+      "eyebrow": "Plans",
+      "title": "Free vs. Client features.",
+      "feature": "Feature",
+      "free": "Verde+ Free",
+      "client": "Verde+ Client",
+      "recommended": "Recommended",
+      "rows": {
+        "caseTrackingRow": {
+          "label": "Case tracking",
+          "free": "no",
+          "client": "yes"
+        },
+        "judgeStatsRow": {
+          "label": "Judge statistics",
+          "free": "yes",
+          "client": "yes"
+        },
+        "scannerRow": {
+          "label": "Document scanner",
+          "free": "yes",
+          "client": "yes"
+        },
+        "aiRow": {
+          "label": "AI assistant",
+          "free": "Basic",
+          "client": "Advanced"
+        },
+        "academyRow": {
+          "label": "Academy",
+          "free": "yes",
+          "client": "yes"
+        },
+        "citizenshipPrepRow": {
+          "label": "Citizenship test prep",
+          "free": "yes",
+          "client": "yes"
+        },
+        "communityRow": {
+          "label": "Community",
+          "free": "yes",
+          "client": "yes"
+        },
+        "guidedInterviewRow": {
+          "label": "Guided interview prep",
+          "free": "no",
+          "client": "yes"
+        },
+        "documentsRow": {
+          "label": "Case document management",
+          "free": "no",
+          "client": "yes"
+        },
+        "messagingRow": {
+          "label": "Direct messaging with your attorney",
+          "free": "no",
+          "client": "yes"
+        },
+        "paymentsRow": {
+          "label": "Payment portal",
+          "free": "no",
+          "client": "yes"
+        },
+        "referralsRow": {
+          "label": "Referral rewards",
+          "free": "no",
+          "client": "yes"
+        }
+      }
+    },
+    "download": {
+      "title": "Download Verde+ today.",
+      "subtitle": "Track your case, scan your documents, learn your rights — all in one app, in your language.",
+      "appStore": "App Store",
+      "playStore": "Google Play",
+      "tagline": "Free. For everyone."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact Verde Law — Free Immigration Consultation",
+      "description": "Call, WhatsApp, email, or visit our Miami office. We answer in English, Spanish, Haitian Creole, and Portuguese."
+    },
+    "eyebrow": "Contact Us",
+    "title": "Let's talk about your case.",
+    "subtitle": "Pick the channel that works for you — phone, WhatsApp, email, or the form below. Every message reaches a real person within hours.",
+    "info": {
+      "title": "Direct lines",
+      "whatsapp": "Message us on WhatsApp"
+    },
+    "form": {
+      "ariaLabel": "Free case review form",
+      "fields": {
+        "name": "Full name",
+        "phone": "Phone",
+        "email": "Email",
+        "caseType": "What's happening?",
+        "message": "Tell us briefly (optional)"
+      },
+      "caseTypes": {
+        "deportation": "Someone I love was detained",
+        "asylum": "I'm afraid to return to my home country",
+        "bond": "My family member is in ICE custody",
+        "family": "I want to bring family to the U.S.",
+        "vawa": "I'm a victim of abuse or a crime",
+        "citizenship": "I want to become a U.S. citizen",
+        "other": "Other / not sure yet"
+      },
+      "submit": "Send my free case review",
+      "submitting": "Sending…",
+      "successTitle": "Message sent.",
+      "successBody": "We'll call you back today. Usually within the hour.",
+      "legal": "Submitting this form does not create an attorney-client relationship. Your information is confidential and will not be shared with immigration authorities. Every case is different; past results do not guarantee future outcomes."
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How Verde Law collects, uses, and protects your information.",
+      "updated": "Last updated: April 21, 2026",
+      "s1": {
+        "heading": "Scope",
+        "body": "This policy applies to verdelaw.com and to the information you share with Verde Law, PLLC when you contact us through this website, our WhatsApp line, email, phone, or in person. It does not apply to third-party services we link to."
+      },
+      "s2": {
+        "heading": "What we collect",
+        "body": "When you fill out a form or contact us, we collect the information you give us — name, phone number, email, and any details about your case. When you browse the site, we collect standard web analytics (pages visited, approximate location, device type) using cookies and server logs."
+      },
+      "s3": {
+        "heading": "How we use your information",
+        "body": "We use the information you share to evaluate your case, communicate with you about representation, and provide the legal services you request. We use analytics data to improve the website. We do not sell your information. We do not share it with advertisers or brokers."
+      },
+      "s4": {
+        "heading": "Confidentiality and immigration status",
+        "body": "Your communications with Verde Law are confidential. We do not share your information with immigration authorities unless legally required by a valid court order. If you are considering contacting us and you're worried about confidentiality, please call so we can walk you through the protections that apply to attorney consultations."
+      },
+      "s5": {
+        "heading": "Your rights",
+        "body": "You can request access to the information we have about you, request correction, or request deletion (subject to legal retention requirements). Email info@verdelaw.com to make a request."
+      },
+      "s6": {
+        "heading": "Contact",
+        "body": "Questions about this policy can be directed to info@verdelaw.com or 850 NW 42nd Ave, Suite 306, Miami, FL 33126."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "The terms that govern your use of verdelaw.com.",
+      "updated": "Last updated: April 21, 2026",
+      "s1": {
+        "heading": "Acceptance",
+        "body": "By using verdelaw.com you agree to these terms. If you don't agree, please don't use the site."
+      },
+      "s2": {
+        "heading": "No attorney-client relationship",
+        "body": "Using this website, contacting us through a form, or sending us a message does not by itself create an attorney-client relationship. A relationship is formed only when we both sign a written engagement letter."
+      },
+      "s3": {
+        "heading": "Informational only",
+        "body": "Content on this site is for general information about immigration law. It is not legal advice for your specific situation. Every case is different, and past results do not guarantee future outcomes."
+      },
+      "s4": {
+        "heading": "Attorney advertising",
+        "body": "Materials on this site may be considered attorney advertising under Florida Bar rules. The hiring of a lawyer is an important decision that should not be based solely on advertisements."
+      },
+      "s5": {
+        "heading": "Intellectual property",
+        "body": "All content, design, code, and branding on verdelaw.com is the property of Verde Law, PLLC. You may share links to pages but may not copy or reproduce content without permission."
+      },
+      "s6": {
+        "heading": "Contact",
+        "body": "Questions about these terms can be directed to info@verdelaw.com or 850 NW 42nd Ave, Suite 306, Miami, FL 33126."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for doesn't exist or may have been moved. If you were headed somewhere specific, the links below can help — or call us directly.",
+    "cta": "Back to home",
+    "phone": "Call us at {phone}"
   }
 }

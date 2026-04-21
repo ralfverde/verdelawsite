@@ -1,0 +1,98 @@
+{
+  "education": {
+    "seo": {
+      "title": "Immigration Education Center — Verde Law",
+      "description": "Free guides, articles, and video explainers about immigration law. Know your rights in the U.S. system."
+    },
+    "eyebrow": "Education",
+    "title": "Immigration education, free and in your language.",
+    "subtitle": "Short articles, step-by-step guides, and straight-talk videos about how the U.S. immigration system actually works. No legalese.",
+    "articles": {
+      "eyebrow": "Articles & Guides",
+      "title": "Read what matters.",
+      "readMore": "Read more",
+      "categories": {
+        "all": "All topics",
+        "deportation": "Deportation & Defense",
+        "asylum": "Asylum",
+        "bond": "Bond",
+        "family": "Family",
+        "work": "Work Permits",
+        "citizenship": "Citizenship",
+        "news": "Immigration News"
+      },
+      "items": {
+        "a1": {
+          "category": "Deportation & Defense",
+          "title": "What to do the first 48 hours after a family member is detained by ICE",
+          "excerpt": "The steps you need to take while the person you love is in custody. What to say, who to call, what not to sign.",
+          "date": "April 2026",
+          "readTime": "6 min read"
+        },
+        "a2": {
+          "category": "Asylum",
+          "title": "The one-year asylum filing deadline — exceptions you should know",
+          "excerpt": "Most people who miss the one-year deadline still have options. Here are the exceptions that save cases.",
+          "date": "March 2026",
+          "readTime": "8 min read"
+        },
+        "a3": {
+          "category": "Bond",
+          "title": "How bond hearings actually work: the evidence judges care about",
+          "excerpt": "Flight risk, danger to the community, community ties. What judges look at and how we prove each one.",
+          "date": "March 2026",
+          "readTime": "7 min read"
+        },
+        "a4": {
+          "category": "Family",
+          "title": "I-130 timelines in 2026: what priority dates mean for your case",
+          "excerpt": "Processing times for immediate relatives, preference categories, and why the visa bulletin matters.",
+          "date": "February 2026",
+          "readTime": "5 min read"
+        },
+        "a5": {
+          "category": "Work Permits",
+          "title": "Five categories that qualify for an EAD you probably didn't know about",
+          "excerpt": "Beyond the obvious: U-Visa waitlist, VAWA, adjustment applicants, and more.",
+          "date": "February 2026",
+          "readTime": "4 min read"
+        },
+        "a6": {
+          "category": "Citizenship",
+          "title": "Preparing for the N-400 interview: what really happens in the room",
+          "excerpt": "The civics test, the English portion, the good moral character questions, and what to bring with you.",
+          "date": "January 2026",
+          "readTime": "9 min read"
+        }
+      }
+    },
+    "videos": {
+      "eyebrow": "Video Library",
+      "title": "Learn from the attorney, free.",
+      "viewMore": "View more on YouTube",
+      "items": {
+        "v1": { "title": "What to do if ICE knocks on your door" },
+        "v2": { "title": "The 5 mistakes that sink asylum cases" },
+        "v3": { "title": "I-130 processing times explained, 2026" },
+        "v4": { "title": "Bond hearings: what the judge really wants to see" },
+        "v5": { "title": "VAWA: you do not need your abuser's signature" },
+        "v6": { "title": "The citizenship interview, step by step" }
+      }
+    },
+    "faq": {
+      "eyebrow": "Frequently Asked Questions",
+      "title": "Answers to the questions we hear most."
+    },
+    "newsletter": {
+      "eyebrow": "Stay Informed",
+      "title": "Immigration news, straight from us.",
+      "body": "One email a month. New articles, policy updates that affect your case, and upcoming free webinars. No spam, unsubscribe anytime.",
+      "formLabel": "Newsletter signup",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "subscribe": "Subscribe",
+      "legal": "By subscribing you agree to receive email from Verde Law. You can unsubscribe at any time.",
+      "follow": "Follow on Instagram"
+    }
+  }
+}

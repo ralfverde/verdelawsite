@@ -1,0 +1,39 @@
+{
+  "contact": {
+    "seo": {
+      "title": "Contact Verde Law — Free Immigration Consultation",
+      "description": "Call, WhatsApp, email, or visit our Miami office. We answer in English, Spanish, Haitian Creole, and Portuguese."
+    },
+    "eyebrow": "Contact Us",
+    "title": "Let's talk about your case.",
+    "subtitle": "Pick the channel that works for you — phone, WhatsApp, email, or the form below. Every message reaches a real person within hours.",
+    "info": {
+      "title": "Direct lines",
+      "whatsapp": "Message us on WhatsApp"
+    },
+    "form": {
+      "ariaLabel": "Free case review form",
+      "fields": {
+        "name": "Full name",
+        "phone": "Phone",
+        "email": "Email",
+        "caseType": "What's happening?",
+        "message": "Tell us briefly (optional)"
+      },
+      "caseTypes": {
+        "deportation": "Someone I love was detained",
+        "asylum": "I'm afraid to return to my home country",
+        "bond": "My family member is in ICE custody",
+        "family": "I want to bring family to the U.S.",
+        "vawa": "I'm a victim of abuse or a crime",
+        "citizenship": "I want to become a U.S. citizen",
+        "other": "Other / not sure yet"
+      },
+      "submit": "Send my free case review",
+      "submitting": "Sending…",
+      "successTitle": "Message sent.",
+      "successBody": "We'll call you back today. Usually within the hour.",
+      "legal": "Submitting this form does not create an attorney-client relationship. Your information is confidential and will not be shared with immigration authorities. Every case is different; past results do not guarantee future outcomes."
+    }
+  }
+}

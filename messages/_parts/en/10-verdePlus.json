@@ -1,0 +1,93 @@
+{
+  "verdePlus": {
+    "seo": {
+      "title": "Verde+ — The Immigration App for Hispanic Families in the U.S.",
+      "description": "Track your case, scan documents, learn your rights, and connect with your attorney. Free for everyone. Exclusive features for Verde Law clients."
+    },
+    "hero": {
+      "title": "Your immigration case, simplified.",
+      "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone — with exclusive features for Verde Law clients.",
+      "ctaDownload": "Download the app",
+      "ctaMore": "See features"
+    },
+    "features": {
+      "caseTracker": {
+        "eyebrow": "Feature 01",
+        "title": "Know exactly where your case stands.",
+        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you see what's happening and when.",
+        "h1": "Visual timeline of your case",
+        "h2": "Automatic notifications on changes",
+        "h3": "24/7 access from any device"
+      },
+      "judgeStats": {
+        "eyebrow": "Feature 02",
+        "title": "Know your judge before the hearing.",
+        "desc": "Real approval rates for every immigration judge in your jurisdiction. Know what you're walking into, so nothing surprises you.",
+        "h1": "Approval rates by case type",
+        "h2": "Historical decision patterns",
+        "h3": "Compare judges in the same court"
+      },
+      "documentScanner": {
+        "eyebrow": "Feature 03",
+        "title": "Digitize documents instantly.",
+        "desc": "Scan passports, work permits, and legal documents straight from your phone. Stored securely, shareable in one tap with your attorney.",
+        "h1": "Automatic document-type detection",
+        "h2": "Encrypted cloud storage",
+        "h3": "Share directly with your attorney"
+      },
+      "aiAssistant": {
+        "eyebrow": "Feature 04",
+        "title": "Immediate answers to your questions.",
+        "desc": "Our AI assistant answers common immigration questions in Spanish, 24 hours a day. Attorney-verified, zero hallucinations on legal rules.",
+        "h1": "Available 24/7",
+        "h2": "Answers in Spanish",
+        "h3": "Information vetted by attorneys"
+      },
+      "academy": {
+        "eyebrow": "Feature 05",
+        "title": "Learn your rights.",
+        "desc": "Free courses, step-by-step guides, and educational resources to understand the U.S. immigration system. Made for immigrants, in plain Spanish.",
+        "h1": "Video courses",
+        "h2": "Downloadable guides",
+        "h3": "Citizenship test prep"
+      },
+      "community": {
+        "eyebrow": "Feature 06",
+        "title": "Connect with other immigrants.",
+        "desc": "Share experiences, ask questions, and find support in our community. Moderated by our team to keep it safe and respectful.",
+        "h1": "Topic-based forums",
+        "h2": "Success stories",
+        "h3": "A support network that gets it"
+      }
+    },
+    "comparison": {
+      "eyebrow": "Plans",
+      "title": "Free vs. Client features.",
+      "feature": "Feature",
+      "free": "Verde+ Free",
+      "client": "Verde+ Client",
+      "recommended": "Recommended",
+      "rows": {
+        "caseTrackingRow": { "label": "Case tracking", "free": "no", "client": "yes" },
+        "judgeStatsRow": { "label": "Judge statistics", "free": "yes", "client": "yes" },
+        "scannerRow": { "label": "Document scanner", "free": "yes", "client": "yes" },
+        "aiRow": { "label": "AI assistant", "free": "Basic", "client": "Advanced" },
+        "academyRow": { "label": "Academy", "free": "yes", "client": "yes" },
+        "citizenshipPrepRow": { "label": "Citizenship test prep", "free": "yes", "client": "yes" },
+        "communityRow": { "label": "Community", "free": "yes", "client": "yes" },
+        "guidedInterviewRow": { "label": "Guided interview prep", "free": "no", "client": "yes" },
+        "documentsRow": { "label": "Case document management", "free": "no", "client": "yes" },
+        "messagingRow": { "label": "Direct messaging with your attorney", "free": "no", "client": "yes" },
+        "paymentsRow": { "label": "Payment portal", "free": "no", "client": "yes" },
+        "referralsRow": { "label": "Referral rewards", "free": "no", "client": "yes" }
+      }
+    },
+    "download": {
+      "title": "Download Verde+ today.",
+      "subtitle": "Track your case, scan your documents, learn your rights — all in one app, in your language.",
+      "appStore": "App Store",
+      "playStore": "Google Play",
+      "tagline": "Free. For everyone."
+    }
+  }
+}
