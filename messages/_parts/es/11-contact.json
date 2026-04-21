@@ -1,0 +1,39 @@
+{
+  "contact": {
+    "seo": {
+      "title": "Contacte a Verde Law — Consulta Migratoria Gratis",
+      "description": "Llame, escriba por WhatsApp, envíe un correo o visite nuestra oficina en Miami. Respondemos en inglés, español, kreyòl ayisyen y portugués."
+    },
+    "eyebrow": "Contáctenos",
+    "title": "Hablemos de su caso.",
+    "subtitle": "Elija el canal que mejor le funcione — teléfono, WhatsApp, correo o el formulario de abajo. Cada mensaje llega a una persona real en cuestión de horas.",
+    "info": {
+      "title": "Líneas directas",
+      "whatsapp": "Escríbanos por WhatsApp"
+    },
+    "form": {
+      "ariaLabel": "Formulario de revisión gratuita de caso",
+      "fields": {
+        "name": "Nombre completo",
+        "phone": "Teléfono",
+        "email": "Correo electrónico",
+        "caseType": "¿Qué está pasando?",
+        "message": "Cuéntenos brevemente (opcional)"
+      },
+      "caseTypes": {
+        "deportation": "Detuvieron a alguien que amo",
+        "asylum": "Tengo miedo de regresar a mi país de origen",
+        "bond": "Mi familiar está bajo custodia de ICE",
+        "family": "Quiero traer a mi familia a EE.UU.",
+        "vawa": "Soy víctima de abuso o de un crimen",
+        "citizenship": "Quiero hacerme ciudadano estadounidense",
+        "other": "Otro / aún no estoy seguro"
+      },
+      "submit": "Enviar mi revisión gratuita",
+      "submitting": "Enviando…",
+      "successTitle": "Mensaje enviado.",
+      "successBody": "Le devolveremos la llamada hoy. Normalmente dentro de la hora siguiente.",
+      "legal": "Enviar este formulario no crea una relación abogado-cliente. Su información es confidencial y no se compartirá con las autoridades migratorias. Cada caso es diferente; los resultados pasados no garantizan resultados futuros."
+    }
+  }
+}

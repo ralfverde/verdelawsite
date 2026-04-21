@@ -1,0 +1,93 @@
+{
+  "verdePlus": {
+    "seo": {
+      "title": "Verde+ — La App de Inmigración para Familias Hispanas en EE.UU.",
+      "description": "Siga su caso, escanee documentos, aprenda sus derechos y conéctese con su abogado. Gratis para todos. Funciones exclusivas para clientes de Verde Law."
+    },
+    "hero": {
+      "title": "Su caso de inmigración, simplificado.",
+      "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en Estados Unidos. Gratis para todos — con funciones exclusivas para clientes de Verde Law.",
+      "ctaDownload": "Descargar la app",
+      "ctaMore": "Ver funciones"
+    },
+    "features": {
+      "caseTracker": {
+        "eyebrow": "Función 01",
+        "title": "Sepa exactamente dónde está su caso.",
+        "desc": "Actualizaciones en tiempo real en cada paso de su asunto migratorio. Desde la firma del contrato hasta la decisión final, usted ve qué está pasando y cuándo.",
+        "h1": "Línea de tiempo visual de su caso",
+        "h2": "Notificaciones automáticas de cambios",
+        "h3": "Acceso 24/7 desde cualquier dispositivo"
+      },
+      "judgeStats": {
+        "eyebrow": "Función 02",
+        "title": "Conozca a su juez antes de la audiencia.",
+        "desc": "Tasas reales de aprobación de cada juez de inmigración en su jurisdicción. Sepa con qué se está enfrentando, para que nada lo tome por sorpresa.",
+        "h1": "Tasas de aprobación por tipo de caso",
+        "h2": "Patrones históricos de decisiones",
+        "h3": "Compare jueces en la misma corte"
+      },
+      "documentScanner": {
+        "eyebrow": "Función 03",
+        "title": "Digitalice documentos al instante.",
+        "desc": "Escanee pasaportes, permisos de trabajo y documentos legales directamente desde su teléfono. Guardados de forma segura y compartibles con su abogado en un solo toque.",
+        "h1": "Detección automática del tipo de documento",
+        "h2": "Almacenamiento cifrado en la nube",
+        "h3": "Compártalos directamente con su abogado"
+      },
+      "aiAssistant": {
+        "eyebrow": "Función 04",
+        "title": "Respuestas inmediatas a sus preguntas.",
+        "desc": "Nuestro asistente de IA responde preguntas comunes de inmigración en español, las 24 horas. Verificado por abogados, cero invenciones sobre reglas legales.",
+        "h1": "Disponible 24/7",
+        "h2": "Respuestas en español",
+        "h3": "Información revisada por abogados"
+      },
+      "academy": {
+        "eyebrow": "Función 05",
+        "title": "Aprenda sus derechos.",
+        "desc": "Cursos gratuitos, guías paso a paso y recursos educativos para entender el sistema migratorio de EE.UU. Hecho para inmigrantes, en español claro.",
+        "h1": "Cursos en video",
+        "h2": "Guías descargables",
+        "h3": "Preparación para el examen de ciudadanía"
+      },
+      "community": {
+        "eyebrow": "Función 06",
+        "title": "Conéctese con otros inmigrantes.",
+        "desc": "Comparta experiencias, haga preguntas y encuentre apoyo en nuestra comunidad. Moderada por nuestro equipo para mantenerla segura y respetuosa.",
+        "h1": "Foros por tema",
+        "h2": "Historias de éxito",
+        "h3": "Una red de apoyo que entiende"
+      }
+    },
+    "comparison": {
+      "eyebrow": "Planes",
+      "title": "Funciones Gratis vs. Cliente.",
+      "feature": "Función",
+      "free": "Verde+ Gratis",
+      "client": "Verde+ Cliente",
+      "recommended": "Recomendado",
+      "rows": {
+        "caseTrackingRow": { "label": "Seguimiento de caso", "free": "no", "client": "yes" },
+        "judgeStatsRow": { "label": "Estadísticas de jueces", "free": "yes", "client": "yes" },
+        "scannerRow": { "label": "Escáner de documentos", "free": "yes", "client": "yes" },
+        "aiRow": { "label": "Asistente de IA", "free": "Básico", "client": "Avanzado" },
+        "academyRow": { "label": "Academia", "free": "yes", "client": "yes" },
+        "citizenshipPrepRow": { "label": "Preparación para examen de ciudadanía", "free": "yes", "client": "yes" },
+        "communityRow": { "label": "Comunidad", "free": "yes", "client": "yes" },
+        "guidedInterviewRow": { "label": "Preparación guiada para entrevista", "free": "no", "client": "yes" },
+        "documentsRow": { "label": "Gestión de documentos del caso", "free": "no", "client": "yes" },
+        "messagingRow": { "label": "Mensajería directa con su abogado", "free": "no", "client": "yes" },
+        "paymentsRow": { "label": "Portal de pagos", "free": "no", "client": "yes" },
+        "referralsRow": { "label": "Recompensas por referidos", "free": "no", "client": "yes" }
+      }
+    },
+    "download": {
+      "title": "Descargue Verde+ hoy.",
+      "subtitle": "Siga su caso, escanee sus documentos, aprenda sus derechos — todo en una sola app, en su idioma.",
+      "appStore": "App Store",
+      "playStore": "Google Play",
+      "tagline": "Gratis. Para todos."
+    }
+  }
+}

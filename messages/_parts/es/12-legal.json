@@ -1,0 +1,62 @@
+{
+  "legal": {
+    "privacy": {
+      "title": "Política de Privacidad",
+      "description": "Cómo Verde Law recopila, usa y protege su información.",
+      "updated": "Última actualización: 21 de abril de 2026",
+      "s1": {
+        "heading": "Alcance",
+        "body": "Esta política aplica a verdelaw.com y a la información que usted comparte con Verde Law, PLLC cuando nos contacta a través de este sitio, nuestra línea de WhatsApp, correo electrónico, teléfono o en persona. No aplica a servicios de terceros a los que enlazamos."
+      },
+      "s2": {
+        "heading": "Qué recopilamos",
+        "body": "Cuando usted llena un formulario o nos contacta, recopilamos la información que nos proporciona — nombre, teléfono, correo y los detalles de su caso. Cuando navega el sitio, recopilamos analíticas web estándar (páginas visitadas, ubicación aproximada, tipo de dispositivo) mediante cookies y registros del servidor."
+      },
+      "s3": {
+        "heading": "Cómo usamos su información",
+        "body": "Usamos la información que usted comparte para evaluar su caso, comunicarnos sobre la representación y prestar los servicios legales que solicita. Usamos los datos de analíticas para mejorar el sitio. No vendemos su información. No la compartimos con anunciantes ni intermediarios."
+      },
+      "s4": {
+        "heading": "Confidencialidad y estatus migratorio",
+        "body": "Sus comunicaciones con Verde Law son confidenciales. No compartimos su información con las autoridades migratorias salvo que la ley lo requiera por una orden judicial válida. Si está considerando contactarnos y le preocupa la confidencialidad, por favor llame para que le expliquemos las protecciones que aplican a las consultas con un abogado."
+      },
+      "s5": {
+        "heading": "Sus derechos",
+        "body": "Puede solicitar acceso a la información que tenemos sobre usted, solicitar correcciones o solicitar eliminación (sujeto a requisitos legales de retención). Escriba a info@verdelaw.com para hacer una solicitud."
+      },
+      "s6": {
+        "heading": "Contacto",
+        "body": "Preguntas sobre esta política pueden dirigirse a info@verdelaw.com o a 850 NW 42nd Ave, Suite 306, Miami, FL 33126."
+      }
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "description": "Los términos que rigen el uso de verdelaw.com.",
+      "updated": "Última actualización: 21 de abril de 2026",
+      "s1": {
+        "heading": "Aceptación",
+        "body": "Al usar verdelaw.com usted acepta estos términos. Si no está de acuerdo, por favor no use el sitio."
+      },
+      "s2": {
+        "heading": "No hay relación abogado-cliente",
+        "body": "Usar este sitio, contactarnos por un formulario o enviarnos un mensaje no crea por sí mismo una relación abogado-cliente. La relación se forma únicamente cuando ambas partes firmamos un contrato de representación por escrito."
+      },
+      "s3": {
+        "heading": "Solo carácter informativo",
+        "body": "El contenido de este sitio es información general sobre derecho migratorio. No es asesoramiento legal para su situación específica. Cada caso es diferente, y los resultados pasados no garantizan resultados futuros."
+      },
+      "s4": {
+        "heading": "Publicidad de abogado",
+        "body": "Los materiales de este sitio pueden considerarse publicidad de abogado bajo las reglas del Colegio de Abogados de Florida. Contratar a un abogado es una decisión importante que no debe basarse únicamente en anuncios."
+      },
+      "s5": {
+        "heading": "Propiedad intelectual",
+        "body": "Todo el contenido, diseño, código y marca de verdelaw.com es propiedad de Verde Law, PLLC. Puede compartir enlaces a las páginas pero no puede copiar ni reproducir el contenido sin permiso."
+      },
+      "s6": {
+        "heading": "Contacto",
+        "body": "Preguntas sobre estos términos pueden dirigirse a info@verdelaw.com o a 850 NW 42nd Ave, Suite 306, Miami, FL 33126."
+      }
+    }
+  }
+}
