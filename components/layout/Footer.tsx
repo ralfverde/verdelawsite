@@ -78,9 +78,8 @@ export function Footer() {
             <ul className="space-y-3">
               {practice.map((p) => (
                 <li key={p.key}>
-                  {/* @ts-expect-error dynamic slug pathname */}
                   <Link
-                    href={p.href}
+                    href={p.href as never}
                     className="text-sm text-white/75 hover:text-[var(--gold-500)] transition-colors"
                   >
                     {t(`practice.${p.key}`)}

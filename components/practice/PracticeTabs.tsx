@@ -68,9 +68,8 @@ export function PracticeTabs() {
                   exit={{ opacity: 0, y: -12 }}
                   transition={{ duration: 0.35 }}
                 >
-                  {/* @ts-expect-error dynamic slug */}
                   <Link
-                    href={`/practice-areas/${s.slug[locale]}`}
+                    href={`/practice-areas/${s.slug[locale]}` as never}
                     className="card-light p-7 h-full flex flex-col gap-4 hover:-translate-y-1 transition-transform"
                   >
                     <span className="grid place-items-center rounded-lg bg-[var(--verde-800)]/10 text-[var(--gold-600)]" style={{ width: 44, height: 44 }}>

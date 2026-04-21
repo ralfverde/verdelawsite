@@ -5,6 +5,7 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { Accordion } from "@/components/ui/Accordion";
+import { NewsletterForm } from "@/components/education/NewsletterForm";
 import { Link } from "@/i18n/navigation";
 import { Play, ArrowRight, Youtube, Instagram, Music2 } from "lucide-react";
 import { globalFaqIds } from "@/data/faq";
@@ -174,27 +175,7 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
               </a>
             </div>
           </div>
-          <form
-            className="card-dark p-7"
-            onSubmit={(e) => e.preventDefault()}
-            aria-label={t("newsletter.formLabel")}
-          >
-            <label htmlFor="news-email" className="text-sm text-white/75">
-              {t("newsletter.emailLabel")}
-            </label>
-            <input
-              id="news-email"
-              name="email"
-              type="email"
-              required
-              placeholder={t("newsletter.emailPlaceholder")}
-              className="mt-2 w-full rounded-lg bg-[var(--verde-900)] border border-white/10 px-4 py-3 text-white placeholder:text-white/40 focus:border-[var(--gold-500)] outline-none"
-            />
-            <button type="submit" className="cta-gold mt-4 w-full justify-center text-sm">
-              {t("newsletter.subscribe")}
-            </button>
-            <p className="text-xs text-white/50 mt-3">{t("newsletter.legal")}</p>
-          </form>
+          <NewsletterForm />
         </div>
       </section>
 

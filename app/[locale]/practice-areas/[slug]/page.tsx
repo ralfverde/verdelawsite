@@ -208,10 +208,9 @@ export default async function PracticeAreaDetailPage({
               {related.map((r) => {
                 const RIcon = iconMap[r.icon] ?? iconMap.Shield;
                 return (
-                  // @ts-expect-error dynamic slug
                   <Link
                     key={r.id}
-                    href={`/practice-areas/${r.slug[locale]}`}
+                    href={`/practice-areas/${r.slug[locale]}` as never}
                     className="card-dark p-7 block hover:-translate-y-1 transition-transform"
                   >
                     <RIcon className="text-[var(--gold-500)]" size={22} />

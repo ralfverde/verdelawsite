@@ -57,9 +57,8 @@ export function PracticeOverview() {
             <p className="mt-3 text-white/65 text-sm leading-relaxed min-h-[48px]">
               {t(`cards.${c.key}.desc`)}
             </p>
-            {/* @ts-expect-error dynamic slug */}
             <Link
-              href={`/practice-areas/${c.slug}`}
+              href={`/practice-areas/${c.slug}` as never}
               className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--gold-500)] hover:gap-3 transition-all"
             >
               {t("learnMore")} <ArrowRight size={16} />
