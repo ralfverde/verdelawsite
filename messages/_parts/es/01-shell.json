@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "skip": "Saltar al contenido",
+    "home": "Inicio",
+    "practiceAreas": "Áreas de Práctica",
+    "about": "Sobre Nosotros",
+    "team": "Nuestro Equipo",
+    "locations": "Ubicaciones",
+    "education": "Educación",
+    "verdePlus": "Verde+",
+    "contact": "Contacto",
+    "freeConsultation": "Consulta Gratis",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "eyebrow": "Abogados de Inmigración — En los 50 Estados",
+    "title": "Defendemos Sus Derechos Migratorios Con Todo Lo Que Tenemos",
+    "subtitle": "Más de 600 familias confían en Verde Law para proteger su futuro en los Estados Unidos. Consulta gratuita — sin compromiso.",
+    "ctaPrimary": "Agendar Consulta Gratis",
+    "ctaWhatsApp": "Enviar WhatsApp",
+    "portraitName": "Rafael Verde, Esq.",
+    "portraitRole": "Fundador y Abogado Principal",
+    "badges": {
+      "cases": "600+ casos atendidos",
+      "states": "50 estados, un bufete",
+      "free": "Evaluación gratis y confidencial"
+    }
+  },
+  "socialProof": {
+    "cases": "Casos atendidos",
+    "states": "Estados servidos",
+    "revenue": "En valor de casos",
+    "tiktok": "Seguidores en TikTok",
+    "rating": "Reseñas de Google"
+  },
+  "cta": {
+    "bannerDark": {
+      "title": "¿Tiene un caso de inmigración? Hable con nosotros hoy — sin costo, sin compromiso."
+    },
+    "bannerLight": {
+      "title": "Más de 600 familias han confiado en Verde Law. Usted puede ser la siguiente."
+    },
+    "subtitle": "Consultas confidenciales, sin presión. Respondemos en español, inglés, kreyòl ayisyen y portugués.",
+    "freeConsultation": "Consulta Gratis",
+    "finalTitle": "Su caso no puede esperar. Hablemos hoy.",
+    "finalSubtitle": "La consulta es 100% gratuita y totalmente confidencial.",
+    "scheduleCTA": "Agendar Mi Consulta Gratuita"
+  },
+  "floating": {
+    "tooltip": "¿Necesita ayuda? Escríbanos por WhatsApp."
+  },
+  "sticky": {
+    "freeConsultation": "Consulta Gratis"
+  },
+  "cookies": {
+    "ariaLabel": "Aviso de cookies",
+    "message": "Usamos cookies para mejorar su experiencia. Al continuar navegando, acepta nuestra política de cookies.",
+    "accept": "Aceptar",
+    "learnMore": "Más información"
+  },
+  "footer": {
+    "tagline": "Tus Derechos, Nuestra Lucha.",
+    "description": "Un bufete humanitario de inmigración, con sede en Miami, creado para las familias a las que el sistema trata peor. Contestamos el teléfono. Hablamos su idioma. Luchamos.",
+    "resources": "Recursos",
+    "hoursLabel": "Horario",
+    "bookCTA": "Consulta Gratis",
+    "rightsReserved": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "disclaimer": "Aviso Legal",
+    "disclaimerText": "Cada caso es diferente. Los resultados pasados no garantizan resultados futuros.",
+    "practice": {
+      "deportation": "Defensa de Deportación",
+      "asylum": "Asilo",
+      "bond": "Audiencias de Fianza",
+      "family": "Peticiones Familiares",
+      "vawa": "VAWA",
+      "uVisa": "Visa U",
+      "naturalization": "Naturalización",
+      "workPermit": "Permiso de Trabajo"
+    }
+  }
+}

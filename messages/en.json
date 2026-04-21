@@ -1,0 +1,953 @@
+{
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "practiceAreas": "Practice Areas",
+    "about": "About",
+    "team": "Our Team",
+    "locations": "Locations",
+    "education": "Education",
+    "verdePlus": "Verde+",
+    "contact": "Contact",
+    "freeConsultation": "Free Consultation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Immigration Attorneys — Serving All 50 States",
+    "title": "We Defend Your Immigration Rights With Everything We Have",
+    "subtitle": "Over 600 families trust Verde Law to protect their future in the United States. Free consultation — no obligation.",
+    "ctaPrimary": "Schedule Free Consultation",
+    "ctaWhatsApp": "Send WhatsApp",
+    "portraitName": "Rafael Verde, Esq.",
+    "portraitRole": "Founder & Managing Attorney",
+    "badges": {
+      "cases": "600+ cases handled",
+      "states": "50 states, one firm",
+      "free": "Free, confidential review"
+    }
+  },
+  "socialProof": {
+    "cases": "Cases handled",
+    "states": "States served",
+    "revenue": "In case value",
+    "tiktok": "TikTok followers",
+    "rating": "Google reviews"
+  },
+  "cta": {
+    "bannerDark": {
+      "title": "Have an immigration case? Talk to us today — no cost, no obligation."
+    },
+    "bannerLight": {
+      "title": "Over 600 families have trusted Verde Law. You could be next."
+    },
+    "subtitle": "Confidential, no-pressure consultations. We answer in Spanish, English, Haitian Creole, and Portuguese.",
+    "freeConsultation": "Free Consultation",
+    "finalTitle": "Your case cannot wait. Let's talk today.",
+    "finalSubtitle": "The consultation is 100% free and fully confidential.",
+    "scheduleCTA": "Schedule My Free Consultation"
+  },
+  "floating": {
+    "tooltip": "Need help? Message us on WhatsApp."
+  },
+  "sticky": {
+    "freeConsultation": "Free Consultation"
+  },
+  "cookies": {
+    "ariaLabel": "Cookie notice",
+    "message": "We use cookies to improve your experience. By continuing to browse, you accept our cookie policy.",
+    "accept": "Accept",
+    "learnMore": "Learn more"
+  },
+  "footer": {
+    "tagline": "Your Rights, Our Fight.",
+    "description": "A Miami-based humanitarian immigration firm built for the families the system is hardest on. We answer the phone. We speak your language. We fight.",
+    "resources": "Resources",
+    "hoursLabel": "Hours",
+    "bookCTA": "Free Consultation",
+    "rightsReserved": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "disclaimer": "Disclaimer",
+    "disclaimerText": "Every case is different. Past results do not guarantee future outcomes.",
+    "practice": {
+      "deportation": "Deportation Defense",
+      "asylum": "Asylum",
+      "bond": "Bond Hearings",
+      "family": "Family Petitions",
+      "vawa": "VAWA",
+      "uVisa": "U-Visa",
+      "naturalization": "Naturalization",
+      "workPermit": "Work Permit"
+    }
+  },
+  "practiceOverview": {
+    "eyebrow": "Practice Areas",
+    "title": "Legal protection for every immigration situation.",
+    "learnMore": "Learn more",
+    "viewAll": "View all services",
+    "cards": {
+      "deportation": {
+        "title": "Deportation Defense",
+        "desc": "Cancellation of removal, motions to reopen, and courtroom defense when the government files against you."
+      },
+      "asylum": {
+        "title": "Political Asylum",
+        "desc": "Affirmative and defensive asylum, withholding of removal, credible fear, and CAT protection."
+      },
+      "bond": {
+        "title": "Bond Hearings",
+        "desc": "Get your loved one out of detention while their case moves forward. Fast filings, prepared witnesses."
+      },
+      "family": {
+        "title": "Family Petitions",
+        "desc": "I-130, I-485, consular processing, 601/601A waivers, fiancé visas — paperwork that keeps families together."
+      },
+      "vawaU": {
+        "title": "VAWA & U-Visa",
+        "desc": "For survivors of domestic violence or serious crime. Confidential, protected, effective."
+      },
+      "naturalization": {
+        "title": "Naturalization & Citizenship",
+        "desc": "N-400 applications, interview prep, and appeals when the first answer is no."
+      }
+    }
+  },
+  "whyVerde": {
+    "eyebrow": "Why Verde Law?",
+    "title": "We're not just another firm. We're your team.",
+    "body1": "Rafael Verde founded this firm to be the firm his own family wished they'd had — one that picks up the phone, explains what's happening in plain language, and treats each case like it's personal. Because it is.",
+    "body2": "We don't subcontract our intake. We don't use call centers. When you call, you reach someone who speaks your language and knows your case.",
+    "reasons": {
+      "bilingual": {
+        "title": "100% Bilingual Team",
+        "desc": "We communicate in your language. Spanish is our first language, not a translation."
+      },
+      "national": {
+        "title": "Nationwide Coverage",
+        "desc": "We represent clients in all 50 states from our Miami headquarters — in person, remote, or hybrid."
+      },
+      "free": {
+        "title": "Free Consultation",
+        "desc": "We evaluate your case at no cost. No pressure. No obligation. Ever."
+      },
+      "tech": {
+        "title": "Modern Technology",
+        "desc": "Real-time case tracking on Verde+ — our platform built for immigrants."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "How It Works",
+    "title": "Four steps. No retainer until we agree on a plan.",
+    "step1": {
+      "title": "Free Consultation",
+      "desc": "Tell our team what's happening. Day or night, English or Spanish. A real person picks up."
+    },
+    "step2": {
+      "title": "Case Evaluation",
+      "desc": "One of our attorneys reviews your situation and lays out your options — honestly."
+    },
+    "step3": {
+      "title": "Legal Preparation",
+      "desc": "We build your strategy, draft filings, and prepare every piece of evidence your case needs."
+    },
+    "step4": {
+      "title": "Full Representation",
+      "desc": "We argue, we file, we appear — all the way to the end. You focus on your family."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Client Stories",
+    "title": "Families we kept together.",
+    "prev": "Previous testimonial",
+    "next": "Next testimonial",
+    "items": {
+      "carlos": {
+        "quote": "I was terrified of my court hearing. Verde Law walked me through every step and we won asylum. I don't have the words to thank them.",
+        "name": "Carlos M.",
+        "case": "Asylum case"
+      },
+      "maria": {
+        "quote": "I spent three years with another lawyer going nowhere. Verde Law took over and six months later I had my work permit.",
+        "name": "María L.",
+        "case": "Deportation defense"
+      },
+      "jose": {
+        "quote": "The Verde Law team treated me like family, not a case number. I recommend this firm to everyone.",
+        "name": "José R.",
+        "case": "Family petition"
+      },
+      "elena": {
+        "quote": "They called me back at 11pm. In Spanish. By the next week my husband was out of detention.",
+        "name": "Elena S.",
+        "case": "Bond + cancellation"
+      },
+      "pedro": {
+        "quote": "Two other attorneys said there was nothing to do. Rafael found a U-visa path. My son is still in school.",
+        "name": "Pedro & Luz",
+        "case": "U-Visa approved"
+      }
+    }
+  },
+  "attorneyFeature": {
+    "eyebrow": "Meet Our Founder",
+    "photoEyebrow": "Founder & Managing Attorney",
+    "name": "Rafael Verde",
+    "role": "Founder & Managing Attorney",
+    "body1": "Rafael Verde founded Verde Law straight out of Georgetown Law with one belief: that quality legal representation is a right, not a luxury. Immigrants who are afraid, who can't pay $15,000 upfront, who don't speak English — they deserve the same attorney who'd fight for a corporate client.",
+    "body2": "Seven years and 600+ families later, the mission hasn't changed. Rafael still personally reviews every new case. He still answers messages on weekends. He built the firm he wished his own grandmother had when she arrived in this country with nothing.",
+    "viewTeam": "Meet the full team",
+    "credentials": {
+      "georgetown": "Georgetown Law · J.D., 2014",
+      "aila": "American Immigration Lawyers Association · Member since 2015",
+      "floridaBar": "Florida Bar · Active, good standing",
+      "eleventhCircuit": "U.S. Court of Appeals, 11th Circuit · Admitted 2017"
+    }
+  },
+  "videoShowcase": {
+    "eyebrow": "Free Education",
+    "title": "Clear answers about your immigration rights.",
+    "subtitle": "More than 61,000 people follow us on TikTok to learn about their rights in the U.S. immigration system. Short videos. No legalese. In Spanish.",
+    "videos": {
+      "v1": {
+        "cat": "ICE Detention",
+        "title": "What to do if ICE knocks on your door"
+      },
+      "v2": {
+        "cat": "Asylum",
+        "title": "The 5 mistakes that sink asylum cases"
+      },
+      "v3": {
+        "cat": "Green Cards",
+        "title": "I-130 processing times explained, 2026"
+      }
+    },
+    "social": {
+      "tiktok": "Follow on TikTok",
+      "instagram": "Follow on Instagram",
+      "youtube": "Subscribe on YouTube"
+    }
+  },
+  "verdePlusTeaser": {
+    "eyebrow": "Coming Soon",
+    "title": "Verde+: Your immigration case, in the palm of your hand.",
+    "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone — with exclusive features for Verde Law clients.",
+    "cta": "More about Verde+",
+    "features": {
+      "caseTracker": {
+        "title": "Case Tracker",
+        "desc": "See exactly where your case stands in real time."
+      },
+      "judgeStats": {
+        "title": "Judge Statistics",
+        "desc": "Approval rates and rulings for the judge assigned to your case."
+      },
+      "aiAssistant": {
+        "title": "AI Assistant",
+        "desc": "Plain-language answers about immigration, 24/7 in Spanish."
+      },
+      "community": {
+        "title": "Community",
+        "desc": "Connect with other immigrants, share stories, get support."
+      }
+    }
+  },
+  "practiceAreasPage": {
+    "seo": {
+      "title": "Immigration Practice Areas & Services",
+      "description": "Removal defense, asylum, bond hearings, family petitions, VAWA, U-visa, naturalization and more. Transparent pricing."
+    },
+    "eyebrow": "Our Services",
+    "title": "Full-service immigration representation.",
+    "subtitle": "From emergency bond hearings to green card interviews, every service below is handled in-house — by attorneys who know your case by name.",
+    "startingAt": "From",
+    "tabs": {
+      "all": "All services",
+      "deportation": "Deportation Defense",
+      "asylum": "Asylum",
+      "bond": "Bond",
+      "appeals": "Appeals",
+      "family": "Family",
+      "humanitarian": "Humanitarian",
+      "employment": "Employment & Status",
+      "administrative": "Administrative"
+    }
+  },
+  "practiceDetail": {
+    "eyebrow": "Service Detail",
+    "startingAt": "Starting at",
+    "overview": "Overview",
+    "keyFacts": "Key Facts",
+    "timeline": "Typical timeline",
+    "forms": "Key forms",
+    "cost": "Flat fee",
+    "agency": "Agency",
+    "bookCTA": "Book a free consultation",
+    "processEyebrow": "How the case unfolds",
+    "processTitle": "What working with us looks like.",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Questions clients ask us most.",
+    "relatedEyebrow": "Related",
+    "relatedTitle": "You may also be interested in…",
+    "viewService": "View service"
+  },
+  "practiceFaq": {
+    "q1": {
+      "question": "How long does the process usually take?",
+      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. A realistic estimate depends on your specific case type, current backlogs at your venue, and the completeness of your evidence. During your free consultation we'll give you a concrete timeline based on what your case actually looks like."
+    },
+    "q2": {
+      "question": "What happens if my case is denied?",
+      "answer": "A denial is rarely the end. Depending on the filing, you may have 30 days to file a motion to reopen, an appeal to the BIA, or — in some cases — a federal petition for review at the circuit court. We explain all your options, the costs, and the odds honestly."
+    },
+    "q3": {
+      "question": "Can I work while my case is pending?",
+      "answer": "In many situations yes — through an Employment Authorization Document (EAD, Form I-765) tied to your underlying filing. Eligibility depends on the case type and filing date. We file the EAD as part of our case packages whenever it applies."
+    },
+    "q4": {
+      "question": "Do you offer payment plans?",
+      "answer": "Yes. Flat fees make costs predictable, and every engagement we take on comes with a written payment plan that splits the fee into manageable installments. We bill in full transparency — no surprise charges."
+    },
+    "q5": {
+      "question": "Is the first consultation really free?",
+      "answer": "Yes. Your free consultation is a 20–30 minute conversation with an intake specialist or attorney. We listen to your story, identify the legal issues, and tell you what we'd do. You leave with a plan whether you hire us or not."
+    },
+    "q6": {
+      "question": "Can you help if I don't live in Florida?",
+      "answer": "Yes. We represent clients in immigration courts and USCIS offices nationwide. Because immigration is federal law, your physical address does not limit who can represent you — most of our work is done remotely, with court appearances handled in person when required."
+    }
+  },
+  "services": {
+    "deportation-defense": {
+      "title": "Deportation Defense",
+      "short": "Full-service defense when the government files removal proceedings against you.",
+      "headline": "When the government comes for you, we come for them.",
+      "timeline": "12–36 months",
+      "forms": "EOIR-28, EOIR-42B, I-589",
+      "agency": "EOIR",
+      "overview1": "Removal proceedings are the highest-stakes immigration matter. You are in immigration court and the government is trying to deport you. Every hearing, every filing, every piece of evidence matters.",
+      "overview2": "Our deportation defense practice handles every stage: initial Master Calendar, motions practice, relief applications (cancellation, asylum, adjustment), and merits hearings with cross-examination and expert witnesses.",
+      "overview3": "We take every case personally because the consequences are irreversible. You deserve an attorney who prepares for your hearing like it's theirs.",
+      "step1Title": "Case strategy session",
+      "step1Desc": "We read the NTA, identify every form of relief you may qualify for, and build a ranked strategy.",
+      "step2Title": "Evidence gathering",
+      "step2Desc": "Country reports, affidavits, medical and psychological evaluations, corroborating documents from home country.",
+      "step3Title": "Master Calendar",
+      "step3Desc": "We appear with you, enter pleadings, request relief, and lock in the merits hearing date.",
+      "step4Title": "Merits preparation",
+      "step4Desc": "Mock hearings, witness prep, legal brief, expert declarations, and a binder that tells your story.",
+      "step5Title": "Merits hearing",
+      "step5Desc": "We present your case in court. If the judge rules against us, we file the BIA appeal the same day."
+    },
+    "deportation-detained": {
+      "title": "Deportation Defense (Detained)",
+      "short": "Emergency representation when your loved one is in ICE custody.",
+      "headline": "Out of detention first. Then we fight the case.",
+      "timeline": "3–12 months",
+      "forms": "EOIR-28, I-286, EOIR-42B",
+      "agency": "EOIR / ICE",
+      "overview1": "Detention changes everything. Filings move faster, visits are restricted, and the psychological pressure on your family is enormous. We file emergency motions to get you before a judge quickly.",
+      "overview2": "Our detained practice combines bond work, release requests, and substantive removal defense in a single coordinated engagement — because separating them costs time you don't have.",
+      "overview3": "We coordinate with the detention facility, family outside, and the court to keep everyone informed and to move the case forward while you're inside.",
+      "step1Title": "Emergency intake",
+      "step1Desc": "Same-day consultation with family. We pull A-file, identify the facility, and file EOIR-28.",
+      "step2Title": "Bond hearing",
+      "step2Desc": "We file a bond motion and appear at the next hearing. Most of our detained clients are released within 2–4 weeks.",
+      "step3Title": "Removal defense",
+      "step3Desc": "Once out (or while still in), we prepare relief applications and build the record.",
+      "step4Title": "Merits hearing",
+      "step4Desc": "Full hearing on the merits with full evidence. Client appears by VTC or in person.",
+      "step5Title": "Post-decision",
+      "step5Desc": "Appeal if necessary. Post-order supervision or custody challenges if applicable."
+    },
+    "deportation-adjustment": {
+      "title": "Deportation Defense + Adjustment of Status",
+      "short": "Combined defense in removal proceedings plus a green card application.",
+      "headline": "Defend in court. Adjust in court. One plan, one fee.",
+      "timeline": "12–24 months",
+      "forms": "EOIR-28, I-485, I-864, I-693",
+      "agency": "EOIR",
+      "overview1": "If you have a qualifying family relationship (immediate relative of a U.S. citizen) and you're in removal proceedings, you may be able to adjust status before the immigration judge. It is one of the most favorable outcomes possible.",
+      "overview2": "This package bundles your removal defense with the adjustment application so everything moves together. You get a coordinated record, coordinated evidence, and a single merits hearing focused on approval.",
+      "overview3": "We handle the I-130 coordination if not yet approved, the I-485 in court, the medical exam, and the interview-style merits hearing.",
+      "step1Title": "Eligibility review",
+      "step1Desc": "Confirm the qualifying relationship, admissibility, and that there are no bars.",
+      "step2Title": "I-130 coordination",
+      "step2Desc": "If not already approved, we file and track the I-130 with USCIS in parallel.",
+      "step3Title": "I-485 filing",
+      "step3Desc": "Submit the adjustment packet with the immigration court, including affidavit of support and medical.",
+      "step4Title": "Merits hearing",
+      "step4Desc": "The judge conducts an interview-style hearing and grants or continues pending I-130 approval.",
+      "step5Title": "Post-approval",
+      "step5Desc": "Green card is issued by USCIS. We help with the card pickup and any follow-up filings (I-751, N-400)."
+    },
+    "cancellation-of-removal": {
+      "title": "Cancellation of Removal",
+      "short": "42A and 42B relief for long-term residents facing deportation.",
+      "headline": "Ten years of your life, ten years of hope, protected.",
+      "timeline": "18–36 months",
+      "forms": "EOIR-42A, EOIR-42B, biometrics package",
+      "agency": "EOIR",
+      "overview1": "Cancellation of removal is a discretionary form of relief for people who've lived in the U.S. for 10+ years and who have qualifying U.S. citizen or LPR relatives who would suffer exceptional and extremely unusual hardship if you were removed.",
+      "overview2": "It is one of the hardest forms of relief to win. The hardship standard is intentionally high. Winning requires detailed, corroborated evidence and a compelling narrative that no other case replicates.",
+      "overview3": "We prepare cancellation cases like trials — expert witnesses, psychological evaluations, country conditions, medical records, school records, and financial documentation for every qualifying relative.",
+      "step1Title": "Eligibility audit",
+      "step1Desc": "Continuous physical presence, qualifying relative, good moral character, no bars.",
+      "step2Title": "Hardship evidence",
+      "step2Desc": "Medical, educational, financial, community, and country-conditions evidence for every qualifying relative.",
+      "step3Title": "Application filing",
+      "step3Desc": "EOIR-42B and supporting brief filed with the court well ahead of the merits hearing.",
+      "step4Title": "Merits hearing",
+      "step4Desc": "Testimony from you, qualifying relatives, and experts. Cross-examination prep. Closing arguments.",
+      "step5Title": "Decision & next steps",
+      "step5Desc": "If granted, LPR status. If denied, BIA appeal filed within 30 days."
+    },
+    "master-calendar": {
+      "title": "Master Calendar Hearing",
+      "short": "Individual Master Calendar appearance in immigration court.",
+      "headline": "Don't face the judge alone.",
+      "timeline": "Single hearing (30–45 minutes at court, preparation separate)",
+      "forms": "EOIR-28",
+      "agency": "EOIR",
+      "overview1": "A Master Calendar is the procedural hearing where you enter pleadings, identify relief, and get the merits hearing scheduled. It's short but consequential — mistakes here limit what you can pursue later.",
+      "overview2": "We appear with you, enter pleadings correctly, request all relief you may qualify for, and push for the best possible schedule.",
+      "overview3": "This service is designed for clients who want a one-time Master Calendar appearance without engaging us for the full case — typically because the case is in an early or transitional stage.",
+      "step1Title": "Pre-hearing consultation",
+      "step1Desc": "Review your NTA and file to determine what relief to request.",
+      "step2Title": "Pleadings preparation",
+      "step2Desc": "Draft admissions, denials, and relief requests.",
+      "step3Title": "Court appearance",
+      "step3Desc": "We appear with you, enter pleadings, and set the merits hearing.",
+      "step4Title": "Hearing report",
+      "step4Desc": "Written summary of what happened, what was scheduled, and what to do next.",
+      "step5Title": "Handoff or continuation",
+      "step5Desc": "Refer back to your attorney, or convert to a full engagement with us."
+    },
+    "individual-hearing": {
+      "title": "Individual (Merits) Hearing",
+      "short": "Full merits hearing representation on removal relief.",
+      "headline": "One hearing. Your life on the line. We don't improvise.",
+      "timeline": "Half-day to full-day hearing; 60–90 days of prep",
+      "forms": "Relief-specific applications, witness affidavits, legal brief",
+      "agency": "EOIR",
+      "overview1": "The Individual Hearing (also called the merits hearing) is where your case is decided. You present evidence, testify under oath, and argue legal issues. The judge issues a decision — sometimes from the bench.",
+      "overview2": "We accept merits-only representation when a client has an existing attorney handling the case but needs trial-level preparation and courtroom presence. We work alongside your current counsel or solo.",
+      "overview3": "Our merits prep includes witness prep, mock cross-examination, expert coordination, legal brief, exhibit list, and a binder the judge can actually use.",
+      "step1Title": "Case analysis",
+      "step1Desc": "Review the full file, identify trial issues, and design the theory of the case.",
+      "step2Title": "Witness preparation",
+      "step2Desc": "You and every witness rehearse direct and cross, often multiple times.",
+      "step3Title": "Evidence finalization",
+      "step3Desc": "Exhibit list, corroborating evidence, expert declarations, country reports.",
+      "step4Title": "The hearing",
+      "step4Desc": "Full courtroom representation — opening, direct, cross, closing.",
+      "step5Title": "Post-decision",
+      "step5Desc": "Written decision review. Appeal if needed (30 days to BIA)."
+    },
+    "asylum": {
+      "title": "Affirmative Asylum (USCIS)",
+      "short": "Affirmative asylum applications filed with USCIS.",
+      "headline": "Your story belongs in the record. Told right.",
+      "timeline": "12–36 months to interview; decision variable",
+      "forms": "I-589, declaration, country conditions evidence",
+      "agency": "USCIS",
+      "overview1": "Affirmative asylum is available to people in the U.S. who are not yet in removal proceedings and who fear persecution in their home country on account of race, religion, nationality, political opinion, or membership in a particular social group.",
+      "overview2": "The case turns on credibility. Your declaration is the heart of the file. Every date, every actor, every event must be consistent and corroborated where possible. Gaps or contradictions sink cases.",
+      "overview3": "We draft your declaration in Spanish first (with you), translate it, corroborate it with country reports and supporting affidavits, and prep you for the asylum interview.",
+      "step1Title": "Eligibility & one-year bar",
+      "step1Desc": "Confirm eligibility and either meet the one-year filing deadline or fit an exception.",
+      "step2Title": "Declaration drafting",
+      "step2Desc": "Multiple drafting sessions to produce a detailed, consistent personal statement.",
+      "step3Title": "Evidence & filing",
+      "step3Desc": "Country conditions, police/medical records, witness affidavits. File the I-589 package.",
+      "step4Title": "Biometrics & interview",
+      "step4Desc": "Biometrics at ASC; asylum interview at the asylum office with our attorney present.",
+      "step5Title": "Decision",
+      "step5Desc": "Grant, recommended approval, referral to court, or NOID response — we handle each outcome."
+    },
+    "credible-fear-interview": {
+      "title": "Credible Fear Interview",
+      "short": "Representation for Credible Fear or Reasonable Fear interviews at a detention facility.",
+      "headline": "The interview that decides whether you get a chance at asylum.",
+      "timeline": "7–30 days from referral; interview prep in days",
+      "forms": "I-589 (post-pass), interview prep materials",
+      "agency": "USCIS (Asylum Office)",
+      "overview1": "If you enter the U.S. and express fear of return, you'll be scheduled for a Credible Fear Interview. Passing the interview means you get placed in removal proceedings where you can pursue asylum. Failing means removal, often within days.",
+      "overview2": "The interview covers identity, route of travel, and the reasons you fear persecution. Asylum Officers are trained to look for inconsistencies. One short, scared, poorly prepared answer can end the case.",
+      "overview3": "We prep you remotely or in person at the detention facility, identify the protected ground, practice the narrative, and represent you by phone during the interview.",
+      "step1Title": "Emergency intake",
+      "step1Desc": "Same-day family consultation, facility identification, retainer signed.",
+      "step2Title": "Interview prep",
+      "step2Desc": "Protected ground identification, narrative drafting, question practice.",
+      "step3Title": "Interview representation",
+      "step3Desc": "Telephonic representation during the interview itself.",
+      "step4Title": "Post-interview",
+      "step4Desc": "Decision review; file a request for re-interview or IJ review if needed.",
+      "step5Title": "Next phase",
+      "step5Desc": "If passed: transition to full affirmative/defensive asylum engagement."
+    },
+    "bond-hearing": {
+      "title": "Bond Hearing",
+      "short": "Get your loved one released from ICE detention.",
+      "headline": "48 hours out beats 48 months in.",
+      "timeline": "10–30 days from filing",
+      "forms": "Bond motion, sponsor affidavits, evidence of ties",
+      "agency": "EOIR",
+      "overview1": "A bond hearing is where an immigration judge decides whether to release a person from ICE custody while their removal case proceeds. The judge looks at flight risk, danger to the community, and community ties.",
+      "overview2": "Preparation is everything. We gather proof of address, employment, family ties, tax records, clean criminal history, U.S. citizen/LPR relative support, sponsor affidavits, and community letters. We present a full picture — not just a request.",
+      "overview3": "Most of our detained clients are released within 2–4 weeks of engagement. Bond amounts vary by case; we negotiate where possible and file custody redeterminations when bond is denied initially.",
+      "step1Title": "Emergency consultation",
+      "step1Desc": "Same-day intake. Identify the facility, pull A-file, start evidence collection.",
+      "step2Title": "Evidence package",
+      "step2Desc": "Sponsor affidavits, community letters, tax returns, leases, employment verification.",
+      "step3Title": "Bond motion filing",
+      "step3Desc": "File the motion with the immigration court serving the facility.",
+      "step4Title": "Bond hearing",
+      "step4Desc": "We present evidence and argue for the lowest appropriate bond or release on OR.",
+      "step5Title": "Release coordination",
+      "step5Desc": "Guide the family through bond payment (ICE) and release logistics."
+    },
+    "bond-deportation-package": {
+      "title": "Bond + Deportation Defense Package",
+      "short": "All-in-one engagement: bond, release, and full removal defense.",
+      "headline": "One team. One fee. Start to finish.",
+      "timeline": "12–24 months total",
+      "forms": "Bond motion, EOIR-42B, I-589",
+      "agency": "EOIR",
+      "overview1": "This package combines the bond fight and the removal defense into a single engagement. You get coordinated strategy, no handoff gaps, and a single written fee covering both phases.",
+      "overview2": "It's designed for families dealing with a detained loved one who also wants a dedicated defense team for the underlying removal case. Most clients start here when ICE custody is involved.",
+      "overview3": "We handle bond, transfer monitoring if ICE moves the client, and every stage of the removal case through final hearing and appeal.",
+      "step1Title": "Emergency bond intake",
+      "step1Desc": "Same-day evaluation and filing.",
+      "step2Title": "Release",
+      "step2Desc": "Bond granted or custody redetermined; coordinate release logistics.",
+      "step3Title": "Relief strategy",
+      "step3Desc": "Identify every form of relief (cancellation, asylum, adjustment, withholding, CAT).",
+      "step4Title": "Merits preparation",
+      "step4Desc": "Evidence gathering, mock hearings, witness and expert prep.",
+      "step5Title": "Hearing & appeal",
+      "step5Desc": "Full merits representation, with BIA appeal included if needed."
+    },
+    "bond-habeas": {
+      "title": "Bond + Habeas Corpus",
+      "short": "Federal habeas petition for clients held beyond statutory limits.",
+      "headline": "When ICE holds you past the law, we go to federal court.",
+      "timeline": "30–90 days",
+      "forms": "28 U.S.C. § 2241 petition, evidence of prolonged detention",
+      "agency": "U.S. District Court / EOIR",
+      "overview1": "Some detention is unlawful — mandatory detention that's gone on too long, post-order detention past the Zadvydas six-month mark, or detention without a bond hearing at all. Federal habeas relief can force release.",
+      "overview2": "We combine a bond filing (when available) with a federal habeas petition to attack the detention on multiple fronts simultaneously.",
+      "overview3": "These are complex cases with short windows. We move fast and we don't take them unless we can build a real record.",
+      "step1Title": "Detention analysis",
+      "step1Desc": "Review custody history, statutory basis, and Zadvydas/Demore posture.",
+      "step2Title": "Bond motion",
+      "step2Desc": "File a bond motion with the immigration court if a bond hearing is available.",
+      "step3Title": "Habeas filing",
+      "step3Desc": "File a habeas petition in the appropriate U.S. District Court.",
+      "step4Title": "Response & hearing",
+      "step4Desc": "Draft reply brief; oral argument where set.",
+      "step5Title": "Release",
+      "step5Desc": "Court-ordered release with conditions, or remand for a bond hearing."
+    },
+    "bia-appeal": {
+      "title": "BIA Appeal",
+      "short": "Appeal an immigration judge's decision to the Board of Immigration Appeals.",
+      "headline": "The judge's decision isn't the last word.",
+      "timeline": "9–18 months",
+      "forms": "EOIR-26, EOIR-27, appellate brief",
+      "agency": "BIA (Board of Immigration Appeals)",
+      "overview1": "If an immigration judge denies your relief, you have 30 days to file a Notice of Appeal with the BIA. Missing the deadline is fatal. Timing, filing, and framing the legal issues correctly are everything.",
+      "overview2": "BIA appeals are won or lost in the legal brief. We identify reversible errors, preserve issues for federal court review, and write briefs that read like federal appellate work.",
+      "overview3": "We also take over mid-appeal when an existing brief is underdeveloped or when another attorney missed the deadline.",
+      "step1Title": "Record review",
+      "step1Desc": "Obtain the full administrative record and transcript.",
+      "step2Title": "Issue identification",
+      "step2Desc": "Identify legal and factual errors preserved for review.",
+      "step3Title": "Brief drafting",
+      "step3Desc": "Full appellate brief with record citations.",
+      "step4Title": "Filing & response",
+      "step4Desc": "File on time; reply to DHS brief where allowed.",
+      "step5Title": "Decision",
+      "step5Desc": "If remanded: back to IJ. If denied: petition for review at the circuit court."
+    },
+    "motion-to-reopen": {
+      "title": "Motion to Reopen",
+      "short": "Reopen a case based on new evidence, ineffective assistance, or changed country conditions.",
+      "headline": "New facts deserve a new look.",
+      "timeline": "6–12 months",
+      "forms": "Motion, supporting affidavits, new evidence",
+      "agency": "EOIR / BIA",
+      "overview1": "A motion to reopen asks the court to reconsider a prior decision based on material facts that weren't available before. Common grounds: ineffective assistance of counsel, changed country conditions, new qualifying relative.",
+      "overview2": "Deadlines and numerical limits apply (generally one motion within 90 days), with statutory exceptions for certain grounds. Filing the right motion on the right schedule is critical.",
+      "overview3": "We evaluate quickly, gather the supporting evidence, and file a tightly-argued motion with the legal framework the adjudicator needs to grant.",
+      "step1Title": "Eligibility review",
+      "step1Desc": "Assess the legal ground and whether a time/number exception applies.",
+      "step2Title": "Evidence assembly",
+      "step2Desc": "Affidavits, new evidence, country reports, expert reports if applicable.",
+      "step3Title": "Motion drafting",
+      "step3Desc": "Fact and law sections with careful record citations.",
+      "step4Title": "Filing & response",
+      "step4Desc": "File with court or BIA; reply to DHS opposition.",
+      "step5Title": "Decision",
+      "step5Desc": "Reopening granted: back to hearing. Denied: federal review options."
+    },
+    "motion-to-terminate": {
+      "title": "Motion to Terminate",
+      "short": "Terminate removal proceedings when the NTA is defective or relief is granted elsewhere.",
+      "headline": "Sometimes the best defense is no case at all.",
+      "timeline": "3–9 months",
+      "forms": "Motion to terminate, supporting evidence",
+      "agency": "EOIR",
+      "overview1": "Termination ends the removal case. Grounds include defective Notices to Appear (Niz-Chavez issues), prosecutorial discretion, or pending USCIS relief that makes continued proceedings inappropriate.",
+      "overview2": "DHS can oppose or join. We prepare the motion, coordinate with the OPLA prosecutor, and push for termination or administrative closure where termination is unavailable.",
+      "overview3": "For clients with strong equities and no removability issue, termination is often a cleaner path than fighting for relief in court.",
+      "step1Title": "NTA and posture review",
+      "step1Desc": "Assess the NTA for defects and check eligibility for USCIS relief.",
+      "step2Title": "OPLA coordination",
+      "step2Desc": "Request prosecutorial discretion where applicable.",
+      "step3Title": "Motion filing",
+      "step3Desc": "File the motion with supporting brief and evidence.",
+      "step4Title": "Hearing",
+      "step4Desc": "Oral argument if the court sets one.",
+      "step5Title": "Decision",
+      "step5Desc": "Termination, administrative closure, or denial — next steps prepared for each."
+    },
+    "change-of-venue": {
+      "title": "Change of Venue",
+      "short": "Move your immigration court case to a court closer to where you live.",
+      "headline": "You shouldn't have to cross three states for a hearing.",
+      "timeline": "30–90 days",
+      "forms": "Motion to change venue, address evidence",
+      "agency": "EOIR",
+      "overview1": "If you've moved since your case was filed, a change of venue motion moves your case to the court that serves your new address. Getting venue right matters: judge patterns, scheduling, and logistics all change by court.",
+      "overview2": "This is usually an add-on service combined with a full engagement, but can be a standalone filing where the client already has counsel handling the merits.",
+      "overview3": "We handle notification to ICE OPLA, address evidence, and follow-up confirmation that the transfer actually completed.",
+      "step1Title": "Address confirmation",
+      "step1Desc": "Collect lease, utility bills, and other address proof.",
+      "step2Title": "Motion preparation",
+      "step2Desc": "Draft the motion with legal basis and good cause.",
+      "step3Title": "Filing",
+      "step3Desc": "File with the current court and serve on OPLA.",
+      "step4Title": "Transfer monitoring",
+      "step4Desc": "Confirm the case actually moves to the new court.",
+      "step5Title": "New hearing",
+      "step5Desc": "Confirm new Master Calendar date and prepare accordingly."
+    },
+    "circuit-appeal": {
+      "title": "Petition for Review (Circuit Court)",
+      "short": "Federal appellate review of a final BIA order.",
+      "headline": "Federal court is the last honest look your case gets.",
+      "timeline": "12–24 months",
+      "forms": "Petition for review, appellate brief, record",
+      "agency": "U.S. Court of Appeals",
+      "overview1": "If the BIA affirms a denial, you have 30 days to file a petition for review in the federal circuit court covering where the immigration judge sat. Federal judges review for legal and constitutional errors.",
+      "overview2": "These cases require federal appellate skill — record citations, legal framing, and argument in open court before a three-judge panel. We brief them like the federal appeals they are.",
+      "overview3": "Rafael is admitted to the Eleventh Circuit. For cases in other circuits we associate with admitted local counsel.",
+      "step1Title": "Record review",
+      "step1Desc": "Obtain and read the entire administrative record.",
+      "step2Title": "Issue identification",
+      "step2Desc": "Legal errors, due process, constitutional issues.",
+      "step3Title": "Opening brief",
+      "step3Desc": "Fully briefed with standards of review, argument, and conclusion.",
+      "step4Title": "Oral argument",
+      "step4Desc": "If the court grants argument, prep and present.",
+      "step5Title": "Decision",
+      "step5Desc": "If remanded: back to BIA/IJ. Further review via Supreme Court rare but considered."
+    },
+    "habeas-corpus": {
+      "title": "Habeas Corpus",
+      "short": "Federal habeas for unlawful detention beyond statutory bounds.",
+      "headline": "Unlawful detention has a federal remedy.",
+      "timeline": "60–120 days",
+      "forms": "28 U.S.C. § 2241 petition, evidence of prolonged detention",
+      "agency": "U.S. District Court",
+      "overview1": "Federal habeas under 28 U.S.C. § 2241 can challenge the legality of ICE detention when removal is not reasonably foreseeable (Zadvydas), when mandatory detention is prolonged (Demore/Jennings), or when a bond hearing was improperly denied.",
+      "overview2": "Habeas petitions are filed in the U.S. District Court where the detainee is held. We draft the petition, coordinate service on the government, and argue the motion to release.",
+      "overview3": "Not every prolonged detention qualifies. We evaluate realistically and only take cases where there's a viable legal theory.",
+      "step1Title": "Detention audit",
+      "step1Desc": "Review custody history and statutory basis.",
+      "step2Title": "Petition drafting",
+      "step2Desc": "Draft habeas petition with declarations and exhibits.",
+      "step3Title": "Filing & service",
+      "step3Desc": "File in the appropriate district court; serve DHS/ICE.",
+      "step4Title": "Government response",
+      "step4Desc": "Review government brief; file reply and any amended petition.",
+      "step5Title": "Ruling",
+      "step5Desc": "Court-ordered release, bond hearing, or denial — appeal ready if needed."
+    },
+    "family-petitions": {
+      "title": "Family-Based Petitions (I-130)",
+      "short": "I-130 filings for spouses, parents, children, and siblings of U.S. citizens and LPRs.",
+      "headline": "The paperwork that keeps families under one roof.",
+      "timeline": "Immediate relatives: 8–16 months. Preference categories: variable.",
+      "forms": "I-130, I-130A, proof of relationship",
+      "agency": "USCIS",
+      "overview1": "The I-130 is the foundation of most family immigration cases. It establishes a qualifying relationship between a U.S. citizen or LPR petitioner and a foreign national beneficiary.",
+      "overview2": "Our I-130 work focuses on proving bona fides decisively: joint financial records, photographs over time, affidavits from people who know both spouses, travel records, and evidence of shared life.",
+      "overview3": "Adjustment of status (I-485) is a separate engagement, but we frequently bundle them for clients already in the U.S.",
+      "step1Title": "Relationship evidence",
+      "step1Desc": "Gather certificates, photos, joint accounts, affidavits, proof of cohabitation.",
+      "step2Title": "I-130 drafting",
+      "step2Desc": "Complete the form with careful accuracy.",
+      "step3Title": "Filing",
+      "step3Desc": "File with USCIS with all supporting evidence.",
+      "step4Title": "RFE response",
+      "step4Desc": "Respond promptly to Requests for Evidence if USCIS issues one.",
+      "step5Title": "Approval",
+      "step5Desc": "Receive I-130 approval; proceed to I-485 adjustment or consular processing."
+    },
+    "adjustment-of-status": {
+      "title": "Adjustment of Status (I-485)",
+      "short": "Green card application for eligible beneficiaries inside the U.S.",
+      "headline": "From paperwork to permanent residence.",
+      "timeline": "10–18 months",
+      "forms": "I-485, I-864, I-693, I-765 (optional), I-131 (optional)",
+      "agency": "USCIS",
+      "overview1": "Adjustment of status lets eligible people already in the U.S. become lawful permanent residents without leaving the country. It's paired with an approved (or pending) I-130 and requires a medical exam and affidavit of support.",
+      "overview2": "The I-485 is straightforward when there are no admissibility issues. We flag and resolve anything that could trigger an RFE or a denial before filing.",
+      "overview3": "EAD and Advance Parole are usually filed concurrently so you can work and travel during processing.",
+      "step1Title": "Eligibility & admissibility",
+      "step1Desc": "Confirm priority date, check grounds of inadmissibility, plan for waivers if needed.",
+      "step2Title": "Financial support",
+      "step2Desc": "I-864 from petitioner, joint sponsor if required, tax transcripts.",
+      "step3Title": "Medical exam",
+      "step3Desc": "Civil surgeon appointment and sealed I-693.",
+      "step4Title": "Filing",
+      "step4Desc": "I-485 with I-765 and I-131 concurrently.",
+      "step5Title": "Interview",
+      "step5Desc": "USCIS interview (most couples case) with our attorney present."
+    },
+    "family-package": {
+      "title": "Family Package (I-130 + I-485 + EAD)",
+      "short": "The complete family-based green card journey, bundled.",
+      "headline": "One plan. One flat fee. Green card at the end.",
+      "timeline": "10–18 months",
+      "forms": "I-130, I-485, I-864, I-693, I-765, I-131",
+      "agency": "USCIS",
+      "overview1": "This package combines the I-130 petition, the I-485 adjustment, and the I-765 EAD application into a single engagement — the path most family-based green card cases actually take.",
+      "overview2": "You get predictable pricing, a single point of contact, and coordinated filings. We file everything concurrently where eligible and prep you for a single combined USCIS interview.",
+      "overview3": "Most of our family-based clients choose this package. It's the cleanest path from 'filing date' to 'green card in hand.'",
+      "step1Title": "Full eligibility review",
+      "step1Desc": "Admissibility, relationship, sponsor finances.",
+      "step2Title": "Evidence package",
+      "step2Desc": "Relationship bona fides, medical, financial, identity documents.",
+      "step3Title": "Concurrent filing",
+      "step3Desc": "I-130, I-485, I-765, I-131 filed together.",
+      "step4Title": "Biometrics & EAD",
+      "step4Desc": "Biometrics at ASC; EAD typically arrives in 3–6 months.",
+      "step5Title": "Interview & approval",
+      "step5Desc": "Interview with our attorney; green card issued after approval."
+    },
+    "provisional-waiver": {
+      "title": "Provisional Waiver (I-601A)",
+      "short": "Waiver of unlawful presence before consular processing abroad.",
+      "headline": "File here. Interview home. Come back approved.",
+      "timeline": "12–24 months",
+      "forms": "I-601A, hardship evidence, supporting documentation",
+      "agency": "USCIS",
+      "overview1": "The I-601A provisional waiver lets certain applicants file for a waiver of unlawful presence before leaving the U.S. for consular processing. Approved in the U.S., you travel for the interview, and return approved.",
+      "overview2": "The case hinges on proving extreme hardship to a U.S. citizen or LPR spouse or parent if you were barred from returning. Medical, financial, educational, and country-conditions evidence all contribute.",
+      "overview3": "We prepare hardship cases with the same care as cancellation cases — full evidence, expert declarations where useful, and a narrative that reads as a single coherent story.",
+      "step1Title": "Eligibility audit",
+      "step1Desc": "Confirm qualifying relative and absence of disqualifying issues.",
+      "step2Title": "Hardship evidence",
+      "step2Desc": "Medical, financial, educational, country-conditions, psychological evaluation.",
+      "step3Title": "I-601A filing",
+      "step3Desc": "Submit the provisional waiver package to USCIS.",
+      "step4Title": "Approval & DS-260",
+      "step4Desc": "On approval, proceed to consular processing (DS-260) at the home-country consulate.",
+      "step5Title": "Interview abroad",
+      "step5Desc": "Interview at the consulate; return with immigrant visa."
+    },
+    "vawa": {
+      "title": "VAWA Self-Petition (I-360)",
+      "short": "Immigration relief for abused spouses, children, and parents of U.S. citizens or LPRs.",
+      "headline": "Your abuser does not control your immigration status.",
+      "timeline": "14–24 months",
+      "forms": "I-360, personal statement, corroborating evidence",
+      "agency": "USCIS (Vermont Service Center)",
+      "overview1": "The Violence Against Women Act lets abused spouses, children, and parents of U.S. citizens or LPRs petition for their own immigration status — without the abuser's knowledge, signature, or involvement.",
+      "overview2": "Confidentiality is absolute. VAWA files are treated under special protections; your abuser cannot obtain any information about the filing. We correspond through the address you specify.",
+      "overview3": "Strong VAWA cases are built on the personal statement, corroborated by police reports, medical records, photographs, counselor notes, and affidavits from people who witnessed the relationship.",
+      "step1Title": "Safe intake",
+      "step1Desc": "Confidential consultation, safety planning, case eligibility review.",
+      "step2Title": "Evidence gathering",
+      "step2Desc": "Personal statement, police/medical records, photos, witness affidavits.",
+      "step3Title": "I-360 filing",
+      "step3Desc": "File the self-petition with full evidence package.",
+      "step4Title": "EAD & prima facie",
+      "step4Desc": "On prima facie determination, file I-485 and I-765 when eligible.",
+      "step5Title": "Approval & adjustment",
+      "step5Desc": "I-360 approval; adjustment of status to LPR."
+    },
+    "u-visa": {
+      "title": "U-Visa",
+      "short": "Immigration relief for victims of serious crimes who cooperate with law enforcement.",
+      "headline": "What happened to you was not your fault. You have rights.",
+      "timeline": "5–8 years to visa; 4+ years for work permit",
+      "forms": "I-918, I-918B, personal statement",
+      "agency": "USCIS",
+      "overview1": "The U-Visa is available to noncitizen victims of qualifying crimes (domestic violence, sexual assault, felonious assault, human trafficking, and others) who have suffered substantial harm and have been, are, or are likely to be helpful to law enforcement.",
+      "overview2": "The case requires a law enforcement certification (I-918B) from the investigating agency. We coordinate with local prosecutors, victim advocates, and detectives to secure the certification.",
+      "overview3": "Current waitlist is long, but applicants on the waitlist receive deferred action and work authorization after 4+ years. This is life-changing relief for survivors.",
+      "step1Title": "Eligibility & safety",
+      "step1Desc": "Confirm qualifying crime, assess safety, plan confidentiality.",
+      "step2Title": "Certification outreach",
+      "step2Desc": "Coordinate with law enforcement to obtain I-918B.",
+      "step3Title": "Package filing",
+      "step3Desc": "Personal statement, medical/mental health evaluations, corroborating evidence.",
+      "step4Title": "Waitlist & work authorization",
+      "step4Desc": "Work authorization and deferred action while on waitlist.",
+      "step5Title": "U-Visa grant & adjustment",
+      "step5Desc": "Grant when visa number available; adjust to LPR three years later."
+    },
+    "work-permit": {
+      "title": "Work Permit (I-765)",
+      "short": "Employment Authorization Document application.",
+      "headline": "Work legally while your case is pending.",
+      "timeline": "3–6 months",
+      "forms": "I-765, supporting documentation",
+      "agency": "USCIS",
+      "overview1": "The I-765 Employment Authorization Document (EAD) lets eligible applicants work legally in the U.S. Eligibility categories vary — asylum applicants, adjustment applicants, DACA recipients, U-visa waitlist, VAWA, and more.",
+      "overview2": "We identify the correct eligibility category, prepare the application, and track biometrics and approval.",
+      "overview3": "EADs typically arrive in 3–6 months. Renewals can be filed up to 180 days before expiration, with automatic 540-day extensions in many categories.",
+      "step1Title": "Category identification",
+      "step1Desc": "Determine which eligibility category applies to your situation.",
+      "step2Title": "Evidence",
+      "step2Desc": "Supporting documentation per category requirements.",
+      "step3Title": "Filing",
+      "step3Desc": "Submit I-765 to USCIS with correct filing fee (or fee waiver).",
+      "step4Title": "Biometrics",
+      "step4Desc": "Attend biometrics appointment at ASC if required.",
+      "step5Title": "Approval",
+      "step5Desc": "EAD card mailed upon approval."
+    },
+    "work-permit-addon": {
+      "title": "Work Permit (Add-On)",
+      "short": "Discounted I-765 add-on for clients with an existing case.",
+      "headline": "Work permit, bundled with your case.",
+      "timeline": "3–6 months",
+      "forms": "I-765",
+      "agency": "USCIS",
+      "overview1": "When we're already handling your underlying case (asylum, adjustment, VAWA, etc.), adding an I-765 work permit is a small, flat add-on fee. Same preparation standard, lower overhead.",
+      "overview2": "This service is only available to existing Verde Law clients with an active case. It cannot be purchased standalone.",
+      "overview3": "Renewals receive the same discounted add-on pricing while the underlying case is pending.",
+      "step1Title": "Eligibility check",
+      "step1Desc": "Confirm category and that the underlying case is still active.",
+      "step2Title": "Filing",
+      "step2Desc": "File I-765 referencing underlying filing.",
+      "step3Title": "Biometrics",
+      "step3Desc": "Attend biometrics as required.",
+      "step4Title": "Approval",
+      "step4Desc": "EAD issued; card mailed.",
+      "step5Title": "Renewal planning",
+      "step5Desc": "Calendar renewal window; refile before expiration."
+    },
+    "naturalization": {
+      "title": "Naturalization (N-400)",
+      "short": "U.S. citizenship application, interview prep, and oath ceremony.",
+      "headline": "From green card to citizenship — the last step home.",
+      "timeline": "8–14 months",
+      "forms": "N-400, supporting documents",
+      "agency": "USCIS",
+      "overview1": "Naturalization is the path from lawful permanent residence to U.S. citizenship. Eligibility requires 5 years of LPR status (3 if married to a U.S. citizen), continuous residence and physical presence, good moral character, and basic English and civics.",
+      "overview2": "We screen for issues that can derail the application — failure to file taxes, extended absences abroad, criminal issues, selective service non-registration — and plan accordingly.",
+      "overview3": "We prep you for the English/civics test and conduct a mock interview before the real one.",
+      "step1Title": "Eligibility audit",
+      "step1Desc": "Residence, presence, character, tax, travel, and criminal screening.",
+      "step2Title": "Application drafting",
+      "step2Desc": "Complete N-400 with full trip history and supporting documents.",
+      "step3Title": "Filing & biometrics",
+      "step3Desc": "File with USCIS; attend biometrics at ASC.",
+      "step4Title": "Interview prep & interview",
+      "step4Desc": "Civics/English practice, mock interview, attorney present at the real interview.",
+      "step5Title": "Oath ceremony",
+      "step5Desc": "Take the oath and receive your Certificate of Naturalization."
+    },
+    "green-card-renewal": {
+      "title": "Green Card Renewal (I-90)",
+      "short": "Renew or replace a lawful permanent resident card.",
+      "headline": "Renewal without the headache.",
+      "timeline": "6–12 months",
+      "forms": "I-90, supporting documentation",
+      "agency": "USCIS",
+      "overview1": "Green cards must be renewed every 10 years. The I-90 also covers replacements for lost, stolen, or damaged cards, and corrections for errors on existing cards.",
+      "overview2": "We handle the filing, respond to any RFEs, and track approval through card delivery.",
+      "overview3": "Consider filing for citizenship instead if eligible — we'll tell you if the N-400 makes more sense than a renewal.",
+      "step1Title": "Eligibility check",
+      "step1Desc": "Confirm category and that renewal (not N-400) is the right path.",
+      "step2Title": "I-90 filing",
+      "step2Desc": "Submit the form with supporting documents and fee.",
+      "step3Title": "Biometrics",
+      "step3Desc": "Attend biometrics appointment at ASC.",
+      "step4Title": "Extension letter",
+      "step4Desc": "Receive 24-month extension letter pending card production.",
+      "step5Title": "New card",
+      "step5Desc": "Receive new green card by mail."
+    },
+    "foia-request": {
+      "title": "FOIA Request",
+      "short": "Obtain your A-file or case records from USCIS, ICE, or EOIR.",
+      "headline": "Know what the government has on you.",
+      "timeline": "3–12 months",
+      "forms": "G-639, targeted FOIA requests",
+      "agency": "USCIS / ICE / EOIR",
+      "overview1": "Your A-file (alien file) contains everything the government has on file about your immigration history — prior applications, entries, detentions, notices, decisions. It's the baseline for any serious strategy decision.",
+      "overview2": "We file targeted FOIA requests, respond to any deficiency letters, and provide a written summary of what the records show.",
+      "overview3": "Useful before filing new applications, before consular processing, before criminal-immigration consultations, and in any case where the prior record matters.",
+      "step1Title": "Request scope",
+      "step1Desc": "Identify which agency (or agencies) to request from.",
+      "step2Title": "G-639 filing",
+      "step2Desc": "Submit signed FOIA requests to each agency.",
+      "step3Title": "Tracking",
+      "step3Desc": "Follow up with agency FOIA offices as needed.",
+      "step4Title": "Records review",
+      "step4Desc": "Review and summarize the returned records.",
+      "step5Title": "Strategy handoff",
+      "step5Desc": "Use records to plan next-step filings."
+    },
+    "rfe-response": {
+      "title": "RFE Response",
+      "short": "Targeted response to a Request for Evidence from USCIS.",
+      "headline": "One chance to answer. We get it right.",
+      "timeline": "Due within RFE deadline (typically 30–87 days)",
+      "forms": "RFE response package",
+      "agency": "USCIS",
+      "overview1": "A Request for Evidence (RFE) is USCIS asking for more information before deciding a case. A strong RFE response can save an otherwise denied case. A weak one seals the denial.",
+      "overview2": "We read the RFE carefully, identify exactly what USCIS is asking and why, gather the right documents, and draft a targeted legal response that addresses each concern head-on.",
+      "overview3": "We take RFE responses even when we didn't file the underlying case — common when the original attorney dropped the ball or the client filed pro se.",
+      "step1Title": "RFE analysis",
+      "step1Desc": "Read the notice, identify the issues, and determine what's really being requested.",
+      "step2Title": "Evidence gathering",
+      "step2Desc": "Collect every piece of documentation that addresses the RFE concerns.",
+      "step3Title": "Response drafting",
+      "step3Desc": "Draft a legal cover letter and organize exhibits logically.",
+      "step4Title": "Filing",
+      "step4Desc": "Submit within the deadline with tracking.",
+      "step5Title": "Decision monitoring",
+      "step5Desc": "Track the case to final decision; plan for NOID or approval."
+    },
+    "ice-checkin": {
+      "title": "ICE Check-In Representation",
+      "short": "Attorney representation at ISAP/ICE supervised check-ins.",
+      "headline": "You don't face ICE alone.",
+      "timeline": "Per scheduled check-in",
+      "forms": "G-28, check-in accompaniment",
+      "agency": "ICE",
+      "overview1": "ISAP and ICE check-ins vary in seriousness. Some are routine; others are ICE's opportunity to re-detain. Having an attorney present changes the posture of every interaction.",
+      "overview2": "We appear with you, monitor what's being asked, document any irregularities, and immediately escalate if ICE tries to take custody.",
+      "overview3": "This service is used heavily by clients with pending cases, prior orders, or recent check-in changes.",
+      "step1Title": "Pre-check-in review",
+      "step1Desc": "Review your A-file and check-in history to anticipate ICE's posture.",
+      "step2Title": "G-28 filing",
+      "step2Desc": "Ensure ICE has our appearance on file before the check-in.",
+      "step3Title": "Check-in attendance",
+      "step3Desc": "Attorney accompanies you to the appointment.",
+      "step4Title": "Real-time response",
+      "step4Desc": "Respond to any requests, resist any improper custody attempts.",
+      "step5Title": "Follow-up",
+      "step5Desc": "Written summary of what happened and next steps."
+    }
+  }
+}

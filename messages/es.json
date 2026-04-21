@@ -1,0 +1,321 @@
+{
+  "nav": {
+    "skip": "Saltar al contenido",
+    "home": "Inicio",
+    "practiceAreas": "Áreas de Práctica",
+    "about": "Sobre Nosotros",
+    "team": "Nuestro Equipo",
+    "locations": "Ubicaciones",
+    "education": "Educación",
+    "verdePlus": "Verde+",
+    "contact": "Contacto",
+    "freeConsultation": "Consulta Gratis",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "eyebrow": "Abogados de Inmigración — En los 50 Estados",
+    "title": "Defendemos Sus Derechos Migratorios Con Todo Lo Que Tenemos",
+    "subtitle": "Más de 600 familias confían en Verde Law para proteger su futuro en los Estados Unidos. Consulta gratuita — sin compromiso.",
+    "ctaPrimary": "Agendar Consulta Gratis",
+    "ctaWhatsApp": "Enviar WhatsApp",
+    "portraitName": "Rafael Verde, Esq.",
+    "portraitRole": "Fundador y Abogado Principal",
+    "badges": {
+      "cases": "600+ casos atendidos",
+      "states": "50 estados, un bufete",
+      "free": "Evaluación gratis y confidencial"
+    }
+  },
+  "socialProof": {
+    "cases": "Casos atendidos",
+    "states": "Estados servidos",
+    "revenue": "En valor de casos",
+    "tiktok": "Seguidores en TikTok",
+    "rating": "Reseñas de Google"
+  },
+  "cta": {
+    "bannerDark": {
+      "title": "¿Tiene un caso de inmigración? Hable con nosotros hoy — sin costo, sin compromiso."
+    },
+    "bannerLight": {
+      "title": "Más de 600 familias han confiado en Verde Law. Usted puede ser la siguiente."
+    },
+    "subtitle": "Consultas confidenciales, sin presión. Respondemos en español, inglés, kreyòl ayisyen y portugués.",
+    "freeConsultation": "Consulta Gratis",
+    "finalTitle": "Su caso no puede esperar. Hablemos hoy.",
+    "finalSubtitle": "La consulta es 100% gratuita y totalmente confidencial.",
+    "scheduleCTA": "Agendar Mi Consulta Gratuita"
+  },
+  "floating": {
+    "tooltip": "¿Necesita ayuda? Escríbanos por WhatsApp."
+  },
+  "sticky": {
+    "freeConsultation": "Consulta Gratis"
+  },
+  "cookies": {
+    "ariaLabel": "Aviso de cookies",
+    "message": "Usamos cookies para mejorar su experiencia. Al continuar navegando, acepta nuestra política de cookies.",
+    "accept": "Aceptar",
+    "learnMore": "Más información"
+  },
+  "footer": {
+    "tagline": "Tus Derechos, Nuestra Lucha.",
+    "description": "Un bufete humanitario de inmigración, con sede en Miami, creado para las familias a las que el sistema trata peor. Contestamos el teléfono. Hablamos su idioma. Luchamos.",
+    "resources": "Recursos",
+    "hoursLabel": "Horario",
+    "bookCTA": "Consulta Gratis",
+    "rightsReserved": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "disclaimer": "Aviso Legal",
+    "disclaimerText": "Cada caso es diferente. Los resultados pasados no garantizan resultados futuros.",
+    "practice": {
+      "deportation": "Defensa de Deportación",
+      "asylum": "Asilo",
+      "bond": "Audiencias de Fianza",
+      "family": "Peticiones Familiares",
+      "vawa": "VAWA",
+      "uVisa": "Visa U",
+      "naturalization": "Naturalización",
+      "workPermit": "Permiso de Trabajo"
+    }
+  },
+  "practiceOverview": {
+    "eyebrow": "Áreas de Práctica",
+    "title": "Protección legal para cada situación migratoria.",
+    "learnMore": "Ver más",
+    "viewAll": "Ver todos los servicios",
+    "cards": {
+      "deportation": {
+        "title": "Defensa de Deportación",
+        "desc": "Cancelación de deportación, mociones para reabrir, y defensa en corte cuando el gobierno actúa contra usted."
+      },
+      "asylum": {
+        "title": "Asilo Político",
+        "desc": "Asilo afirmativo y defensivo, retención de deportación, miedo creíble y protección CAT."
+      },
+      "bond": {
+        "title": "Audiencias de Fianza",
+        "desc": "Saque a su ser querido de detención mientras avanza el caso. Preparación rápida, testigos listos."
+      },
+      "family": {
+        "title": "Peticiones Familiares",
+        "desc": "I-130, I-485, proceso consular, perdones 601/601A, visas de prometido — los trámites que mantienen unidas a las familias."
+      },
+      "vawaU": {
+        "title": "VAWA y Visa U",
+        "desc": "Para sobrevivientes de violencia doméstica o crímenes graves. Confidencial, protegido, efectivo."
+      },
+      "naturalization": {
+        "title": "Naturalización y Ciudadanía",
+        "desc": "Solicitudes N-400, preparación para la entrevista, y apelaciones cuando la primera respuesta es no."
+      }
+    }
+  },
+  "whyVerde": {
+    "eyebrow": "¿Por qué Verde Law?",
+    "title": "No somos un bufete más. Somos su equipo.",
+    "body1": "Rafael Verde fundó este bufete para que fuera el bufete que su propia familia hubiera querido tener — uno que contesta el teléfono, explica lo que está pasando con claridad y trata cada caso como si fuera personal. Porque lo es.",
+    "body2": "No subcontratamos la admisión de casos. No usamos call centers. Cuando usted llama, habla con alguien que entiende su idioma y conoce su caso.",
+    "reasons": {
+      "bilingual": {
+        "title": "Equipo 100% Bilingüe",
+        "desc": "Nos comunicamos en su idioma. El español es nuestro idioma principal, no una traducción."
+      },
+      "national": {
+        "title": "Cobertura Nacional",
+        "desc": "Representamos clientes en los 50 estados desde nuestra sede en Miami — presencial, remoto o híbrido."
+      },
+      "free": {
+        "title": "Consulta Gratuita",
+        "desc": "Evaluamos su caso sin costo. Sin presión. Sin compromiso. Nunca."
+      },
+      "tech": {
+        "title": "Tecnología de Punta",
+        "desc": "Seguimiento de caso en tiempo real con Verde+, nuestra plataforma construida para inmigrantes."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Cómo Funciona",
+    "title": "Cuatro pasos. Sin anticipo hasta que acordemos el plan.",
+    "step1": {
+      "title": "Consulta Gratuita",
+      "desc": "Cuéntenos lo que está pasando. Día o noche, en español o inglés. Contesta una persona real."
+    },
+    "step2": {
+      "title": "Evaluación del Caso",
+      "desc": "Uno de nuestros abogados revisa su situación y le presenta sus opciones — con honestidad."
+    },
+    "step3": {
+      "title": "Preparación Legal",
+      "desc": "Construimos su estrategia, preparamos formularios y reunimos la evidencia que su caso necesita."
+    },
+    "step4": {
+      "title": "Representación Total",
+      "desc": "Argumentamos, presentamos, asistimos — hasta el final. Usted se enfoca en su familia."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Historias de Clientes",
+    "title": "Familias que mantuvimos unidas.",
+    "prev": "Testimonio anterior",
+    "next": "Siguiente testimonio",
+    "items": {
+      "carlos": {
+        "quote": "Estaba aterrorizado de mi audiencia en corte. Verde Law me explicó todo paso a paso y ganamos mi caso de asilo. No tengo palabras para agradecer.",
+        "name": "Carlos M.",
+        "case": "Caso de asilo"
+      },
+      "maria": {
+        "quote": "Llevaba tres años sin avance con otro abogado. Verde Law tomó mi caso y en seis meses tenía mi permiso de trabajo.",
+        "name": "María L.",
+        "case": "Defensa de deportación"
+      },
+      "jose": {
+        "quote": "El equipo de Verde Law me trató como familia, no como un número de caso. Recomiendo esta firma a todos.",
+        "name": "José R.",
+        "case": "Petición familiar"
+      },
+      "elena": {
+        "quote": "Me devolvieron la llamada a las 11 de la noche. En español. A la semana siguiente mi esposo estaba fuera de detención.",
+        "name": "Elena S.",
+        "case": "Fianza + cancelación"
+      },
+      "pedro": {
+        "quote": "Otros dos abogados dijeron que no había nada que hacer. Rafael encontró un camino por Visa U. Mi hijo sigue en la escuela.",
+        "name": "Pedro y Luz",
+        "case": "Visa U aprobada"
+      }
+    }
+  },
+  "attorneyFeature": {
+    "eyebrow": "Conozca a Nuestro Fundador",
+    "photoEyebrow": "Fundador y Abogado Principal",
+    "name": "Rafael Verde",
+    "role": "Fundador y Abogado Principal",
+    "body1": "Rafael Verde fundó Verde Law al salir de Georgetown Law con una sola convicción: que la representación legal de calidad es un derecho, no un lujo. Los inmigrantes que tienen miedo, que no pueden pagar $15,000 por adelantado, que no hablan inglés — merecen el mismo abogado que pelearía por un cliente corporativo.",
+    "body2": "Siete años y más de 600 familias después, la misión no ha cambiado. Rafael revisa personalmente cada caso nuevo. Todavía responde mensajes los fines de semana. Construyó el bufete que hubiera querido que su abuela tuviera cuando llegó a este país sin nada.",
+    "viewTeam": "Conozca al equipo completo",
+    "credentials": {
+      "georgetown": "Georgetown Law · J.D., 2014",
+      "aila": "American Immigration Lawyers Association · Miembro desde 2015",
+      "floridaBar": "Colegio de Abogados de Florida · Activo, en buen estado",
+      "eleventhCircuit": "Corte de Apelaciones de EE.UU., 11° Circuito · Admitido 2017"
+    }
+  },
+  "videoShowcase": {
+    "eyebrow": "Educación Gratuita",
+    "title": "Respuestas claras sobre sus derechos migratorios.",
+    "subtitle": "Más de 61,000 personas nos siguen en TikTok para aprender sobre sus derechos en el sistema migratorio de EE.UU. Videos cortos. Sin tecnicismos. En español.",
+    "videos": {
+      "v1": {
+        "cat": "Detención ICE",
+        "title": "Qué hacer si ICE toca su puerta"
+      },
+      "v2": {
+        "cat": "Asilo",
+        "title": "Los 5 errores que hunden los casos de asilo"
+      },
+      "v3": {
+        "cat": "Residencia",
+        "title": "Tiempos de procesamiento del I-130, 2026"
+      }
+    },
+    "social": {
+      "tiktok": "Síganos en TikTok",
+      "instagram": "Síganos en Instagram",
+      "youtube": "Suscríbase en YouTube"
+    }
+  },
+  "verdePlusTeaser": {
+    "eyebrow": "Próximamente",
+    "title": "Verde+: Su caso de inmigración en la palma de su mano.",
+    "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en Estados Unidos. Gratis para todos — con funciones exclusivas para clientes de Verde Law.",
+    "cta": "Más información sobre Verde+",
+    "features": {
+      "caseTracker": {
+        "title": "Seguimiento de Caso",
+        "desc": "Vea exactamente dónde está su caso en tiempo real."
+      },
+      "judgeStats": {
+        "title": "Estadísticas de Jueces",
+        "desc": "Tasas de aprobación y decisiones del juez asignado a su caso."
+      },
+      "aiAssistant": {
+        "title": "Asistente de IA",
+        "desc": "Respuestas claras sobre inmigración, las 24 horas, en español."
+      },
+      "community": {
+        "title": "Comunidad",
+        "desc": "Conéctese con otros inmigrantes, comparta historias, reciba apoyo."
+      }
+    }
+  },
+  "practiceAreasPage": {
+    "seo": {
+      "title": "Áreas de Práctica y Servicios Migratorios",
+      "description": "Defensa de deportación, asilo, audiencias de fianza, peticiones familiares, VAWA, Visa U, naturalización y más. Precios transparentes."
+    },
+    "eyebrow": "Nuestros Servicios",
+    "title": "Representación migratoria integral.",
+    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio se maneja internamente — con abogados que conocen su caso por nombre.",
+    "startingAt": "Desde",
+    "tabs": {
+      "all": "Todos los servicios",
+      "deportation": "Defensa de Deportación",
+      "asylum": "Asilo",
+      "bond": "Fianza",
+      "appeals": "Apelaciones",
+      "family": "Familia",
+      "humanitarian": "Humanitario",
+      "employment": "Empleo y Estatus",
+      "administrative": "Administrativo"
+    }
+  },
+  "practiceDetail": {
+    "eyebrow": "Detalle del Servicio",
+    "startingAt": "Desde",
+    "overview": "Resumen",
+    "keyFacts": "Datos Clave",
+    "timeline": "Tiempo estimado",
+    "forms": "Formularios clave",
+    "cost": "Tarifa fija",
+    "agency": "Agencia",
+    "bookCTA": "Agendar consulta gratis",
+    "processEyebrow": "Cómo avanza el caso",
+    "processTitle": "Cómo se ve trabajar con nosotros.",
+    "faqEyebrow": "Preguntas Frecuentes",
+    "faqTitle": "Lo que más preguntan nuestros clientes.",
+    "relatedEyebrow": "Relacionados",
+    "relatedTitle": "También puede interesarle…",
+    "viewService": "Ver servicio"
+  },
+  "practiceFaq": {
+    "q1": {
+      "question": "¿Cuánto tarda normalmente el proceso?",
+      "answer": "Los tiempos migratorios los controla USCIS, las cortes de inmigración y los tribunales federales — no nosotros. Una estimación realista depende del tipo de caso, los tiempos actuales en su jurisdicción y qué tan completa esté su evidencia. En su consulta gratuita le daremos un plazo concreto según cómo se vea su caso."
+    },
+    "q2": {
+      "question": "¿Qué pasa si niegan mi caso?",
+      "answer": "Una negación rara vez es el final. Según el trámite, puede tener 30 días para presentar una moción de reapertura, una apelación ante la BIA o — en algunos casos — una petición federal de revisión ante la corte de circuito. Le explicamos todas las opciones, los costos y las probabilidades con honestidad."
+    },
+    "q3": {
+      "question": "¿Puedo trabajar mientras mi caso está pendiente?",
+      "answer": "En muchas situaciones sí — con un Documento de Autorización de Empleo (EAD, Formulario I-765) vinculado a su trámite. La elegibilidad depende del tipo de caso y la fecha de presentación. Tramitamos el EAD como parte de nuestros paquetes cuando aplica."
+    },
+    "q4": {
+      "question": "¿Ofrecen planes de pago?",
+      "answer": "Sí. Las tarifas fijas hacen predecibles los costos, y cada contrato incluye un plan de pagos por escrito que divide el monto en cuotas manejables. Facturamos con total transparencia — sin cargos sorpresa."
+    },
+    "q5": {
+      "question": "¿La primera consulta es realmente gratis?",
+      "answer": "Sí. Su consulta gratuita es una conversación de 20 a 30 minutos con un especialista de admisión o un abogado. Escuchamos su historia, identificamos los temas legales y le decimos qué haríamos. Sale con un plan, nos contrate o no."
+    },
+    "q6": {
+      "question": "¿Pueden ayudarme si no vivo en Florida?",
+      "answer": "Sí. Representamos clientes en cortes de inmigración y oficinas de USCIS en todo el país. Como la inmigración es ley federal, su dirección no limita quién puede representarlo — la mayoría del trabajo lo hacemos de forma remota, con comparecencias presenciales cuando son requeridas."
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "practiceAreasPage": {
+    "seo": {
+      "title": "Immigration Practice Areas & Services",
+      "description": "Removal defense, asylum, bond hearings, family petitions, VAWA, U-visa, naturalization and more. Transparent pricing."
+    },
+    "eyebrow": "Our Services",
+    "title": "Full-service immigration representation.",
+    "subtitle": "From emergency bond hearings to green card interviews, every service below is handled in-house — by attorneys who know your case by name.",
+    "startingAt": "From",
+    "tabs": {
+      "all": "All services",
+      "deportation": "Deportation Defense",
+      "asylum": "Asylum",
+      "bond": "Bond",
+      "appeals": "Appeals",
+      "family": "Family",
+      "humanitarian": "Humanitarian",
+      "employment": "Employment & Status",
+      "administrative": "Administrative"
+    }
+  },
+  "practiceDetail": {
+    "eyebrow": "Service Detail",
+    "startingAt": "Starting at",
+    "overview": "Overview",
+    "keyFacts": "Key Facts",
+    "timeline": "Typical timeline",
+    "forms": "Key forms",
+    "cost": "Flat fee",
+    "agency": "Agency",
+    "bookCTA": "Book a free consultation",
+    "processEyebrow": "How the case unfolds",
+    "processTitle": "What working with us looks like.",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Questions clients ask us most.",
+    "relatedEyebrow": "Related",
+    "relatedTitle": "You may also be interested in…",
+    "viewService": "View service"
+  },
+  "practiceFaq": {
+    "q1": {
+      "question": "How long does the process usually take?",
+      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. A realistic estimate depends on your specific case type, current backlogs at your venue, and the completeness of your evidence. During your free consultation we'll give you a concrete timeline based on what your case actually looks like."
+    },
+    "q2": {
+      "question": "What happens if my case is denied?",
+      "answer": "A denial is rarely the end. Depending on the filing, you may have 30 days to file a motion to reopen, an appeal to the BIA, or — in some cases — a federal petition for review at the circuit court. We explain all your options, the costs, and the odds honestly."
+    },
+    "q3": {
+      "question": "Can I work while my case is pending?",
+      "answer": "In many situations yes — through an Employment Authorization Document (EAD, Form I-765) tied to your underlying filing. Eligibility depends on the case type and filing date. We file the EAD as part of our case packages whenever it applies."
+    },
+    "q4": {
+      "question": "Do you offer payment plans?",
+      "answer": "Yes. Flat fees make costs predictable, and every engagement we take on comes with a written payment plan that splits the fee into manageable installments. We bill in full transparency — no surprise charges."
+    },
+    "q5": {
+      "question": "Is the first consultation really free?",
+      "answer": "Yes. Your free consultation is a 20–30 minute conversation with an intake specialist or attorney. We listen to your story, identify the legal issues, and tell you what we'd do. You leave with a plan whether you hire us or not."
+    },
+    "q6": {
+      "question": "Can you help if I don't live in Florida?",
+      "answer": "Yes. We represent clients in immigration courts and USCIS offices nationwide. Because immigration is federal law, your physical address does not limit who can represent you — most of our work is done remotely, with court appearances handled in person when required."
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "practiceOverview": {
+    "eyebrow": "Áreas de Práctica",
+    "title": "Protección legal para cada situación migratoria.",
+    "learnMore": "Ver más",
+    "viewAll": "Ver todos los servicios",
+    "cards": {
+      "deportation": { "title": "Defensa de Deportación", "desc": "Cancelación de deportación, mociones para reabrir, y defensa en corte cuando el gobierno actúa contra usted." },
+      "asylum": { "title": "Asilo Político", "desc": "Asilo afirmativo y defensivo, retención de deportación, miedo creíble y protección CAT." },
+      "bond": { "title": "Audiencias de Fianza", "desc": "Saque a su ser querido de detención mientras avanza el caso. Preparación rápida, testigos listos." },
+      "family": { "title": "Peticiones Familiares", "desc": "I-130, I-485, proceso consular, perdones 601/601A, visas de prometido — los trámites que mantienen unidas a las familias." },
+      "vawaU": { "title": "VAWA y Visa U", "desc": "Para sobrevivientes de violencia doméstica o crímenes graves. Confidencial, protegido, efectivo." },
+      "naturalization": { "title": "Naturalización y Ciudadanía", "desc": "Solicitudes N-400, preparación para la entrevista, y apelaciones cuando la primera respuesta es no." }
+    }
+  },
+  "whyVerde": {
+    "eyebrow": "¿Por qué Verde Law?",
+    "title": "No somos un bufete más. Somos su equipo.",
+    "body1": "Rafael Verde fundó este bufete para que fuera el bufete que su propia familia hubiera querido tener — uno que contesta el teléfono, explica lo que está pasando con claridad y trata cada caso como si fuera personal. Porque lo es.",
+    "body2": "No subcontratamos la admisión de casos. No usamos call centers. Cuando usted llama, habla con alguien que entiende su idioma y conoce su caso.",
+    "reasons": {
+      "bilingual": { "title": "Equipo 100% Bilingüe", "desc": "Nos comunicamos en su idioma. El español es nuestro idioma principal, no una traducción." },
+      "national": { "title": "Cobertura Nacional", "desc": "Representamos clientes en los 50 estados desde nuestra sede en Miami — presencial, remoto o híbrido." },
+      "free": { "title": "Consulta Gratuita", "desc": "Evaluamos su caso sin costo. Sin presión. Sin compromiso. Nunca." },
+      "tech": { "title": "Tecnología de Punta", "desc": "Seguimiento de caso en tiempo real con Verde+, nuestra plataforma construida para inmigrantes." }
+    }
+  },
+  "process": {
+    "eyebrow": "Cómo Funciona",
+    "title": "Cuatro pasos. Sin anticipo hasta que acordemos el plan.",
+    "step1": { "title": "Consulta Gratuita", "desc": "Cuéntenos lo que está pasando. Día o noche, en español o inglés. Contesta una persona real." },
+    "step2": { "title": "Evaluación del Caso", "desc": "Uno de nuestros abogados revisa su situación y le presenta sus opciones — con honestidad." },
+    "step3": { "title": "Preparación Legal", "desc": "Construimos su estrategia, preparamos formularios y reunimos la evidencia que su caso necesita." },
+    "step4": { "title": "Representación Total", "desc": "Argumentamos, presentamos, asistimos — hasta el final. Usted se enfoca en su familia." }
+  },
+  "testimonials": {
+    "eyebrow": "Historias de Clientes",
+    "title": "Familias que mantuvimos unidas.",
+    "prev": "Testimonio anterior",
+    "next": "Siguiente testimonio",
+    "items": {
+      "carlos": { "quote": "Estaba aterrorizado de mi audiencia en corte. Verde Law me explicó todo paso a paso y ganamos mi caso de asilo. No tengo palabras para agradecer.", "name": "Carlos M.", "case": "Caso de asilo" },
+      "maria": { "quote": "Llevaba tres años sin avance con otro abogado. Verde Law tomó mi caso y en seis meses tenía mi permiso de trabajo.", "name": "María L.", "case": "Defensa de deportación" },
+      "jose": { "quote": "El equipo de Verde Law me trató como familia, no como un número de caso. Recomiendo esta firma a todos.", "name": "José R.", "case": "Petición familiar" },
+      "elena": { "quote": "Me devolvieron la llamada a las 11 de la noche. En español. A la semana siguiente mi esposo estaba fuera de detención.", "name": "Elena S.", "case": "Fianza + cancelación" },
+      "pedro": { "quote": "Otros dos abogados dijeron que no había nada que hacer. Rafael encontró un camino por Visa U. Mi hijo sigue en la escuela.", "name": "Pedro y Luz", "case": "Visa U aprobada" }
+    }
+  },
+  "attorneyFeature": {
+    "eyebrow": "Conozca a Nuestro Fundador",
+    "photoEyebrow": "Fundador y Abogado Principal",
+    "name": "Rafael Verde",
+    "role": "Fundador y Abogado Principal",
+    "body1": "Rafael Verde fundó Verde Law al salir de Georgetown Law con una sola convicción: que la representación legal de calidad es un derecho, no un lujo. Los inmigrantes que tienen miedo, que no pueden pagar $15,000 por adelantado, que no hablan inglés — merecen el mismo abogado que pelearía por un cliente corporativo.",
+    "body2": "Siete años y más de 600 familias después, la misión no ha cambiado. Rafael revisa personalmente cada caso nuevo. Todavía responde mensajes los fines de semana. Construyó el bufete que hubiera querido que su abuela tuviera cuando llegó a este país sin nada.",
+    "viewTeam": "Conozca al equipo completo",
+    "credentials": {
+      "georgetown": "Georgetown Law · J.D., 2014",
+      "aila": "American Immigration Lawyers Association · Miembro desde 2015",
+      "floridaBar": "Colegio de Abogados de Florida · Activo, en buen estado",
+      "eleventhCircuit": "Corte de Apelaciones de EE.UU., 11° Circuito · Admitido 2017"
+    }
+  },
+  "videoShowcase": {
+    "eyebrow": "Educación Gratuita",
+    "title": "Respuestas claras sobre sus derechos migratorios.",
+    "subtitle": "Más de 61,000 personas nos siguen en TikTok para aprender sobre sus derechos en el sistema migratorio de EE.UU. Videos cortos. Sin tecnicismos. En español.",
+    "videos": {
+      "v1": { "cat": "Detención ICE", "title": "Qué hacer si ICE toca su puerta" },
+      "v2": { "cat": "Asilo", "title": "Los 5 errores que hunden los casos de asilo" },
+      "v3": { "cat": "Residencia", "title": "Tiempos de procesamiento del I-130, 2026" }
+    },
+    "social": {
+      "tiktok": "Síganos en TikTok",
+      "instagram": "Síganos en Instagram",
+      "youtube": "Suscríbase en YouTube"
+    }
+  },
+  "verdePlusTeaser": {
+    "eyebrow": "Próximamente",
+    "title": "Verde+: Su caso de inmigración en la palma de su mano.",
+    "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en Estados Unidos. Gratis para todos — con funciones exclusivas para clientes de Verde Law.",
+    "cta": "Más información sobre Verde+",
+    "features": {
+      "caseTracker": { "title": "Seguimiento de Caso", "desc": "Vea exactamente dónde está su caso en tiempo real." },
+      "judgeStats": { "title": "Estadísticas de Jueces", "desc": "Tasas de aprobación y decisiones del juez asignado a su caso." },
+      "aiAssistant": { "title": "Asistente de IA", "desc": "Respuestas claras sobre inmigración, las 24 horas, en español." },
+      "community": { "title": "Comunidad", "desc": "Conéctese con otros inmigrantes, comparta historias, reciba apoyo." }
+    }
+  }
+}

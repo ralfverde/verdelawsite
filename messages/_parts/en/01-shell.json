@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "practiceAreas": "Practice Areas",
+    "about": "About",
+    "team": "Our Team",
+    "locations": "Locations",
+    "education": "Education",
+    "verdePlus": "Verde+",
+    "contact": "Contact",
+    "freeConsultation": "Free Consultation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Immigration Attorneys — Serving All 50 States",
+    "title": "We Defend Your Immigration Rights With Everything We Have",
+    "subtitle": "Over 600 families trust Verde Law to protect their future in the United States. Free consultation — no obligation.",
+    "ctaPrimary": "Schedule Free Consultation",
+    "ctaWhatsApp": "Send WhatsApp",
+    "portraitName": "Rafael Verde, Esq.",
+    "portraitRole": "Founder & Managing Attorney",
+    "badges": {
+      "cases": "600+ cases handled",
+      "states": "50 states, one firm",
+      "free": "Free, confidential review"
+    }
+  },
+  "socialProof": {
+    "cases": "Cases handled",
+    "states": "States served",
+    "revenue": "In case value",
+    "tiktok": "TikTok followers",
+    "rating": "Google reviews"
+  },
+  "cta": {
+    "bannerDark": {
+      "title": "Have an immigration case? Talk to us today — no cost, no obligation."
+    },
+    "bannerLight": {
+      "title": "Over 600 families have trusted Verde Law. You could be next."
+    },
+    "subtitle": "Confidential, no-pressure consultations. We answer in Spanish, English, Haitian Creole, and Portuguese.",
+    "freeConsultation": "Free Consultation",
+    "finalTitle": "Your case cannot wait. Let's talk today.",
+    "finalSubtitle": "The consultation is 100% free and fully confidential.",
+    "scheduleCTA": "Schedule My Free Consultation"
+  },
+  "floating": {
+    "tooltip": "Need help? Message us on WhatsApp."
+  },
+  "sticky": {
+    "freeConsultation": "Free Consultation"
+  },
+  "cookies": {
+    "ariaLabel": "Cookie notice",
+    "message": "We use cookies to improve your experience. By continuing to browse, you accept our cookie policy.",
+    "accept": "Accept",
+    "learnMore": "Learn more"
+  },
+  "footer": {
+    "tagline": "Your Rights, Our Fight.",
+    "description": "A Miami-based humanitarian immigration firm built for the families the system is hardest on. We answer the phone. We speak your language. We fight.",
+    "resources": "Resources",
+    "hoursLabel": "Hours",
+    "bookCTA": "Free Consultation",
+    "rightsReserved": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "disclaimer": "Disclaimer",
+    "disclaimerText": "Every case is different. Past results do not guarantee future outcomes.",
+    "practice": {
+      "deportation": "Deportation Defense",
+      "asylum": "Asylum",
+      "bond": "Bond Hearings",
+      "family": "Family Petitions",
+      "vawa": "VAWA",
+      "uVisa": "U-Visa",
+      "naturalization": "Naturalization",
+      "workPermit": "Work Permit"
+    }
+  }
+}
