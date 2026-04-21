@@ -1,7 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { MessageCircle, ChevronDown, Shield, Globe, BadgeCheck } from "lucide-react";
 import { FIRM } from "@/lib/constants";
@@ -9,12 +8,6 @@ import { easeOut } from "@/lib/animations";
 
 export function Hero() {
   const t = useTranslations("hero");
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start start", "end start"],
-  });
-  const y = useTransform(scrollYProgress, [0, 1], [0, -80]);
 
   const trustBadges = [
     { key: "cases", icon: BadgeCheck },
@@ -24,7 +17,6 @@ export function Hero() {
 
   return (
     <section
-      ref={ref}
       className="relative min-h-[100svh] overflow-hidden bg-[var(--verde-950)] text-white flex items-center"
       aria-label="Hero"
     >
@@ -112,10 +104,7 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 0.8, ease: easeOut }}
           className="relative"
         >
-          <motion.div
-            style={{ y }}
-            className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl"
-          >
+          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
             <div className="absolute inset-0 bg-gradient-to-br from-[var(--verde-700)] via-[var(--verde-800)] to-[var(--verde-950)]" />
             <div
               aria-hidden
@@ -146,7 +135,7 @@ export function Hero() {
               </p>
               <p className="text-white text-sm mt-1 italic">{t("portraitRole")}</p>
             </div>
-          </motion.div>
+          </div>
           {/* Decorative vertical gold line */}
           <div
             aria-hidden

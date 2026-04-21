@@ -11,9 +11,10 @@ export function LenisProvider({ children }: { children: React.ReactNode }) {
     if (prefersReduced) return;
 
     const lenis = new Lenis({
-      duration: 1.2,
-      lerp: 0.1,
+      lerp: 0.12,
       smoothWheel: true,
+      wheelMultiplier: 1,
+      touchMultiplier: 1.5,
     });
 
     let rafId: number;
