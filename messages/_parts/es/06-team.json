@@ -1,0 +1,63 @@
+{
+  "team": {
+    "seo": {
+      "title": "Nuestro Equipo — Abogados de Inmigración de Verde Law",
+      "description": "Conozca a los abogados, paralegales y equipo de soporte de Verde Law que luchan por familias inmigrantes en todo el país."
+    },
+    "eyebrow": "Nuestro Equipo",
+    "title": "Las personas que luchan por su familia.",
+    "subtitle": "Dos abogados, cuatro paralegales y un equipo de soporte que trata cada llamada como si importara — porque importa.",
+    "attorneysEyebrow": "Abogados",
+    "attorneysTitle": "Los abogados en su caso.",
+    "paralegalsEyebrow": "Equipo Legal",
+    "paralegalsTitle": "Paralegales que conocen su expediente.",
+    "supportEyebrow": "Soporte",
+    "supportTitle": "Las personas que mantienen las puertas abiertas.",
+    "paralegal": "Paralegal",
+    "attorneys": {
+      "rafael": { "title": "Fundador y Abogado Principal" },
+      "jennifer": { "title": "Abogada Asociada" }
+    },
+    "support": {
+      "officeManager": "Gerente de Oficina",
+      "intakeSupervisor": "Supervisora de Admisiones",
+      "billing": "Coordinadora de Facturación",
+      "marketing": "Directora de Marketing"
+    },
+    "bookWith": "Agendar con {name}",
+    "bios": {
+      "rafael-verde": {
+        "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y con una sola convicción: que los inmigrantes en Estados Unidos merecían el mismo nivel de representación que el mundo corporativo da por hecho.",
+        "p2": "Antes de fundar el bufete pasó sus años de facultad haciendo prácticas en la Oficina del Defensor Público de Miami-Dade y en una clínica federal de inmigración, donde asumió casos de detenidos pro bono mientras la mayoría de sus compañeros se preparaba para los veranos en los grandes bufetes.",
+        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, litiga audiencias de méritos en todo el Undécimo Circuito y dirige un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley migratoria de EE.UU.",
+        "education": { "label": "Educación", "value": "Georgetown University Law Center · J.D., 2014" },
+        "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Corte Federal de Apelaciones, Undécimo Circuito · Corte Federal de Distrito, Distrito Sur de Florida" },
+        "languages": { "label": "Idiomas", "value": "Inglés · Español" }
+      },
+      "jennifer-colon": {
+        "p1": "Jennifer Colón Rodríguez se unió a Verde Law como abogada asociada en 2025 después de cinco años de trabajo humanitario con inmigrantes sobrevivientes de violencia. Su práctica se enfoca en casos de VAWA, Visa U y SIJS.",
+        "p2": "Es hablante nativa de español, egresada de la Facultad de Derecho de la Universidad de Puerto Rico, y entrevistadora con entrenamiento trauma-informado certificada por el Vera Institute of Justice. Los clientes dicen con frecuencia que es la primera abogada con quien se sintieron lo suficientemente seguros para contar toda su historia.",
+        "p3": "Jennifer dirige la práctica de VAWA del bufete y supervisa al equipo de paralegales en las presentaciones humanitarias.",
+        "education": { "label": "Educación", "value": "Facultad de Derecho, Universidad de Puerto Rico · J.D., 2020" },
+        "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Colegio de Abogados de Puerto Rico" },
+        "languages": { "label": "Idiomas", "value": "Español (nativo) · Inglés" }
+      }
+    },
+    "teamBios": {
+      "aniela": "Aniela maneja los asuntos de fianza y detenidos, trabajando directamente con las familias desde el momento en que ICE detiene a un ser querido.",
+      "mayerli": "Mayerli gestiona los expedientes de asilo y VAWA, y prepara las declaraciones personales junto a los abogados.",
+      "flor": "Flor coordina peticiones familiares, proceso consular y presentaciones ante USCIS desde la admisión hasta la aprobación.",
+      "alba": "Alba apoya nuestra práctica de defensa de deportación con la recolección de evidencia, las presentaciones en corte y la comunicación con el cliente.",
+      "daliana": "Daliana mantiene el bufete funcionando día a día — calendarización, relaciones con proveedores y los pequeños detalles que les importan a los clientes.",
+      "jeanine": "Jeanine dirige nuestro equipo de admisiones, lo que significa que normalmente es la primera persona con quien usted habla cuando llama.",
+      "yunetsy": "Yunetsy maneja la facturación con la transparencia que nuestros clientes merecen — facturas claras, planes de pago flexibles, cero sorpresas.",
+      "vianney": "Vianney lidera nuestro marketing y alcance comunitario, incluyendo el canal educativo de TikTok que llega cada semana a decenas de miles de inmigrantes."
+    },
+    "join": {
+      "eyebrow": "Carreras",
+      "title": "Trabaje con nosotros.",
+      "body": "Estamos contratando abogados, paralegales y especialistas de admisión bilingües. Si quiere ejercer el derecho migratorio de la forma correcta — con recursos reales, tarifas fijas y un equipo que respeta su tiempo — nos gustaría conocerlo.",
+      "cta": "Ver posiciones abiertas"
+    }
+  }
+}

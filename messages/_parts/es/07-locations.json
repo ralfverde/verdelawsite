@@ -1,0 +1,42 @@
+{
+  "locations": {
+    "seo": {
+      "title": "Ubicaciones — Abogados de Inmigración de Verde Law",
+      "description": "Bufete de inmigración con sede en Miami que atiende clientes en los 50 estados. Consultas virtuales disponibles en cualquier parte de EE.UU."
+    },
+    "eyebrow": "Ubicaciones",
+    "title": "Con sede en Miami. Luchando en todo el país.",
+    "subtitle": "Nuestra oficina está en Coral Way. Nuestros clientes están en todas partes — desde el centro de detención de Krome hasta cortes de inmigración en Chicago, Nueva York, Los Ángeles y cada circuito entre medio.",
+    "office": {
+      "eyebrow": "Oficina Principal",
+      "title": "Venga en persona, o no — ambas opciones funcionan.",
+      "directions": "Cómo llegar"
+    },
+    "national": {
+      "eyebrow": "Cobertura Nacional",
+      "title": "Los 50 estados. Un solo bufete.",
+      "body": "La inmigración es ley federal. No importa en qué estado viva — un abogado licenciado en Florida puede representarlo en cualquier corte de inmigración, oficina de USCIS o circuito federal de apelaciones del país. Comparecemos en persona cuando se requiere, de forma remota cuando se permite, y manejamos la logística para que usted no tenga que hacerlo.",
+      "topStatesLabel": "Estados que atendemos con más frecuencia",
+      "states": {
+        "florida": "Florida",
+        "texas": "Texas",
+        "california": "California",
+        "newYork": "Nueva York",
+        "illinois": "Illinois",
+        "georgia": "Georgia",
+        "arizona": "Arizona",
+        "nevada": "Nevada"
+      }
+    },
+    "virtual": {
+      "eyebrow": "Consultas Virtuales",
+      "title": "Nos reunimos con usted desde donde esté.",
+      "body": "La mayoría de nuestras consultas son por teléfono, WhatsApp o video. No necesita viajar a Miami ni tomarse un día libre del trabajo. Elija el canal que le funcione — ahí estamos.",
+      "channels": {
+        "phone": { "title": "Teléfono", "desc": "Llame al (305) 786-3003. Contesta una persona real en inglés o español, de día o de noche." },
+        "whatsapp": { "title": "WhatsApp", "desc": "Escríbanos a cualquier hora. Respondemos apenas estamos de vuelta en la oficina, normalmente en minutos durante el día." },
+        "video": { "title": "Videollamada", "desc": "Zoom, Google Meet o FaceTime. Le enviamos el enlace después de agendar." }
+      }
+    }
+  }
+}

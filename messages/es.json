@@ -949,5 +949,371 @@
       "step5Title": "Seguimiento",
       "step5Desc": "Resumen escrito de lo sucedido y los próximos pasos."
     }
+  },
+  "about": {
+    "seo": {
+      "title": "Sobre Verde Law — Bufete Humanitario de Inmigración",
+      "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. 600+ familias. 50 estados. Una sola misión."
+    },
+    "eyebrow": "Sobre Nosotros",
+    "title": "Un bufete creado para las personas a quienes el sistema trata peor.",
+    "subtitle": "Verde Law se fundó con una sola idea: que cada inmigrante en Estados Unidos merece un abogado que conteste el teléfono, hable su idioma y luche como si fuera algo personal.",
+    "story": {
+      "eyebrow": "Nuestra Historia",
+      "title": "De una apuesta en la facultad a 600 familias atendidas.",
+      "p1": "Rafael Verde fundó Verde Law en 2024, apenas al salir de Georgetown Law — antes de que la mayoría de sus compañeros hubiera decidido a qué bufete unirse. La apuesta era sencilla: había un mercado real para un bufete humanitario de inmigración que tratara a las familias hispanohablantes como se trata a los clientes corporativos en todo lo demás.",
+      "p2": "El primer año éramos dos personas en una oficina prestada. El segundo año crecimos a ocho. Hoy el equipo es de veintidós — dos abogados, cuatro paralegales y un equipo de soporte que mantiene cada caso en movimiento.",
+      "p3": "Hoy atendemos clientes en los cincuenta estados, desde audiencias de fianza en Krome hasta apelaciones federales en el Undécimo Circuito. Nuestra audiencia en TikTok supera los 61,000 y sigue creciendo, porque la educación gratuita importa tanto como la representación pagada.",
+      "p4": "Cada caso nuevo sigue recibiendo la revisión personal de Rafael. Eso no ha cambiado. No va a cambiar.",
+      "imageCaption": "Oficina de Miami — Coral Way, 2026.",
+      "milestones": {
+        "founded": {
+          "value": "Fundada en 2024",
+          "label": "Año de apertura del bufete"
+        },
+        "employees": {
+          "value": "22 empleados",
+          "label": "Miembros del equipo hoy"
+        },
+        "families": {
+          "value": "600+ familias",
+          "label": "Atendidas desde el inicio"
+        }
+      }
+    },
+    "mission": {
+      "eyebrow": "Nuestra Misión",
+      "title": "Por qué hacemos esto.",
+      "quote": "Creemos que cada inmigrante merece representación legal de calidad — sin importar su situación económica.",
+      "values": {
+        "accessibility": {
+          "title": "Accesibilidad",
+          "desc": "Tarifas fijas. Planes de pago. Consultas gratuitas. Acceso en cuatro idiomas. La representación no debería depender de a quién conoce o de cuánto puede pagar por adelantado."
+        },
+        "excellence": {
+          "title": "Excelencia",
+          "desc": "Preparamos cada caso como si fuera a corte federal. Carpetas de evidencia, simulacros, declaraciones de expertos. El estándar no baja cuando el cliente no puede pagar un anticipo grande."
+        },
+        "humanity": {
+          "title": "Humanidad",
+          "desc": "Las personas al otro lado de nuestro escritorio están asustadas, agotadas y sin opciones. Las recibimos con paciencia y respeto, siempre. Eso no es un extra — es el trabajo."
+        }
+      }
+    },
+    "numbers": {
+      "cases": "Familias atendidas",
+      "attorneys": "Abogados",
+      "paralegals": "Paralegales",
+      "states": "Estados servidos",
+      "team": "Miembros del equipo"
+    },
+    "office": {
+      "eyebrow": "Nuestra Oficina",
+      "title": "Visítenos en Miami.",
+      "addressLabel": "Verde Law, PLLC",
+      "hours": "Horario"
+    }
+  },
+  "team": {
+    "seo": {
+      "title": "Nuestro Equipo — Abogados de Inmigración de Verde Law",
+      "description": "Conozca a los abogados, paralegales y equipo de soporte de Verde Law que luchan por familias inmigrantes en todo el país."
+    },
+    "eyebrow": "Nuestro Equipo",
+    "title": "Las personas que luchan por su familia.",
+    "subtitle": "Dos abogados, cuatro paralegales y un equipo de soporte que trata cada llamada como si importara — porque importa.",
+    "attorneysEyebrow": "Abogados",
+    "attorneysTitle": "Los abogados en su caso.",
+    "paralegalsEyebrow": "Equipo Legal",
+    "paralegalsTitle": "Paralegales que conocen su expediente.",
+    "supportEyebrow": "Soporte",
+    "supportTitle": "Las personas que mantienen las puertas abiertas.",
+    "paralegal": "Paralegal",
+    "attorneys": {
+      "rafael": {
+        "title": "Fundador y Abogado Principal"
+      },
+      "jennifer": {
+        "title": "Abogada Asociada"
+      }
+    },
+    "support": {
+      "officeManager": "Gerente de Oficina",
+      "intakeSupervisor": "Supervisora de Admisiones",
+      "billing": "Coordinadora de Facturación",
+      "marketing": "Directora de Marketing"
+    },
+    "bookWith": "Agendar con {name}",
+    "bios": {
+      "rafael-verde": {
+        "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y con una sola convicción: que los inmigrantes en Estados Unidos merecían el mismo nivel de representación que el mundo corporativo da por hecho.",
+        "p2": "Antes de fundar el bufete pasó sus años de facultad haciendo prácticas en la Oficina del Defensor Público de Miami-Dade y en una clínica federal de inmigración, donde asumió casos de detenidos pro bono mientras la mayoría de sus compañeros se preparaba para los veranos en los grandes bufetes.",
+        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, litiga audiencias de méritos en todo el Undécimo Circuito y dirige un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley migratoria de EE.UU.",
+        "education": {
+          "label": "Educación",
+          "value": "Georgetown University Law Center · J.D., 2014"
+        },
+        "barAdmissions": {
+          "label": "Admisiones a la Barra",
+          "value": "Colegio de Abogados de Florida · Corte Federal de Apelaciones, Undécimo Circuito · Corte Federal de Distrito, Distrito Sur de Florida"
+        },
+        "languages": {
+          "label": "Idiomas",
+          "value": "Inglés · Español"
+        }
+      },
+      "jennifer-colon": {
+        "p1": "Jennifer Colón Rodríguez se unió a Verde Law como abogada asociada en 2025 después de cinco años de trabajo humanitario con inmigrantes sobrevivientes de violencia. Su práctica se enfoca en casos de VAWA, Visa U y SIJS.",
+        "p2": "Es hablante nativa de español, egresada de la Facultad de Derecho de la Universidad de Puerto Rico, y entrevistadora con entrenamiento trauma-informado certificada por el Vera Institute of Justice. Los clientes dicen con frecuencia que es la primera abogada con quien se sintieron lo suficientemente seguros para contar toda su historia.",
+        "p3": "Jennifer dirige la práctica de VAWA del bufete y supervisa al equipo de paralegales en las presentaciones humanitarias.",
+        "education": {
+          "label": "Educación",
+          "value": "Facultad de Derecho, Universidad de Puerto Rico · J.D., 2020"
+        },
+        "barAdmissions": {
+          "label": "Admisiones a la Barra",
+          "value": "Colegio de Abogados de Florida · Colegio de Abogados de Puerto Rico"
+        },
+        "languages": {
+          "label": "Idiomas",
+          "value": "Español (nativo) · Inglés"
+        }
+      }
+    },
+    "teamBios": {
+      "aniela": "Aniela maneja los asuntos de fianza y detenidos, trabajando directamente con las familias desde el momento en que ICE detiene a un ser querido.",
+      "mayerli": "Mayerli gestiona los expedientes de asilo y VAWA, y prepara las declaraciones personales junto a los abogados.",
+      "flor": "Flor coordina peticiones familiares, proceso consular y presentaciones ante USCIS desde la admisión hasta la aprobación.",
+      "alba": "Alba apoya nuestra práctica de defensa de deportación con la recolección de evidencia, las presentaciones en corte y la comunicación con el cliente.",
+      "daliana": "Daliana mantiene el bufete funcionando día a día — calendarización, relaciones con proveedores y los pequeños detalles que les importan a los clientes.",
+      "jeanine": "Jeanine dirige nuestro equipo de admisiones, lo que significa que normalmente es la primera persona con quien usted habla cuando llama.",
+      "yunetsy": "Yunetsy maneja la facturación con la transparencia que nuestros clientes merecen — facturas claras, planes de pago flexibles, cero sorpresas.",
+      "vianney": "Vianney lidera nuestro marketing y alcance comunitario, incluyendo el canal educativo de TikTok que llega cada semana a decenas de miles de inmigrantes."
+    },
+    "join": {
+      "eyebrow": "Carreras",
+      "title": "Trabaje con nosotros.",
+      "body": "Estamos contratando abogados, paralegales y especialistas de admisión bilingües. Si quiere ejercer el derecho migratorio de la forma correcta — con recursos reales, tarifas fijas y un equipo que respeta su tiempo — nos gustaría conocerlo.",
+      "cta": "Ver posiciones abiertas"
+    }
+  },
+  "locations": {
+    "seo": {
+      "title": "Ubicaciones — Abogados de Inmigración de Verde Law",
+      "description": "Bufete de inmigración con sede en Miami que atiende clientes en los 50 estados. Consultas virtuales disponibles en cualquier parte de EE.UU."
+    },
+    "eyebrow": "Ubicaciones",
+    "title": "Con sede en Miami. Luchando en todo el país.",
+    "subtitle": "Nuestra oficina está en Coral Way. Nuestros clientes están en todas partes — desde el centro de detención de Krome hasta cortes de inmigración en Chicago, Nueva York, Los Ángeles y cada circuito entre medio.",
+    "office": {
+      "eyebrow": "Oficina Principal",
+      "title": "Venga en persona, o no — ambas opciones funcionan.",
+      "directions": "Cómo llegar"
+    },
+    "national": {
+      "eyebrow": "Cobertura Nacional",
+      "title": "Los 50 estados. Un solo bufete.",
+      "body": "La inmigración es ley federal. No importa en qué estado viva — un abogado licenciado en Florida puede representarlo en cualquier corte de inmigración, oficina de USCIS o circuito federal de apelaciones del país. Comparecemos en persona cuando se requiere, de forma remota cuando se permite, y manejamos la logística para que usted no tenga que hacerlo.",
+      "topStatesLabel": "Estados que atendemos con más frecuencia",
+      "states": {
+        "florida": "Florida",
+        "texas": "Texas",
+        "california": "California",
+        "newYork": "Nueva York",
+        "illinois": "Illinois",
+        "georgia": "Georgia",
+        "arizona": "Arizona",
+        "nevada": "Nevada"
+      }
+    },
+    "virtual": {
+      "eyebrow": "Consultas Virtuales",
+      "title": "Nos reunimos con usted desde donde esté.",
+      "body": "La mayoría de nuestras consultas son por teléfono, WhatsApp o video. No necesita viajar a Miami ni tomarse un día libre del trabajo. Elija el canal que le funcione — ahí estamos.",
+      "channels": {
+        "phone": {
+          "title": "Teléfono",
+          "desc": "Llame al (305) 786-3003. Contesta una persona real en inglés o español, de día o de noche."
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "desc": "Escríbanos a cualquier hora. Respondemos apenas estamos de vuelta en la oficina, normalmente en minutos durante el día."
+        },
+        "video": {
+          "title": "Videollamada",
+          "desc": "Zoom, Google Meet o FaceTime. Le enviamos el enlace después de agendar."
+        }
+      }
+    }
+  },
+  "education": {
+    "seo": {
+      "title": "Centro de Educación Migratoria — Verde Law",
+      "description": "Guías, artículos y videos gratuitos sobre derecho migratorio. Conozca sus derechos en el sistema de EE.UU."
+    },
+    "eyebrow": "Educación",
+    "title": "Educación migratoria, gratis y en su idioma.",
+    "subtitle": "Artículos cortos, guías paso a paso y videos directos sobre cómo funciona realmente el sistema migratorio de EE.UU. Sin tecnicismos.",
+    "articles": {
+      "eyebrow": "Artículos y Guías",
+      "title": "Lea lo que importa.",
+      "readMore": "Leer más",
+      "categories": {
+        "all": "Todos los temas",
+        "deportation": "Deportación y Defensa",
+        "asylum": "Asilo",
+        "bond": "Fianza",
+        "family": "Familia",
+        "work": "Permisos de Trabajo",
+        "citizenship": "Ciudadanía",
+        "news": "Noticias Migratorias"
+      },
+      "items": {
+        "a1": {
+          "category": "Deportación y Defensa",
+          "title": "Qué hacer en las primeras 48 horas después de que ICE detenga a un familiar",
+          "excerpt": "Los pasos a seguir mientras la persona que usted ama está bajo custodia. Qué decir, a quién llamar, qué no firmar.",
+          "date": "Abril 2026",
+          "readTime": "6 min de lectura"
+        },
+        "a2": {
+          "category": "Asilo",
+          "title": "El plazo de un año para presentar asilo — las excepciones que debe conocer",
+          "excerpt": "La mayoría de las personas que pasan el plazo de un año todavía tienen opciones. Estas son las excepciones que salvan casos.",
+          "date": "Marzo 2026",
+          "readTime": "8 min de lectura"
+        },
+        "a3": {
+          "category": "Fianza",
+          "title": "Cómo funcionan las audiencias de fianza: la evidencia que les importa a los jueces",
+          "excerpt": "Riesgo de fuga, peligro para la comunidad, lazos comunitarios. Lo que miran los jueces y cómo probamos cada uno.",
+          "date": "Marzo 2026",
+          "readTime": "7 min de lectura"
+        },
+        "a4": {
+          "category": "Familia",
+          "title": "Tiempos del I-130 en 2026: qué significan las fechas de prioridad para su caso",
+          "excerpt": "Tiempos de procesamiento para familiares inmediatos, categorías de preferencia y por qué importa el boletín de visas.",
+          "date": "Febrero 2026",
+          "readTime": "5 min de lectura"
+        },
+        "a5": {
+          "category": "Permisos de Trabajo",
+          "title": "Cinco categorías que califican para un EAD y probablemente usted no conocía",
+          "excerpt": "Más allá de lo obvio: lista de espera de Visa U, VAWA, solicitantes de ajuste y más.",
+          "date": "Febrero 2026",
+          "readTime": "4 min de lectura"
+        },
+        "a6": {
+          "category": "Ciudadanía",
+          "title": "Cómo prepararse para la entrevista del N-400: qué pasa realmente en el cuarto",
+          "excerpt": "La prueba de cívica, la parte de inglés, las preguntas de buen carácter moral, y qué llevar consigo.",
+          "date": "Enero 2026",
+          "readTime": "9 min de lectura"
+        }
+      }
+    },
+    "videos": {
+      "eyebrow": "Biblioteca de Videos",
+      "title": "Aprenda del abogado, gratis.",
+      "viewMore": "Ver más en YouTube",
+      "items": {
+        "v1": {
+          "title": "Qué hacer si ICE toca su puerta"
+        },
+        "v2": {
+          "title": "Los 5 errores que hunden los casos de asilo"
+        },
+        "v3": {
+          "title": "Tiempos de procesamiento del I-130 explicados, 2026"
+        },
+        "v4": {
+          "title": "Audiencias de fianza: lo que realmente quiere ver el juez"
+        },
+        "v5": {
+          "title": "VAWA: usted no necesita la firma de su abusador"
+        },
+        "v6": {
+          "title": "La entrevista de ciudadanía, paso a paso"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Preguntas Frecuentes",
+      "title": "Respuestas a las preguntas que más nos hacen."
+    },
+    "newsletter": {
+      "eyebrow": "Manténgase Informado",
+      "title": "Noticias migratorias, directo de nosotros.",
+      "body": "Un correo al mes. Artículos nuevos, actualizaciones de política que afectan su caso y próximos webinars gratuitos. Sin spam, cancele cuando quiera.",
+      "formLabel": "Suscripción al boletín",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "usted@ejemplo.com",
+      "subscribe": "Suscribirse",
+      "legal": "Al suscribirse acepta recibir correos de Verde Law. Puede darse de baja en cualquier momento.",
+      "follow": "Síganos en Instagram"
+    }
+  },
+  "globalFaq": {
+    "consultation": {
+      "question": "¿Qué es una consulta gratis y qué incluye?",
+      "answer": "Una consulta gratis es una conversación de 20 a 30 minutos — por teléfono, WhatsApp o video — con un especialista de admisión o un abogado. Escuchamos lo que está pasando, identificamos los temas legales de su caso y le presentamos opciones honestas con números reales. No hay costo, no hay compromiso de contratarnos, y nada de lo que usted comparta sale del bufete."
+    },
+    "cost": {
+      "question": "¿Cuánto cuesta contratar un abogado de inmigración?",
+      "answer": "Nuestros servicios tienen tarifas fijas, publicadas en la página de Áreas de Práctica para que no haya sorpresas. Las tarifas van desde $750 por permisos de trabajo simples y solicitudes FOIA hasta $10,000+ por defensa de deportación compleja con apelaciones federales de circuito. Cada contrato incluye un plan de pagos por escrito."
+    },
+    "outsideFlorida": {
+      "question": "¿Puedo tener representación si no vivo en Florida?",
+      "answer": "Sí. La ley de inmigración es federal, así que un abogado licenciado en Florida puede representarlo en cortes de inmigración, oficinas de USCIS y cortes federales de circuito en todo el país. La mayor parte de la comunicación es remota; viajamos o comparecemos por video para las fechas de corte."
+    },
+    "deportationOrder": {
+      "question": "¿Qué pasa si tengo una orden de deportación?",
+      "answer": "Una orden previa no significa que sus opciones se hayan acabado. Según el tipo de orden y cuándo se emitió, podemos presentar una moción para reabrir, una moción para suspender la deportación, una suspensión I-246 ante ICE, o una petición federal de habeas. El primer paso es obtener su A-file con una FOIA para saber exactamente qué hay en el expediente."
+    },
+    "asylumProcess": {
+      "question": "¿Cómo funciona el proceso de asilo?",
+      "answer": "El asilo tiene dos vías. El asilo afirmativo se presenta ante USCIS para personas que no están en proceso de deportación — lleva a una entrevista en la oficina de asilo. El asilo defensivo se busca dentro de la corte de inmigración como defensa a la deportación. Ambos requieren una declaración personal detallada, evidencia de respaldo y prueba de que usted teme persecución por un fundamento protegido."
+    },
+    "bondHearing": {
+      "question": "¿Qué es una audiencia de fianza?",
+      "answer": "Una audiencia de fianza es cuando un juez de inmigración decide si una persona detenida puede ser liberada de la custodia de ICE mientras avanza el caso de deportación. El juez considera el riesgo de fuga, el peligro para la comunidad y los lazos comunitarios. Un caso preparado — con declaraciones juradas de patrocinador, récords tributarios y prueba de arraigo — cambia dramáticamente el resultado."
+    },
+    "timeline": {
+      "question": "¿Cuánto tardará mi caso?",
+      "answer": "Los tiempos dependen del tipo de caso y de la agencia. Los permisos de trabajo normalmente toman 3–6 meses. Las peticiones I-130 para familiares inmediatos van entre 8–16 meses. El asilo puede tardar años. La defensa de deportación en corte puede durar 12–36 meses. En su consulta le daremos un estimado realista para su caso específico."
+    },
+    "workWhilePending": {
+      "question": "¿Puedo trabajar mientras mi caso está pendiente?",
+      "answer": "Muchas veces sí — con un Documento de Autorización de Empleo (EAD), Formulario I-765. La elegibilidad depende del tipo de caso y de las fechas de presentación. Presentamos el EAD como parte de cada paquete de caso que califique."
+    },
+    "documents": {
+      "question": "¿Qué documentos debo traer a mi consulta?",
+      "answer": "Si los tiene: su pasaporte, cualquier trámite migratorio previo (notificaciones de USCIS o ICE, notificaciones de corte), cualquier solicitud que haya presentado antes, reportes policiales o evidencia si busca asilo/VAWA/Visa U, y los nombres y fechas de las relaciones familiares. Si no tiene documentos, venga igual — le diremos qué recolectar."
+    },
+    "paymentPlans": {
+      "question": "¿Ofrecen planes de pago?",
+      "answer": "Sí. Cada contrato incluye un plan de pagos por escrito que divide la tarifa fija en cuotas manejables, normalmente con un depósito inicial razonable. Facturamos con transparencia — sin cargos sorpresa."
+    },
+    "vawaEligibility": {
+      "question": "¿Qué es VAWA y quién califica?",
+      "answer": "La Ley de Violencia Contra la Mujer (VAWA) permite que cónyuges, hijos y padres abusados por ciudadanos o residentes permanentes peticionen su propio estatus migratorio — de forma confidencial, sin el conocimiento ni la participación del abusador. Aplica a hombres y mujeres. El caso depende de la prueba del abuso y de la relación calificada."
+    },
+    "iceDetention": {
+      "question": "¿Qué debo hacer si ICE me detiene?",
+      "answer": "Mantenga la calma. Usted tiene derecho a guardar silencio, a hablar con un abogado y a negarse a firmar cualquier cosa hasta entender lo que dice. No firme una Orden Estipulada de Remoción ni un formulario de salida voluntaria sin consejo legal. Pida llamar a Verde Law — nuestro teléfono se contesta las 24 horas."
+    },
+    "detainedHelp": {
+      "question": "¿Pueden ayudar si mi familiar ya está detenido?",
+      "answer": "Sí. Los casos de detenidos son una de nuestras áreas principales. Nos movemos rápido en las audiencias de fianza, conocemos al personal de Krome y coordinamos traslados cuando ICE mueve a un ser querido a otro estado. Las primeras 48 horas importan — llámenos de inmediato."
+    },
+    "uVisa": {
+      "question": "¿Qué es la Visa U?",
+      "answer": "La Visa U es un estatus migratorio para víctimas no ciudadanas de crímenes graves (violencia doméstica, agresión sexual, asalto con lesiones graves, tráfico humano y otros) que han sufrido un daño sustancial y son útiles a las autoridades. Requiere una certificación de la agencia investigadora y una declaración personal detallada. Las esperas actuales son largas, pero los solicitantes en la lista reciben autorización de trabajo y acción diferida."
+    },
+    "citizenship": {
+      "question": "¿Cómo me hago ciudadano estadounidense?",
+      "answer": "La mayoría de las personas aplican con el N-400 después de cinco años como residente permanente (tres si está casado con ciudadano). Se necesita residencia continua, presencia física, buen carácter moral y conocimientos básicos de inglés y cívica. Revisamos temas que podrían descarrilar la solicitud — impuestos, antecedentes penales, patrones de viaje — antes de presentar."
+    }
   }
 }

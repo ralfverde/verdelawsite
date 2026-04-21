@@ -1,0 +1,98 @@
+{
+  "education": {
+    "seo": {
+      "title": "Centro de Educación Migratoria — Verde Law",
+      "description": "Guías, artículos y videos gratuitos sobre derecho migratorio. Conozca sus derechos en el sistema de EE.UU."
+    },
+    "eyebrow": "Educación",
+    "title": "Educación migratoria, gratis y en su idioma.",
+    "subtitle": "Artículos cortos, guías paso a paso y videos directos sobre cómo funciona realmente el sistema migratorio de EE.UU. Sin tecnicismos.",
+    "articles": {
+      "eyebrow": "Artículos y Guías",
+      "title": "Lea lo que importa.",
+      "readMore": "Leer más",
+      "categories": {
+        "all": "Todos los temas",
+        "deportation": "Deportación y Defensa",
+        "asylum": "Asilo",
+        "bond": "Fianza",
+        "family": "Familia",
+        "work": "Permisos de Trabajo",
+        "citizenship": "Ciudadanía",
+        "news": "Noticias Migratorias"
+      },
+      "items": {
+        "a1": {
+          "category": "Deportación y Defensa",
+          "title": "Qué hacer en las primeras 48 horas después de que ICE detenga a un familiar",
+          "excerpt": "Los pasos a seguir mientras la persona que usted ama está bajo custodia. Qué decir, a quién llamar, qué no firmar.",
+          "date": "Abril 2026",
+          "readTime": "6 min de lectura"
+        },
+        "a2": {
+          "category": "Asilo",
+          "title": "El plazo de un año para presentar asilo — las excepciones que debe conocer",
+          "excerpt": "La mayoría de las personas que pasan el plazo de un año todavía tienen opciones. Estas son las excepciones que salvan casos.",
+          "date": "Marzo 2026",
+          "readTime": "8 min de lectura"
+        },
+        "a3": {
+          "category": "Fianza",
+          "title": "Cómo funcionan las audiencias de fianza: la evidencia que les importa a los jueces",
+          "excerpt": "Riesgo de fuga, peligro para la comunidad, lazos comunitarios. Lo que miran los jueces y cómo probamos cada uno.",
+          "date": "Marzo 2026",
+          "readTime": "7 min de lectura"
+        },
+        "a4": {
+          "category": "Familia",
+          "title": "Tiempos del I-130 en 2026: qué significan las fechas de prioridad para su caso",
+          "excerpt": "Tiempos de procesamiento para familiares inmediatos, categorías de preferencia y por qué importa el boletín de visas.",
+          "date": "Febrero 2026",
+          "readTime": "5 min de lectura"
+        },
+        "a5": {
+          "category": "Permisos de Trabajo",
+          "title": "Cinco categorías que califican para un EAD y probablemente usted no conocía",
+          "excerpt": "Más allá de lo obvio: lista de espera de Visa U, VAWA, solicitantes de ajuste y más.",
+          "date": "Febrero 2026",
+          "readTime": "4 min de lectura"
+        },
+        "a6": {
+          "category": "Ciudadanía",
+          "title": "Cómo prepararse para la entrevista del N-400: qué pasa realmente en el cuarto",
+          "excerpt": "La prueba de cívica, la parte de inglés, las preguntas de buen carácter moral, y qué llevar consigo.",
+          "date": "Enero 2026",
+          "readTime": "9 min de lectura"
+        }
+      }
+    },
+    "videos": {
+      "eyebrow": "Biblioteca de Videos",
+      "title": "Aprenda del abogado, gratis.",
+      "viewMore": "Ver más en YouTube",
+      "items": {
+        "v1": { "title": "Qué hacer si ICE toca su puerta" },
+        "v2": { "title": "Los 5 errores que hunden los casos de asilo" },
+        "v3": { "title": "Tiempos de procesamiento del I-130 explicados, 2026" },
+        "v4": { "title": "Audiencias de fianza: lo que realmente quiere ver el juez" },
+        "v5": { "title": "VAWA: usted no necesita la firma de su abusador" },
+        "v6": { "title": "La entrevista de ciudadanía, paso a paso" }
+      }
+    },
+    "faq": {
+      "eyebrow": "Preguntas Frecuentes",
+      "title": "Respuestas a las preguntas que más nos hacen."
+    },
+    "newsletter": {
+      "eyebrow": "Manténgase Informado",
+      "title": "Noticias migratorias, directo de nosotros.",
+      "body": "Un correo al mes. Artículos nuevos, actualizaciones de política que afectan su caso y próximos webinars gratuitos. Sin spam, cancele cuando quiera.",
+      "formLabel": "Suscripción al boletín",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "usted@ejemplo.com",
+      "subscribe": "Suscribirse",
+      "legal": "Al suscribirse acepta recibir correos de Verde Law. Puede darse de baja en cualquier momento.",
+      "follow": "Síganos en Instagram"
+    }
+  }
+}

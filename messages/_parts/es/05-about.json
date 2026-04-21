@@ -1,0 +1,48 @@
+{
+  "about": {
+    "seo": {
+      "title": "Sobre Verde Law — Bufete Humanitario de Inmigración",
+      "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. 600+ familias. 50 estados. Una sola misión."
+    },
+    "eyebrow": "Sobre Nosotros",
+    "title": "Un bufete creado para las personas a quienes el sistema trata peor.",
+    "subtitle": "Verde Law se fundó con una sola idea: que cada inmigrante en Estados Unidos merece un abogado que conteste el teléfono, hable su idioma y luche como si fuera algo personal.",
+    "story": {
+      "eyebrow": "Nuestra Historia",
+      "title": "De una apuesta en la facultad a 600 familias atendidas.",
+      "p1": "Rafael Verde fundó Verde Law en 2024, apenas al salir de Georgetown Law — antes de que la mayoría de sus compañeros hubiera decidido a qué bufete unirse. La apuesta era sencilla: había un mercado real para un bufete humanitario de inmigración que tratara a las familias hispanohablantes como se trata a los clientes corporativos en todo lo demás.",
+      "p2": "El primer año éramos dos personas en una oficina prestada. El segundo año crecimos a ocho. Hoy el equipo es de veintidós — dos abogados, cuatro paralegales y un equipo de soporte que mantiene cada caso en movimiento.",
+      "p3": "Hoy atendemos clientes en los cincuenta estados, desde audiencias de fianza en Krome hasta apelaciones federales en el Undécimo Circuito. Nuestra audiencia en TikTok supera los 61,000 y sigue creciendo, porque la educación gratuita importa tanto como la representación pagada.",
+      "p4": "Cada caso nuevo sigue recibiendo la revisión personal de Rafael. Eso no ha cambiado. No va a cambiar.",
+      "imageCaption": "Oficina de Miami — Coral Way, 2026.",
+      "milestones": {
+        "founded": { "value": "Fundada en 2024", "label": "Año de apertura del bufete" },
+        "employees": { "value": "22 empleados", "label": "Miembros del equipo hoy" },
+        "families": { "value": "600+ familias", "label": "Atendidas desde el inicio" }
+      }
+    },
+    "mission": {
+      "eyebrow": "Nuestra Misión",
+      "title": "Por qué hacemos esto.",
+      "quote": "Creemos que cada inmigrante merece representación legal de calidad — sin importar su situación económica.",
+      "values": {
+        "accessibility": { "title": "Accesibilidad", "desc": "Tarifas fijas. Planes de pago. Consultas gratuitas. Acceso en cuatro idiomas. La representación no debería depender de a quién conoce o de cuánto puede pagar por adelantado." },
+        "excellence": { "title": "Excelencia", "desc": "Preparamos cada caso como si fuera a corte federal. Carpetas de evidencia, simulacros, declaraciones de expertos. El estándar no baja cuando el cliente no puede pagar un anticipo grande." },
+        "humanity": { "title": "Humanidad", "desc": "Las personas al otro lado de nuestro escritorio están asustadas, agotadas y sin opciones. Las recibimos con paciencia y respeto, siempre. Eso no es un extra — es el trabajo." }
+      }
+    },
+    "numbers": {
+      "cases": "Familias atendidas",
+      "attorneys": "Abogados",
+      "paralegals": "Paralegales",
+      "states": "Estados servidos",
+      "team": "Miembros del equipo"
+    },
+    "office": {
+      "eyebrow": "Nuestra Oficina",
+      "title": "Visítenos en Miami.",
+      "addressLabel": "Verde Law, PLLC",
+      "hours": "Horario"
+    }
+  }
+}
