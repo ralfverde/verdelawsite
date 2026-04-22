@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   description:
     "Miami-based humanitarian immigration law firm serving Spanish-speaking immigrants across all 50 states.",
   metadataBase: new URL("https://verdelaw.com"),
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
