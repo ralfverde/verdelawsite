@@ -1557,5 +1557,57 @@
     "body": "The page you're looking for doesn't exist or may have been moved. If you were headed somewhere specific, the links below can help — or call us directly.",
     "cta": "Back to home",
     "phone": "Call us at {phone}"
+  },
+  "quiz": {
+    "sectionEyebrow": "Free Case Evaluation",
+    "sectionTitle": "Not sure where to start? Answer 4 quick questions.",
+    "back": "Back",
+    "restart": "Start over",
+    "startingAt": "From",
+    "progressLabel": "Step {current} of {total}",
+    "questions": {
+      "situation": {
+        "question": "What best describes your current situation?",
+        "options": {
+          "court": "I have a court date or removal proceedings",
+          "detained": "I was recently detained by ICE",
+          "asylum": "I want to apply for asylum",
+          "family": "I need help with a family petition or green card",
+          "work": "I need a work permit or citizenship",
+          "unsure": "Something else / I'm not sure"
+        }
+      },
+      "location": {
+        "question": "Are you currently inside the United States?",
+        "options": {
+          "inside": "Yes, I'm in the U.S.",
+          "outside": "No, I'm outside the U.S.",
+          "familyDetained": "My family member is detained in the U.S."
+        }
+      },
+      "priorCounsel": {
+        "question": "Have you spoken with an immigration attorney before?",
+        "options": {
+          "first": "No, this is my first time",
+          "secondOpinion": "Yes, but I want a second opinion",
+          "switching": "Yes, and I want to switch attorneys"
+        }
+      },
+      "urgency": {
+        "question": "How soon do you need help?",
+        "options": {
+          "immediate": "Immediately — I have an upcoming deadline",
+          "weeks": "Within the next few weeks",
+          "exploring": "I'm just exploring my options"
+        }
+      }
+    },
+    "results": {
+      "heading": "Based on your answers, here's how we can help:",
+      "body": "Every case is unique. A free consultation will give you a clear picture of your specific options — with honest timelines and real numbers.",
+      "ctaPrimary": "Schedule My Free Consultation",
+      "ctaWhatsApp": "Or message us on WhatsApp",
+      "disclaimer": "This is not legal advice. Results depend on individual circumstances. Past outcomes do not guarantee future outcomes."
+    }
   }
 }

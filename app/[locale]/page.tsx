@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/home/Hero";
 import { SocialProof } from "@/components/home/SocialProof";
 import { PracticeOverview } from "@/components/home/PracticeOverview";
@@ -9,8 +9,10 @@ import { Testimonials } from "@/components/home/Testimonials";
 import { AttorneyFeature } from "@/components/home/AttorneyFeature";
 import { VideoShowcase } from "@/components/home/VideoShowcase";
 import { VerdePlusTeaser } from "@/components/home/VerdePlusTeaser";
+import { EligibilityQuiz } from "@/components/home/EligibilityQuiz";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { CTABanner } from "@/components/sections/CTABanner";
+import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { buildMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -41,6 +43,8 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const tQuiz = await getTranslations("quiz");
+
   return (
     <>
       <Hero />
@@ -51,6 +55,23 @@ export default async function HomePage({
       <ProcessSteps />
       <CTABanner variant="dark" titleKey="bannerDark.title" />
       <Testimonials />
+
+      {/* Eligibility quiz */}
+      <section className="noise-bg bg-verde-950 py-24">
+        <div className="container-wide text-center mb-12">
+          <SectionEyebrow>{tQuiz("sectionEyebrow")}</SectionEyebrow>
+          <h2
+            className="mt-3 font-display text-white max-w-2xl mx-auto"
+            style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.5rem)", lineHeight: 1.1 }}
+          >
+            {tQuiz("sectionTitle")}
+          </h2>
+        </div>
+        <div className="container-wide">
+          <EligibilityQuiz />
+        </div>
+      </section>
+
       <AttorneyFeature />
       <VideoShowcase />
       <VerdePlusTeaser />

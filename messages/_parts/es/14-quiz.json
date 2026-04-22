@@ -1,0 +1,54 @@
+{
+  "quiz": {
+    "sectionEyebrow": "Evaluación Gratuita de Caso",
+    "sectionTitle": "¿No sabe por dónde empezar? Responda 4 preguntas rápidas.",
+    "back": "Atrás",
+    "restart": "Empezar de nuevo",
+    "startingAt": "Desde",
+    "progressLabel": "Paso {current} de {total}",
+    "questions": {
+      "situation": {
+        "question": "¿Qué describe mejor su situación actual?",
+        "options": {
+          "court": "Tengo una cita en corte o un proceso de deportación",
+          "detained": "ICE me detuvo recientemente",
+          "asylum": "Quiero solicitar asilo",
+          "family": "Necesito ayuda con una petición familiar o residencia",
+          "work": "Necesito un permiso de trabajo o la ciudadanía",
+          "unsure": "Otra cosa / No estoy seguro"
+        }
+      },
+      "location": {
+        "question": "¿Se encuentra actualmente dentro de Estados Unidos?",
+        "options": {
+          "inside": "Sí, estoy en EE.UU.",
+          "outside": "No, estoy fuera de EE.UU.",
+          "familyDetained": "Mi familiar está detenido en EE.UU."
+        }
+      },
+      "priorCounsel": {
+        "question": "¿Ha hablado antes con un abogado de inmigración?",
+        "options": {
+          "first": "No, es mi primera vez",
+          "secondOpinion": "Sí, pero quiero una segunda opinión",
+          "switching": "Sí, y quiero cambiar de abogado"
+        }
+      },
+      "urgency": {
+        "question": "¿Qué tan pronto necesita ayuda?",
+        "options": {
+          "immediate": "De inmediato — tengo un plazo próximo",
+          "weeks": "En las próximas semanas",
+          "exploring": "Solo estoy explorando mis opciones"
+        }
+      }
+    },
+    "results": {
+      "heading": "Según sus respuestas, así podemos ayudar:",
+      "body": "Cada caso es único. Una consulta gratuita le dará un panorama claro de sus opciones — con tiempos honestos y números reales.",
+      "ctaPrimary": "Agendar Mi Consulta Gratuita",
+      "ctaWhatsApp": "O escríbanos por WhatsApp",
+      "disclaimer": "Esto no es asesoramiento legal. Los resultados dependen de las circunstancias individuales. Los resultados pasados no garantizan resultados futuros."
+    }
+  }
+}
