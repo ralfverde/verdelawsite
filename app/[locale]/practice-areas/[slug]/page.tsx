@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { services, getService } from "@/data/services";
-import { PageHero } from "@/components/ui/PageHero";
 import { Accordion } from "@/components/ui/Accordion";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { CTABanner } from "@/components/sections/CTABanner";
@@ -10,7 +9,14 @@ import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { iconMap } from "@/components/practice/iconMap";
 import { Link } from "@/i18n/navigation";
-import { ArrowRight, Clock, FileText, DollarSign, Building2 } from "lucide-react";
+import {
+  ArrowRight,
+  Clock,
+  FileText,
+  DollarSign,
+  Building2,
+  Info,
+} from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -57,16 +63,13 @@ export default async function PracticeAreaDetailPage({
   const tNav = await getTranslations({ locale, namespace: "nav" });
   const tFaq = await getTranslations({ locale, namespace: "practiceFaq" });
 
-  const Icon = iconMap[svc.icon] ?? iconMap.Shield;
-
-  const steps = ["step1", "step2", "step3", "step4", "step5"];
+  const stepKeys = ["step1", "step2", "step3", "step4", "step5"];
   const faqItems = ["q1", "q2", "q3", "q4", "q5", "q6"].map((q) => ({
     id: q,
     question: tFaq(`${q}.question`),
     answer: tFaq(`${q}.answer`),
   }));
 
-  // related: other services from same category (up to 3)
   const related = services
     .filter((x) => x.category === svc.category && x.id !== svc.id)
     .slice(0, 3);
@@ -85,36 +88,81 @@ export default async function PracticeAreaDetailPage({
     offers: { "@type": "Offer", price: svc.price, priceCurrency: "USD" },
   };
 
+  const badges = [
+    { icon: DollarSign, label: `${tPage("startingAt")} $${svc.price.toLocaleString()}` },
+    { icon: Clock, label: t(`${svc.id}.timeline`) },
+    { icon: FileText, label: t(`${svc.id}.forms`) },
+    { icon: Building2, label: t(`${svc.id}.agency`) },
+  ];
+
   return (
     <>
-      <PageHero
-        eyebrow={tPage("eyebrow")}
-        title={t(`${svc.id}.title`)}
-        subtitle={t(`${svc.id}.short`)}
-        crumbs={[
-          { label: tNav("home"), href: "/" },
-          { label: tNav("practiceAreas"), href: "/practice-areas" },
-          { label: t(`${svc.id}.title`) },
-        ]}
-      />
+      {/* Hero */}
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-32 pb-20 md:pt-40 md:pb-28">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900)_0%,var(--verde-950)_70%)]"
+        />
+        <div
+          aria-hidden
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              "repeating-linear-gradient(-45deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 16px)",
+          }}
+        />
+        <div className="container-wide relative">
+          {/* Breadcrumbs */}
+          <nav aria-label="Breadcrumb" className="text-sm text-white/40 mb-6">
+            <Link
+              href="/"
+              className="hover:text-gold-500 transition-colors"
+            >
+              {tNav("home")}
+            </Link>
+            <span className="text-white/20 mx-2">/</span>
+            <Link
+              href="/practice-areas"
+              className="hover:text-gold-500 transition-colors"
+            >
+              {tNav("practiceAreas")}
+            </Link>
+            <span className="text-white/20 mx-2">/</span>
+            <span className="text-white/60">{t(`${svc.id}.title`)}</span>
+          </nav>
 
-      {/* Price badge strip */}
-      <div className="bg-[var(--verde-900)] border-y border-[var(--gold-500)]/30">
-        <div className="container-wide py-5 flex flex-wrap items-center gap-4 text-white/80 text-sm">
-          <span className="inline-flex items-center gap-2 font-semibold text-[var(--gold-500)]">
-            <DollarSign size={16} /> {tPage("startingAt")} ${svc.price.toLocaleString()}
-          </span>
-          <span className="text-white/40">·</span>
-          <span className="inline-flex items-center gap-2"><Clock size={16} /> {t(`${svc.id}.timeline`)}</span>
-          <span className="text-white/40 hidden md:inline">·</span>
-          <span className="inline-flex items-center gap-2 hidden md:inline-flex"><FileText size={16} /> {t(`${svc.id}.forms`)}</span>
-          <span className="text-white/40 hidden md:inline">·</span>
-          <span className="inline-flex items-center gap-2 hidden md:inline-flex"><Building2 size={16} /> {t(`${svc.id}.agency`)}</span>
+          <SectionEyebrow>{tPage("eyebrow")}</SectionEyebrow>
+          <h1
+            className="mt-3 font-display text-white max-w-4xl"
+            style={{
+              fontSize: "clamp(2.25rem, 5vw, 4.5rem)",
+              lineHeight: 1.04,
+            }}
+          >
+            {t(`${svc.id}.title`)}
+          </h1>
+          <GoldAccentLine className="mt-6" />
+          <p className="mt-6 text-white/70 max-w-2xl text-lg leading-relaxed">
+            {t(`${svc.id}.short`)}
+          </p>
+
+          {/* Service badge row */}
+          <div className="flex flex-wrap gap-3 mt-8">
+            {badges.map((b, i) => (
+              <span
+                key={i}
+                className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.06] border border-white/[0.08] text-xs text-white/60"
+              >
+                <b.icon className="text-gold-500 w-3.5 h-3.5" />
+                {b.label}
+              </span>
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
 
-      {/* Overview */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
+      {/* Overview + Key Facts */}
+      <section className="bg-cream text-verde-950 section-y">
         <div className="container-wide grid lg:grid-cols-[1.4fr_1fr] gap-12">
           <div>
             <SectionEyebrow>{tPage("overview")}</SectionEyebrow>
@@ -122,63 +170,103 @@ export default async function PracticeAreaDetailPage({
               {t(`${svc.id}.headline`)}
             </h2>
             <GoldAccentLine className="mt-5" />
-            <div className="mt-7 space-y-5 text-[var(--text-dark-secondary)] leading-relaxed">
+            <div className="mt-7 space-y-5 text-verde-950/60 leading-relaxed">
               <p>{t(`${svc.id}.overview1`)}</p>
               <p>{t(`${svc.id}.overview2`)}</p>
               <p>{t(`${svc.id}.overview3`)}</p>
             </div>
           </div>
-          <aside className="card-light p-7 self-start sticky top-28">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="grid place-items-center rounded-lg bg-[var(--verde-800)] text-[var(--gold-500)]" style={{ width: 44, height: 44 }}>
-                <Icon size={20} />
+
+          {/* Key Facts card */}
+          <aside className="bg-cream rounded-xl p-6 border border-verde-950/5 self-start sticky top-28 shadow-sm">
+            <div className="flex items-center gap-2 mb-5">
+              <span className="w-8 h-8 rounded-lg bg-verde-100 grid place-items-center">
+                <Info className="text-verde-700 w-4 h-4" />
               </span>
-              <h3 className="font-display text-xl">{tPage("keyFacts")}</h3>
+              <h3 className="text-base font-semibold text-verde-950">
+                {tPage("keyFacts")}
+              </h3>
             </div>
-            <dl className="divide-y divide-black/10 text-sm">
-              <div className="py-3 flex justify-between gap-4">
-                <dt className="text-[var(--text-dark-secondary)]">{tPage("timeline")}</dt>
-                <dd className="font-semibold text-right">{t(`${svc.id}.timeline`)}</dd>
+
+            <dl>
+              <div className="flex justify-between gap-4 py-3 border-b border-verde-950/5">
+                <dt className="text-sm text-verde-950/50">{tPage("timeline")}</dt>
+                <dd className="text-sm font-medium text-verde-950 text-right max-w-[60%]">
+                  {t(`${svc.id}.timeline`)}
+                </dd>
               </div>
-              <div className="py-3 flex justify-between gap-4">
-                <dt className="text-[var(--text-dark-secondary)]">{tPage("forms")}</dt>
-                <dd className="font-semibold text-right">{t(`${svc.id}.forms`)}</dd>
+              <div className="flex justify-between gap-4 py-3 border-b border-verde-950/5">
+                <dt className="text-sm text-verde-950/50">{tPage("forms")}</dt>
+                <dd className="text-sm font-medium text-verde-950 text-right max-w-[60%]">
+                  {t(`${svc.id}.forms`)}
+                </dd>
               </div>
-              <div className="py-3 flex justify-between gap-4">
-                <dt className="text-[var(--text-dark-secondary)]">{tPage("cost")}</dt>
-                <dd className="font-semibold text-right">${svc.price.toLocaleString()}</dd>
+              <div className="flex justify-between gap-4 py-3 border-b border-verde-950/5">
+                <dt className="text-sm text-verde-950/50">{tPage("cost")}</dt>
+                <dd className="text-lg font-semibold text-verde-900 text-right max-w-[60%]">
+                  ${svc.price.toLocaleString()}
+                </dd>
               </div>
-              <div className="py-3 flex justify-between gap-4">
-                <dt className="text-[var(--text-dark-secondary)]">{tPage("agency")}</dt>
-                <dd className="font-semibold text-right">{t(`${svc.id}.agency`)}</dd>
+              <div className="flex justify-between gap-4 py-3">
+                <dt className="text-sm text-verde-950/50">{tPage("agency")}</dt>
+                <dd className="text-sm font-medium text-verde-950 text-right max-w-[60%]">
+                  {t(`${svc.id}.agency`)}
+                </dd>
               </div>
             </dl>
-            <a href="#free-consultation" className="cta-gold mt-6 w-full justify-center text-sm">
+
+            <a
+              href="#free-consultation"
+              className="cta-gold w-full justify-center text-sm mt-5"
+            >
               {tPage("bookCTA")}
             </a>
           </aside>
         </div>
       </section>
 
-      {/* Process */}
-      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
+      {/* Process timeline */}
+      <section className="noise-bg bg-verde-950 text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{tPage("processEyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{tPage("processTitle")}</h2>
+          <h2 className="mt-3 font-display text-3xl md:text-5xl">
+            {tPage("processTitle")}
+          </h2>
           <GoldAccentLine className="mt-5" />
 
-          <ol className="mt-12 relative border-l-2 border-[var(--gold-500)]/40 pl-8 space-y-10 max-w-3xl">
-            {steps.map((key, i) => (
-              <li key={key} className="relative">
-                <span className="absolute -left-[41px] grid place-items-center rounded-full bg-[var(--gold-500)] text-[var(--verde-950)] font-display text-sm" style={{ width: 32, height: 32 }}>
-                  {i + 1}
-                </span>
-                <h3 className="font-display text-2xl">{t(`${svc.id}.${key}Title`)}</h3>
-                <p className="mt-2 text-white/70 leading-relaxed">
-                  {t(`${svc.id}.${key}Desc`)}
-                </p>
-              </li>
-            ))}
+          <ol className="mt-12 max-w-3xl">
+            {stepKeys.map((key, i) => {
+              const isLast = i === stepKeys.length - 1;
+              return (
+                <li key={key} className="relative flex gap-5 py-6 group">
+                  {/* Step circle */}
+                  <div className="relative shrink-0">
+                    <span className="w-10 h-10 rounded-full bg-gold-500/10 grid place-items-center transition-colors duration-300 group-hover:bg-gold-500">
+                      <span className="text-sm font-semibold text-gold-500 transition-colors duration-300 group-hover:text-verde-950">
+                        {i + 1}
+                      </span>
+                    </span>
+                    {/* Connecting line to next step */}
+                    {!isLast && (
+                      <span
+                        aria-hidden
+                        className="absolute left-5 top-10 bottom-[-24px] w-[1px] bg-gold-500/20"
+                      />
+                    )}
+                  </div>
+
+                  {/* Content */}
+                  <div className="pt-1.5 flex-1">
+                    <h3 className="text-base font-semibold text-white group-hover:text-gold-500 transition-colors duration-300">
+                      {t(`${svc.id}.${key}Title`)}
+                    </h3>
+                    <p className="mt-1 text-sm text-white/50 leading-relaxed">
+                      {t(`${svc.id}.${key}Desc`)}
+                    </p>
+                  </div>
+                </li>
+              );
+            })}
           </ol>
         </div>
       </section>
@@ -186,10 +274,12 @@ export default async function PracticeAreaDetailPage({
       <CTABanner variant="dark" titleKey="bannerDark.title" />
 
       {/* FAQ */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
+      <section className="bg-cream text-verde-950 section-y">
         <div className="container-wide max-w-4xl">
           <SectionEyebrow>{tPage("faqEyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{tPage("faqTitle")}</h2>
+          <h2 className="mt-3 font-display text-3xl md:text-5xl">
+            {tPage("faqTitle")}
+          </h2>
           <GoldAccentLine className="mt-5" />
           <div className="mt-10">
             <Accordion items={faqItems} />
@@ -197,27 +287,40 @@ export default async function PracticeAreaDetailPage({
         </div>
       </section>
 
-      {/* Related */}
+      {/* Related services */}
       {related.length > 0 && (
-        <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
+        <section className="noise-bg bg-verde-950 text-white py-20">
           <div className="container-wide">
             <SectionEyebrow>{tPage("relatedEyebrow")}</SectionEyebrow>
-            <h2 className="mt-3 font-display text-2xl md:text-4xl">{tPage("relatedTitle")}</h2>
+            <h2 className="mt-3 font-display text-2xl md:text-4xl text-white">
+              {tPage("relatedTitle")}
+            </h2>
             <GoldAccentLine className="mt-5" />
-            <div className="mt-10 grid md:grid-cols-3 gap-5">
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
               {related.map((r) => {
                 const RIcon = iconMap[r.icon] ?? iconMap.Shield;
                 return (
                   <Link
                     key={r.id}
                     href={`/practice-areas/${r.slug[locale]}` as never}
-                    className="card-dark p-7 block hover:-translate-y-1 transition-transform"
+                    className="group block bg-white/[0.04] border border-white/[0.06] rounded-xl p-6 hover:border-gold-500/20 hover:-translate-y-2 hover:bg-white/[0.06] transition-all duration-300"
                   >
-                    <RIcon className="text-[var(--gold-500)]" size={22} />
-                    <h3 className="mt-4 font-display text-xl">{t(`${r.id}.title`)}</h3>
-                    <p className="mt-2 text-sm text-white/65">{t(`${r.id}.short`)}</p>
-                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[var(--gold-500)]">
-                      {tPage("viewService")} <ArrowRight size={16} />
+                    <div className="w-10 h-10 rounded-lg bg-gold-500/10 grid place-items-center mb-4">
+                      <RIcon className="text-gold-500" size={20} />
+                    </div>
+                    <h3 className="text-base font-display text-white mb-2">
+                      {t(`${r.id}.title`)}
+                    </h3>
+                    <p className="text-sm text-white/50 leading-relaxed line-clamp-2 mb-4">
+                      {t(`${r.id}.short`)}
+                    </p>
+                    <span className="inline-flex items-center gap-2 text-gold-500 text-sm font-medium">
+                      {tPage("viewService")}
+                      <ArrowRight
+                        size={14}
+                        className="transition-transform duration-300 group-hover:translate-x-1"
+                      />
                     </span>
                   </Link>
                 );
