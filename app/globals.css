@@ -242,6 +242,15 @@ p {
 ::-webkit-scrollbar-thumb { background: var(--verde-700); border-radius: 6px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--verde-600); }
 
+/* Hide scrollbars on chrome/wheel */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* Focus visible */
 :focus-visible { outline: 2px solid var(--gold-500); outline-offset: 3px; border-radius: 4px; }
 
