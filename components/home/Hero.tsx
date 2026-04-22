@@ -9,6 +9,7 @@ import { easeOut } from "@/lib/animations";
 import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { TextReveal } from "@/components/ui/TextReveal";
+import { LiveIndicator } from "@/components/ui/LiveIndicator";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -125,6 +126,8 @@ export function Hero() {
               </motion.li>
             ))}
           </ul>
+
+          <LiveIndicator />
         </div>
 
         {/* Right: photo placeholder card */}

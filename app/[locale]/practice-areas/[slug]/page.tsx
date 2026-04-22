@@ -9,6 +9,7 @@ import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { TextReveal } from "@/components/ui/TextReveal";
 import { iconMap } from "@/components/practice/iconMap";
+import { PeopleViewing } from "@/components/practice/PeopleViewing";
 import { Link } from "@/i18n/navigation";
 import {
   ArrowRight,
@@ -168,6 +169,9 @@ export default async function PracticeAreaDetailPage({
       <section className="bg-cream text-verde-950 section-y">
         <div className="container-wide grid lg:grid-cols-[1.4fr_1fr] gap-12">
           <div>
+            <div className="mb-4">
+              <PeopleViewing variant="light" />
+            </div>
             <SectionEyebrow>{tPage("overview")}</SectionEyebrow>
             <h2 className="mt-3 font-display text-3xl md:text-4xl leading-tight">
               {t(`${svc.id}.headline`)}

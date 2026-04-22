@@ -1,0 +1,41 @@
+{
+  "live": {
+    "consultations": "{count} consultas programadas esta semana",
+    "viewing": "{count} personas vieron este servicio hoy"
+  },
+  "trustBar": {
+    "licensed": "Licenciados en",
+    "member": "Miembros de",
+    "floridaBar": "Colegio de Abogados de Florida",
+    "federalCourts": "Cortes Federales de EE.UU.",
+    "eleventhCircuit": "11° Circuito",
+    "aila": "AILA"
+  },
+  "caseResults": {
+    "eyebrow": "Victorias Recientes",
+    "title": "Casos que hemos ganado para familias como la suya.",
+    "resultLabel": "Resultado obtenido en",
+    "everyCase": "Cada caso es diferente.",
+    "disclaimer": "Estos resultados son ilustrativos. Cada caso depende de sus propios hechos. Los resultados pasados no garantizan resultados futuros.",
+    "items": {
+      "r1": {
+        "type": "Asilo",
+        "headline": "Asilo concedido tras 2 años en proceso",
+        "desc": "El cliente huyó de persecución en Venezuela. Preparamos una declaración detallada, conseguimos testimonio experto sobre condiciones del país, y el juez concedió el asilo en la audiencia de méritos.",
+        "date": "Marzo 2026"
+      },
+      "r2": {
+        "type": "Fianza",
+        "headline": "Cliente hondureño detenido liberado con fianza",
+        "desc": "El cliente estaba detenido en Krome. Presentamos la moción de fianza en 48 horas, armamos un paquete de patrocinio con declaraciones de impuestos y cartas de la comunidad, y obtuvimos la liberación en la primera audiencia.",
+        "date": "Febrero 2026"
+      },
+      "r3": {
+        "type": "Cancelación",
+        "headline": "Residente de 15 años en EE.UU. protegido de deportación",
+        "desc": "Tras 15 años en Estados Unidos con tres hijos ciudadanos, el juez de inmigración concedió la cancelación de deportación por perjuicio excepcional y extremadamente inusual.",
+        "date": "Enero 2026"
+      }
+    }
+  }
+}

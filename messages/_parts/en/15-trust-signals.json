@@ -1,0 +1,41 @@
+{
+  "live": {
+    "consultations": "{count} consultations scheduled this week",
+    "viewing": "{count} people viewed this service today"
+  },
+  "trustBar": {
+    "licensed": "Licensed in",
+    "member": "Member of",
+    "floridaBar": "Florida Bar",
+    "federalCourts": "U.S. Federal Courts",
+    "eleventhCircuit": "11th Circuit",
+    "aila": "AILA"
+  },
+  "caseResults": {
+    "eyebrow": "Recent Wins",
+    "title": "Cases we've won for families like yours.",
+    "resultLabel": "Result achieved",
+    "everyCase": "Every case is different.",
+    "disclaimer": "These results are illustrative. Every case depends on its own facts. Past results do not guarantee future outcomes.",
+    "items": {
+      "r1": {
+        "type": "Asylum",
+        "headline": "Asylum granted after 2 years in proceedings",
+        "desc": "Client fled persecution in Venezuela. We built a detailed declaration, secured expert country-conditions testimony, and the judge granted asylum at the merits hearing.",
+        "date": "March 2026"
+      },
+      "r2": {
+        "type": "Bond",
+        "headline": "Detained Honduran client released on bond",
+        "desc": "Client was detained at Krome. We filed the bond motion within 48 hours, assembled a sponsorship package with tax returns and community letters, and secured release at the first hearing.",
+        "date": "February 2026"
+      },
+      "r3": {
+        "type": "Cancellation",
+        "headline": "15-year U.S. resident protected from removal",
+        "desc": "After 15 years in the United States with three U.S. citizen children, the immigration judge granted cancellation of removal based on exceptional and extremely unusual hardship.",
+        "date": "January 2026"
+      }
+    }
+  }
+}

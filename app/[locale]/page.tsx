@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/home/Hero";
 import { SocialProof } from "@/components/home/SocialProof";
+import { TrustBar } from "@/components/home/TrustBar";
 import { PracticeOverview } from "@/components/home/PracticeOverview";
 import { WhyVerde } from "@/components/home/WhyVerde";
+import { CaseResults } from "@/components/home/CaseResults";
 import { ProcessSteps } from "@/components/home/ProcessSteps";
 import { Testimonials } from "@/components/home/Testimonials";
 import { AttorneyFeature } from "@/components/home/AttorneyFeature";
@@ -51,9 +53,12 @@ export default async function HomePage({
       <Hero />
       <SectionDivider variant="diagonal" direction="dark-to-light" />
       <SocialProof />
+      <TrustBar />
       <PracticeOverview />
       <CTABanner variant="light" titleKey="bannerLight.title" />
       <WhyVerde />
+      <CaseResults />
+      <SectionDivider variant="diagonal" direction="light-to-dark" />
       <ProcessSteps />
       <CTABanner variant="dark" titleKey="bannerDark.title" />
       <Testimonials />
