@@ -19,7 +19,7 @@ export function VerdePlusTeaser() {
   const t = useTranslations("verdePlusTeaser");
 
   return (
-    <section className="noise-bg relative bg-gradient-to-b from-verde-900 via-verde-950 to-verde-950 text-white section-y border-t-2 border-gold-500/30 overflow-hidden">
+    <section className="noise-bg relative bg-gradient-to-b from-verde-900 via-verde-950 to-verde-950 text-white section-y overflow-hidden">
       <div
         aria-hidden
         className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(200,169,81,0.08),transparent_55%),radial-gradient(circle_at_80%_120%,rgba(90,173,138,0.08),transparent_55%)]"

@@ -226,10 +226,11 @@ p, .text-body {
 .text-stat {
   font-family: var(--font-heading);
   font-weight: 800;
-  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  font-size: clamp(2rem, 4.5vw, 4rem);
   line-height: 1;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 /* ---- PRICE ---- */

@@ -21,7 +21,7 @@ export const FIRM = {
   stats: {
     cases: "1,000+",
     states: "50",
-    tiktok: "61K+",
+    social: "98K+",
     rating: "4.9",
   },
 } as const;

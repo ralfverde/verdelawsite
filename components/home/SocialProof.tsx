@@ -10,7 +10,6 @@ import { easeOut } from "@/lib/animations";
 type Stat = {
   key: string;
   value: number;
-  prefix?: string;
   suffix?: string;
   decimals?: number;
   isRating?: boolean;
@@ -19,7 +18,7 @@ type Stat = {
 const stats: Stat[] = [
   { key: "cases", value: 1000, suffix: "+" },
   { key: "states", value: 50 },
-  { key: "tiktok", value: 61, suffix: "K+" },
+  { key: "tiktok", value: 98, suffix: "K+" },
   { key: "rating", value: 4.9, decimals: 1, isRating: true },
 ];
 
@@ -28,38 +27,50 @@ export function SocialProof() {
 
   return (
     <section className="bg-gradient-to-b from-[#FAF8F2] to-[#F4F0E6] text-verde-950">
-      <div className="container-wide py-16 md:py-20">
-        <div className="grid grid-cols-2 md:grid-cols-7 gap-y-10 gap-x-4 max-w-6xl mx-auto items-center text-center">
+      <div className="container-wide py-14 md:py-20">
+        {/* Mobile: 2×2 grid. Desktop: single horizontal row with
+            vertical dividers between each stat. whitespace-nowrap +
+            flex-shrink-0 keep every number on one line at every width. */}
+        <div className="grid grid-cols-2 gap-y-10 gap-x-4 md:flex md:items-center md:justify-center md:gap-10 lg:gap-14 max-w-6xl mx-auto text-center">
           {stats.map((stat, i) => (
             <Fragment key={stat.key}>
+              {i > 0 && (
+                <div
+                  aria-hidden
+                  className="hidden md:block w-px h-16 bg-verde-900/10 shrink-0"
+                />
+              )}
               <motion.div
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.5 }}
-                transition={{ duration: 0.6, delay: i * 0.15, ease: easeOut }}
+                viewport={{ once: true, amount: 0.4 }}
+                transition={{ duration: 0.6, delay: i * 0.12, ease: easeOut }}
+                className="shrink-0"
               >
-                <div className="text-stat text-verde-900 leading-none">
+                <div className="text-stat text-verde-900 leading-none whitespace-nowrap">
                   {stat.isRating ? (
-                    <span className="inline-flex items-baseline gap-2">
+                    <span className="inline-flex items-baseline">
                       <CountUp value={stat.value} decimals={1} />
-                      <Star size={24} className="text-gold-500 fill-gold-500 translate-y-[-4px]" />
+                      <Star
+                        size={24}
+                        className="ml-2 text-gold-500 fill-gold-500 translate-y-[-4px]"
+                      />
                     </span>
                   ) : (
                     <>
-                      {stat.prefix && <span className="text-gold-500">{stat.prefix}</span>}
                       <CountUp value={stat.value} />
-                      {stat.suffix && <span className="text-gold-500">{stat.suffix}</span>}
+                      {stat.suffix && (
+                        <span className="ml-0.5 text-gold-500">
+                          {stat.suffix}
+                        </span>
+                      )}
                     </>
                   )}
                 </div>
-                <p className="text-sm text-verde-900/50 mt-2">{t(stat.key)}</p>
+                <p className="mt-2 text-sm text-verde-900/50 whitespace-nowrap">
+                  {t(stat.key)}
+                </p>
               </motion.div>
-              {i < stats.length - 1 && (
-                <div
-                  aria-hidden
-                  className="hidden md:block w-px h-16 bg-verde-900/10 justify-self-center"
-                />
-              )}
             </Fragment>
           ))}
         </div>
