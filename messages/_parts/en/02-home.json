@@ -34,17 +34,10 @@
     "step4": { "title": "Full Representation", "desc": "We represent you from the first hearing to the final decision. If the judge rules against us, we discuss appeals the same day. We don't disappear after filing." }
   },
   "testimonials": {
-    "eyebrow": "Client Stories",
-    "title": "Families we kept together.",
+    "eyebrow": "Google Reviews",
+    "title": "What our clients say on Google.",
     "prev": "Previous testimonial",
-    "next": "Next testimonial",
-    "items": {
-      "carlos": { "quote": "I was terrified of my court hearing. I hadn't slept in weeks. Verde Law walked me through every step, prepared me for what the judge would ask, and stood next to me the entire time. We won. I still can't believe it.", "name": "Carlos M.", "case": "Asylum Case" },
-      "maria": { "quote": "I spent three years with another attorney who never filed anything. Three years of my life, wasted. Verde Law took my case and within six months I had my work permit. I only wish I'd found them sooner.", "name": "María L.", "case": "Deportation Defense" },
-      "jose": { "quote": "What surprised me most was that they actually called me back. Every question I had, they answered the same day. I never felt like just a case number. They treated me like family.", "name": "José R.", "case": "Family Petition" },
-      "elena": { "quote": "They called me back at 11pm. In Spanish. By the next week my husband was out of detention.", "name": "Elena S.", "case": "Bond + Cancellation" },
-      "pedro": { "quote": "Two other attorneys said there was nothing to do. Rafael found a U-visa path. My son is still in school.", "name": "Pedro & Luz", "case": "U-Visa Approved" }
-    }
+    "next": "Next testimonial"
   },
   "attorneyFeature": {
     "eyebrow": "Meet the Founder",

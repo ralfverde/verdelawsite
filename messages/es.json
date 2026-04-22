@@ -31,7 +31,7 @@
     "cases": "Familias representadas",
     "states": "Estados cubiertos",
     "tiktok": "Seguidores en redes",
-    "rating": "Calificación en Google"
+    "rating": "Reseñas de Google"
   },
   "cta": {
     "bannerDark": {
@@ -157,37 +157,10 @@
     }
   },
   "testimonials": {
-    "eyebrow": "Historias de Clientes",
-    "title": "Familias que mantuvimos unidas.",
+    "eyebrow": "Reseñas de Google",
+    "title": "Lo que dicen nuestros clientes en Google.",
     "prev": "Testimonio anterior",
-    "next": "Siguiente testimonio",
-    "items": {
-      "carlos": {
-        "quote": "Estaba aterrorizado de mi audiencia en corte. No había dormido en semanas. Verde Law me guió en cada paso, me preparó para lo que el juez iba a preguntar, y estuvo a mi lado todo el tiempo. Ganamos. Todavía no lo puedo creer.",
-        "name": "Carlos M.",
-        "case": "Caso de Asilo"
-      },
-      "maria": {
-        "quote": "Pasé tres años con otro abogado que nunca presentó nada. Tres años de mi vida, perdidos. Verde Law tomó mi caso y en seis meses tenía mi permiso de trabajo. Solo desearía haberlos encontrado antes.",
-        "name": "María L.",
-        "case": "Defensa de Deportación"
-      },
-      "jose": {
-        "quote": "Lo que más me sorprendió fue que realmente me devolvieron la llamada. Cada pregunta que tuve, me la respondieron el mismo día. Nunca me sentí como un número de caso. Me trataron como familia.",
-        "name": "José R.",
-        "case": "Petición Familiar"
-      },
-      "elena": {
-        "quote": "Me devolvieron la llamada a las 11 de la noche. En español. A la semana siguiente mi esposo estaba fuera de detención.",
-        "name": "Elena S.",
-        "case": "Fianza + Cancelación"
-      },
-      "pedro": {
-        "quote": "Otros dos abogados dijeron que no había nada que hacer. Rafael encontró un camino por Visa U. Mi hijo sigue en la escuela.",
-        "name": "Pedro y Luz",
-        "case": "Visa U Aprobada"
-      }
-    }
+    "next": "Siguiente testimonio"
   },
   "attorneyFeature": {
     "eyebrow": "Conozca al Fundador",

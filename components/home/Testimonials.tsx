@@ -7,22 +7,29 @@ import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { fadeUp, easeOut } from "@/lib/animations";
-import { testimonialIds } from "@/data/testimonials";
+import { testimonials } from "@/data/testimonials";
 
 export function Testimonials() {
   const t = useTranslations("testimonials");
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
-  const ids = testimonialIds;
+  const count = testimonials.length;
 
   useEffect(() => {
     if (paused) return;
-    if (typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const id = setInterval(() => setIndex((i) => (i + 1) % ids.length), 6000);
+    if (
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      return;
+    }
+    const id = setInterval(() => setIndex((i) => (i + 1) % count), 7000);
     return () => clearInterval(id);
-  }, [ids.length, paused]);
+  }, [count, paused]);
 
-  const visible = [0, 1, 2].map((offset) => ids[(index + offset) % ids.length]);
+  const visible = [0, 1, 2].map(
+    (offset) => testimonials[(index + offset) % count],
+  );
 
   return (
     <section className="bg-cream text-verde-950 section-y">
@@ -34,9 +41,7 @@ export function Testimonials() {
         className="container-wide"
       >
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
-        <h2 className="mt-3">
-          {t("title")}
-        </h2>
+        <h2 className="mt-3">{t("title")}</h2>
         <GoldAccentLine className="mt-5" />
       </motion.div>
 
@@ -47,37 +52,44 @@ export function Testimonials() {
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <AnimatePresence mode="popLayout">
-            {visible.map((id, i) => (
+            {visible.map((item, i) => (
               <motion.article
-                key={`${id}-${index}-${i}`}
+                key={`${item.id}-${index}-${i}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -16 }}
                 transition={{ duration: 0.5, delay: i * 0.1, ease: easeOut }}
-                className={`relative bg-white rounded-2xl p-8 md:p-10 shadow-sm ${i > 0 ? "hidden md:block" : ""}`}
+                className={`relative flex flex-col bg-white rounded-2xl p-8 md:p-10 shadow-sm ${
+                  i > 0 ? "hidden md:flex" : ""
+                }`}
               >
                 <span
-                  className="absolute -top-2 left-6 text-6xl font-heading text-gold-500/20 leading-none select-none"
                   aria-hidden
+                  className="absolute -top-2 left-6 text-6xl font-heading text-gold-500/20 leading-none select-none"
                 >
                   &ldquo;
                 </span>
 
-                <p className="relative text-quote text-verde-950 mb-6">
-                  {t(`items.${id}.quote`)}
-                </p>
-
-                <div className="flex gap-1 text-gold-500 mb-6">
-                  {Array.from({ length: 5 }).map((_, j) => (
-                    <Star key={j} size={16} className="fill-gold-500 text-gold-500" />
+                <div className="flex items-center gap-0.5 mb-4">
+                  {Array.from({ length: item.stars }).map((_, j) => (
+                    <Star
+                      key={j}
+                      className="w-4 h-4 fill-gold-500 text-gold-500"
+                    />
                   ))}
                 </div>
 
+                <p className="relative text-base md:text-lg text-verde-950/80 leading-relaxed mb-6 flex-1">
+                  {item.quote}
+                </p>
+
                 <div>
                   <p className="text-sm font-semibold text-verde-950">
-                    {t(`items.${id}.name`)}
+                    {item.name}
                   </p>
-                  <p className="text-sm text-verde-950/50">{t(`items.${id}.case`)}</p>
+                  <p className="mt-1 text-[11px] tracking-wide text-verde-950/25 font-body">
+                    Google Review
+                  </p>
                 </div>
 
                 <div className="w-12 h-[2px] bg-gold-500 mt-6" aria-hidden />
@@ -90,7 +102,7 @@ export function Testimonials() {
         <div className="mt-10 flex items-center justify-center gap-3">
           <button
             type="button"
-            onClick={() => setIndex((i) => (i - 1 + ids.length) % ids.length)}
+            onClick={() => setIndex((i) => (i - 1 + count) % count)}
             aria-label={t("prev")}
             className="w-10 h-10 rounded-full border border-verde-950/10 grid place-items-center hover:bg-verde-50 transition-colors"
           >
@@ -98,7 +110,7 @@ export function Testimonials() {
           </button>
 
           <div className="flex items-center gap-2">
-            {ids.map((_, i) => (
+            {testimonials.map((_, i) => (
               <button
                 key={i}
                 type="button"
@@ -113,7 +125,7 @@ export function Testimonials() {
 
           <button
             type="button"
-            onClick={() => setIndex((i) => (i + 1) % ids.length)}
+            onClick={() => setIndex((i) => (i + 1) % count)}
             aria-label={t("next")}
             className="w-10 h-10 rounded-full border border-verde-950/10 grid place-items-center hover:bg-verde-50 transition-colors"
           >
