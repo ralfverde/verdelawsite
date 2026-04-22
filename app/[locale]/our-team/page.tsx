@@ -6,6 +6,7 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { teamMembers } from "@/data/team";
+import { TeamRoleBadge } from "@/components/team/TeamRoleBadge";
 import { ArrowRight } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 
@@ -65,9 +66,7 @@ export default async function TeamPage({
                     sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
                     className="object-cover object-top"
                   />
-                  <span className="absolute bottom-3 left-3 inline-flex px-2.5 py-1 rounded-full bg-gold-500/20 backdrop-blur-sm text-gold-400 text-[10px] font-heading font-semibold tracking-wide">
-                    {p.role[locale]}
-                  </span>
+                  <TeamRoleBadge role={p.role[locale]} />
                 </div>
 
                 <div className="p-5 flex flex-col flex-1">
