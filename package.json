@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "messages": "node scripts/build-messages.mjs",
-    "dev": "npm run messages && next dev",
-    "build": "npm run messages && next build",
+    "validate:messages": "node scripts/validate-messages.mjs",
+    "dev": "npm run messages && npm run validate:messages && next dev",
+    "build": "npm run messages && npm run validate:messages && next build",
     "start": "next start",
     "lint": "next lint"
   },

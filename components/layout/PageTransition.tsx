@@ -2,21 +2,26 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 
 type Props = { children: ReactNode };
 
 /**
- * Route-aware page transition. Wraps each rendered page so that on
- * pathname change the previous page fades out and the next one fades
- * + slides up into place. Also restores scroll to top on navigation
- * — Next.js App Router sometimes preserves scroll across client
- * transitions, which is the wrong default for marketing pages.
+ * Route-aware page transition. On the FIRST render we skip the initial
+ * opacity:0 so server-rendered content is visible the moment the HTML
+ * arrives — if JS ever fails to hydrate the page is still readable.
+ * On subsequent client-side route changes the previous page fades out
+ * and the next one slides up into place.
  */
 export function PageTransition({ children }: Props) {
   const pathname = usePathname();
+  const firstRender = useRef(true);
 
   useEffect(() => {
+    if (firstRender.current) {
+      firstRender.current = false;
+      return;
+    }
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [pathname]);
 
@@ -24,7 +29,7 @@ export function PageTransition({ children }: Props) {
     <AnimatePresence mode="sync">
       <motion.div
         key={pathname}
-        initial={{ opacity: 0, y: 20 }}
+        initial={firstRender.current ? false : { opacity: 0, y: 20 }}
         animate={{
           opacity: 1,
           y: 0,
