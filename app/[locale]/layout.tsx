@@ -10,6 +10,8 @@ import { StickyMobileCTA } from "@/components/layout/StickyMobileCTA";
 import { ScrollProgress } from "@/components/layout/ScrollProgress";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { CookieConsent } from "@/components/layout/CookieConsent";
+import { LoadingScreen } from "@/components/layout/LoadingScreen";
+import { PageTransition } from "@/components/layout/PageTransition";
 import { localBusinessSchema } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -32,10 +34,11 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <LenisProvider>
+        <LoadingScreen />
         <ScrollProgress />
         <Navbar />
         <main id="main" className="pt-0">
-          {children}
+          <PageTransition>{children}</PageTransition>
         </main>
         <Footer />
         <FloatingWhatsApp />
