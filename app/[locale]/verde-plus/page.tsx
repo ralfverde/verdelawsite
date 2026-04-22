@@ -174,8 +174,27 @@ export default async function VerdePlusPage({
           </h2>
           <GoldAccentLine className="mt-5" />
 
-          <div className="mt-12 overflow-x-auto -mx-4 px-4">
-            <div className="min-w-[620px] rounded-xl overflow-hidden border border-verde-950/10 bg-white">
+          <div className="mt-12 overflow-x-auto -mx-4 px-4 pt-4">
+            <div className="relative min-w-[620px]">
+              {/* Recommended badge — positioned OUTSIDE the clipped
+                  table so the rounded-xl overflow-hidden below
+                  doesn't shave off the top of the pill. Uses the
+                  same 1.6/1/1 grid math so it centers over the
+                  third (client) column. */}
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-x-0 -top-3 grid grid-cols-[1.6fr_1fr_1fr] z-20"
+              >
+                <div />
+                <div />
+                <div className="flex justify-center">
+                  <span className="px-3 py-1 rounded-full bg-gold-500 text-verde-950 text-[10px] font-heading font-bold tracking-widest uppercase whitespace-nowrap shadow-sm shadow-gold-500/20">
+                    {t("comparison.recommended")}
+                  </span>
+                </div>
+              </div>
+
+              <div className="rounded-xl overflow-hidden border border-verde-950/10 bg-white">
               {/* Header row */}
               <div className="grid grid-cols-[1.6fr_1fr_1fr] bg-verde-50 border-b border-verde-950/10">
                 <div className="px-6 py-4 text-sm font-semibold text-verde-950 sticky left-0 bg-verde-50 z-10">
@@ -184,10 +203,7 @@ export default async function VerdePlusPage({
                 <div className="px-6 py-4 text-center text-sm font-semibold text-verde-950">
                   {t("comparison.free")}
                 </div>
-                <div className="px-6 py-4 text-center text-sm font-semibold text-verde-950 relative bg-gold-500/5 border-t-2 border-gold-500">
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] font-bold uppercase tracking-[0.12em] bg-gold-500 text-verde-950 px-3 py-1 rounded-full whitespace-nowrap">
-                    {t("comparison.recommended")}
-                  </span>
+                <div className="px-6 py-4 text-center text-sm font-semibold text-verde-950 bg-gold-500/[0.06] border-t-2 border-gold-500">
                   {t("comparison.client")}
                 </div>
               </div>
@@ -218,6 +234,7 @@ export default async function VerdePlusPage({
                   </div>
                 );
               })}
+              </div>
             </div>
           </div>
         </div>
