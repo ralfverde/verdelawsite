@@ -23,16 +23,16 @@
     "bookWith": "Book with {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde founded Verde Law in 2024 — weeks after passing the bar and before most of his classmates had decided which firm to join.",
-        "p2": "Before founding the firm, he spent his final years at Georgetown's Public Defender's Office and at a federal immigration clinic, where he saw detained clients go years while most of his classmates were prepping for BigLaw summers.",
-        "p3": "Today he personally reviews every new case at Verde Law, argues nearly every motion across the Eleventh Circuit, and runs a TikTok that's taught over 61,000 people their rights under U.S. immigration law. Thousands of families later, the bet paid off.",
-        "education": { "label": "Education", "value": "Georgetown University Law Center · J.D., 2024" },
+        "p1": "Rafael Verde was born on the outskirts of Havana, Cuba. His family emigrated to South Florida when he was young, and that experience — arriving somewhere new with nothing but hope — shaped everything that came after.",
+        "p2": "After studying communications at Florida International University and earning his J.D. from Barry University School of Law, Rafael founded Verde Law with one goal: to give immigrant families the quality of representation they deserve, delivered by someone who understands what they're going through because he's lived it. Today, he personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
+        "p3": "Today, Rafael personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
+        "education": { "label": "Education", "value": "Florida International University · B.S., Public Relations & Communications — Barry University School of Law · Juris Doctor" },
         "barAdmissions": { "label": "Bar Admissions", "value": "Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida" },
         "languages": { "label": "Languages", "value": "English · Español" }
       },
       "jennifer-colon": {
         "p1": "Jennifer Colón Rodríguez joined Verde Law in 2025 as the firm's second attorney. A humanitarian law specialist with experience in VAWA, U-visa, and removal defense cases.",
-        "p2": "She is a native Spanish speaker, a graduate of the University of Puerto Rico School of Law, and a former staff attorney at a legal aid organization. Clients regularly say she is the first attorney who made them feel safe enough to tell their full story.",
+        "p2": "She is a native Spanish speaker, a graduate of the University of Puerto Rico School of Law, and has spent her career representing survivors of domestic violence and trafficking. Clients regularly say she is the first attorney who made them feel safe enough to tell their full story.",
         "p3": "Jennifer leads the firm's VAWA practice and supervises the paralegal team on humanitarian filings.",
         "education": { "label": "Education", "value": "University of Puerto Rico School of Law · J.D., 2020" },
         "barAdmissions": { "label": "Bar Admissions", "value": "Florida Bar · Puerto Rico Bar" },

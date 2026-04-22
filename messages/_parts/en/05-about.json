@@ -2,40 +2,38 @@
   "about": {
     "seo": {
       "title": "About Verde Law — Humanitarian Immigration Firm",
-      "description": "A Miami-based firm founded to make quality immigration representation accessible. Thousands of families. 50 states. One mission."
+      "description": "A Miami-based firm founded by an immigrant, for immigrants. Thousands of families served across all 50 states."
     },
     "eyebrow": "About Us",
-    "title": "A firm built for the people the system is hardest on.",
-    "subtitle": "Verde Law was founded with a single idea: that every immigrant in the United States deserves an attorney who answers the phone, speaks their language, and fights like it's personal.",
+    "title": "Built by an immigrant, for immigrants.",
+    "subtitle": "Verde Law was founded on a simple belief: that every immigrant in the United States deserves legal representation that's personal, accessible, and relentless.",
     "story": {
       "eyebrow": "Our Story",
-      "title": "From law school bet to thousands of families strong.",
-      "p1": "Rafael Verde founded Verde Law in 2024, straight out of Georgetown Law — before most of his classmates had decided which firm to join. The bet was simple: that there was a real market for a humanitarian immigration firm that treated Spanish-speaking families the way corporate clients get treated — with urgency, with respect, and with an attorney who actually knows their name.",
-      "p2": "The first year was two attorneys and a single office in Coral Way. Today the team is 22 people strong, serving clients in all fifty states, from bond hearings at Krome to federal appeals in the Eleventh Circuit.",
-      "p3": "Our TikTok audience is over 61,000 and growing, because free education matters as much as paid representation.",
-      "p4": "Every new case still gets Rafael's personal review. That hasn't changed. It won't change.",
+      "title": "From Havana to the courtroom.",
+      "p1": "Rafael Verde's path to founding Verde Law didn't start in a law library. It started in a small town on the outskirts of Havana, where he grew up in a close-knit community that taught him two things early: the importance of standing up for others, and the reality that sometimes the system you're born into isn't built for you.",
+      "p2": "When his family emigrated to South Florida, Rafael adapted fast — but he never forgot what it felt like to arrive somewhere new with nothing but hope. He went through Doral Academy, earned a degree in Public Relations and Communications at Florida International University, and spent years learning how to give people a voice before realizing the people who needed it most were sitting in immigration courtrooms with no one to speak for them. That realization led him to Barry University School of Law, and then — weeks after passing the bar — to founding Verde Law.",
+      "p3": "The firm wasn't built to be the biggest. It was built to be the one that treats every case the way Rafael's own family deserved to be treated when they arrived: with urgency, with honesty, and with an attorney who genuinely understands what's on the line because he's been on the other side of that fear.",
+      "p4": "Today, Verde Law is a team of attorneys, paralegals, and support staff serving immigrant families in all 50 states. The cases are bigger, the team is stronger, and the reach is wider — but every new client still gets the same thing Rafael promised from day one: someone who fights for your family like it's their own.",
       "imageCaption": "Miami office — Coral Way, 2026.",
       "milestones": {
         "founded": { "value": "Founded 2024", "label": "Year the firm opened" },
-        "employees": { "value": "22 employees", "label": "Team members today" },
-        "families": { "value": "Thousands", "label": "Families served since launch" }
+        "employees": { "value": "All 50 states", "label": "Where we practice" },
+        "families": { "value": "Thousands", "label": "Families helped" }
       }
     },
     "mission": {
       "eyebrow": "Our Mission",
       "title": "Why we do this.",
-      "quote": "We believe every immigrant deserves quality legal representation — regardless of their financial situation.",
+      "quote": "We believe every immigrant deserves quality legal representation — regardless of their financial situation, regardless of their status, regardless of where they come from.",
       "values": {
-        "accessibility": { "title": "Accessibility", "desc": "Flat fees. Payment plans. Free consultations. Language access in four languages. Representation should never depend on who you know or what you can pay up front." },
-        "excellence": { "title": "Excellence", "desc": "We prepare every case like it's heading to federal court. Evidence binders, expert declarations, mock hearings, expert coordination. The standard doesn't drop when the client can't afford a retainer." },
-        "humanity": { "title": "Humanity", "desc": "The people on the other side of our desk are scared, exhausted, and out of options. We meet them with patience and respect, every time. That's not a nice-to-have — it's the job." }
+        "accessibility": { "title": "Accessibility", "desc": "Flat fees. Payment plans. Free consultations. Legal services in your language. Representation should never depend on who you know or what you can pay up front." },
+        "excellence": { "title": "Excellence", "desc": "We prepare every case as if it's going to federal court. Evidence binders, expert declarations, mock hearings. The standard of preparation doesn't change based on what a client can afford." },
+        "humanity": { "title": "Humanity", "desc": "The people sitting across from us are scared, exhausted, and running out of options. We meet them with patience and respect every single time — because that's not a bonus, that's the baseline." }
       }
     },
     "numbers": {
       "cases": "Families served",
-      "attorneys": "Attorneys",
-      "paralegals": "Paralegals",
-      "states": "States served",
+      "states": "States covered",
       "team": "Team members"
     },
     "office": {

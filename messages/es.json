@@ -115,8 +115,8 @@
   "whyVerde": {
     "eyebrow": "Por Qué Las Familias Nos Eligen",
     "title": "No somos solo otra firma. Somos su equipo.",
-    "body1": "Rafael Verde fundó esta firma recién egresado de la facultad de derecho con una sola idea: que cada inmigrante en los Estados Unidos merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
-    "body2": "La mayoría de las firmas tratan los casos de inmigración como una línea de producción — llenan el formulario, cobran al cliente, y siguen adelante. Nosotros no. Cada caso recibe la revisión personal de Rafael. Cada cliente tiene un paralegal que conoce su nombre, su historia, y su próxima fecha límite. Devolvemos las llamadas el mismo día, explicamos todo en lenguaje claro, y no paramos hasta que su caso se resuelva.",
+    "body1": "Rafael Verde no fundó Verde Law porque quería dirigir una firma de abogados. La fundó porque él fue un niño inmigrante en el sur de la Florida sin nadie a quién llamar cuando el sistema se complicaba — y no quería que la familia de nadie más se sintiera así.",
+    "body2": "Cada caso en Verde Law recibe la misma preparación, la misma urgencia, y el mismo nivel de atención — ya sea una audiencia de fianza que necesita ocurrir esta semana o una petición familiar que tomará dieciocho meses. Devolvemos las llamadas el mismo día, explicamos todo en lenguaje claro, y no paramos hasta que su caso se resuelva.",
     "reasons": {
       "bilingual": {
         "title": "Su idioma, siempre",
@@ -194,14 +194,14 @@
     "photoEyebrow": "Fundador y Abogado Principal",
     "name": "Rafael Verde",
     "role": "Fundador y Abogado Principal",
-    "body1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse. La apuesta era simple: que existía un mercado real para una firma de inmigración humanitaria que tratara a las familias hispanas de la misma manera que se trata a los clientes corporativos — con urgencia, con respeto, y con un abogado que realmente conozca su nombre.",
-    "body2": "Hoy, el equipo tiene 22 personas. La firma maneja casos en el Circuito Once, en cortes de apelaciones federales, y en cortes de inmigración desde Krome hasta Chicago y Los Ángeles. Rafael revisa personalmente cada caso nuevo. Todavía contesta su propio teléfono los fines de semana. Miles de familias después, la apuesta rindió frutos.",
+    "body1": "Rafael Verde nació en las afueras de La Habana. Cuando su familia llegó al sur de la Florida, era un niño sin conexiones, sin inglés, y sin mapa — solo con lo mismo que cada familia inmigrante lleva consigo: la creencia de que el trabajo duro aquí significa una vida mejor.",
+    "body2": "Estudió en Doral Academy, luego en Florida International University, y después en Barry University School of Law. Pero la abogacía no fue el plan desde el principio — la defensa de otros sí. Rafael pasó años en comunicaciones y relaciones públicas antes de darse cuenta de que las personas que más necesitaban una voz no tenían a nadie hablando por ellas en la corte. Así que construyó Verde Law: no para ser la firma de inmigración más grande, sino para ser la que trata a cada familia como su propia familia merecía ser tratada cuando llegaron — con urgencia, con respeto, y con alguien que realmente entiende lo que está en juego porque lo ha vivido. Miles de familias después, la misión no ha cambiado.",
     "viewTeam": "Conozca al equipo completo",
     "credentials": {
-      "georgetown": "Educación: Georgetown University Law Center — J.D., 2024",
-      "floridaBar": "Barra: Colegio de Abogados de Florida · Corte Federal de Apelaciones, Undécimo Circuito · Corte Federal de Distrito, Distrito Sur de Florida",
-      "eleventhCircuit": "Idiomas: Inglés · Español",
-      "aila": "Miembro: American Immigration Lawyers Association (AILA)"
+      "georgetown": "Educación: Florida International University — B.S., Relaciones Públicas y Comunicaciones",
+      "aila": "Educación: Barry University School of Law — Juris Doctor",
+      "floridaBar": "Barra: Colegio de Abogados de Florida · Corte de Apelaciones de EE.UU., Circuito Once · Corte de Distrito de EE.UU., Distrito Sur de Florida",
+      "eleventhCircuit": "Idiomas: Inglés · Español"
     }
   },
   "videoShowcase": {
@@ -952,18 +952,18 @@
   "about": {
     "seo": {
       "title": "Sobre Verde Law — Bufete Humanitario de Inmigración",
-      "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. Miles de familias. 50 estados. Una sola misión."
+      "description": "Un bufete con sede en Miami, fundado por un inmigrante, para inmigrantes. Miles de familias atendidas en los 50 estados."
     },
     "eyebrow": "Sobre Nosotros",
-    "title": "Una firma construida para las personas a las que el sistema más les afecta.",
-    "subtitle": "Verde Law fue fundada con una sola idea: que cada inmigrante en los Estados Unidos merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
+    "title": "Construida por un inmigrante, para inmigrantes.",
+    "subtitle": "Verde Law fue fundada sobre una creencia simple: que cada inmigrante en los Estados Unidos merece representación legal que sea personal, accesible e incansable.",
     "story": {
       "eyebrow": "Nuestra Historia",
-      "title": "De una apuesta en la facultad de derecho a miles de familias atendidas.",
-      "p1": "Rafael Verde fundó Verde Law en 2024, recién egresado de Georgetown Law — antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse. La apuesta era simple: que existía un mercado real para una firma de inmigración humanitaria que tratara a las familias hispanas como se trata a los clientes corporativos — con urgencia, con respeto, y con un abogado que realmente conozca su nombre.",
-      "p2": "El primer año fueron dos abogados y una sola oficina en Coral Way. Hoy el equipo tiene 22 personas, sirviendo a clientes en los cincuenta estados, desde audiencias de fianza en Krome hasta apelaciones federales en el Circuito Once.",
-      "p3": "Nuestra audiencia en TikTok supera los 61,000 y sigue creciendo, porque la educación gratuita importa tanto como la representación pagada.",
-      "p4": "Cada caso nuevo sigue recibiendo la revisión personal de Rafael. Eso no ha cambiado. No va a cambiar.",
+      "title": "De La Habana a la sala de audiencias.",
+      "p1": "El camino de Rafael Verde para fundar Verde Law no comenzó en una biblioteca de derecho. Comenzó en un pequeño pueblo en las afueras de La Habana, donde creció en una comunidad unida que le enseñó dos cosas temprano: la importancia de defender a los demás, y la realidad de que a veces el sistema en el que naces no está construido para ti.",
+      "p2": "Cuando su familia emigró al sur de la Florida, Rafael se adaptó rápido — pero nunca olvidó cómo se siente llegar a un lugar nuevo sin nada más que esperanza. Pasó por Doral Academy, obtuvo un título en Relaciones Públicas y Comunicaciones en Florida International University, y pasó años aprendiendo cómo darle voz a la gente antes de darse cuenta de que quienes más la necesitaban estaban sentados en cortes de inmigración sin nadie que hablara por ellos. Esa realización lo llevó a Barry University School of Law, y luego — semanas después de pasar el examen de la barra — a fundar Verde Law.",
+      "p3": "La firma no fue construida para ser la más grande. Fue construida para ser la que trata cada caso como la propia familia de Rafael merecía ser tratada cuando llegaron: con urgencia, con honestidad, y con un abogado que genuinamente entiende lo que está en juego porque él ha estado del otro lado de ese miedo.",
+      "p4": "Hoy, Verde Law es un equipo de abogados, paralegales y personal de apoyo sirviendo a familias inmigrantes en los 50 estados. Los casos son más grandes, el equipo es más fuerte, y el alcance es más amplio — pero cada cliente nuevo sigue recibiendo lo mismo que Rafael prometió desde el primer día: alguien que lucha por su familia como si fuera la suya.",
       "imageCaption": "Oficina de Miami — Coral Way, 2026.",
       "milestones": {
         "founded": {
@@ -971,46 +971,44 @@
           "label": "Año de apertura del bufete"
         },
         "employees": {
-          "value": "22 empleados",
-          "label": "Miembros del equipo hoy"
+          "value": "Los 50 estados",
+          "label": "Donde ejercemos"
         },
         "families": {
           "value": "Miles",
-          "label": "Familias atendidas desde el inicio"
+          "label": "Familias ayudadas"
         }
       }
     },
     "mission": {
       "eyebrow": "Nuestra Misión",
       "title": "Por qué hacemos esto.",
-      "quote": "Creemos que cada inmigrante merece representación legal de calidad — sin importar su situación económica.",
+      "quote": "Creemos que cada inmigrante merece representación legal de calidad — sin importar su situación económica, sin importar su estatus, sin importar de dónde viene.",
       "values": {
         "accessibility": {
           "title": "Accesibilidad",
-          "desc": "Tarifas fijas. Planes de pago. Consultas gratuitas. Atención en cuatro idiomas. La representación nunca debería depender de a quién conoce o cuánto pueda pagar de entrada."
+          "desc": "Tarifas fijas. Planes de pago. Consultas gratuitas. Servicios legales en su idioma. La representación nunca debería depender de a quién conoce o cuánto pueda pagar de entrada."
         },
         "excellence": {
           "title": "Excelencia",
-          "desc": "Preparamos cada caso como si fuera a corte federal. Expedientes de evidencia, declaraciones de expertos, audiencias simuladas, coordinación de peritos. El estándar no baja cuando el cliente no puede pagar un anticipo."
+          "desc": "Preparamos cada caso como si fuera a corte federal. Expedientes de evidencia, declaraciones de expertos, audiencias simuladas. El estándar de preparación no cambia según lo que el cliente pueda pagar."
         },
         "humanity": {
           "title": "Humanidad",
-          "desc": "Las personas al otro lado de nuestro escritorio están asustadas, agotadas, y sin opciones. Las recibimos con paciencia y respeto, cada vez. Eso no es un extra — es el trabajo."
+          "desc": "Las personas sentadas frente a nosotros están asustadas, agotadas, y quedándose sin opciones. Las recibimos con paciencia y respeto cada vez — porque eso no es un extra, es lo mínimo."
         }
       }
     },
     "numbers": {
       "cases": "Familias atendidas",
-      "attorneys": "Abogados",
-      "paralegals": "Paralegales",
-      "states": "Estados atendidos",
+      "states": "Estados cubiertos",
       "team": "Miembros del equipo"
     },
     "office": {
       "eyebrow": "Nuestra Oficina",
       "title": "Visítenos en Miami.",
       "addressLabel": "Verde Law, PLLC",
-      "hours": "Horario"
+      "hours": "Horas"
     }
   },
   "team": {
@@ -1041,16 +1039,16 @@
     "bookWith": "Agendar con {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse.",
-        "p2": "Antes de fundar la firma, pasó sus últimos años en la Oficina del Defensor Público de Georgetown y en una clínica federal de inmigración, donde vio a clientes detenidos pasar años mientras la mayoría de sus compañeros se preparaban para sus pasantías en grandes firmas.",
-        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, argumenta casi cada moción en el Circuito Once, y maneja un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley de inmigración de EE.UU. Miles de familias después, la apuesta rindió frutos.",
+        "p1": "Rafael Verde nació en las afueras de La Habana, Cuba. Su familia emigró al sur de la Florida cuando era joven, y esa experiencia — llegar a un lugar nuevo sin nada más que esperanza — moldeó todo lo que vino después.",
+        "p2": "Después de estudiar comunicaciones en Florida International University y obtener su J.D. de Barry University School of Law, Rafael fundó Verde Law con un solo objetivo: darle a las familias inmigrantes la calidad de representación que merecen, brindada por alguien que entiende lo que están pasando porque lo ha vivido. Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
+        "p3": "Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
         "education": {
           "label": "Educación",
-          "value": "Georgetown University Law Center · J.D., 2014"
+          "value": "Florida International University · B.S., Relaciones Públicas y Comunicaciones — Barry University School of Law · Juris Doctor"
         },
         "barAdmissions": {
           "label": "Admisiones a la Barra",
-          "value": "Colegio de Abogados de Florida · Corte Federal de Apelaciones, Undécimo Circuito · Corte Federal de Distrito, Distrito Sur de Florida"
+          "value": "Colegio de Abogados de Florida · Corte de Apelaciones de EE.UU., Circuito Once · Corte de Distrito de EE.UU., Distrito Sur de Florida"
         },
         "languages": {
           "label": "Idiomas",
@@ -1059,7 +1057,7 @@
       },
       "jennifer-colon": {
         "p1": "Jennifer Colón Rodríguez se unió a Verde Law en 2025 como la segunda abogada de la firma. Especialista en derecho humanitario con experiencia en casos de VAWA, Visa U, y defensa contra la deportación.",
-        "p2": "Es hablante nativa de español, graduada de la Facultad de Derecho de la Universidad de Puerto Rico, y ex abogada de planta en una organización de asistencia legal. Los clientes regularmente dicen que ella es la primera abogada que les hizo sentir lo suficientemente seguros para contar su historia completa.",
+        "p2": "Es hablante nativa de español, graduada de la Facultad de Derecho de la Universidad de Puerto Rico, y ha dedicado su carrera a representar a sobrevivientes de violencia doméstica y trata de personas. Los clientes regularmente dicen que ella es la primera abogada que les hizo sentir lo suficientemente seguros para contar su historia completa.",
         "p3": "Jennifer lidera la práctica de VAWA de la firma y supervisa al equipo de paralegales en presentaciones humanitarias.",
         "education": {
           "label": "Educación",

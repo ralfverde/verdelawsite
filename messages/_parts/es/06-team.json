@@ -23,16 +23,16 @@
     "bookWith": "Agendar con {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse.",
-        "p2": "Antes de fundar la firma, pasó sus últimos años en la Oficina del Defensor Público de Georgetown y en una clínica federal de inmigración, donde vio a clientes detenidos pasar años mientras la mayoría de sus compañeros se preparaban para sus pasantías en grandes firmas.",
-        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, argumenta casi cada moción en el Circuito Once, y maneja un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley de inmigración de EE.UU. Miles de familias después, la apuesta rindió frutos.",
-        "education": { "label": "Educación", "value": "Georgetown University Law Center · J.D., 2014" },
-        "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Corte Federal de Apelaciones, Undécimo Circuito · Corte Federal de Distrito, Distrito Sur de Florida" },
+        "p1": "Rafael Verde nació en las afueras de La Habana, Cuba. Su familia emigró al sur de la Florida cuando era joven, y esa experiencia — llegar a un lugar nuevo sin nada más que esperanza — moldeó todo lo que vino después.",
+        "p2": "Después de estudiar comunicaciones en Florida International University y obtener su J.D. de Barry University School of Law, Rafael fundó Verde Law con un solo objetivo: darle a las familias inmigrantes la calidad de representación que merecen, brindada por alguien que entiende lo que están pasando porque lo ha vivido. Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
+        "p3": "Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
+        "education": { "label": "Educación", "value": "Florida International University · B.S., Relaciones Públicas y Comunicaciones — Barry University School of Law · Juris Doctor" },
+        "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Corte de Apelaciones de EE.UU., Circuito Once · Corte de Distrito de EE.UU., Distrito Sur de Florida" },
         "languages": { "label": "Idiomas", "value": "Inglés · Español" }
       },
       "jennifer-colon": {
         "p1": "Jennifer Colón Rodríguez se unió a Verde Law en 2025 como la segunda abogada de la firma. Especialista en derecho humanitario con experiencia en casos de VAWA, Visa U, y defensa contra la deportación.",
-        "p2": "Es hablante nativa de español, graduada de la Facultad de Derecho de la Universidad de Puerto Rico, y ex abogada de planta en una organización de asistencia legal. Los clientes regularmente dicen que ella es la primera abogada que les hizo sentir lo suficientemente seguros para contar su historia completa.",
+        "p2": "Es hablante nativa de español, graduada de la Facultad de Derecho de la Universidad de Puerto Rico, y ha dedicado su carrera a representar a sobrevivientes de violencia doméstica y trata de personas. Los clientes regularmente dicen que ella es la primera abogada que les hizo sentir lo suficientemente seguros para contar su historia completa.",
         "p3": "Jennifer lidera la práctica de VAWA de la firma y supervisa al equipo de paralegales en presentaciones humanitarias.",
         "education": { "label": "Educación", "value": "Facultad de Derecho, Universidad de Puerto Rico · J.D., 2020" },
         "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Colegio de Abogados de Puerto Rico" },

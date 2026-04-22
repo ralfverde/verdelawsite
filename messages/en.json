@@ -115,8 +115,8 @@
   "whyVerde": {
     "eyebrow": "Why Families Choose Us",
     "title": "We're not just another firm. We're your team.",
-    "body1": "Rafael Verde founded this firm straight out of law school with one idea: that every immigrant in the United States deserves an attorney who answers the phone, speaks their language, and fights like it's personal.",
-    "body2": "Most firms treat immigration cases like a conveyor belt — file the form, bill the client, move on. We don't. Every case here gets Rafael's personal review. Every client has a paralegal who knows their name, their story, and their next deadline. We return calls the same day, we explain things in plain language, and we don't stop until your case is resolved.",
+    "body1": "Rafael Verde didn't start Verde Law because he wanted to run a law firm. He started it because he'd been an immigrant kid in South Florida with no one to call when the system got complicated — and he didn't want anyone else's family to feel that way.",
+    "body2": "Every case at Verde Law gets the same preparation, the same urgency, and the same level of care — whether it's a bond hearing that needs to happen this week or a family petition that will take eighteen months. We return calls the same day, we explain things in plain language, and we don't stop until your case is resolved.",
     "reasons": {
       "bilingual": {
         "title": "Your language, always",
@@ -194,14 +194,14 @@
     "photoEyebrow": "Founder & Managing Attorney",
     "name": "Rafael Verde",
     "role": "Founder & Managing Attorney",
-    "body1": "Rafael Verde founded Verde Law in 2024 — weeks after passing the bar and before most of his classmates had decided which firm to join. The bet was simple: that there was a real market for a humanitarian immigration firm that treated Spanish-speaking families the way corporate clients get treated — with urgency, with respect, and with an attorney who actually knows their name.",
-    "body2": "Today, the team is 22 people strong. The firm handles cases across the Eleventh Circuit, in federal appeals courts, and in immigration courts from Krome to Chicago to Los Angeles. Rafael personally reviews every new case. He still answers his own phone on weekends. Thousands of families later, the bet paid off.",
+    "body1": "Rafael Verde was born on the outskirts of Havana. When his family came to South Florida, he was a kid with no connections, no English, and no roadmap — just the same thing every immigrant family carries: the belief that hard work here means a better life.",
+    "body2": "He went to Doral Academy, then Florida International University, then Barry University School of Law. But law school wasn't the plan from birth — advocacy was. Rafael spent years in communications and public relations before realizing that the people who needed the loudest voice had no one speaking for them in court. So he built Verde Law: not to be the biggest immigration firm, but to be the one that treats every family the way his own family deserved to be treated when they arrived — with urgency, with respect, and with someone who actually understands what's at stake because he's lived it. Thousands of families later, the mission hasn't changed.",
     "viewTeam": "Meet the full team",
     "credentials": {
-      "georgetown": "Education: Georgetown University Law Center — J.D., 2024",
+      "georgetown": "Education: Florida International University — B.S., Public Relations & Communications",
+      "aila": "Education: Barry University School of Law — Juris Doctor",
       "floridaBar": "Bar: Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida",
-      "eleventhCircuit": "Languages: English · Spanish",
-      "aila": "Member: American Immigration Lawyers Association (AILA)"
+      "eleventhCircuit": "Languages: English · Spanish"
     }
   },
   "videoShowcase": {
@@ -952,18 +952,18 @@
   "about": {
     "seo": {
       "title": "About Verde Law — Humanitarian Immigration Firm",
-      "description": "A Miami-based firm founded to make quality immigration representation accessible. Thousands of families. 50 states. One mission."
+      "description": "A Miami-based firm founded by an immigrant, for immigrants. Thousands of families served across all 50 states."
     },
     "eyebrow": "About Us",
-    "title": "A firm built for the people the system is hardest on.",
-    "subtitle": "Verde Law was founded with a single idea: that every immigrant in the United States deserves an attorney who answers the phone, speaks their language, and fights like it's personal.",
+    "title": "Built by an immigrant, for immigrants.",
+    "subtitle": "Verde Law was founded on a simple belief: that every immigrant in the United States deserves legal representation that's personal, accessible, and relentless.",
     "story": {
       "eyebrow": "Our Story",
-      "title": "From law school bet to thousands of families strong.",
-      "p1": "Rafael Verde founded Verde Law in 2024, straight out of Georgetown Law — before most of his classmates had decided which firm to join. The bet was simple: that there was a real market for a humanitarian immigration firm that treated Spanish-speaking families the way corporate clients get treated — with urgency, with respect, and with an attorney who actually knows their name.",
-      "p2": "The first year was two attorneys and a single office in Coral Way. Today the team is 22 people strong, serving clients in all fifty states, from bond hearings at Krome to federal appeals in the Eleventh Circuit.",
-      "p3": "Our TikTok audience is over 61,000 and growing, because free education matters as much as paid representation.",
-      "p4": "Every new case still gets Rafael's personal review. That hasn't changed. It won't change.",
+      "title": "From Havana to the courtroom.",
+      "p1": "Rafael Verde's path to founding Verde Law didn't start in a law library. It started in a small town on the outskirts of Havana, where he grew up in a close-knit community that taught him two things early: the importance of standing up for others, and the reality that sometimes the system you're born into isn't built for you.",
+      "p2": "When his family emigrated to South Florida, Rafael adapted fast — but he never forgot what it felt like to arrive somewhere new with nothing but hope. He went through Doral Academy, earned a degree in Public Relations and Communications at Florida International University, and spent years learning how to give people a voice before realizing the people who needed it most were sitting in immigration courtrooms with no one to speak for them. That realization led him to Barry University School of Law, and then — weeks after passing the bar — to founding Verde Law.",
+      "p3": "The firm wasn't built to be the biggest. It was built to be the one that treats every case the way Rafael's own family deserved to be treated when they arrived: with urgency, with honesty, and with an attorney who genuinely understands what's on the line because he's been on the other side of that fear.",
+      "p4": "Today, Verde Law is a team of attorneys, paralegals, and support staff serving immigrant families in all 50 states. The cases are bigger, the team is stronger, and the reach is wider — but every new client still gets the same thing Rafael promised from day one: someone who fights for your family like it's their own.",
       "imageCaption": "Miami office — Coral Way, 2026.",
       "milestones": {
         "founded": {
@@ -971,39 +971,37 @@
           "label": "Year the firm opened"
         },
         "employees": {
-          "value": "22 employees",
-          "label": "Team members today"
+          "value": "All 50 states",
+          "label": "Where we practice"
         },
         "families": {
           "value": "Thousands",
-          "label": "Families served since launch"
+          "label": "Families helped"
         }
       }
     },
     "mission": {
       "eyebrow": "Our Mission",
       "title": "Why we do this.",
-      "quote": "We believe every immigrant deserves quality legal representation — regardless of their financial situation.",
+      "quote": "We believe every immigrant deserves quality legal representation — regardless of their financial situation, regardless of their status, regardless of where they come from.",
       "values": {
         "accessibility": {
           "title": "Accessibility",
-          "desc": "Flat fees. Payment plans. Free consultations. Language access in four languages. Representation should never depend on who you know or what you can pay up front."
+          "desc": "Flat fees. Payment plans. Free consultations. Legal services in your language. Representation should never depend on who you know or what you can pay up front."
         },
         "excellence": {
           "title": "Excellence",
-          "desc": "We prepare every case like it's heading to federal court. Evidence binders, expert declarations, mock hearings, expert coordination. The standard doesn't drop when the client can't afford a retainer."
+          "desc": "We prepare every case as if it's going to federal court. Evidence binders, expert declarations, mock hearings. The standard of preparation doesn't change based on what a client can afford."
         },
         "humanity": {
           "title": "Humanity",
-          "desc": "The people on the other side of our desk are scared, exhausted, and out of options. We meet them with patience and respect, every time. That's not a nice-to-have — it's the job."
+          "desc": "The people sitting across from us are scared, exhausted, and running out of options. We meet them with patience and respect every single time — because that's not a bonus, that's the baseline."
         }
       }
     },
     "numbers": {
       "cases": "Families served",
-      "attorneys": "Attorneys",
-      "paralegals": "Paralegals",
-      "states": "States served",
+      "states": "States covered",
       "team": "Team members"
     },
     "office": {
@@ -1041,12 +1039,12 @@
     "bookWith": "Book with {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde founded Verde Law in 2024 — weeks after passing the bar and before most of his classmates had decided which firm to join.",
-        "p2": "Before founding the firm, he spent his final years at Georgetown's Public Defender's Office and at a federal immigration clinic, where he saw detained clients go years while most of his classmates were prepping for BigLaw summers.",
-        "p3": "Today he personally reviews every new case at Verde Law, argues nearly every motion across the Eleventh Circuit, and runs a TikTok that's taught over 61,000 people their rights under U.S. immigration law. Thousands of families later, the bet paid off.",
+        "p1": "Rafael Verde was born on the outskirts of Havana, Cuba. His family emigrated to South Florida when he was young, and that experience — arriving somewhere new with nothing but hope — shaped everything that came after.",
+        "p2": "After studying communications at Florida International University and earning his J.D. from Barry University School of Law, Rafael founded Verde Law with one goal: to give immigrant families the quality of representation they deserve, delivered by someone who understands what they're going through because he's lived it. Today, he personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
+        "p3": "Today, Rafael personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
         "education": {
           "label": "Education",
-          "value": "Georgetown University Law Center · J.D., 2024"
+          "value": "Florida International University · B.S., Public Relations & Communications — Barry University School of Law · Juris Doctor"
         },
         "barAdmissions": {
           "label": "Bar Admissions",
@@ -1059,7 +1057,7 @@
       },
       "jennifer-colon": {
         "p1": "Jennifer Colón Rodríguez joined Verde Law in 2025 as the firm's second attorney. A humanitarian law specialist with experience in VAWA, U-visa, and removal defense cases.",
-        "p2": "She is a native Spanish speaker, a graduate of the University of Puerto Rico School of Law, and a former staff attorney at a legal aid organization. Clients regularly say she is the first attorney who made them feel safe enough to tell their full story.",
+        "p2": "She is a native Spanish speaker, a graduate of the University of Puerto Rico School of Law, and has spent her career representing survivors of domestic violence and trafficking. Clients regularly say she is the first attorney who made them feel safe enough to tell their full story.",
         "p3": "Jennifer leads the firm's VAWA practice and supervises the paralegal team on humanitarian filings.",
         "education": {
           "label": "Education",

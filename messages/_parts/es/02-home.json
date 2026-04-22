@@ -16,8 +16,8 @@
   "whyVerde": {
     "eyebrow": "Por Qué Las Familias Nos Eligen",
     "title": "No somos solo otra firma. Somos su equipo.",
-    "body1": "Rafael Verde fundó esta firma recién egresado de la facultad de derecho con una sola idea: que cada inmigrante en los Estados Unidos merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
-    "body2": "La mayoría de las firmas tratan los casos de inmigración como una línea de producción — llenan el formulario, cobran al cliente, y siguen adelante. Nosotros no. Cada caso recibe la revisión personal de Rafael. Cada cliente tiene un paralegal que conoce su nombre, su historia, y su próxima fecha límite. Devolvemos las llamadas el mismo día, explicamos todo en lenguaje claro, y no paramos hasta que su caso se resuelva.",
+    "body1": "Rafael Verde no fundó Verde Law porque quería dirigir una firma de abogados. La fundó porque él fue un niño inmigrante en el sur de la Florida sin nadie a quién llamar cuando el sistema se complicaba — y no quería que la familia de nadie más se sintiera así.",
+    "body2": "Cada caso en Verde Law recibe la misma preparación, la misma urgencia, y el mismo nivel de atención — ya sea una audiencia de fianza que necesita ocurrir esta semana o una petición familiar que tomará dieciocho meses. Devolvemos las llamadas el mismo día, explicamos todo en lenguaje claro, y no paramos hasta que su caso se resuelva.",
     "reasons": {
       "bilingual": { "title": "Su idioma, siempre", "desc": "Cada persona en Verde Law habla español. Nunca necesitará un traductor, nunca se sentirá perdido en su propio caso, y nunca se preguntará qué fue lo que dijo su abogado." },
       "national": { "title": "50 estados. Una firma.", "desc": "La ley de inmigración es federal. Un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Nos presentamos en persona cuando es necesario, y remotamente cuando es permitido." },
@@ -51,14 +51,14 @@
     "photoEyebrow": "Fundador y Abogado Principal",
     "name": "Rafael Verde",
     "role": "Fundador y Abogado Principal",
-    "body1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse. La apuesta era simple: que existía un mercado real para una firma de inmigración humanitaria que tratara a las familias hispanas de la misma manera que se trata a los clientes corporativos — con urgencia, con respeto, y con un abogado que realmente conozca su nombre.",
-    "body2": "Hoy, el equipo tiene 22 personas. La firma maneja casos en el Circuito Once, en cortes de apelaciones federales, y en cortes de inmigración desde Krome hasta Chicago y Los Ángeles. Rafael revisa personalmente cada caso nuevo. Todavía contesta su propio teléfono los fines de semana. Miles de familias después, la apuesta rindió frutos.",
+    "body1": "Rafael Verde nació en las afueras de La Habana. Cuando su familia llegó al sur de la Florida, era un niño sin conexiones, sin inglés, y sin mapa — solo con lo mismo que cada familia inmigrante lleva consigo: la creencia de que el trabajo duro aquí significa una vida mejor.",
+    "body2": "Estudió en Doral Academy, luego en Florida International University, y después en Barry University School of Law. Pero la abogacía no fue el plan desde el principio — la defensa de otros sí. Rafael pasó años en comunicaciones y relaciones públicas antes de darse cuenta de que las personas que más necesitaban una voz no tenían a nadie hablando por ellas en la corte. Así que construyó Verde Law: no para ser la firma de inmigración más grande, sino para ser la que trata a cada familia como su propia familia merecía ser tratada cuando llegaron — con urgencia, con respeto, y con alguien que realmente entiende lo que está en juego porque lo ha vivido. Miles de familias después, la misión no ha cambiado.",
     "viewTeam": "Conozca al equipo completo",
     "credentials": {
-      "georgetown": "Educación: Georgetown University Law Center — J.D., 2024",
-      "floridaBar": "Barra: Colegio de Abogados de Florida · Corte Federal de Apelaciones, Undécimo Circuito · Corte Federal de Distrito, Distrito Sur de Florida",
-      "eleventhCircuit": "Idiomas: Inglés · Español",
-      "aila": "Miembro: American Immigration Lawyers Association (AILA)"
+      "georgetown": "Educación: Florida International University — B.S., Relaciones Públicas y Comunicaciones",
+      "aila": "Educación: Barry University School of Law — Juris Doctor",
+      "floridaBar": "Barra: Colegio de Abogados de Florida · Corte de Apelaciones de EE.UU., Circuito Once · Corte de Distrito de EE.UU., Distrito Sur de Florida",
+      "eleventhCircuit": "Idiomas: Inglés · Español"
     }
   },
   "videoShowcase": {

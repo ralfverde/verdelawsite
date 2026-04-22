@@ -2,47 +2,45 @@
   "about": {
     "seo": {
       "title": "Sobre Verde Law — Bufete Humanitario de Inmigración",
-      "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. Miles de familias. 50 estados. Una sola misión."
+      "description": "Un bufete con sede en Miami, fundado por un inmigrante, para inmigrantes. Miles de familias atendidas en los 50 estados."
     },
     "eyebrow": "Sobre Nosotros",
-    "title": "Una firma construida para las personas a las que el sistema más les afecta.",
-    "subtitle": "Verde Law fue fundada con una sola idea: que cada inmigrante en los Estados Unidos merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
+    "title": "Construida por un inmigrante, para inmigrantes.",
+    "subtitle": "Verde Law fue fundada sobre una creencia simple: que cada inmigrante en los Estados Unidos merece representación legal que sea personal, accesible e incansable.",
     "story": {
       "eyebrow": "Nuestra Historia",
-      "title": "De una apuesta en la facultad de derecho a miles de familias atendidas.",
-      "p1": "Rafael Verde fundó Verde Law en 2024, recién egresado de Georgetown Law — antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse. La apuesta era simple: que existía un mercado real para una firma de inmigración humanitaria que tratara a las familias hispanas como se trata a los clientes corporativos — con urgencia, con respeto, y con un abogado que realmente conozca su nombre.",
-      "p2": "El primer año fueron dos abogados y una sola oficina en Coral Way. Hoy el equipo tiene 22 personas, sirviendo a clientes en los cincuenta estados, desde audiencias de fianza en Krome hasta apelaciones federales en el Circuito Once.",
-      "p3": "Nuestra audiencia en TikTok supera los 61,000 y sigue creciendo, porque la educación gratuita importa tanto como la representación pagada.",
-      "p4": "Cada caso nuevo sigue recibiendo la revisión personal de Rafael. Eso no ha cambiado. No va a cambiar.",
+      "title": "De La Habana a la sala de audiencias.",
+      "p1": "El camino de Rafael Verde para fundar Verde Law no comenzó en una biblioteca de derecho. Comenzó en un pequeño pueblo en las afueras de La Habana, donde creció en una comunidad unida que le enseñó dos cosas temprano: la importancia de defender a los demás, y la realidad de que a veces el sistema en el que naces no está construido para ti.",
+      "p2": "Cuando su familia emigró al sur de la Florida, Rafael se adaptó rápido — pero nunca olvidó cómo se siente llegar a un lugar nuevo sin nada más que esperanza. Pasó por Doral Academy, obtuvo un título en Relaciones Públicas y Comunicaciones en Florida International University, y pasó años aprendiendo cómo darle voz a la gente antes de darse cuenta de que quienes más la necesitaban estaban sentados en cortes de inmigración sin nadie que hablara por ellos. Esa realización lo llevó a Barry University School of Law, y luego — semanas después de pasar el examen de la barra — a fundar Verde Law.",
+      "p3": "La firma no fue construida para ser la más grande. Fue construida para ser la que trata cada caso como la propia familia de Rafael merecía ser tratada cuando llegaron: con urgencia, con honestidad, y con un abogado que genuinamente entiende lo que está en juego porque él ha estado del otro lado de ese miedo.",
+      "p4": "Hoy, Verde Law es un equipo de abogados, paralegales y personal de apoyo sirviendo a familias inmigrantes en los 50 estados. Los casos son más grandes, el equipo es más fuerte, y el alcance es más amplio — pero cada cliente nuevo sigue recibiendo lo mismo que Rafael prometió desde el primer día: alguien que lucha por su familia como si fuera la suya.",
       "imageCaption": "Oficina de Miami — Coral Way, 2026.",
       "milestones": {
         "founded": { "value": "Fundada en 2024", "label": "Año de apertura del bufete" },
-        "employees": { "value": "22 empleados", "label": "Miembros del equipo hoy" },
-        "families": { "value": "Miles", "label": "Familias atendidas desde el inicio" }
+        "employees": { "value": "Los 50 estados", "label": "Donde ejercemos" },
+        "families": { "value": "Miles", "label": "Familias ayudadas" }
       }
     },
     "mission": {
       "eyebrow": "Nuestra Misión",
       "title": "Por qué hacemos esto.",
-      "quote": "Creemos que cada inmigrante merece representación legal de calidad — sin importar su situación económica.",
+      "quote": "Creemos que cada inmigrante merece representación legal de calidad — sin importar su situación económica, sin importar su estatus, sin importar de dónde viene.",
       "values": {
-        "accessibility": { "title": "Accesibilidad", "desc": "Tarifas fijas. Planes de pago. Consultas gratuitas. Atención en cuatro idiomas. La representación nunca debería depender de a quién conoce o cuánto pueda pagar de entrada." },
-        "excellence": { "title": "Excelencia", "desc": "Preparamos cada caso como si fuera a corte federal. Expedientes de evidencia, declaraciones de expertos, audiencias simuladas, coordinación de peritos. El estándar no baja cuando el cliente no puede pagar un anticipo." },
-        "humanity": { "title": "Humanidad", "desc": "Las personas al otro lado de nuestro escritorio están asustadas, agotadas, y sin opciones. Las recibimos con paciencia y respeto, cada vez. Eso no es un extra — es el trabajo." }
+        "accessibility": { "title": "Accesibilidad", "desc": "Tarifas fijas. Planes de pago. Consultas gratuitas. Servicios legales en su idioma. La representación nunca debería depender de a quién conoce o cuánto pueda pagar de entrada." },
+        "excellence": { "title": "Excelencia", "desc": "Preparamos cada caso como si fuera a corte federal. Expedientes de evidencia, declaraciones de expertos, audiencias simuladas. El estándar de preparación no cambia según lo que el cliente pueda pagar." },
+        "humanity": { "title": "Humanidad", "desc": "Las personas sentadas frente a nosotros están asustadas, agotadas, y quedándose sin opciones. Las recibimos con paciencia y respeto cada vez — porque eso no es un extra, es lo mínimo." }
       }
     },
     "numbers": {
       "cases": "Familias atendidas",
-      "attorneys": "Abogados",
-      "paralegals": "Paralegales",
-      "states": "Estados atendidos",
+      "states": "Estados cubiertos",
       "team": "Miembros del equipo"
     },
     "office": {
       "eyebrow": "Nuestra Oficina",
       "title": "Visítenos en Miami.",
       "addressLabel": "Verde Law, PLLC",
-      "hours": "Horario"
+      "hours": "Horas"
     }
   }
 }

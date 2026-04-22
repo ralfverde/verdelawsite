@@ -61,9 +61,7 @@ export default async function AboutPage({
   ];
 
   const stats = [
-    { key: "cases", value: 600, suffix: "+" },
-    { key: "attorneys", value: 2 },
-    { key: "paralegals", value: 4 },
+    { key: "cases", value: 1000, suffix: "+" },
     { key: "states", value: 50 },
     { key: "team", value: 22 },
   ];
