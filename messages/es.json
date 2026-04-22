@@ -956,14 +956,14 @@
       "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. 600+ familias. 50 estados. Una sola misión."
     },
     "eyebrow": "Sobre Nosotros",
-    "title": "Un bufete creado para las personas a quienes el sistema trata peor.",
-    "subtitle": "Verde Law se fundó con una sola idea: que cada inmigrante en Estados Unidos merece un abogado que conteste el teléfono, hable su idioma y luche como si fuera algo personal.",
+    "title": "Una firma construida para las personas a las que el sistema más les afecta.",
+    "subtitle": "Verde Law fue fundada con una sola idea: que cada inmigrante en los Estados Unidos merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
     "story": {
       "eyebrow": "Nuestra Historia",
-      "title": "De una apuesta en la facultad a 600 familias atendidas.",
-      "p1": "Rafael Verde fundó Verde Law en 2024, apenas al salir de Georgetown Law — antes de que la mayoría de sus compañeros hubiera decidido a qué bufete unirse. La apuesta era sencilla: había un mercado real para un bufete humanitario de inmigración que tratara a las familias hispanohablantes como se trata a los clientes corporativos en todo lo demás.",
-      "p2": "El primer año éramos dos personas en una oficina prestada. El segundo año crecimos a ocho. Hoy el equipo es de veintidós — dos abogados, cuatro paralegales y un equipo de soporte que mantiene cada caso en movimiento.",
-      "p3": "Hoy atendemos clientes en los cincuenta estados, desde audiencias de fianza en Krome hasta apelaciones federales en el Undécimo Circuito. Nuestra audiencia en TikTok supera los 61,000 y sigue creciendo, porque la educación gratuita importa tanto como la representación pagada.",
+      "title": "De una apuesta en la facultad de derecho a 600 familias atendidas.",
+      "p1": "Rafael Verde fundó Verde Law en 2024, recién egresado de Georgetown Law — antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse. La apuesta era simple: que existía un mercado real para una firma de inmigración humanitaria que tratara a las familias hispanas como se trata a los clientes corporativos — con urgencia, con respeto, y con un abogado que realmente conozca su nombre.",
+      "p2": "El primer año fueron dos abogados y una sola oficina en Coral Way. Hoy el equipo tiene 22 personas, sirviendo a clientes en los cincuenta estados, desde audiencias de fianza en Krome hasta apelaciones federales en el Circuito Once.",
+      "p3": "Nuestra audiencia en TikTok supera los 61,000 y sigue creciendo, porque la educación gratuita importa tanto como la representación pagada.",
       "p4": "Cada caso nuevo sigue recibiendo la revisión personal de Rafael. Eso no ha cambiado. No va a cambiar.",
       "imageCaption": "Oficina de Miami — Coral Way, 2026.",
       "milestones": {
@@ -988,15 +988,15 @@
       "values": {
         "accessibility": {
           "title": "Accesibilidad",
-          "desc": "Tarifas fijas. Planes de pago. Consultas gratuitas. Acceso en cuatro idiomas. La representación no debería depender de a quién conoce o de cuánto puede pagar por adelantado."
+          "desc": "Tarifas fijas. Planes de pago. Consultas gratuitas. Atención en cuatro idiomas. La representación nunca debería depender de a quién conoce o cuánto pueda pagar de entrada."
         },
         "excellence": {
           "title": "Excelencia",
-          "desc": "Preparamos cada caso como si fuera a corte federal. Carpetas de evidencia, simulacros, declaraciones de expertos. El estándar no baja cuando el cliente no puede pagar un anticipo grande."
+          "desc": "Preparamos cada caso como si fuera a corte federal. Expedientes de evidencia, declaraciones de expertos, audiencias simuladas, coordinación de peritos. El estándar no baja cuando el cliente no puede pagar un anticipo."
         },
         "humanity": {
           "title": "Humanidad",
-          "desc": "Las personas al otro lado de nuestro escritorio están asustadas, agotadas y sin opciones. Las recibimos con paciencia y respeto, siempre. Eso no es un extra — es el trabajo."
+          "desc": "Las personas al otro lado de nuestro escritorio están asustadas, agotadas, y sin opciones. Las recibimos con paciencia y respeto, cada vez. Eso no es un extra — es el trabajo."
         }
       }
     },
@@ -1004,7 +1004,7 @@
       "cases": "Familias atendidas",
       "attorneys": "Abogados",
       "paralegals": "Paralegales",
-      "states": "Estados servidos",
+      "states": "Estados atendidos",
       "team": "Miembros del equipo"
     },
     "office": {
@@ -1021,7 +1021,7 @@
     },
     "eyebrow": "Nuestro Equipo",
     "title": "Las personas que luchan por su familia.",
-    "subtitle": "Dos abogados, cuatro paralegales y un equipo de soporte que trata cada llamada como si importara — porque importa.",
+    "subtitle": "Dos abogados, cuatro paralegales, y un equipo de soporte que trata cada llamada como si importara — porque importa.",
     "attorneysEyebrow": "Abogados",
     "attorneysTitle": "Los abogados en su caso.",
     "paralegalsEyebrow": "Equipo Legal",
@@ -1046,9 +1046,9 @@
     "bookWith": "Agendar con {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y con una sola convicción: que los inmigrantes en Estados Unidos merecían el mismo nivel de representación que el mundo corporativo da por hecho.",
-        "p2": "Antes de fundar el bufete pasó sus años de facultad haciendo prácticas en la Oficina del Defensor Público de Miami-Dade y en una clínica federal de inmigración, donde asumió casos de detenidos pro bono mientras la mayoría de sus compañeros se preparaba para los veranos en los grandes bufetes.",
-        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, litiga audiencias de méritos en todo el Undécimo Circuito y dirige un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley migratoria de EE.UU.",
+        "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse.",
+        "p2": "Antes de fundar la firma, pasó sus últimos años en la Oficina del Defensor Público de Georgetown y en una clínica federal de inmigración, donde vio a clientes detenidos pasar años mientras la mayoría de sus compañeros se preparaban para sus pasantías en grandes firmas.",
+        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, argumenta casi cada moción en el Circuito Once, y maneja un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley de inmigración de EE.UU. Más de 600 familias después, la apuesta rindió frutos.",
         "education": {
           "label": "Educación",
           "value": "Georgetown University Law Center · J.D., 2014"
@@ -1063,9 +1063,9 @@
         }
       },
       "jennifer-colon": {
-        "p1": "Jennifer Colón Rodríguez se unió a Verde Law como abogada asociada en 2025 después de cinco años de trabajo humanitario con inmigrantes sobrevivientes de violencia. Su práctica se enfoca en casos de VAWA, Visa U y SIJS.",
-        "p2": "Es hablante nativa de español, egresada de la Facultad de Derecho de la Universidad de Puerto Rico, y entrevistadora con entrenamiento trauma-informado certificada por el Vera Institute of Justice. Los clientes dicen con frecuencia que es la primera abogada con quien se sintieron lo suficientemente seguros para contar toda su historia.",
-        "p3": "Jennifer dirige la práctica de VAWA del bufete y supervisa al equipo de paralegales en las presentaciones humanitarias.",
+        "p1": "Jennifer Colón Rodríguez se unió a Verde Law en 2025 como la segunda abogada de la firma. Especialista en derecho humanitario con experiencia en casos de VAWA, Visa U, y defensa contra la deportación.",
+        "p2": "Es hablante nativa de español, graduada de la Facultad de Derecho de la Universidad de Puerto Rico, y ex abogada de planta en una organización de asistencia legal. Los clientes regularmente dicen que ella es la primera abogada que les hizo sentir lo suficientemente seguros para contar su historia completa.",
+        "p3": "Jennifer lidera la práctica de VAWA de la firma y supervisa al equipo de paralegales en presentaciones humanitarias.",
         "education": {
           "label": "Educación",
           "value": "Facultad de Derecho, Universidad de Puerto Rico · J.D., 2020"
@@ -1093,7 +1093,7 @@
     "join": {
       "eyebrow": "Carreras",
       "title": "Trabaje con nosotros.",
-      "body": "Estamos contratando abogados, paralegales y especialistas de admisión bilingües. Si quiere ejercer el derecho migratorio de la forma correcta — con recursos reales, tarifas fijas y un equipo que respeta su tiempo — nos gustaría conocerlo.",
+      "body": "Estamos contratando abogados, paralegales, y especialistas de intake bilingües. Si quiere practicar la ley de inmigración de la manera correcta — con recursos reales, tarifas fijas, y un equipo que respeta su tiempo — nos gustaría conocerle.",
       "cta": "Ver posiciones abiertas"
     }
   },
@@ -1103,8 +1103,8 @@
       "description": "Bufete de inmigración con sede en Miami que atiende clientes en los 50 estados. Consultas virtuales disponibles en cualquier parte de EE.UU."
     },
     "eyebrow": "Ubicaciones",
-    "title": "Con sede en Miami. Luchando en todo el país.",
-    "subtitle": "Nuestra oficina está en Coral Way. Nuestros clientes están en todas partes — desde el centro de detención de Krome hasta cortes de inmigración en Chicago, Nueva York, Los Ángeles y cada circuito entre medio.",
+    "title": "Con base en Miami. Luchando en todo el país.",
+    "subtitle": "Nuestra oficina está en Coral Way. Nuestros clientes están en todas partes — desde la detención de Krome hasta las cortes de inmigración en Chicago, Nueva York, Los Ángeles, y cada circuito en el medio.",
     "office": {
       "eyebrow": "Oficina Principal",
       "title": "Venga en persona, o no — ambas opciones funcionan.",
@@ -1112,8 +1112,8 @@
     },
     "national": {
       "eyebrow": "Cobertura Nacional",
-      "title": "Los 50 estados. Un solo bufete.",
-      "body": "La inmigración es ley federal. No importa en qué estado viva — un abogado licenciado en Florida puede representarlo en cualquier corte de inmigración, oficina de USCIS o circuito federal de apelaciones del país. Comparecemos en persona cuando se requiere, de forma remota cuando se permite, y manejamos la logística para que usted no tenga que hacerlo.",
+      "title": "Los 50 estados. Una firma.",
+      "body": "La ley de inmigración es federal. No importa en qué estado viva — un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Nos presentamos en persona cuando es necesario, remotamente cuando es permitido, y manejamos la logística para que usted no tenga que hacerlo.",
       "topStatesLabel": "Estados que atendemos con más frecuencia",
       "states": {
         "florida": "Florida",
@@ -1128,20 +1128,20 @@
     },
     "virtual": {
       "eyebrow": "Consultas Virtuales",
-      "title": "Nos reunimos con usted desde donde esté.",
+      "title": "Reúnase con nosotros desde cualquier lugar.",
       "body": "La mayoría de nuestras consultas son por teléfono, WhatsApp o video. No necesita viajar a Miami ni tomarse un día libre del trabajo. Elija el canal que le funcione — ahí estamos.",
       "channels": {
         "phone": {
           "title": "Teléfono",
-          "desc": "Llame al (305) 786-3003. Contesta una persona real en inglés o español, de día o de noche."
+          "desc": "Llame al (305) 786-3003. Una persona real contesta en inglés o español, de día o de noche."
         },
         "whatsapp": {
           "title": "WhatsApp",
-          "desc": "Escríbanos a cualquier hora. Respondemos apenas estamos de vuelta en la oficina, normalmente en minutos durante el día."
+          "desc": "Escríbanos a cualquier hora. Respondemos tan pronto regresamos a la oficina, usualmente en minutos durante el día."
         },
         "video": {
           "title": "Videollamada",
-          "desc": "Zoom, Google Meet o FaceTime. Le enviamos el enlace después de agendar."
+          "desc": "Zoom, Google Meet, o FaceTime. Le enviaremos el enlace después de que agende."
         }
       }
     }

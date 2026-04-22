@@ -10,9 +10,9 @@
     "story": {
       "eyebrow": "Our Story",
       "title": "From law school bet to 600 families strong.",
-      "p1": "Rafael Verde founded Verde Law in 2024, straight out of Georgetown Law — before most of his classmates had decided which firm to join. The bet was simple: that there was a real market for a humanitarian immigration firm that treated Spanish-speaking families the way corporate clients get treated everywhere else.",
-      "p2": "The first year was two of us in a borrowed office. The second year we'd grown to eight. Today the team is twenty-two strong — two attorneys, four paralegals, and a support team that keeps every case moving.",
-      "p3": "We now serve clients in all fifty states, from bond hearings at Krome to federal appeals in the Eleventh Circuit. Our TikTok audience is over 61,000 and growing, because free education matters as much as paid representation.",
+      "p1": "Rafael Verde founded Verde Law in 2024, straight out of Georgetown Law — before most of his classmates had decided which firm to join. The bet was simple: that there was a real market for a humanitarian immigration firm that treated Spanish-speaking families the way corporate clients get treated — with urgency, with respect, and with an attorney who actually knows their name.",
+      "p2": "The first year was two attorneys and a single office in Coral Way. Today the team is 22 people strong, serving clients in all fifty states, from bond hearings at Krome to federal appeals in the Eleventh Circuit.",
+      "p3": "Our TikTok audience is over 61,000 and growing, because free education matters as much as paid representation.",
       "p4": "Every new case still gets Rafael's personal review. That hasn't changed. It won't change.",
       "imageCaption": "Miami office — Coral Way, 2026.",
       "milestones": {
@@ -27,7 +27,7 @@
       "quote": "We believe every immigrant deserves quality legal representation — regardless of their financial situation.",
       "values": {
         "accessibility": { "title": "Accessibility", "desc": "Flat fees. Payment plans. Free consultations. Language access in four languages. Representation should never depend on who you know or what you can pay up front." },
-        "excellence": { "title": "Excellence", "desc": "We prepare every case like it's heading to federal court. Evidence binders, mock hearings, expert declarations. The standard doesn't drop when the client can't afford a retainer." },
+        "excellence": { "title": "Excellence", "desc": "We prepare every case like it's heading to federal court. Evidence binders, expert declarations, mock hearings, expert coordination. The standard doesn't drop when the client can't afford a retainer." },
         "humanity": { "title": "Humanity", "desc": "The people on the other side of our desk are scared, exhausted, and out of options. We meet them with patience and respect, every time. That's not a nice-to-have — it's the job." }
       }
     },

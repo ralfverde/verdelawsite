@@ -6,7 +6,7 @@
     },
     "eyebrow": "Nuestro Equipo",
     "title": "Las personas que luchan por su familia.",
-    "subtitle": "Dos abogados, cuatro paralegales y un equipo de soporte que trata cada llamada como si importara — porque importa.",
+    "subtitle": "Dos abogados, cuatro paralegales, y un equipo de soporte que trata cada llamada como si importara — porque importa.",
     "attorneysEyebrow": "Abogados",
     "attorneysTitle": "Los abogados en su caso.",
     "paralegalsEyebrow": "Equipo Legal",
@@ -27,17 +27,17 @@
     "bookWith": "Agendar con {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y con una sola convicción: que los inmigrantes en Estados Unidos merecían el mismo nivel de representación que el mundo corporativo da por hecho.",
-        "p2": "Antes de fundar el bufete pasó sus años de facultad haciendo prácticas en la Oficina del Defensor Público de Miami-Dade y en una clínica federal de inmigración, donde asumió casos de detenidos pro bono mientras la mayoría de sus compañeros se preparaba para los veranos en los grandes bufetes.",
-        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, litiga audiencias de méritos en todo el Undécimo Circuito y dirige un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley migratoria de EE.UU.",
+        "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse.",
+        "p2": "Antes de fundar la firma, pasó sus últimos años en la Oficina del Defensor Público de Georgetown y en una clínica federal de inmigración, donde vio a clientes detenidos pasar años mientras la mayoría de sus compañeros se preparaban para sus pasantías en grandes firmas.",
+        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, argumenta casi cada moción en el Circuito Once, y maneja un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley de inmigración de EE.UU. Más de 600 familias después, la apuesta rindió frutos.",
         "education": { "label": "Educación", "value": "Georgetown University Law Center · J.D., 2014" },
         "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Corte Federal de Apelaciones, Undécimo Circuito · Corte Federal de Distrito, Distrito Sur de Florida" },
         "languages": { "label": "Idiomas", "value": "Inglés · Español" }
       },
       "jennifer-colon": {
-        "p1": "Jennifer Colón Rodríguez se unió a Verde Law como abogada asociada en 2025 después de cinco años de trabajo humanitario con inmigrantes sobrevivientes de violencia. Su práctica se enfoca en casos de VAWA, Visa U y SIJS.",
-        "p2": "Es hablante nativa de español, egresada de la Facultad de Derecho de la Universidad de Puerto Rico, y entrevistadora con entrenamiento trauma-informado certificada por el Vera Institute of Justice. Los clientes dicen con frecuencia que es la primera abogada con quien se sintieron lo suficientemente seguros para contar toda su historia.",
-        "p3": "Jennifer dirige la práctica de VAWA del bufete y supervisa al equipo de paralegales en las presentaciones humanitarias.",
+        "p1": "Jennifer Colón Rodríguez se unió a Verde Law en 2025 como la segunda abogada de la firma. Especialista en derecho humanitario con experiencia en casos de VAWA, Visa U, y defensa contra la deportación.",
+        "p2": "Es hablante nativa de español, graduada de la Facultad de Derecho de la Universidad de Puerto Rico, y ex abogada de planta en una organización de asistencia legal. Los clientes regularmente dicen que ella es la primera abogada que les hizo sentir lo suficientemente seguros para contar su historia completa.",
+        "p3": "Jennifer lidera la práctica de VAWA de la firma y supervisa al equipo de paralegales en presentaciones humanitarias.",
         "education": { "label": "Educación", "value": "Facultad de Derecho, Universidad de Puerto Rico · J.D., 2020" },
         "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Colegio de Abogados de Puerto Rico" },
         "languages": { "label": "Idiomas", "value": "Español (nativo) · Inglés" }
@@ -56,7 +56,7 @@
     "join": {
       "eyebrow": "Carreras",
       "title": "Trabaje con nosotros.",
-      "body": "Estamos contratando abogados, paralegales y especialistas de admisión bilingües. Si quiere ejercer el derecho migratorio de la forma correcta — con recursos reales, tarifas fijas y un equipo que respeta su tiempo — nos gustaría conocerlo.",
+      "body": "Estamos contratando abogados, paralegales, y especialistas de intake bilingües. Si quiere practicar la ley de inmigración de la manera correcta — con recursos reales, tarifas fijas, y un equipo que respeta su tiempo — nos gustaría conocerle.",
       "cta": "Ver posiciones abiertas"
     }
   }
