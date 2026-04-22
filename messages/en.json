@@ -1057,6 +1057,11 @@
     "eyebrow": "Education",
     "title": "Immigration education, free and in your language.",
     "subtitle": "Short articles, step-by-step guides, and straight-talk videos about how the U.S. immigration system actually works. No legalese.",
+    "guides": {
+      "eyebrow": "Free Guides",
+      "title": "Download our immigration guides.",
+      "subtitle": "Step-by-step guides written by our legal team. Free, in Spanish and English, and yours to keep."
+    },
     "articles": {
       "eyebrow": "Articles & Guides",
       "title": "Read what matters.",

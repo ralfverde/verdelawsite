@@ -8,6 +8,7 @@ import { Accordion } from "@/components/ui/Accordion";
 import { SectionDivider } from "@/components/ui/SectionDivider";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
 import { NewsletterForm } from "@/components/education/NewsletterForm";
+import GuidesGrid from "@/components/education/GuidesGrid";
 import {
   Play,
   ArrowRight,
@@ -86,6 +87,22 @@ export default async function EducationPage({
         crumbs={[{ label: tNav("home"), href: "/" }, { label: tNav("education") }]}
       />
       <SectionDivider variant="diagonal" direction="dark-to-light" />
+
+      {/* Free PDF guides */}
+      <section className="bg-cream text-verde-950 py-16 md:py-20">
+        <div className="container-wide max-w-6xl">
+          <div className="text-center mb-10">
+            <SectionEyebrow>{t("guides.eyebrow")}</SectionEyebrow>
+            <h2 className="mt-3 font-heading font-bold text-verde-950 tracking-tight">
+              {t("guides.title")}
+            </h2>
+            <p className="font-body text-verde-950/50 text-sm mt-3 max-w-lg mx-auto">
+              {t("guides.subtitle")}
+            </p>
+          </div>
+          <GuidesGrid locale={locale} />
+        </div>
+      </section>
 
       {/* Articles */}
       <section className="bg-cream text-verde-950 section-y">
