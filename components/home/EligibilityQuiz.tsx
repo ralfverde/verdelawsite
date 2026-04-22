@@ -8,6 +8,7 @@ import { Link } from "@/i18n/navigation";
 import { FIRM } from "@/lib/constants";
 import { services } from "@/data/services";
 import { iconMap } from "@/components/practice/iconMap";
+import { useBooking } from "@/context/BookingContext";
 
 type SituationKey = "court" | "detained" | "asylum" | "family" | "work" | "unsure";
 
@@ -39,6 +40,7 @@ export function EligibilityQuiz() {
   const t = useTranslations("quiz");
   const tSvc = useTranslations("services");
   const locale = useLocale() as "en" | "es";
+  const { openBooking } = useBooking();
 
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Partial<Record<StepId, string>>>({});
@@ -204,12 +206,13 @@ export function EligibilityQuiz() {
             </p>
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-3">
-              <a
-                href={FIRM.bookingHref}
+              <button
+                type="button"
+                onClick={openBooking}
                 className="cta-gold justify-center flex-1 sm:flex-initial"
               >
                 {t("results.ctaPrimary")}
-              </a>
+              </button>
               <a
                 href={FIRM.whatsapp}
                 target="_blank"

@@ -9,6 +9,7 @@ import { LanguageToggle } from "./LanguageToggle";
 import { MobileMenu } from "./MobileMenu";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { FIRM } from "@/lib/constants";
+import { useBooking } from "@/context/BookingContext";
 
 type NavItem = { key: string; href: React.ComponentProps<typeof Link>["href"] };
 
@@ -27,6 +28,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const locale = useLocale();
+  const { openBooking } = useBooking();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80);
@@ -86,9 +88,13 @@ export function Navbar() {
               <Phone size={16} />
             </a>
             <MagneticButton>
-              <a href={FIRM.bookingHref} className="cta-gold text-[13px] whitespace-nowrap px-5 py-2.5">
+              <button
+                type="button"
+                onClick={openBooking}
+                className="cta-gold text-[13px] whitespace-nowrap px-5 py-2.5"
+              >
                 {t("freeConsultation")}
-              </a>
+              </button>
             </MagneticButton>
           </div>
 

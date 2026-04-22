@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Instagram, Youtube, Facebook, Music2 } from "lucide-react";
 import { Logo } from "./Logo";
 import { FIRM } from "@/lib/constants";
+import BookingButton from "@/components/ui/BookingButton";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -144,9 +145,9 @@ export function Footer() {
               </p>
               <p>{t("hoursLabel")}: {FIRM.hours}</p>
             </address>
-            <a href={FIRM.bookingHref} className="cta-gold mt-5 text-sm">
+            <BookingButton className="cta-gold mt-5 text-sm">
               {t("bookCTA")}
-            </a>
+            </BookingButton>
           </div>
         </div>
       </div>

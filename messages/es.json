@@ -45,6 +45,11 @@
     "finalSubtitle": "100% gratuita. 100% confidencial. Nuestro equipo legal revisa su caso personalmente.",
     "scheduleCTA": "Agendar Mi Consulta Gratuita"
   },
+  "booking": {
+    "eyebrow": "CONSULTA GRATIS",
+    "title": "Agende su consulta",
+    "close": "Cerrar"
+  },
   "floating": {
     "tooltip": "¿Necesita ayuda? Escríbanos por WhatsApp."
   },

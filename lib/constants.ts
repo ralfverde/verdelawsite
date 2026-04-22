@@ -11,7 +11,6 @@ export const FIRM = {
   },
   hours: "Mon–Fri 9:00 AM – 6:00 PM EST",
   whatsapp: "https://wa.me/message/HMJ6LSKYCMXAJ1",
-  bookingHref: "#free-consultation",
   social: {
     instagram: "https://instagram.com/verdelaw",
     tiktok: "https://tiktok.com/@verdelawfirm",

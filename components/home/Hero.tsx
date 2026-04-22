@@ -10,10 +10,12 @@ import { easeOut } from "@/lib/animations";
 import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { TextReveal } from "@/components/ui/TextReveal";
+import { useBooking } from "@/context/BookingContext";
 
 export function Hero() {
   const t = useTranslations("hero");
   const sectionRef = useRef<HTMLElement>(null);
+  const { openBooking } = useBooking();
 
   // Parallax on the radial background layer. Scoped to the section
   // so it freezes once the hero leaves the viewport.
@@ -84,9 +86,13 @@ export function Hero() {
             className="flex flex-wrap gap-4"
           >
             <MagneticButton>
-              <a href={FIRM.bookingHref} className="cta-gold text-base px-8 py-4">
+              <button
+                type="button"
+                onClick={openBooking}
+                className="cta-gold text-base px-8 py-4"
+              >
                 {t("ctaPrimary")}
-              </a>
+              </button>
             </MagneticButton>
             <a
               href={FIRM.whatsapp}

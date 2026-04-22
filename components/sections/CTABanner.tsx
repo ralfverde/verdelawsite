@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { MessageCircle, Phone, ShieldCheck } from "lucide-react";
 import { FIRM } from "@/lib/constants";
 import { fadeUp } from "@/lib/animations";
+import { useBooking } from "@/context/BookingContext";
 
 type Props = {
   variant?: "dark" | "light";
@@ -13,6 +14,7 @@ type Props = {
 
 export function CTABanner({ variant = "dark", titleKey = "bannerDark.title" }: Props) {
   const t = useTranslations("cta");
+  const { openBooking } = useBooking();
 
   const isDark = variant === "dark";
 
@@ -39,9 +41,13 @@ export function CTABanner({ variant = "dark", titleKey = "bannerDark.title" }: P
           </div>
         </div>
         <div className="flex items-center gap-3 shrink-0">
-          <a href={FIRM.bookingHref} className="cta-gold text-sm">
+          <button
+            type="button"
+            onClick={openBooking}
+            className="cta-gold text-sm"
+          >
             {t("freeConsultation")}
-          </a>
+          </button>
           {isDark ? (
             <a
               href={FIRM.whatsapp}

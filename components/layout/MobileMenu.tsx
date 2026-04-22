@@ -8,6 +8,7 @@ import { Logo } from "./Logo";
 import { LanguageToggle } from "./LanguageToggle";
 import { FIRM } from "@/lib/constants";
 import { useEffect } from "react";
+import { useBooking } from "@/context/BookingContext";
 
 type NavItem = { key: string; href: React.ComponentProps<typeof Link>["href"] };
 
@@ -20,6 +21,7 @@ type Props = {
 
 export function MobileMenu({ open, onClose, items }: Props) {
   const t = useTranslations("nav");
+  const { openBooking } = useBooking();
 
   useEffect(() => {
     if (open) document.body.style.overflow = "hidden";
@@ -87,13 +89,16 @@ export function MobileMenu({ open, onClose, items }: Props) {
                 <MessageCircle size={16} /> WhatsApp
               </a>
             </div>
-            <a
-              href={FIRM.bookingHref}
-              onClick={onClose}
+            <button
+              type="button"
+              onClick={() => {
+                onClose();
+                openBooking();
+              }}
               className="cta-gold mt-3 w-full justify-center"
             >
               {t("freeConsultation")}
-            </a>
+            </button>
           </div>
         </motion.div>
       )}

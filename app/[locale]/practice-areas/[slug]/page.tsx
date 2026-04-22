@@ -12,6 +12,7 @@ import { ReadingProgress } from "@/components/ui/ReadingProgress";
 import { iconMap } from "@/components/practice/iconMap";
 import { PeopleViewing } from "@/components/practice/PeopleViewing";
 import { StickySidebar } from "@/components/practice/StickySidebar";
+import BookingButton from "@/components/ui/BookingButton";
 import { Link } from "@/i18n/navigation";
 import {
   ArrowRight,
@@ -230,12 +231,9 @@ export default async function PracticeAreaDetailPage({
               </div>
             </dl>
 
-            <a
-              href="#free-consultation"
-              className="cta-gold w-full justify-center text-sm mt-5"
-            >
+            <BookingButton className="cta-gold w-full justify-center text-sm mt-5">
               {tPage("bookCTA")}
-            </a>
+            </BookingButton>
           </aside>
         </div>
       </section>

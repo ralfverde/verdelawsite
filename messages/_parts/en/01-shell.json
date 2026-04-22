@@ -45,6 +45,11 @@
     "finalSubtitle": "100% free. 100% confidential. Our legal team reviews your case personally.",
     "scheduleCTA": "Schedule My Free Consultation"
   },
+  "booking": {
+    "eyebrow": "FREE CONSULTATION",
+    "title": "Book your consultation",
+    "close": "Close"
+  },
   "floating": {
     "tooltip": "Need help? Message us on WhatsApp."
   },

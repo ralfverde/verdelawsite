@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { LenisProvider } from "@/components/providers/LenisProvider";
+import { BookingProvider } from "@/context/BookingContext";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
@@ -32,22 +33,24 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <LenisProvider>
-        <LoadingScreen />
-        <Navbar />
-        <main id="main" className="pt-0">
-          <PageTransition>{children}</PageTransition>
-        </main>
-        <Footer />
-        <FloatingWhatsApp />
-        <StickyMobileCTA />
-        <BackToTop />
-        <CookieConsent />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-        />
-      </LenisProvider>
+      <BookingProvider>
+        <LenisProvider>
+          <LoadingScreen />
+          <Navbar />
+          <main id="main" className="pt-0">
+            <PageTransition>{children}</PageTransition>
+          </main>
+          <Footer />
+          <FloatingWhatsApp />
+          <StickyMobileCTA />
+          <BackToTop />
+          <CookieConsent />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+          />
+        </LenisProvider>
+      </BookingProvider>
     </NextIntlClientProvider>
   );
 }

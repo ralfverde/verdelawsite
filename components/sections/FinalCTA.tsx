@@ -8,9 +8,11 @@ import { fadeUp } from "@/lib/animations";
 import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { TextReveal } from "@/components/ui/TextReveal";
+import { useBooking } from "@/context/BookingContext";
 
 export function FinalCTA() {
   const t = useTranslations("cta");
+  const { openBooking } = useBooking();
   return (
     <section className="noise-bg relative overflow-hidden bg-verde-800 text-white">
       <div
@@ -37,9 +39,13 @@ export function FinalCTA() {
 
         <div className="flex flex-wrap items-center justify-center gap-4">
           <MagneticButton>
-            <a href={FIRM.bookingHref} className="cta-gold text-base px-8 py-4">
+            <button
+              type="button"
+              onClick={openBooking}
+              className="cta-gold text-base px-8 py-4"
+            >
               {t("scheduleCTA")}
-            </a>
+            </button>
           </MagneticButton>
           <a
             href={FIRM.whatsapp}

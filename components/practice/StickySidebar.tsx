@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { FIRM } from "@/lib/constants";
+import { useBooking } from "@/context/BookingContext";
 
 type Props = {
   serviceTitle: string;
@@ -17,6 +18,7 @@ type Props = {
  */
 export function StickySidebar({ serviceTitle }: Props) {
   const tNav = useTranslations("nav");
+  const { openBooking } = useBooking();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -52,12 +54,13 @@ export function StickySidebar({ serviceTitle }: Props) {
             {serviceTitle}
           </p>
 
-          <a
-            href={FIRM.bookingHref}
+          <button
+            type="button"
+            onClick={openBooking}
             className="cta-gold text-sm py-2.5 px-4 w-full justify-center"
           >
             {tNav("freeConsultation")}
-          </a>
+          </button>
 
           <a
             href={FIRM.phoneHref}
