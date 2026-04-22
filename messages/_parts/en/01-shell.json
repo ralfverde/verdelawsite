@@ -16,13 +16,13 @@
   "hero": {
     "eyebrow": "Immigration Attorneys — All 50 States",
     "title": "You deserve an attorney who answers the phone, speaks your language, and fights like it's personal.",
-    "subtitle": "Verde Law has represented over 600 families in immigration court — from asylum hearings to bond proceedings to deportation defense. Your first consultation is free, confidential, and comes with zero pressure to hire us.",
+    "subtitle": "Verde Law has represented thousands of families in immigration court — from asylum hearings to bond proceedings to deportation defense. Your first consultation is free, confidential, and comes with zero pressure to hire us.",
     "ctaPrimary": "Schedule My Free Consultation",
     "ctaWhatsApp": "Send us a WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Founder & Managing Attorney",
     "badges": {
-      "cases": "600+ families represented",
+      "cases": "Thousands of families represented",
       "states": "All 50 states",
       "free": "Free consultation — always"
     }
@@ -30,7 +30,6 @@
   "socialProof": {
     "cases": "Families represented",
     "states": "States covered",
-    "revenue": "In case value handled",
     "tiktok": "Social media followers",
     "rating": "Google rating"
   },
@@ -39,7 +38,7 @@
       "title": "Have an immigration case? Talk to us today — no cost, no obligation, no judgment."
     },
     "bannerLight": {
-      "title": "Over 600 families have trusted Verde Law with their future. You could be next."
+      "title": "Thousands of families have trusted Verde Law with their future. You could be next."
     },
     "subtitle": "Confidential consultations in Spanish, English, Haitian Creole, and Portuguese.",
     "freeConsultation": "Free Consultation",

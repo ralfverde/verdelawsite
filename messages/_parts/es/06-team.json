@@ -6,13 +6,9 @@
     },
     "eyebrow": "Nuestro Equipo",
     "title": "Las personas que luchan por su familia.",
-    "subtitle": "Dos abogados, cuatro paralegales, y un equipo de soporte que trata cada llamada como si importara — porque importa.",
-    "attorneysEyebrow": "Abogados",
-    "attorneysTitle": "Los abogados en su caso.",
-    "paralegalsEyebrow": "Equipo Legal",
-    "paralegalsTitle": "Paralegales que conocen su expediente.",
-    "supportEyebrow": "Soporte",
-    "supportTitle": "Las personas que mantienen las puertas abiertas.",
+    "subtitle": "Abogados, paralegales y personal de apoyo — cada uno de nosotros está aquí por la misma razón.",
+    "teamEyebrow": "Conozca al equipo",
+    "teamTitle": "Conozca al equipo.",
     "paralegal": "Paralegal",
     "attorneys": {
       "rafael": { "title": "Fundador y Abogado Principal" },
@@ -20,7 +16,7 @@
     },
     "support": {
       "officeManager": "Gerente de Oficina",
-      "intakeSupervisor": "Supervisora de Admisiones",
+      "intakeSupervisor": "Supervisora de Intake",
       "billing": "Coordinadora de Facturación",
       "marketing": "Directora de Marketing"
     },
@@ -29,7 +25,7 @@
       "rafael-verde": {
         "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse.",
         "p2": "Antes de fundar la firma, pasó sus últimos años en la Oficina del Defensor Público de Georgetown y en una clínica federal de inmigración, donde vio a clientes detenidos pasar años mientras la mayoría de sus compañeros se preparaban para sus pasantías en grandes firmas.",
-        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, argumenta casi cada moción en el Circuito Once, y maneja un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley de inmigración de EE.UU. Más de 600 familias después, la apuesta rindió frutos.",
+        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, argumenta casi cada moción en el Circuito Once, y maneja un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley de inmigración de EE.UU. Miles de familias después, la apuesta rindió frutos.",
         "education": { "label": "Educación", "value": "Georgetown University Law Center · J.D., 2014" },
         "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Corte Federal de Apelaciones, Undécimo Circuito · Corte Federal de Distrito, Distrito Sur de Florida" },
         "languages": { "label": "Idiomas", "value": "Inglés · Español" }

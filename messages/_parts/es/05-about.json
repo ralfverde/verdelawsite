@@ -2,14 +2,14 @@
   "about": {
     "seo": {
       "title": "Sobre Verde Law — Bufete Humanitario de Inmigración",
-      "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. 600+ familias. 50 estados. Una sola misión."
+      "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. Miles de familias. 50 estados. Una sola misión."
     },
     "eyebrow": "Sobre Nosotros",
     "title": "Una firma construida para las personas a las que el sistema más les afecta.",
     "subtitle": "Verde Law fue fundada con una sola idea: que cada inmigrante en los Estados Unidos merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
     "story": {
       "eyebrow": "Nuestra Historia",
-      "title": "De una apuesta en la facultad de derecho a 600 familias atendidas.",
+      "title": "De una apuesta en la facultad de derecho a miles de familias atendidas.",
       "p1": "Rafael Verde fundó Verde Law en 2024, recién egresado de Georgetown Law — antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse. La apuesta era simple: que existía un mercado real para una firma de inmigración humanitaria que tratara a las familias hispanas como se trata a los clientes corporativos — con urgencia, con respeto, y con un abogado que realmente conozca su nombre.",
       "p2": "El primer año fueron dos abogados y una sola oficina en Coral Way. Hoy el equipo tiene 22 personas, sirviendo a clientes en los cincuenta estados, desde audiencias de fianza en Krome hasta apelaciones federales en el Circuito Once.",
       "p3": "Nuestra audiencia en TikTok supera los 61,000 y sigue creciendo, porque la educación gratuita importa tanto como la representación pagada.",
@@ -18,7 +18,7 @@
       "milestones": {
         "founded": { "value": "Fundada en 2024", "label": "Año de apertura del bufete" },
         "employees": { "value": "22 empleados", "label": "Miembros del equipo hoy" },
-        "families": { "value": "600+ familias", "label": "Atendidas desde el inicio" }
+        "families": { "value": "Miles", "label": "Familias atendidas desde el inicio" }
       }
     },
     "mission": {

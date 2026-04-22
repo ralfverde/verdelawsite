@@ -84,7 +84,7 @@ export function PracticeTabs() {
                 {t(`tabs.${active}`)}
               </h3>
               <p className="text-sm text-verde-950/50">
-                {filtered.length} · {t("startingAt")} ${Math.min(...filtered.map((s) => s.price)).toLocaleString()}
+                {filtered.length}
               </p>
             </motion.div>
           )}
@@ -98,7 +98,6 @@ export function PracticeTabs() {
           <AnimatePresence mode="popLayout">
             {filtered.map((s, i) => {
               const Icon = iconMap[s.icon] ?? FileText;
-              const isPremium = s.price >= 8000;
               const isPackage = s.id.endsWith("-package");
 
               return (
@@ -116,9 +115,7 @@ export function PracticeTabs() {
                 >
                   <Link
                     href={`/practice-areas/${s.slug[locale]}` as never}
-                    className={`group relative flex flex-col h-full bg-white rounded-xl border border-verde-950/[0.06] p-6 cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-verde-950/[0.04] hover:border-gold-500/20 ${
-                      isPremium ? "border-t-2 border-t-gold-500/40" : ""
-                    }`}
+                    className="group relative flex flex-col h-full bg-white rounded-xl border border-verde-950/[0.06] p-6 cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-verde-950/[0.04] hover:border-gold-500/20"
                   >
                     {isPackage && (
                       <span
@@ -144,14 +141,8 @@ export function PracticeTabs() {
                       {tSvc(`${s.id}.short`)}
                     </p>
 
-                    {/* Bottom: price + arrow */}
-                    <div className="mt-auto flex items-center justify-between pt-4 border-t border-verde-950/[0.06]">
-                      <span className="text-base font-semibold text-gold-600">
-                        <span className="text-xs font-normal text-verde-950/40 mr-1">
-                          {t("startingAt")}
-                        </span>
-                        ${s.price.toLocaleString()}
-                      </span>
+                    {/* Bottom: arrow */}
+                    <div className="mt-auto flex items-center justify-end pt-4 border-t border-verde-950/[0.06]">
                       <span className="w-8 h-8 rounded-full bg-verde-50 grid place-items-center transition-colors duration-200 group-hover:bg-gold-500">
                         <ArrowRight
                           size={16}

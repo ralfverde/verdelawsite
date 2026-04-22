@@ -6,7 +6,7 @@
     },
     "cost": {
       "question": "¿Cuánto cuesta contratar un abogado de inmigración?",
-      "answer": "Nuestros servicios van desde $750 para presentaciones individuales hasta $11,000 para paquetes complejos como fianza más defensa de deportación. La mayoría de los casos caen entre $5,000 y $9,000. Cobramos tarifas fijas — nunca por hora — para que sepa el costo total antes de firmar. Los planes de pago siempre están disponibles."
+      "answer": "Nuestros honorarios dependen del tipo de caso y su complejidad. Cobramos tarifas fijas — nunca por hora — para que sepa el costo total antes de firmar. Durante su consulta gratuita, le daremos una cotización exacta sin cargos ocultos. Los planes de pago siempre están disponibles, y nunca dejaremos que el costo sea la razón por la que no obtenga representación."
     },
     "outsideFlorida": {
       "question": "¿Pueden ayudarme si no vivo en Florida?",
@@ -38,7 +38,7 @@
     },
     "paymentPlans": {
       "question": "¿Ofrecen planes de pago?",
-      "answer": "Sí. Ofrecemos planes mensuales, quincenales, y semanales. La mayoría de los clientes pagan un pago inicial de $2,500–$3,000 y distribuyen el resto durante la vida del caso. También aceptamos Affirm Pay Later si prefiere financiar el monto total por adelantado. Nunca permitiremos que el costo sea la razón por la que no obtenga representación."
+      "answer": "Sí. Ofrecemos planes de pago mensuales, quincenales y semanales. La mayoría de los clientes hacen un pago inicial manejable y luego distribuyen el resto durante la vida del caso. Discutiremos todas las opciones durante su consulta gratuita y encontraremos un plan que funcione para su presupuesto."
     },
     "vawaEligibility": {
       "question": "¿Soy elegible para VAWA si no tengo un reporte policial?",

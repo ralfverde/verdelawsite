@@ -19,10 +19,9 @@ export const FIRM = {
     facebook: "https://facebook.com/verdelaw",
   },
   stats: {
-    cases: "600+",
+    cases: "1,000+",
     states: "50",
-    revenue: "$2M+",
     tiktok: "61K+",
-    rating: "4.8",
+    rating: "4.9",
   },
 } as const;

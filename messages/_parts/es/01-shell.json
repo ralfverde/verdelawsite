@@ -16,13 +16,13 @@
   "hero": {
     "eyebrow": "Abogados de Inmigración — Los 50 Estados",
     "title": "Usted merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
-    "subtitle": "Verde Law ha representado a más de 600 familias en corte de inmigración — desde audiencias de asilo hasta procedimientos de fianza y defensa contra la deportación. Su primera consulta es gratuita, confidencial, y sin ninguna presión para contratarnos.",
+    "subtitle": "Verde Law ha representado a miles de familias en corte de inmigración — desde audiencias de asilo hasta procedimientos de fianza y defensa contra la deportación. Su primera consulta es gratuita, confidencial, y sin ninguna presión para contratarnos.",
     "ctaPrimary": "Agendar Mi Consulta Gratuita",
     "ctaWhatsApp": "Envíenos un WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Fundador y Abogado Principal",
     "badges": {
-      "cases": "600+ familias representadas",
+      "cases": "Miles de familias representadas",
       "states": "Los 50 estados",
       "free": "Consulta gratuita — siempre"
     }
@@ -30,7 +30,6 @@
   "socialProof": {
     "cases": "Familias representadas",
     "states": "Estados cubiertos",
-    "revenue": "En valor de casos manejados",
     "tiktok": "Seguidores en redes",
     "rating": "Calificación en Google"
   },
@@ -39,7 +38,7 @@
       "title": "¿Tiene un caso de inmigración? Hable con nosotros hoy — sin costo, sin compromiso, sin juicio."
     },
     "bannerLight": {
-      "title": "Más de 600 familias han confiado en Verde Law con su futuro. Usted puede ser la siguiente."
+      "title": "Miles de familias han confiado en Verde Law con su futuro. Usted puede ser la siguiente."
     },
     "subtitle": "Consultas confidenciales en español, inglés, criollo haitiano y portugués.",
     "freeConsultation": "Consulta Gratis",

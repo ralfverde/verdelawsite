@@ -17,7 +17,6 @@ import {
   ArrowRight,
   Clock,
   FileText,
-  DollarSign,
   Building2,
   Info,
 } from "lucide-react";
@@ -89,11 +88,9 @@ export default async function PracticeAreaDetailPage({
       telephone: "+1-305-786-3003",
     },
     areaServed: "United States",
-    offers: { "@type": "Offer", price: svc.price, priceCurrency: "USD" },
   };
 
   const badges = [
-    { icon: DollarSign, label: `${tPage("startingAt")} $${svc.price.toLocaleString()}` },
     { icon: Clock, label: t(`${svc.id}.timeline`) },
     { icon: FileText, label: t(`${svc.id}.forms`) },
     { icon: Building2, label: t(`${svc.id}.agency`) },
@@ -102,7 +99,7 @@ export default async function PracticeAreaDetailPage({
   return (
     <>
       <ReadingProgress />
-      <StickySidebar serviceTitle={t(`${svc.id}.title`)} price={svc.price} />
+      <StickySidebar serviceTitle={t(`${svc.id}.title`)} />
       {/* Hero */}
       <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-32 pb-20 md:pt-40 md:pb-28">
         <div
@@ -210,12 +207,6 @@ export default async function PracticeAreaDetailPage({
                 <dt className="text-sm text-verde-950/50">{tPage("forms")}</dt>
                 <dd className="text-sm font-medium text-verde-950 text-right max-w-[60%]">
                   {t(`${svc.id}.forms`)}
-                </dd>
-              </div>
-              <div className="flex justify-between gap-4 py-3 border-b border-verde-950/5">
-                <dt className="text-sm text-verde-950/50">{tPage("cost")}</dt>
-                <dd className="text-lg font-semibold text-verde-900 text-right max-w-[60%]">
-                  ${svc.price.toLocaleString()}
                 </dd>
               </div>
               <div className="flex justify-between gap-4 py-3">

@@ -6,7 +6,7 @@
     },
     "cost": {
       "question": "How much does it cost to hire an immigration attorney?",
-      "answer": "Our services range from $750 for standalone filings to $11,000 for complex packages like bond plus removal defense. Most cases fall between $5,000 and $9,000. We charge flat fees — never hourly — so you know the total cost before you sign. Payment plans are always available."
+      "answer": "Our fees depend on the type of case and its complexity. We charge flat fees — never hourly — so you know the total cost before you sign anything. During your free consultation, we'll give you an exact quote with no hidden charges. Payment plans are always available, and we'll never let cost be the reason you don't get representation."
     },
     "outsideFlorida": {
       "question": "Can you help me if I don't live in Florida?",
@@ -38,7 +38,7 @@
     },
     "paymentPlans": {
       "question": "Do you offer payment plans?",
-      "answer": "Yes. We offer monthly, biweekly, and weekly plans. Most clients pay a down payment of $2,500–$3,000 and spread the rest over the life of the case. We also accept Affirm Pay Later if you'd rather finance the full amount up front. We will never let cost be the reason you don't get representation."
+      "answer": "Yes. We offer monthly, biweekly, and weekly payment plans. Most clients make a manageable down payment and then spread the rest over the life of the case. We'll discuss all options during your free consultation and find a plan that works for your budget."
     },
     "vawaEligibility": {
       "question": "Am I eligible for VAWA if I don't have a police report?",

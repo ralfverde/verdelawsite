@@ -2,14 +2,14 @@
   "about": {
     "seo": {
       "title": "About Verde Law — Humanitarian Immigration Firm",
-      "description": "A Miami-based firm founded to make quality immigration representation accessible. 600+ families. 50 states. One mission."
+      "description": "A Miami-based firm founded to make quality immigration representation accessible. Thousands of families. 50 states. One mission."
     },
     "eyebrow": "About Us",
     "title": "A firm built for the people the system is hardest on.",
     "subtitle": "Verde Law was founded with a single idea: that every immigrant in the United States deserves an attorney who answers the phone, speaks their language, and fights like it's personal.",
     "story": {
       "eyebrow": "Our Story",
-      "title": "From law school bet to 600 families strong.",
+      "title": "From law school bet to thousands of families strong.",
       "p1": "Rafael Verde founded Verde Law in 2024, straight out of Georgetown Law — before most of his classmates had decided which firm to join. The bet was simple: that there was a real market for a humanitarian immigration firm that treated Spanish-speaking families the way corporate clients get treated — with urgency, with respect, and with an attorney who actually knows their name.",
       "p2": "The first year was two attorneys and a single office in Coral Way. Today the team is 22 people strong, serving clients in all fifty states, from bond hearings at Krome to federal appeals in the Eleventh Circuit.",
       "p3": "Our TikTok audience is over 61,000 and growing, because free education matters as much as paid representation.",
@@ -18,7 +18,7 @@
       "milestones": {
         "founded": { "value": "Founded 2024", "label": "Year the firm opened" },
         "employees": { "value": "22 employees", "label": "Team members today" },
-        "families": { "value": "600+ families", "label": "Served since launch" }
+        "families": { "value": "Thousands", "label": "Families served since launch" }
       }
     },
     "mission": {

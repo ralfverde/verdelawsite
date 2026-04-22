@@ -49,34 +49,44 @@ export function Navbar() {
         style={{ transition: "background-color 0.4s cubic-bezier(0.22, 1, 0.36, 1), backdrop-filter 0.4s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.4s cubic-bezier(0.22, 1, 0.36, 1)" }}
         aria-label="Primary"
       >
-        <div className="container-wide flex items-center justify-between gap-6 py-4">
+        <div className="container-wide flex items-center justify-between gap-3 py-4">
           <Link href="/" aria-label="Verde Law" className="shrink-0">
             <Logo />
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-1" aria-label="Primary navigation">
+          <nav className="hidden lg:flex items-center gap-0.5" aria-label="Primary navigation">
             {NAV.map((item) => (
               <Link
                 key={item.key}
                 href={item.href}
-                className="px-3 py-2 text-nav text-white/80 hover:text-white transition-colors"
+                className="px-2.5 py-2 text-[13px] font-medium tracking-normal whitespace-nowrap text-white/80 hover:text-white transition-colors"
               >
                 {t(item.key)}
               </Link>
             ))}
           </nav>
 
-          <div className="hidden lg:flex items-center gap-5 shrink-0">
+          <div className="hidden lg:flex items-center gap-3 shrink-0">
             <LanguageToggle />
             <a
               href={FIRM.phoneHref}
-              className="flex items-center gap-2 text-sm text-white/80 hover:text-[var(--gold-500)] transition-colors"
+              aria-label={FIRM.phoneDisplay}
+              title={FIRM.phoneDisplay}
+              className="hidden xl:flex items-center gap-2 text-[13px] whitespace-nowrap text-white/80 hover:text-[var(--gold-500)] transition-colors"
             >
               <Phone size={16} />
               {FIRM.phoneDisplay}
             </a>
+            <a
+              href={FIRM.phoneHref}
+              aria-label={FIRM.phoneDisplay}
+              title={FIRM.phoneDisplay}
+              className="xl:hidden grid place-items-center w-9 h-9 rounded-full border border-white/15 text-white/80 hover:text-[var(--gold-500)] hover:border-[var(--gold-500)]/40 transition-colors"
+            >
+              <Phone size={16} />
+            </a>
             <MagneticButton>
-              <a href={FIRM.bookingHref} className="cta-gold text-sm">
+              <a href={FIRM.bookingHref} className="cta-gold text-[13px] whitespace-nowrap px-5 py-2.5">
                 {t("freeConsultation")}
               </a>
             </MagneticButton>

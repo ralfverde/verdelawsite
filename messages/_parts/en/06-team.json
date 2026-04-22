@@ -6,13 +6,9 @@
     },
     "eyebrow": "Our Team",
     "title": "The people fighting for your family.",
-    "subtitle": "Two attorneys, four paralegals, and a support team that treats every phone call like it matters — because it does.",
-    "attorneysEyebrow": "Attorneys",
-    "attorneysTitle": "The lawyers on your case.",
-    "paralegalsEyebrow": "Legal Team",
-    "paralegalsTitle": "Paralegals who know your file.",
-    "supportEyebrow": "Support",
-    "supportTitle": "The people who keep the doors open.",
+    "subtitle": "Attorneys, paralegals, and support staff — every one of us is here for the same reason.",
+    "teamEyebrow": "Meet the team",
+    "teamTitle": "Meet the team.",
     "paralegal": "Paralegal",
     "attorneys": {
       "rafael": { "title": "Founder & Managing Attorney" },
@@ -29,7 +25,7 @@
       "rafael-verde": {
         "p1": "Rafael Verde founded Verde Law in 2024 — weeks after passing the bar and before most of his classmates had decided which firm to join.",
         "p2": "Before founding the firm, he spent his final years at Georgetown's Public Defender's Office and at a federal immigration clinic, where he saw detained clients go years while most of his classmates were prepping for BigLaw summers.",
-        "p3": "Today he personally reviews every new case at Verde Law, argues nearly every motion across the Eleventh Circuit, and runs a TikTok that's taught over 61,000 people their rights under U.S. immigration law. More than 600 families later, the bet paid off.",
+        "p3": "Today he personally reviews every new case at Verde Law, argues nearly every motion across the Eleventh Circuit, and runs a TikTok that's taught over 61,000 people their rights under U.S. immigration law. Thousands of families later, the bet paid off.",
         "education": { "label": "Education", "value": "Georgetown University Law Center · J.D., 2024" },
         "barAdmissions": { "label": "Bar Admissions", "value": "Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida" },
         "languages": { "label": "Languages", "value": "English · Español" }

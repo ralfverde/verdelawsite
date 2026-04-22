@@ -7,7 +7,6 @@ import { FIRM } from "@/lib/constants";
 
 type Props = {
   serviceTitle: string;
-  price: number;
 };
 
 /**
@@ -16,8 +15,7 @@ type Props = {
  * again once the page-bottom FinalCTA enters view (so we don't
  * double-up with it).
  */
-export function StickySidebar({ serviceTitle, price }: Props) {
-  const tPage = useTranslations("practiceDetail");
+export function StickySidebar({ serviceTitle }: Props) {
   const tNav = useTranslations("nav");
   const [visible, setVisible] = useState(false);
 
@@ -26,8 +24,6 @@ export function StickySidebar({ serviceTitle, price }: Props) {
       const y = window.scrollY;
       const h = window.innerHeight;
       const doc = document.documentElement.scrollHeight;
-      // Show once past 600px, hide when within 500px of bottom
-      // (that footprint is the FinalCTA + Footer zone).
       const show = y > 600 && y + h < doc - 500;
       setVisible(show);
     }
@@ -49,13 +45,10 @@ export function StickySidebar({ serviceTitle, price }: Props) {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 20 }}
           transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-          className="hidden lg:block fixed right-8 top-1/2 -translate-y-1/2 z-30 w-[200px] bg-verde-950 rounded-xl p-5 border border-white/[0.08] shadow-[0_20px_60px_rgba(0,0,0,0.3)]"
+          className="hidden lg:block fixed right-8 top-1/2 -translate-y-1/2 z-30 w-[220px] bg-verde-950 rounded-xl p-5 border border-white/[0.08] shadow-[0_20px_60px_rgba(0,0,0,0.3)]"
           aria-label={serviceTitle}
         >
-          <p className="text-lg font-semibold text-gold-500 mb-1 leading-tight">
-            {tPage("startingAt")} ${price.toLocaleString()}
-          </p>
-          <p className="text-xs text-white/40 mb-4 leading-snug">
+          <p className="text-sm text-white/50 mb-4 leading-snug">
             {serviceTitle}
           </p>
 

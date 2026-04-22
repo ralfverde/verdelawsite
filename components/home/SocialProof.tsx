@@ -17,11 +17,10 @@ type Stat = {
 };
 
 const stats: Stat[] = [
-  { key: "cases", value: 600, suffix: "+" },
+  { key: "cases", value: 1000, suffix: "+" },
   { key: "states", value: 50 },
-  { key: "revenue", value: 2, prefix: "$", suffix: "M+" },
   { key: "tiktok", value: 61, suffix: "K+" },
-  { key: "rating", value: 4.8, decimals: 1, isRating: true },
+  { key: "rating", value: 4.9, decimals: 1, isRating: true },
 ];
 
 export function SocialProof() {
@@ -30,7 +29,7 @@ export function SocialProof() {
   return (
     <section className="bg-gradient-to-b from-[#FAF8F2] to-[#F4F0E6] text-verde-950">
       <div className="container-wide py-16 md:py-20">
-        <div className="grid grid-cols-2 md:grid-cols-9 gap-y-10 gap-x-4 max-w-6xl mx-auto items-center text-center">
+        <div className="grid grid-cols-2 md:grid-cols-7 gap-y-10 gap-x-4 max-w-6xl mx-auto items-center text-center">
           {stats.map((stat, i) => (
             <Fragment key={stat.key}>
               <motion.div

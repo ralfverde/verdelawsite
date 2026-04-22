@@ -16,13 +16,13 @@
   "hero": {
     "eyebrow": "Abogados de Inmigración — Los 50 Estados",
     "title": "Usted merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
-    "subtitle": "Verde Law ha representado a más de 600 familias en corte de inmigración — desde audiencias de asilo hasta procedimientos de fianza y defensa contra la deportación. Su primera consulta es gratuita, confidencial, y sin ninguna presión para contratarnos.",
+    "subtitle": "Verde Law ha representado a miles de familias en corte de inmigración — desde audiencias de asilo hasta procedimientos de fianza y defensa contra la deportación. Su primera consulta es gratuita, confidencial, y sin ninguna presión para contratarnos.",
     "ctaPrimary": "Agendar Mi Consulta Gratuita",
     "ctaWhatsApp": "Envíenos un WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Fundador y Abogado Principal",
     "badges": {
-      "cases": "600+ familias representadas",
+      "cases": "Miles de familias representadas",
       "states": "Los 50 estados",
       "free": "Consulta gratuita — siempre"
     }
@@ -30,7 +30,6 @@
   "socialProof": {
     "cases": "Familias representadas",
     "states": "Estados cubiertos",
-    "revenue": "En valor de casos manejados",
     "tiktok": "Seguidores en redes",
     "rating": "Calificación en Google"
   },
@@ -39,7 +38,7 @@
       "title": "¿Tiene un caso de inmigración? Hable con nosotros hoy — sin costo, sin compromiso, sin juicio."
     },
     "bannerLight": {
-      "title": "Más de 600 familias han confiado en Verde Law con su futuro. Usted puede ser la siguiente."
+      "title": "Miles de familias han confiado en Verde Law con su futuro. Usted puede ser la siguiente."
     },
     "subtitle": "Consultas confidenciales en español, inglés, criollo haitiano y portugués.",
     "freeConsultation": "Consulta Gratis",
@@ -196,7 +195,7 @@
     "name": "Rafael Verde",
     "role": "Fundador y Abogado Principal",
     "body1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse. La apuesta era simple: que existía un mercado real para una firma de inmigración humanitaria que tratara a las familias hispanas de la misma manera que se trata a los clientes corporativos — con urgencia, con respeto, y con un abogado que realmente conozca su nombre.",
-    "body2": "Hoy, el equipo tiene 22 personas. La firma maneja casos en el Circuito Once, en cortes de apelaciones federales, y en cortes de inmigración desde Krome hasta Chicago y Los Ángeles. Rafael revisa personalmente cada caso nuevo. Todavía contesta su propio teléfono los fines de semana. Más de 600 familias después, la apuesta rindió frutos.",
+    "body2": "Hoy, el equipo tiene 22 personas. La firma maneja casos en el Circuito Once, en cortes de apelaciones federales, y en cortes de inmigración desde Krome hasta Chicago y Los Ángeles. Rafael revisa personalmente cada caso nuevo. Todavía contesta su propio teléfono los fines de semana. Miles de familias después, la apuesta rindió frutos.",
     "viewTeam": "Conozca al equipo completo",
     "credentials": {
       "georgetown": "Educación: Georgetown University Law Center — J.D., 2024",
@@ -307,7 +306,7 @@
     },
     "q4": {
       "question": "¿Ofrecen planes de pago?",
-      "answer": "Sí. Ofrecemos planes de pago mensuales, quincenales, y semanales. La mayoría de los clientes pagan un pago inicial de $2,500–$3,000 y luego distribuyen el resto durante la vida del caso. También aceptamos Affirm Pay Later para clientes que prefieren financiar el monto total. Nunca dejaremos que el costo sea la razón por la que no obtenga representación."
+      "answer": "Sí. Ofrecemos planes de pago mensuales, quincenales y semanales. La mayoría de los clientes hacen un pago inicial manejable y luego distribuyen el resto durante la vida del caso. Discutiremos todas las opciones durante su consulta gratuita y encontraremos un plan que funcione para su presupuesto."
     },
     "q5": {
       "question": "¿La primera consulta es realmente gratis?",
@@ -953,14 +952,14 @@
   "about": {
     "seo": {
       "title": "Sobre Verde Law — Bufete Humanitario de Inmigración",
-      "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. 600+ familias. 50 estados. Una sola misión."
+      "description": "Un bufete con sede en Miami, fundado para hacer accesible la representación migratoria de calidad. Miles de familias. 50 estados. Una sola misión."
     },
     "eyebrow": "Sobre Nosotros",
     "title": "Una firma construida para las personas a las que el sistema más les afecta.",
     "subtitle": "Verde Law fue fundada con una sola idea: que cada inmigrante en los Estados Unidos merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
     "story": {
       "eyebrow": "Nuestra Historia",
-      "title": "De una apuesta en la facultad de derecho a 600 familias atendidas.",
+      "title": "De una apuesta en la facultad de derecho a miles de familias atendidas.",
       "p1": "Rafael Verde fundó Verde Law en 2024, recién egresado de Georgetown Law — antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse. La apuesta era simple: que existía un mercado real para una firma de inmigración humanitaria que tratara a las familias hispanas como se trata a los clientes corporativos — con urgencia, con respeto, y con un abogado que realmente conozca su nombre.",
       "p2": "El primer año fueron dos abogados y una sola oficina en Coral Way. Hoy el equipo tiene 22 personas, sirviendo a clientes en los cincuenta estados, desde audiencias de fianza en Krome hasta apelaciones federales en el Circuito Once.",
       "p3": "Nuestra audiencia en TikTok supera los 61,000 y sigue creciendo, porque la educación gratuita importa tanto como la representación pagada.",
@@ -976,8 +975,8 @@
           "label": "Miembros del equipo hoy"
         },
         "families": {
-          "value": "600+ familias",
-          "label": "Atendidas desde el inicio"
+          "value": "Miles",
+          "label": "Familias atendidas desde el inicio"
         }
       }
     },
@@ -1021,13 +1020,9 @@
     },
     "eyebrow": "Nuestro Equipo",
     "title": "Las personas que luchan por su familia.",
-    "subtitle": "Dos abogados, cuatro paralegales, y un equipo de soporte que trata cada llamada como si importara — porque importa.",
-    "attorneysEyebrow": "Abogados",
-    "attorneysTitle": "Los abogados en su caso.",
-    "paralegalsEyebrow": "Equipo Legal",
-    "paralegalsTitle": "Paralegales que conocen su expediente.",
-    "supportEyebrow": "Soporte",
-    "supportTitle": "Las personas que mantienen las puertas abiertas.",
+    "subtitle": "Abogados, paralegales y personal de apoyo — cada uno de nosotros está aquí por la misma razón.",
+    "teamEyebrow": "Conozca al equipo",
+    "teamTitle": "Conozca al equipo.",
     "paralegal": "Paralegal",
     "attorneys": {
       "rafael": {
@@ -1039,7 +1034,7 @@
     },
     "support": {
       "officeManager": "Gerente de Oficina",
-      "intakeSupervisor": "Supervisora de Admisiones",
+      "intakeSupervisor": "Supervisora de Intake",
       "billing": "Coordinadora de Facturación",
       "marketing": "Directora de Marketing"
     },
@@ -1048,7 +1043,7 @@
       "rafael-verde": {
         "p1": "Rafael Verde fundó Verde Law en 2024 — semanas después de pasar el examen de la barra y antes de que la mayoría de sus compañeros hubieran decidido a qué firma unirse.",
         "p2": "Antes de fundar la firma, pasó sus últimos años en la Oficina del Defensor Público de Georgetown y en una clínica federal de inmigración, donde vio a clientes detenidos pasar años mientras la mayoría de sus compañeros se preparaban para sus pasantías en grandes firmas.",
-        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, argumenta casi cada moción en el Circuito Once, y maneja un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley de inmigración de EE.UU. Más de 600 familias después, la apuesta rindió frutos.",
+        "p3": "Hoy revisa personalmente cada caso nuevo en Verde Law, argumenta casi cada moción en el Circuito Once, y maneja un TikTok que ha enseñado a más de 61,000 personas sus derechos bajo la ley de inmigración de EE.UU. Miles de familias después, la apuesta rindió frutos.",
         "education": {
           "label": "Educación",
           "value": "Georgetown University Law Center · J.D., 2014"
@@ -1261,7 +1256,7 @@
     },
     "cost": {
       "question": "¿Cuánto cuesta contratar un abogado de inmigración?",
-      "answer": "Nuestros servicios van desde $750 para presentaciones individuales hasta $11,000 para paquetes complejos como fianza más defensa de deportación. La mayoría de los casos caen entre $5,000 y $9,000. Cobramos tarifas fijas — nunca por hora — para que sepa el costo total antes de firmar. Los planes de pago siempre están disponibles."
+      "answer": "Nuestros honorarios dependen del tipo de caso y su complejidad. Cobramos tarifas fijas — nunca por hora — para que sepa el costo total antes de firmar. Durante su consulta gratuita, le daremos una cotización exacta sin cargos ocultos. Los planes de pago siempre están disponibles, y nunca dejaremos que el costo sea la razón por la que no obtenga representación."
     },
     "outsideFlorida": {
       "question": "¿Pueden ayudarme si no vivo en Florida?",
@@ -1293,7 +1288,7 @@
     },
     "paymentPlans": {
       "question": "¿Ofrecen planes de pago?",
-      "answer": "Sí. Ofrecemos planes mensuales, quincenales, y semanales. La mayoría de los clientes pagan un pago inicial de $2,500–$3,000 y distribuyen el resto durante la vida del caso. También aceptamos Affirm Pay Later si prefiere financiar el monto total por adelantado. Nunca permitiremos que el costo sea la razón por la que no obtenga representación."
+      "answer": "Sí. Ofrecemos planes de pago mensuales, quincenales y semanales. La mayoría de los clientes hacen un pago inicial manejable y luego distribuyen el resto durante la vida del caso. Discutiremos todas las opciones durante su consulta gratuita y encontraremos un plan que funcione para su presupuesto."
     },
     "vawaEligibility": {
       "question": "¿Soy elegible para VAWA si no tengo un reporte policial?",

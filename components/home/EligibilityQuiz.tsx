@@ -188,9 +188,6 @@ export function EligibilityQuiz() {
                         <p className="text-sm font-medium text-white truncate">
                           {tSvc(`${s.id}.title`)}
                         </p>
-                        <p className="text-xs text-white/50 mt-0.5">
-                          {t("startingAt")} ${s.price.toLocaleString()}
-                        </p>
                       </div>
                       <ArrowRight
                         size={14}
