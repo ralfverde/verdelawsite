@@ -57,7 +57,6 @@ export function AttorneyFeature() {
           <SectionEyebrow className="mb-3">{t("eyebrow")}</SectionEyebrow>
           <h2
             className="font-heading text-white mb-2"
-            style={{ fontSize: "clamp(2.25rem, 4vw, 3.5rem)", lineHeight: 1.05 }}
           >
             {t("name")}
           </h2>

@@ -63,7 +63,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2, ease: easeOut }}
-            className="eyebrow text-gold-500 mb-6"
+            className="text-eyebrow text-gold-500 mb-6"
           >
             {t("eyebrow")}
           </motion.p>
@@ -71,8 +71,7 @@ export function Hero() {
           <TextReveal
             as="h1"
             whileInView={false}
-            className="font-heading text-white mb-6"
-            style={{ fontSize: "clamp(2.5rem, 5.5vw, 4.5rem)", lineHeight: 1.08 }}
+            className="text-display text-gradient-hero mb-6"
           >
             {title}
           </TextReveal>
@@ -81,7 +80,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7, ease: easeOut }}
-            className="text-lg md:text-xl text-white/60 leading-relaxed mb-10 max-w-lg"
+            className="text-body-lg text-white/55 mb-10 max-w-lg"
           >
             {t("subtitle")}
           </motion.p>
@@ -153,8 +152,8 @@ export function Hero() {
 
             {/* Name block */}
             <div className="absolute left-0 right-0 bottom-6 text-center">
-              <p className="font-heading text-white/40 text-2xl">Rafael Verde</p>
-              <p className="text-white/20 text-sm mt-1 tracking-wide">
+              <p className="font-heading font-bold text-white/40 text-2xl tracking-tight">Rafael Verde</p>
+              <p className="text-white/20 text-sm mt-1">
                 {t("portraitRole")}
               </p>
             </div>

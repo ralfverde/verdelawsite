@@ -29,7 +29,6 @@ export function VideoShowcase() {
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
         <h2
           className="mt-3 font-heading"
-          style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)", lineHeight: 1.06 }}
         >
           {t("title")}
         </h2>

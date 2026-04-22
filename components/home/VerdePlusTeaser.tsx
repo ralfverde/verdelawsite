@@ -35,7 +35,6 @@ export function VerdePlusTeaser() {
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
         <h2
           className="mt-3 font-heading"
-          style={{ fontSize: "clamp(2rem, 4.2vw, 3.75rem)", lineHeight: 1.05 }}
         >
           {t("title")}
         </h2>

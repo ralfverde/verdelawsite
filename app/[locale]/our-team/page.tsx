@@ -51,7 +51,6 @@ export default async function TeamPage({
           <SectionEyebrow>{t("attorneysEyebrow")}</SectionEyebrow>
           <h2
             className="mt-3 font-heading text-verde-950"
-            style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("attorneysTitle")}
           </h2>
@@ -144,7 +143,6 @@ export default async function TeamPage({
           <SectionEyebrow>{t("paralegalsEyebrow")}</SectionEyebrow>
           <h2
             className="mt-3 font-heading"
-            style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("paralegalsTitle")}
           </h2>
@@ -175,7 +173,6 @@ export default async function TeamPage({
           <SectionEyebrow>{t("supportEyebrow")}</SectionEyebrow>
           <h2
             className="mt-3 font-heading text-verde-950"
-            style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("supportTitle")}
           </h2>

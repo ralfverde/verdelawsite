@@ -93,7 +93,6 @@ export default async function EducationPage({
           <SectionEyebrow>{t("articles.eyebrow")}</SectionEyebrow>
           <h2
             className="mt-3 font-heading text-verde-950"
-            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("articles.title")}
           </h2>
@@ -165,7 +164,6 @@ export default async function EducationPage({
           <SectionEyebrow>{t("videos.eyebrow")}</SectionEyebrow>
           <h2
             className="mt-3 font-heading"
-            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("videos.title")}
           </h2>
@@ -220,7 +218,6 @@ export default async function EducationPage({
           <SectionEyebrow>{t("faq.eyebrow")}</SectionEyebrow>
           <h2
             className="mt-3 font-heading text-verde-950"
-            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("faq.title")}
           </h2>

@@ -34,10 +34,7 @@ export function Testimonials() {
         className="container-wide"
       >
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
-        <h2
-          className="mt-3 font-heading"
-          style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)", lineHeight: 1.06 }}
-        >
+        <h2 className="mt-3">
           {t("title")}
         </h2>
         <GoldAccentLine className="mt-5" />

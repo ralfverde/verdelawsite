@@ -31,7 +31,6 @@ export function PracticeOverview() {
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
         <h2
           className="mt-3 font-heading text-white"
-          style={{ fontSize: "clamp(2rem, 4.2vw, 3.5rem)", lineHeight: 1.06 }}
         >
           {t("title")}
         </h2>

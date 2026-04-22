@@ -28,7 +28,6 @@ export function FinalCTA() {
         <TextReveal
           as="h2"
           className="font-heading text-white text-center leading-tight mb-4"
-          style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.5rem)" }}
         >
           {t("finalTitle")}
         </TextReveal>

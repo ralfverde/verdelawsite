@@ -169,7 +169,6 @@ export default async function VerdePlusPage({
           <SectionEyebrow>{t("comparison.eyebrow")}</SectionEyebrow>
           <h2
             className="mt-3 font-heading text-verde-950"
-            style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("comparison.title")}
           </h2>
@@ -235,7 +234,6 @@ export default async function VerdePlusPage({
 
           <h2
             className="mt-12 font-heading text-white mb-3"
-            style={{ fontSize: "clamp(1.875rem, 3.6vw, 2.5rem)", lineHeight: 1.1 }}
           >
             {t("download.title")}
           </h2>

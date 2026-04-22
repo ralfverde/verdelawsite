@@ -51,14 +51,13 @@ export function PageHero({
         <TextReveal
           as="h1"
           whileInView={false}
-          className="mt-3 font-heading text-white max-w-4xl"
-          style={{ fontSize: "clamp(38px,5.2vw,78px)", lineHeight: 1.04 }}
+          className="mt-3 text-white max-w-4xl"
         >
           {title}
         </TextReveal>
         <GoldAccentLine className="mt-6" />
         {subtitle && (
-          <p className="mt-6 text-white/70 max-w-2xl text-lg">{subtitle}</p>
+          <p className="mt-6 text-body-lg text-white/55 max-w-2xl">{subtitle}</p>
         )}
       </motion.div>
     </section>

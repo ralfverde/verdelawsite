@@ -25,17 +25,14 @@
   --color-ink: #1a1a2e;
   --color-ink-soft: #4a4a5a;
 
-  /* Typography — Cormorant Garamond (heading) + Plus Jakarta Sans (body) */
-  --font-heading: var(--font-heading), Georgia, "Times New Roman", serif;
-  --font-body: var(--font-body), system-ui, sans-serif;
-  /* Back-compat aliases so class names that still say font-display /
-     font-serif / font-sans keep resolving until every component is
-     migrated. */
-  --font-display: var(--font-heading), Georgia, "Times New Roman", serif;
-  --font-serif: var(--font-heading), Georgia, "Times New Roman", serif;
-  --font-sans: var(--font-body), system-ui, sans-serif;
+  /* Typography — Outfit (heading) + Plus Jakarta Sans (body) */
+  --font-heading: var(--font-heading), system-ui, -apple-system, sans-serif;
+  --font-body: var(--font-body), system-ui, -apple-system, sans-serif;
+  /* Back-compat aliases so class names that still say font-sans keep
+     resolving until every component is migrated. */
+  --font-sans: var(--font-body), system-ui, -apple-system, sans-serif;
 
-  --default-font-family: var(--font-body), system-ui, sans-serif;
+  --default-font-family: var(--font-body), system-ui, -apple-system, sans-serif;
 }
 
 :root {
@@ -70,7 +67,8 @@
 
 /* ============================================
    TYPOGRAPHY SYSTEM — Verde Law
-   Cormorant Garamond (headings) + Plus Jakarta Sans (body)
+   Bold Modern Direction
+   Outfit (headings) + Plus Jakarta Sans (body)
    ============================================ */
 
 html {
@@ -87,75 +85,83 @@ body {
   font-family: var(--font-body);
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.7;
-  letter-spacing: 0.005em;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
   overflow-x: hidden;
 }
 
-/* ---- HEADING SCALE ---- */
+/* ---- HEADING SCALE ----
+   Outfit, bold, tight tracking. The negative letter-spacing
+   is what makes these feel modern and powerful.
+   ---------------------- */
 
+/* Display — homepage hero ONLY */
 .text-display {
   font-family: var(--font-heading);
-  font-weight: 400;
-  font-size: clamp(2.75rem, 6vw, 5rem);
-  line-height: 1.05;
-  letter-spacing: -0.025em;
+  font-weight: 800;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 1.0;
+  letter-spacing: -0.04em;
 }
 
+/* H1 — page hero headlines */
 h1, .text-h1 {
   font-family: var(--font-heading);
-  font-weight: 400;
-  font-size: clamp(2.25rem, 4.5vw, 3.75rem);
+  font-weight: 700;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+/* H2 — section titles */
+h2, .text-h2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
   line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+/* H3 — card titles, subsection headers */
+h3, .text-h3 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+  line-height: 1.2;
   letter-spacing: -0.02em;
 }
 
-h2, .text-h2 {
-  font-family: var(--font-heading);
-  font-weight: 400;
-  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
-  line-height: 1.15;
-  letter-spacing: -0.015em;
-}
-
-h3, .text-h3 {
-  font-family: var(--font-heading);
-  font-weight: 500;
-  font-size: clamp(1.375rem, 2.5vw, 1.875rem);
-  line-height: 1.2;
-  letter-spacing: -0.01em;
-}
-
+/* H4 — feature titles, small headers */
 h4, .text-h4 {
   font-family: var(--font-heading);
-  font-weight: 500;
-  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  font-weight: 600;
+  font-size: clamp(1.0625rem, 1.8vw, 1.25rem);
   line-height: 1.25;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.015em;
 }
 
 h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 500;
-  letter-spacing: -0.005em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
-/* ---- BODY SCALE ---- */
-
-p, .text-body {
-  font-family: var(--font-body);
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.7;
-  letter-spacing: 0.005em;
-}
+/* ---- BODY SCALE — Plus Jakarta Sans ---- */
 
 .text-body-lg {
   font-family: var(--font-body);
   font-weight: 400;
   font-size: 1.125rem;
-  line-height: 1.75;
-  letter-spacing: 0.005em;
+  line-height: 1.7;
+  letter-spacing: -0.005em;
+}
+
+p, .text-body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
 }
 
 .text-body-sm {
@@ -163,7 +169,7 @@ p, .text-body {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.6;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
 }
 
 .text-body-xs {
@@ -171,16 +177,19 @@ p, .text-body {
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }
 
-/* ---- EYEBROW / LABEL ---- */
+/* ---- EYEBROW / LABEL ----
+   Uses the HEADING font (Outfit) at small sizes with wide
+   tracking — the geometric letterforms create a sharp,
+   modern label. Apple/Linear style. */
 .text-eyebrow, .eyebrow {
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-weight: 600;
   font-size: 0.6875rem;
   line-height: 1;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
 }
 
@@ -190,100 +199,102 @@ p, .text-body {
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
 }
 
-/* ---- BUTTON TEXT ---- */
+/* ---- BUTTON TEXT ----
+   Uses the heading font on buttons for extra weight and
+   presence — Stripe/Linear pattern. */
 .text-button {
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-weight: 600;
   font-size: 0.9375rem;
   line-height: 1;
-  letter-spacing: 0.02em;
-}
-
-.text-button-sm {
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 0.8125rem;
-  line-height: 1;
-  letter-spacing: 0.025em;
-}
-
-/* ---- PULL QUOTE ---- */
-.text-quote {
-  font-family: var(--font-heading);
-  font-weight: 400;
-  font-style: italic;
-  font-size: clamp(1.375rem, 3vw, 2rem);
-  line-height: 1.4;
   letter-spacing: -0.01em;
 }
 
-/* ---- STAT / NUMBER ---- */
-.text-stat {
+.text-button-sm {
   font-family: var(--font-heading);
   font-weight: 600;
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: 0.8125rem;
   line-height: 1;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
+}
+
+/* ---- STAT / NUMBER ----
+   Massive, dense blocks of type that demand attention. */
+.text-stat {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
   font-variant-numeric: tabular-nums;
 }
 
 /* ---- PRICE ---- */
 .text-price {
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1rem;
   line-height: 1;
-  letter-spacing: 0;
+  letter-spacing: -0.01em;
 }
 
 .text-price-lg {
   font-family: var(--font-heading);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.5rem;
   line-height: 1;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
+}
+
+/* ---- PULL QUOTE ----
+   Still sans-serif (heading font) but large and light. */
+.text-quote {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: clamp(1.375rem, 3vw, 2rem);
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+
+/* ---- BADGE / TAG ---- */
+.text-badge {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.6875rem;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 /* ---- DECORATIVE ---- */
 .heading-accent {
   position: relative;
   display: inline-block;
-  padding-bottom: 0.75rem;
+  padding-bottom: 1rem;
 }
 .heading-accent::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 3rem;
-  height: 2px;
-  background: linear-gradient(to right, var(--gold-500), var(--gold-400));
-  border-radius: 1px;
+  width: 2.5rem;
+  height: 3px;
+  background: var(--gold-500);
+  border-radius: 2px;
 }
 
 .pull-quote {
   position: relative;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   border-left: 3px solid var(--gold-500);
-}
-.pull-quote::before {
-  content: '\201C';
-  font-family: var(--font-heading);
-  font-size: 4rem;
-  line-height: 1;
-  color: var(--gold-500);
-  opacity: 0.3;
-  position: absolute;
-  top: -0.5rem;
-  left: 2.5rem;
 }
 
 .first-paragraph-emphasis > p:first-child {
   font-size: 1.0625rem;
-  line-height: 1.8;
+  line-height: 1.75;
   opacity: 0.85;
 }
 
@@ -291,16 +302,25 @@ p, .text-body {
   font-variant-numeric: tabular-nums;
 }
 
+/* Gradient text for homepage hero H1 only — subtle top-to-bottom
+   fade that adds depth to massive headlines. Apple's pattern. */
+.text-gradient-hero {
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 /* ---- TEXT HIERARCHY (dark/light bg) ---- */
 .dark-text-primary   { color: rgba(255, 255, 255, 0.95); }
-.dark-text-secondary { color: rgba(255, 255, 255, 0.60); }
-.dark-text-tertiary  { color: rgba(255, 255, 255, 0.35); }
-.dark-text-muted     { color: rgba(255, 255, 255, 0.20); }
+.dark-text-secondary { color: rgba(255, 255, 255, 0.55); }
+.dark-text-tertiary  { color: rgba(255, 255, 255, 0.30); }
+.dark-text-muted     { color: rgba(255, 255, 255, 0.15); }
 
-.light-text-primary   { color: var(--ink); }
-.light-text-secondary { color: rgba(26, 26, 46, 0.60); }
-.light-text-tertiary  { color: rgba(26, 26, 46, 0.40); }
-.light-text-muted     { color: rgba(26, 26, 46, 0.25); }
+.light-text-primary   { color: #0F1A14; }
+.light-text-secondary { color: rgba(15, 26, 20, 0.55); }
+.light-text-tertiary  { color: rgba(15, 26, 20, 0.35); }
+.light-text-muted     { color: rgba(15, 26, 20, 0.20); }
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -330,8 +350,9 @@ p, .text-body {
 .cta-gold {
   background: linear-gradient(135deg, var(--gold-500), var(--gold-400));
   color: var(--verde-950);
-  font-family: var(--font-sans);
+  font-family: var(--font-heading);
   font-weight: 600;
+  letter-spacing: -0.01em;
   padding: 16px 36px;
   border-radius: 8px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(200, 169, 81, 0.2);
@@ -353,8 +374,9 @@ p, .text-body {
   background: transparent;
   border: 1px solid var(--gold-500);
   color: var(--gold-500);
-  font-family: var(--font-sans);
+  font-family: var(--font-heading);
   font-weight: 600;
+  letter-spacing: -0.01em;
   padding: 16px 36px;
   border-radius: 8px;
   transition: background 0.3s cubic-bezier(0.22, 1, 0.36, 1),

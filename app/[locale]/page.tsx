@@ -70,7 +70,6 @@ export default async function HomePage({
           <SectionEyebrow>{tQuiz("sectionEyebrow")}</SectionEyebrow>
           <h2
             className="mt-3 font-heading text-white max-w-2xl mx-auto"
-            style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.5rem)", lineHeight: 1.1 }}
           >
             {tQuiz("sectionTitle")}
           </h2>

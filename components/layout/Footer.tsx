@@ -25,10 +25,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-5">
             <Logo />
-            <p className="font-heading text-[var(--gold-500)] text-xl">
+            <p className="font-heading font-bold text-[var(--gold-500)] text-xl tracking-tight">
               {t("tagline")}
             </p>
-            <p className="text-white/65 text-sm leading-relaxed max-w-[320px]">
+            <p className="text-sm text-white/40 leading-relaxed max-w-[320px]">
               {t("description")}
             </p>
             <div className="flex gap-3 pt-2">
@@ -72,7 +72,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-[0.15em] text-[var(--gold-500)] mb-5">
+            <h4 className="text-eyebrow text-white/40 mb-5">
               {tNav("practiceAreas")}
             </h4>
             <ul className="space-y-3">
@@ -80,7 +80,7 @@ export function Footer() {
                 <li key={p.key}>
                   <Link
                     href={p.href as never}
-                    className="text-sm text-white/75 hover:text-[var(--gold-500)] transition-colors"
+                    className="text-sm text-white/50 hover:text-[var(--gold-500)] transition-colors"
                   >
                     {t(`practice.${p.key}`)}
                   </Link>
@@ -90,32 +90,32 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-[0.15em] text-[var(--gold-500)] mb-5">
+            <h4 className="text-eyebrow text-white/40 mb-5">
               {t("resources")}
             </h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/education" className="text-sm text-white/75 hover:text-[var(--gold-500)]">
+                <Link href="/education" className="text-sm text-white/50 hover:text-[var(--gold-500)]">
                   {tNav("education")}
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-sm text-white/75 hover:text-[var(--gold-500)]">
+                <Link href="/about" className="text-sm text-white/50 hover:text-[var(--gold-500)]">
                   {tNav("about")}
                 </Link>
               </li>
               <li>
-                <Link href="/our-team" className="text-sm text-white/75 hover:text-[var(--gold-500)]">
+                <Link href="/our-team" className="text-sm text-white/50 hover:text-[var(--gold-500)]">
                   {tNav("team")}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-sm text-white/75 hover:text-[var(--gold-500)]">
+                <Link href="/contact" className="text-sm text-white/50 hover:text-[var(--gold-500)]">
                   {tNav("contact")}
                 </Link>
               </li>
               <li>
-                <Link href="/verde-plus" className="text-sm text-white/75 hover:text-[var(--gold-500)]">
+                <Link href="/verde-plus" className="text-sm text-white/50 hover:text-[var(--gold-500)]">
                   Verde+
                 </Link>
               </li>
@@ -123,10 +123,10 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-[0.15em] text-[var(--gold-500)] mb-5">
+            <h4 className="text-eyebrow text-white/40 mb-5">
               {tNav("contact")}
             </h4>
-            <address className="not-italic space-y-3 text-sm text-white/75">
+            <address className="not-italic space-y-3 text-sm text-white/50">
               <p>
                 {FIRM.address.street}
                 <br />
@@ -152,7 +152,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/5">
-        <div className="container-wide py-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-xs text-white/50">
+        <div className="container-wide py-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-xs text-white/30">
           <p>© 2026 Verde Law, PLLC. {t("rightsReserved")}</p>
           <ul className="flex gap-5">
             <li><Link href="/privacy" className="hover:text-[var(--gold-500)]">{t("privacy")}</Link></li>
