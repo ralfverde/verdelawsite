@@ -14,37 +14,37 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "eyebrow": "Immigration Attorneys — Serving All 50 States",
-    "title": "We Defend Your Immigration Rights With Everything We Have",
-    "subtitle": "Over 600 families trust Verde Law to protect their future in the United States. Free consultation — no obligation.",
-    "ctaPrimary": "Schedule Free Consultation",
-    "ctaWhatsApp": "Send WhatsApp",
+    "eyebrow": "Immigration Attorneys — All 50 States",
+    "title": "You deserve an attorney who answers the phone, speaks your language, and fights like it's personal.",
+    "subtitle": "Verde Law has represented over 600 families in immigration court — from asylum hearings to bond proceedings to deportation defense. Your first consultation is free, confidential, and comes with zero pressure to hire us.",
+    "ctaPrimary": "Schedule My Free Consultation",
+    "ctaWhatsApp": "Send us a WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Founder & Managing Attorney",
     "badges": {
-      "cases": "600+ cases handled",
-      "states": "50 states, one firm",
-      "free": "Free, confidential review"
+      "cases": "600+ families represented",
+      "states": "All 50 states",
+      "free": "Free consultation — always"
     }
   },
   "socialProof": {
-    "cases": "Cases handled",
-    "states": "States served",
-    "revenue": "In case value",
-    "tiktok": "TikTok followers",
-    "rating": "Google reviews"
+    "cases": "Families represented",
+    "states": "States covered",
+    "revenue": "In case value handled",
+    "tiktok": "Social media followers",
+    "rating": "Google rating"
   },
   "cta": {
     "bannerDark": {
-      "title": "Have an immigration case? Talk to us today — no cost, no obligation."
+      "title": "Have an immigration case? Talk to us today — no cost, no obligation, no judgment."
     },
     "bannerLight": {
-      "title": "Over 600 families have trusted Verde Law. You could be next."
+      "title": "Over 600 families have trusted Verde Law with their future. You could be next."
     },
-    "subtitle": "Confidential, no-pressure consultations. We answer in Spanish, English, Haitian Creole, and Portuguese.",
+    "subtitle": "Confidential consultations in Spanish, English, Haitian Creole, and Portuguese.",
     "freeConsultation": "Free Consultation",
-    "finalTitle": "Your case cannot wait. Let's talk today.",
-    "finalSubtitle": "The consultation is 100% free and fully confidential.",
+    "finalTitle": "Your case cannot wait. But the consultation is free.",
+    "finalSubtitle": "100% free. 100% confidential. A real attorney — not a paralegal, not a bot — reviews your case.",
     "scheduleCTA": "Schedule My Free Consultation"
   },
   "floating": {
@@ -60,7 +60,7 @@
     "learnMore": "Learn more"
   },
   "footer": {
-    "tagline": "Your Rights, Our Fight.",
+    "tagline": "Your Rights. Our Fight.",
     "description": "A Miami-based humanitarian immigration firm built for the families the system is hardest on. We answer the phone. We speak your language. We fight.",
     "resources": "Resources",
     "hoursLabel": "Hours",

@@ -1,37 +1,37 @@
 {
   "practiceOverview": {
-    "eyebrow": "Practice Areas",
+    "eyebrow": "What We Do",
     "title": "Legal protection for every immigration situation.",
     "learnMore": "Learn more",
-    "viewAll": "View all services",
+    "viewAll": "View all 29 services we offer",
     "cards": {
-      "deportation": { "title": "Deportation Defense", "desc": "Cancellation of removal, motions to reopen, and courtroom defense when the government files against you." },
-      "asylum": { "title": "Political Asylum", "desc": "Affirmative and defensive asylum, withholding of removal, credible fear, and CAT protection." },
-      "bond": { "title": "Bond Hearings", "desc": "Get your loved one out of detention while their case moves forward. Fast filings, prepared witnesses." },
-      "family": { "title": "Family Petitions", "desc": "I-130, I-485, consular processing, 601/601A waivers, fiancé visas — paperwork that keeps families together." },
-      "vawaU": { "title": "VAWA & U-Visa", "desc": "For survivors of domestic violence or serious crime. Confidential, protected, effective." },
-      "naturalization": { "title": "Naturalization & Citizenship", "desc": "N-400 applications, interview prep, and appeals when the first answer is no." }
+      "deportation": { "title": "Deportation Defense", "desc": "When the government files removal proceedings, we stand between you and deportation. Every hearing, every motion, every argument." },
+      "asylum": { "title": "Political Asylum", "desc": "If you fled persecution in your home country, the law may protect you here. We build the strongest possible case for your safety." },
+      "bond": { "title": "Bond Hearings", "desc": "Your loved one is detained. Every day inside is a day too many. We fight for their release — fast." },
+      "family": { "title": "Family Petitions", "desc": "Reuniting families through I-130 petitions, adjustment of status, and consular processing. The paperwork is ours — the reunion is yours." },
+      "vawaU": { "title": "VAWA & U-Visa", "desc": "Survivors of abuse and crime have legal protections. You don't need your abuser's permission to apply. We handle everything — confidentially." },
+      "naturalization": { "title": "Naturalization & Citizenship", "desc": "You've earned the right to call this country home. We handle your N-400 application, interview prep, and everything in between." }
     }
   },
   "whyVerde": {
-    "eyebrow": "Why Verde Law?",
+    "eyebrow": "Why Families Choose Us",
     "title": "We're not just another firm. We're your team.",
-    "body1": "Rafael Verde founded this firm to be the firm his own family wished they'd had — one that picks up the phone, explains what's happening in plain language, and treats each case like it's personal. Because it is.",
-    "body2": "We don't subcontract our intake. We don't use call centers. When you call, you reach someone who speaks your language and knows your case.",
+    "body1": "Rafael Verde founded this firm straight out of law school with one idea: that every immigrant in the United States deserves an attorney who answers the phone, speaks their language, and fights like it's personal.",
+    "body2": "Most firms treat immigration cases like a conveyor belt — file the form, bill the client, move on. We don't. Every case here gets Rafael's personal review. Every client has a paralegal who knows their name, their story, and their next deadline. We return calls the same day, we explain things in plain language, and we don't stop until your case is resolved.",
     "reasons": {
-      "bilingual": { "title": "100% Bilingual Team", "desc": "We communicate in your language. Spanish is our first language, not a translation." },
-      "national": { "title": "Nationwide Coverage", "desc": "We represent clients in all 50 states from our Miami headquarters — in person, remote, or hybrid." },
-      "free": { "title": "Free Consultation", "desc": "We evaluate your case at no cost. No pressure. No obligation. Ever." },
-      "tech": { "title": "Modern Technology", "desc": "Real-time case tracking on Verde+ — our platform built for immigrants." }
+      "bilingual": { "title": "Your language, always", "desc": "Every person at Verde Law speaks Spanish. You will never need a translator, never feel lost in your own case, and never wonder what your attorney just said." },
+      "national": { "title": "50 states. One firm.", "desc": "Immigration law is federal. A Florida-licensed attorney can represent you in any immigration court in the country. We appear in person when required, remotely when allowed." },
+      "free": { "title": "Free consultation — no strings", "desc": "We evaluate your case at no cost. No credit card. No commitment. No follow-up calls pressuring you to sign. If we're not the right fit, we'll tell you — and we'll tell you who is." },
+      "tech": { "title": "Your case, tracked in real time", "desc": "With Verde+, our immigration platform, you see exactly where your case stands — 24/7, from your phone. No more calling the office and waiting for a callback." }
     }
   },
   "process": {
     "eyebrow": "How It Works",
     "title": "Four steps. No retainer until we agree on a plan.",
-    "step1": { "title": "Free Consultation", "desc": "Tell our team what's happening. Day or night, English or Spanish. A real person picks up." },
-    "step2": { "title": "Case Evaluation", "desc": "One of our attorneys reviews your situation and lays out your options — honestly." },
-    "step3": { "title": "Legal Preparation", "desc": "We build your strategy, draft filings, and prepare every piece of evidence your case needs." },
-    "step4": { "title": "Full Representation", "desc": "We argue, we file, we appear — all the way to the end. You focus on your family." }
+    "step1": { "title": "Free Consultation", "desc": "Call, WhatsApp, or schedule online. A real person — not a bot — walks through your situation in 15–30 minutes. No cost. No pressure." },
+    "step2": { "title": "Case Evaluation", "desc": "Our attorneys review the facts, identify your options, and tell you honestly what's possible — and what isn't. You'll know exactly where you stand." },
+    "step3": { "title": "Legal Preparation", "desc": "We build your case — declarations, evidence packages, expert testimony, everything. You'll know what we're filing before we file it." },
+    "step4": { "title": "Full Representation", "desc": "We represent you from the first hearing to the final decision. If the judge rules against us, we discuss appeals the same day. We don't disappear after filing." }
   },
   "testimonials": {
     "eyebrow": "Client Stories",
@@ -39,32 +39,32 @@
     "prev": "Previous testimonial",
     "next": "Next testimonial",
     "items": {
-      "carlos": { "quote": "I was terrified of my court hearing. Verde Law walked me through every step and we won asylum. I don't have the words to thank them.", "name": "Carlos M.", "case": "Asylum case" },
-      "maria": { "quote": "I spent three years with another lawyer going nowhere. Verde Law took over and six months later I had my work permit.", "name": "María L.", "case": "Deportation defense" },
-      "jose": { "quote": "The Verde Law team treated me like family, not a case number. I recommend this firm to everyone.", "name": "José R.", "case": "Family petition" },
-      "elena": { "quote": "They called me back at 11pm. In Spanish. By the next week my husband was out of detention.", "name": "Elena S.", "case": "Bond + cancellation" },
-      "pedro": { "quote": "Two other attorneys said there was nothing to do. Rafael found a U-visa path. My son is still in school.", "name": "Pedro & Luz", "case": "U-Visa approved" }
+      "carlos": { "quote": "I was terrified of my court hearing. I hadn't slept in weeks. Verde Law walked me through every step, prepared me for what the judge would ask, and stood next to me the entire time. We won. I still can't believe it.", "name": "Carlos M.", "case": "Asylum Case" },
+      "maria": { "quote": "I spent three years with another attorney who never filed anything. Three years of my life, wasted. Verde Law took my case and within six months I had my work permit. I only wish I'd found them sooner.", "name": "María L.", "case": "Deportation Defense" },
+      "jose": { "quote": "What surprised me most was that they actually called me back. Every question I had, they answered the same day. I never felt like just a case number. They treated me like family.", "name": "José R.", "case": "Family Petition" },
+      "elena": { "quote": "They called me back at 11pm. In Spanish. By the next week my husband was out of detention.", "name": "Elena S.", "case": "Bond + Cancellation" },
+      "pedro": { "quote": "Two other attorneys said there was nothing to do. Rafael found a U-visa path. My son is still in school.", "name": "Pedro & Luz", "case": "U-Visa Approved" }
     }
   },
   "attorneyFeature": {
-    "eyebrow": "Meet Our Founder",
+    "eyebrow": "Meet the Founder",
     "photoEyebrow": "Founder & Managing Attorney",
     "name": "Rafael Verde",
     "role": "Founder & Managing Attorney",
-    "body1": "Rafael Verde founded Verde Law straight out of Georgetown Law with one belief: that quality legal representation is a right, not a luxury. Immigrants who are afraid, who can't pay $15,000 upfront, who don't speak English — they deserve the same attorney who'd fight for a corporate client.",
-    "body2": "Seven years and 600+ families later, the mission hasn't changed. Rafael still personally reviews every new case. He still answers messages on weekends. He built the firm he wished his own grandmother had when she arrived in this country with nothing.",
+    "body1": "Rafael Verde founded Verde Law in 2024 — weeks after passing the bar and before most of his classmates had decided which firm to join. The bet was simple: that there was a real market for a humanitarian immigration firm that treated Spanish-speaking families the way corporate clients get treated — with urgency, with respect, and with an attorney who actually knows their name.",
+    "body2": "Today, the team is 22 people strong. The firm handles cases across the Eleventh Circuit, in federal appeals courts, and in immigration courts from Krome to Chicago to Los Angeles. Rafael personally reviews every new case. He still answers his own phone on weekends. More than 600 families later, the bet paid off.",
     "viewTeam": "Meet the full team",
     "credentials": {
-      "georgetown": "Georgetown Law · J.D., 2014",
-      "aila": "American Immigration Lawyers Association · Member since 2015",
-      "floridaBar": "Florida Bar · Active, good standing",
-      "eleventhCircuit": "U.S. Court of Appeals, 11th Circuit · Admitted 2017"
+      "georgetown": "Education: Georgetown University Law Center — J.D., 2024",
+      "floridaBar": "Bar: Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida",
+      "eleventhCircuit": "Languages: English · Spanish",
+      "aila": "Member: American Immigration Lawyers Association (AILA)"
     }
   },
   "videoShowcase": {
     "eyebrow": "Free Education",
     "title": "Clear answers about your immigration rights.",
-    "subtitle": "More than 61,000 people follow us on TikTok to learn about their rights in the U.S. immigration system. Short videos. No legalese. In Spanish.",
+    "subtitle": "More than 60,000 people follow us on TikTok to learn how the immigration system actually works — in Spanish, in plain language, no legal jargon.",
     "videos": {
       "v1": { "cat": "ICE Detention", "title": "What to do if ICE knocks on your door" },
       "v2": { "cat": "Asylum", "title": "The 5 mistakes that sink asylum cases" },

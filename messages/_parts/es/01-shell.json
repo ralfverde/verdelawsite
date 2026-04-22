@@ -14,37 +14,37 @@
     "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "eyebrow": "Abogados de Inmigración — En los 50 Estados",
-    "title": "Defendemos Sus Derechos Migratorios Con Todo Lo Que Tenemos",
-    "subtitle": "Más de 600 familias confían en Verde Law para proteger su futuro en los Estados Unidos. Consulta gratuita — sin compromiso.",
-    "ctaPrimary": "Agendar Consulta Gratis",
-    "ctaWhatsApp": "Enviar WhatsApp",
+    "eyebrow": "Abogados de Inmigración — Los 50 Estados",
+    "title": "Usted merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
+    "subtitle": "Verde Law ha representado a más de 600 familias en corte de inmigración — desde audiencias de asilo hasta procedimientos de fianza y defensa contra la deportación. Su primera consulta es gratuita, confidencial, y sin ninguna presión para contratarnos.",
+    "ctaPrimary": "Agendar Mi Consulta Gratuita",
+    "ctaWhatsApp": "Envíenos un WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Fundador y Abogado Principal",
     "badges": {
-      "cases": "600+ casos atendidos",
-      "states": "50 estados, un bufete",
-      "free": "Evaluación gratis y confidencial"
+      "cases": "600+ familias representadas",
+      "states": "Los 50 estados",
+      "free": "Consulta gratuita — siempre"
     }
   },
   "socialProof": {
-    "cases": "Casos atendidos",
-    "states": "Estados servidos",
-    "revenue": "En valor de casos",
-    "tiktok": "Seguidores en TikTok",
-    "rating": "Reseñas de Google"
+    "cases": "Familias representadas",
+    "states": "Estados cubiertos",
+    "revenue": "En valor de casos manejados",
+    "tiktok": "Seguidores en redes",
+    "rating": "Calificación en Google"
   },
   "cta": {
     "bannerDark": {
-      "title": "¿Tiene un caso de inmigración? Hable con nosotros hoy — sin costo, sin compromiso."
+      "title": "¿Tiene un caso de inmigración? Hable con nosotros hoy — sin costo, sin compromiso, sin juicio."
     },
     "bannerLight": {
-      "title": "Más de 600 familias han confiado en Verde Law. Usted puede ser la siguiente."
+      "title": "Más de 600 familias han confiado en Verde Law con su futuro. Usted puede ser la siguiente."
     },
-    "subtitle": "Consultas confidenciales, sin presión. Respondemos en español, inglés, kreyòl ayisyen y portugués.",
+    "subtitle": "Consultas confidenciales en español, inglés, criollo haitiano y portugués.",
     "freeConsultation": "Consulta Gratis",
-    "finalTitle": "Su caso no puede esperar. Hablemos hoy.",
-    "finalSubtitle": "La consulta es 100% gratuita y totalmente confidencial.",
+    "finalTitle": "Su caso no puede esperar. Pero la consulta es gratuita.",
+    "finalSubtitle": "100% gratuita. 100% confidencial. Un abogado real — no un paralegal, no un bot — revisa su caso.",
     "scheduleCTA": "Agendar Mi Consulta Gratuita"
   },
   "floating": {
@@ -60,8 +60,8 @@
     "learnMore": "Más información"
   },
   "footer": {
-    "tagline": "Tus Derechos, Nuestra Lucha.",
-    "description": "Un bufete humanitario de inmigración, con sede en Miami, creado para las familias a las que el sistema trata peor. Contestamos el teléfono. Hablamos su idioma. Luchamos.",
+    "tagline": "Sus Derechos. Nuestra Lucha.",
+    "description": "Una firma de inmigración humanitaria en Miami, construida para las familias a las que el sistema más les afecta. Contestamos el teléfono. Hablamos su idioma. Luchamos.",
     "resources": "Recursos",
     "hoursLabel": "Horario",
     "bookCTA": "Consulta Gratis",
