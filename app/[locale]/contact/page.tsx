@@ -135,12 +135,13 @@ export default async function ContactPage({
             {/* Map embed */}
             <div className="mt-6 rounded-xl overflow-hidden h-[200px] border border-white/[0.06]">
               <iframe
-                title="Office Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.2!2d-80.301!3d25.778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQ2JzQwLjgiTiA4MMKwMTgnMDMuNiJX!5e0!3m2!1sen!2sus!4v1700000000000"
+                title="Verde Law Office Location"
+                src="https://www.google.com/maps?q=850+NW+42nd+Ave+Suite+306,+Miami,+FL+33126&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
           </aside>
