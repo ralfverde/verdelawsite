@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/ui/PageHero";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -61,19 +62,35 @@ export default async function TeamPage({
                   className="group bg-white rounded-2xl overflow-hidden border border-verde-950/[0.04] shadow-sm hover:shadow-xl hover:shadow-verde-950/[0.06] hover:-translate-y-1 transition-all duration-300 flex flex-col"
                 >
                   {/* Photo area */}
-                  <div className={`relative aspect-[4/5] overflow-hidden ${p.gradient}`}>
-                    <div
-                      aria-hidden
-                      className="absolute inset-0 bg-[radial-gradient(circle_at_40%_30%,rgba(200,169,81,0.18),transparent_55%)]"
-                    />
-                    <div className="absolute inset-0 grid place-items-center">
-                      <span
-                        className="font-heading font-bold text-white/[0.06] select-none"
-                        style={{ fontSize: "80px" }}
-                      >
-                        {p.initials}
-                      </span>
-                    </div>
+                  <div
+                    className={`relative aspect-[4/5] overflow-hidden ${
+                      p.photo ? "bg-black" : p.gradient
+                    }`}
+                  >
+                    {p.photo ? (
+                      <Image
+                        src={p.photo}
+                        alt={p.name}
+                        fill
+                        sizes="(min-width: 1280px) 20vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                        className="object-cover object-top"
+                      />
+                    ) : (
+                      <>
+                        <div
+                          aria-hidden
+                          className="absolute inset-0 bg-[radial-gradient(circle_at_40%_30%,rgba(200,169,81,0.18),transparent_55%)]"
+                        />
+                        <div className="absolute inset-0 grid place-items-center">
+                          <span
+                            className="font-heading font-bold text-white/[0.06] select-none"
+                            style={{ fontSize: "80px" }}
+                          >
+                            {p.initials}
+                          </span>
+                        </div>
+                      </>
+                    )}
                     <span className="absolute bottom-4 left-4 inline-flex px-3 py-1.5 rounded-full bg-gold-500/20 backdrop-blur-sm text-gold-400 text-xs font-heading font-semibold tracking-wide">
                       {t(p.titleKey)}
                     </span>

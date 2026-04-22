@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
@@ -15,36 +16,22 @@ export function AttorneyFeature() {
   return (
     <section className="noise-bg bg-verde-950 text-white section-y">
       <div className="container-wide grid lg:grid-cols-[0.8fr_1fr] gap-14 lg:gap-20 items-center">
-        {/* Photo placeholder */}
+        {/* Rafael Verde headshot */}
         <motion.div
           variants={slideInRight}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/[0.08] bg-gradient-to-br from-verde-600 via-verde-700 to-verde-900 shadow-[0_20px_60px_rgba(13,43,30,0.4)] max-w-md w-full mx-auto lg:mx-0"
+          className="relative rounded-2xl overflow-hidden border border-white/[0.08] bg-black shadow-[0_20px_60px_rgba(13,43,30,0.4)] max-w-md w-full mx-auto lg:mx-0"
         >
-          <div
-            aria-hidden
-            className="absolute inset-0 bg-[radial-gradient(circle_at_40%_30%,rgba(200,169,81,0.18),transparent_55%)]"
+          <Image
+            src="/images/rafael-verde-headshot.jpg"
+            alt={`${t("name")}, ${t("role")}`}
+            width={400}
+            height={533}
+            className="w-full h-auto object-cover"
+            sizes="(min-width: 1024px) 400px, (min-width: 640px) 360px, 100vw"
           />
-
-          <div className="absolute inset-0 grid place-items-center">
-            <span
-              className="font-heading text-white/[0.06] select-none"
-              style={{ fontSize: "120px" }}
-            >
-              RV
-            </span>
-          </div>
-
-          <div
-            aria-hidden
-            className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-verde-950/60 to-transparent"
-          />
-
-          <div className="absolute bottom-5 left-6 right-6">
-            <p className="text-white/40 text-sm italic">Rafael Verde</p>
-          </div>
         </motion.div>
 
         {/* Copy */}

@@ -14,6 +14,9 @@ export type TeamMember = {
   /** tailwind gradient utility classes — varied per person so the
    *  placeholder photos feel distinct until real headshots are in. */
   gradient: string;
+  /** path under /public to a real headshot. When set, the card
+   *  renders the image instead of the gradient + initials. */
+  photo?: string;
 };
 
 export const team: TeamMember[] = [
@@ -26,6 +29,7 @@ export const team: TeamMember[] = [
     credentials: ["education", "barAdmissions", "languages"],
     linkedin: "https://www.linkedin.com/in/rafaelverde",
     gradient: "bg-gradient-to-br from-verde-600 via-verde-700 to-verde-900",
+    photo: "/images/rafael-verde-headshot.jpg",
   },
   {
     id: "jennifer-colon",

@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { MessageCircle, ChevronDown, Shield, Globe, BadgeCheck, Scale } from "lucide-react";
+import { MessageCircle, ChevronDown, Shield, Globe, BadgeCheck } from "lucide-react";
 import { FIRM } from "@/lib/constants";
 import { easeOut } from "@/lib/animations";
 import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
@@ -15,14 +16,12 @@ export function Hero() {
   const t = useTranslations("hero");
   const sectionRef = useRef<HTMLElement>(null);
 
-  // Parallax on the photo card (foreground) + the radial background
-  // layer (slower). Both hooks off a single scrollYProgress scoped to
-  // the hero so they freeze once the section leaves the viewport.
+  // Parallax on the radial background layer. Scoped to the section
+  // so it freezes once the hero leaves the viewport.
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ["start start", "end start"],
   });
-  const photoY = useTransform(scrollYProgress, [0, 1], [0, -40]);
   const bgY = useTransform(scrollYProgress, [0, 1], [0, -60]);
 
   // Hide the scroll indicator after the user has scrolled past 100px.
@@ -129,51 +128,48 @@ export function Hero() {
           <LiveIndicator />
         </div>
 
-        {/* Right: photo placeholder card */}
+        {/* Right: Rafael Verde headshot */}
         <motion.div
-          initial={{ opacity: 0, x: 80 }}
+          initial={{ opacity: 0, x: 60 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.9, delay: 0.5, ease: easeOut }}
+          transition={{ duration: 0.8, delay: 0.5, ease: easeOut }}
           className="relative"
         >
-          <motion.div
-            style={{ y: photoY }}
-            className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/[0.08] bg-gradient-to-br from-verde-700 via-verde-800 to-verde-950 shadow-[0_0_80px_rgba(61,139,110,0.15)]"
-          >
+          <div className="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-[480px] mx-auto">
+            {/* Decorative verde glow behind the photo */}
             <div
               aria-hidden
-              className="absolute inset-0 bg-[radial-gradient(circle_at_30%_25%,rgba(200,169,81,0.18),transparent_55%)]"
+              className="absolute -inset-4 bg-gradient-to-b from-verde-600/20 via-verde-500/10 to-transparent rounded-3xl blur-2xl"
             />
 
-            {/* Centered icon */}
-            <div className="absolute inset-0 grid place-items-center">
-              <Scale size={120} className="text-gold-500/30" strokeWidth={1.25} />
+            <div className="relative rounded-2xl overflow-hidden border border-white/[0.08] bg-black">
+              <Image
+                src="/images/rafael-verde-headshot.jpg"
+                alt={`${t("portraitName")}, ${t("portraitRole")}`}
+                width={480}
+                height={640}
+                className="w-full h-auto object-cover"
+                priority
+                sizes="(min-width: 1024px) 480px, (min-width: 640px) 400px, 320px"
+              />
+
+              {/* Bottom gradient overlay so the name is readable */}
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent pt-20 pb-6 px-6">
+                <p className="font-heading font-semibold text-white text-lg">
+                  {t("portraitName")}
+                </p>
+                <p className="font-body text-white/60 text-sm mt-0.5">
+                  {t("portraitRole")}
+                </p>
+              </div>
             </div>
 
-            {/* Name block */}
-            <div className="absolute left-0 right-0 bottom-6 text-center">
-              <p className="font-heading font-bold text-white/40 text-2xl tracking-tight">Rafael Verde</p>
-              <p className="text-white/20 text-sm mt-1">
-                {t("portraitRole")}
-              </p>
-            </div>
-
-            {/* Gold accent line at bottom */}
+            {/* Gold accent line at the bottom of the card */}
             <div
               aria-hidden
-              className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-gold-500 to-gold-400"
+              className="absolute bottom-0 left-6 right-6 h-[2px] bg-gradient-to-r from-gold-500/0 via-gold-500/60 to-gold-500/0"
             />
-          </motion.div>
-
-          {/* Decorative side accents */}
-          <div
-            aria-hidden
-            className="absolute -left-6 top-10 bottom-10 w-[2px] bg-gradient-to-b from-transparent via-gold-500/40 to-transparent hidden lg:block"
-          />
-          <div
-            aria-hidden
-            className="absolute -right-6 -bottom-6 w-40 h-40 rounded-full border border-verde-700 hidden lg:block"
-          />
+          </div>
         </motion.div>
       </div>
 
