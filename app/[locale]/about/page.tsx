@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Fragment } from "react";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -10,21 +11,7 @@ import { TextReveal } from "@/components/ui/TextReveal";
 import { CountUp } from "@/components/ui/CountUp";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
 import { Link } from "@/i18n/navigation";
-import {
-  Heart,
-  HandHeart,
-  Sparkles,
-  Camera,
-  Users,
-  Building,
-  Coffee,
-  Briefcase,
-  BookOpen,
-  MapPin,
-  Phone,
-  Mail,
-  Clock,
-} from "lucide-react";
+import { Heart, HandHeart, Sparkles, MapPin, Phone, Mail, Clock } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 import { FIRM } from "@/lib/constants";
 
@@ -72,13 +59,13 @@ export default async function AboutPage({
     "families",
   ];
 
-  const galleryTiles = [
-    { icon: Camera, gradient: "bg-gradient-to-br from-verde-600 to-verde-800" },
-    { icon: Users, gradient: "bg-gradient-to-bl from-verde-600 to-verde-900" },
-    { icon: Building, gradient: "bg-gradient-to-r from-verde-700 to-verde-900" },
-    { icon: Coffee, gradient: "bg-gradient-to-tr from-verde-600 to-verde-800" },
-    { icon: Briefcase, gradient: "bg-gradient-to-tl from-verde-700 to-verde-950" },
-    { icon: BookOpen, gradient: "bg-gradient-to-b from-verde-600 to-verde-800" },
+  const officePhotos = [
+    { src: "/images/office/office-1.png", alt: "Consultation at Verde Law office" },
+    { src: "/images/office/office-2.png", alt: "Verde Law open workspace with Miami views" },
+    { src: "/images/office/office-3.png", alt: "Verde Law office building exterior" },
+    { src: "/images/office/office-4.png", alt: "Street view of Verde Law building on 42nd Ave" },
+    { src: "/images/office/office-5.png", alt: "Building courtyard entrance" },
+    { src: "/images/office/office-6.png", alt: "850 Lejeune building entrance" },
   ];
 
   return (
@@ -165,28 +152,28 @@ export default async function AboutPage({
             </ul>
           </div>
 
-          {/* Layered image composition */}
+          {/* Reception photo with floating caption card */}
           <div className="relative mx-auto lg:mx-0 w-full max-w-md">
             {/* Back offset card */}
             <div
               aria-hidden
-              className="absolute -bottom-3 -left-3 w-[calc(100%-20px)] aspect-[4/3] rounded-2xl bg-verde-700/50 blur-[1px] -z-10"
+              className="absolute -bottom-3 -left-3 w-full h-full rounded-2xl bg-verde-700/30 blur-[2px] -z-10"
             />
 
-            {/* Main image card */}
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-white/10 bg-gradient-to-br from-verde-600 to-verde-800">
-              <div
-                aria-hidden
-                className="absolute inset-0 bg-[radial-gradient(circle_at_40%_30%,rgba(200,169,81,0.18),transparent_55%)]"
+            <div className="relative rounded-2xl overflow-hidden border border-verde-950/[0.04] shadow-lg">
+              <Image
+                src="/images/office/about-story.png"
+                alt="Verde Law office reception in Miami"
+                width={900}
+                height={1200}
+                className="w-full h-auto object-cover"
+                sizes="(min-width: 1024px) 450px, (min-width: 640px) 400px, 100vw"
               />
-              <div className="absolute inset-0 grid place-items-center">
-                <Building size={96} className="text-white/10" strokeWidth={1.25} />
-              </div>
             </div>
 
             {/* Floating caption card */}
-            <div className="absolute bottom-4 right-4 bg-cream rounded-lg px-4 py-2 shadow-lg">
-              <p className="text-sm text-verde-950/70 font-medium">
+            <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2 shadow-sm">
+              <p className="text-sm font-body text-verde-950/70">
                 {t("story.imageCaption")}
               </p>
             </div>
@@ -289,24 +276,21 @@ export default async function AboutPage({
           <GoldAccentLine className="mt-5" />
 
           <div className="mt-10 md:mt-12 grid lg:grid-cols-[1.6fr_1fr] gap-8 lg:gap-10 items-start">
-            {/* Photo gallery */}
+            {/* Office photo gallery */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
-              {galleryTiles.map((tile, i) => (
+              {officePhotos.map((photo) => (
                 <div
-                  key={i}
-                  className={`group relative aspect-square rounded-xl overflow-hidden border border-white/[0.06] ${tile.gradient}`}
+                  key={photo.src}
+                  className="aspect-square rounded-xl overflow-hidden border border-white/[0.06]"
                 >
-                  <div
-                    aria-hidden
-                    className="absolute inset-0 bg-[radial-gradient(circle_at_35%_35%,rgba(200,169,81,0.12),transparent_55%)]"
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    sizes="(min-width: 1024px) 200px, (min-width: 640px) 240px, 45vw"
                   />
-                  <div className="absolute inset-0 grid place-items-center transition-transform duration-500 group-hover:scale-[1.08]">
-                    <tile.icon
-                      size={48}
-                      className="text-white/10"
-                      strokeWidth={1.25}
-                    />
-                  </div>
                 </div>
               ))}
             </div>
