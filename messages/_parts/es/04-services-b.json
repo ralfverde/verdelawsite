@@ -2,8 +2,8 @@
   "services": {
     "bond-deportation-package": {
       "title": "Paquete: Fianza + Defensa de Deportación",
-      "short": "Representación todo-en-uno: fianza, liberación y defensa completa de deportación.",
-      "headline": "Un solo equipo. Una sola tarifa. De principio a fin.",
+      "short": "Un solo equipo. Una sola tarifa. De principio a fin.",
+      "headline": "Fuera de custodia. En corte. De regreso en casa.",
       "timeline": "12–24 meses en total",
       "forms": "Moción de fianza, EOIR-42B, I-589",
       "agency": "EOIR",
@@ -18,8 +18,8 @@
     },
     "bond-habeas": {
       "title": "Fianza + Habeas Corpus",
-      "short": "Petición federal de habeas para clientes detenidos más allá de los límites legales.",
-      "headline": "Cuando ICE lo retiene fuera de la ley, vamos a corte federal.",
+      "short": "Cuando ICE lo retiene fuera de la ley, vamos a corte federal.",
+      "headline": "Existe un plazo que el gobierno debe respetar. Nosotros lo hacemos cumplir.",
       "timeline": "30–90 días",
       "forms": "Petición 28 U.S.C. § 2241, evidencia de detención prolongada",
       "agency": "Corte Federal de Distrito / EOIR",
@@ -34,8 +34,8 @@
     },
     "bia-appeal": {
       "title": "Apelación BIA",
-      "short": "Apelar la decisión de un juez de inmigración ante la Junta de Apelaciones.",
-      "headline": "La decisión del juez no es la última palabra.",
+      "short": "La decisión del juez no es la última palabra.",
+      "headline": "La pelea no terminó. Solo subió un piso.",
       "timeline": "9–18 meses",
       "forms": "EOIR-26, EOIR-27, memorial de apelación",
       "agency": "BIA (Junta de Apelaciones de Inmigración)",
@@ -50,8 +50,8 @@
     },
     "motion-to-reopen": {
       "title": "Moción para Reabrir",
-      "short": "Reabrir un caso con base en nueva evidencia, asistencia ineficaz o cambio de condiciones de país.",
-      "headline": "Hechos nuevos merecen una nueva mirada.",
+      "short": "Hechos nuevos merecen una nueva mirada.",
+      "headline": "Un caso cerrado no siempre es un caso muerto.",
       "timeline": "6–12 meses",
       "forms": "Moción, declaraciones juradas de apoyo, nueva evidencia",
       "agency": "EOIR / BIA",
@@ -66,8 +66,8 @@
     },
     "motion-to-terminate": {
       "title": "Moción para Terminar",
-      "short": "Terminar el proceso de deportación cuando el NTA es defectuoso o el alivio se obtiene en otro foro.",
-      "headline": "A veces la mejor defensa es que no haya caso.",
+      "short": "A veces la mejor defensa es que no haya caso.",
+      "headline": "Terminar el proceso antes de que pueda terminar con usted.",
       "timeline": "3–9 meses",
       "forms": "Moción para terminar, evidencia de apoyo",
       "agency": "EOIR",
@@ -82,8 +82,8 @@
     },
     "change-of-venue": {
       "title": "Cambio de Jurisdicción",
-      "short": "Trasladar su caso de inmigración a la corte más cercana a donde vive.",
-      "headline": "No debería tener que cruzar tres estados para una audiencia.",
+      "short": "No debería tener que cruzar tres estados para una audiencia.",
+      "headline": "La corte correcta. Más cerca de usted.",
       "timeline": "30–90 días",
       "forms": "Moción de cambio de jurisdicción, evidencia de domicilio",
       "agency": "EOIR",
@@ -98,8 +98,8 @@
     },
     "circuit-appeal": {
       "title": "Petición de Revisión (Corte de Circuito)",
-      "short": "Revisión federal de una orden final de la BIA.",
-      "headline": "La corte federal es la última mirada honesta que recibe su caso.",
+      "short": "La corte federal es la última mirada honesta que recibe su caso.",
+      "headline": "Cuando la agencia no cede, el circuito sí puede.",
       "timeline": "12–24 meses",
       "forms": "Petición de revisión, memorial de apelación, expediente",
       "agency": "Corte Federal de Apelaciones",
@@ -114,8 +114,8 @@
     },
     "habeas-corpus": {
       "title": "Habeas Corpus",
-      "short": "Habeas federal contra detención ilegal más allá de los límites legales.",
-      "headline": "La detención ilegal tiene un remedio federal.",
+      "short": "La detención ilegal tiene un remedio federal.",
+      "headline": "La Constitución no se detiene en la puerta del centro de detención.",
       "timeline": "60–120 días",
       "forms": "Petición 28 U.S.C. § 2241, evidencia de detención prolongada",
       "agency": "Corte Federal de Distrito",
@@ -130,8 +130,8 @@
     },
     "family-petitions": {
       "title": "Peticiones Familiares (I-130)",
-      "short": "Presentaciones I-130 para cónyuges, padres, hijos y hermanos de ciudadanos y residentes permanentes.",
-      "headline": "Los trámites que mantienen a la familia bajo un mismo techo.",
+      "short": "Los trámites que mantienen a la familia bajo un mismo techo.",
+      "headline": "Reunir familias — una petición a la vez.",
       "timeline": "Familiares inmediatos: 8–16 meses. Categorías de preferencia: variable.",
       "forms": "I-130, I-130A, prueba de la relación",
       "agency": "USCIS",

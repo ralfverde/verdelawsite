@@ -2,8 +2,8 @@
   "services": {
     "bond-deportation-package": {
       "title": "Bond + Deportation Defense Package",
-      "short": "All-in-one engagement: bond, release, and full removal defense.",
-      "headline": "One team. One fee. Start to finish.",
+      "short": "One team. One fee. Start to finish.",
+      "headline": "Out of custody. Into court. Home safe.",
       "timeline": "12–24 months total",
       "forms": "Bond motion, EOIR-42B, I-589",
       "agency": "EOIR",
@@ -18,8 +18,8 @@
     },
     "bond-habeas": {
       "title": "Bond + Habeas Corpus",
-      "short": "Federal habeas petition for clients held beyond statutory limits.",
-      "headline": "When ICE holds you past the law, we go to federal court.",
+      "short": "When ICE holds you past the law, we go to federal court.",
+      "headline": "There is a deadline the government has to follow. We enforce it.",
       "timeline": "30–90 days",
       "forms": "28 U.S.C. § 2241 petition, evidence of prolonged detention",
       "agency": "U.S. District Court / EOIR",
@@ -34,8 +34,8 @@
     },
     "bia-appeal": {
       "title": "BIA Appeal",
-      "short": "Appeal an immigration judge's decision to the Board of Immigration Appeals.",
-      "headline": "The judge's decision isn't the last word.",
+      "short": "The judge's decision isn't the last word.",
+      "headline": "The fight isn't over. It just moved upstairs.",
       "timeline": "9–18 months",
       "forms": "EOIR-26, EOIR-27, appellate brief",
       "agency": "BIA (Board of Immigration Appeals)",
@@ -50,8 +50,8 @@
     },
     "motion-to-reopen": {
       "title": "Motion to Reopen",
-      "short": "Reopen a case based on new evidence, ineffective assistance, or changed country conditions.",
-      "headline": "New facts deserve a new look.",
+      "short": "New facts deserve a new look.",
+      "headline": "A closed case isn't always a dead case.",
       "timeline": "6–12 months",
       "forms": "Motion, supporting affidavits, new evidence",
       "agency": "EOIR / BIA",
@@ -66,8 +66,8 @@
     },
     "motion-to-terminate": {
       "title": "Motion to Terminate",
-      "short": "Terminate removal proceedings when the NTA is defective or relief is granted elsewhere.",
-      "headline": "Sometimes the best defense is no case at all.",
+      "short": "Sometimes the best defense is no case at all.",
+      "headline": "End the proceedings before they can end you.",
       "timeline": "3–9 months",
       "forms": "Motion to terminate, supporting evidence",
       "agency": "EOIR",
@@ -82,8 +82,8 @@
     },
     "change-of-venue": {
       "title": "Change of Venue",
-      "short": "Move your immigration court case to a court closer to where you live.",
-      "headline": "You shouldn't have to cross three states for a hearing.",
+      "short": "You shouldn't have to cross three states for a hearing.",
+      "headline": "The right court. Closer to you.",
       "timeline": "30–90 days",
       "forms": "Motion to change venue, address evidence",
       "agency": "EOIR",
@@ -98,8 +98,8 @@
     },
     "circuit-appeal": {
       "title": "Petition for Review (Circuit Court)",
-      "short": "Federal appellate review of a final BIA order.",
-      "headline": "Federal court is the last honest look your case gets.",
+      "short": "Federal court is the last honest look your case gets.",
+      "headline": "When the agency won't budge, the circuit can.",
       "timeline": "12–24 months",
       "forms": "Petition for review, appellate brief, record",
       "agency": "U.S. Court of Appeals",
@@ -114,8 +114,8 @@
     },
     "habeas-corpus": {
       "title": "Habeas Corpus",
-      "short": "Federal habeas for unlawful detention beyond statutory bounds.",
-      "headline": "Unlawful detention has a federal remedy.",
+      "short": "Unlawful detention has a federal remedy.",
+      "headline": "The Constitution doesn't pause at the detention center door.",
       "timeline": "60–120 days",
       "forms": "28 U.S.C. § 2241 petition, evidence of prolonged detention",
       "agency": "U.S. District Court",
@@ -130,8 +130,8 @@
     },
     "family-petitions": {
       "title": "Family-Based Petitions (I-130)",
-      "short": "I-130 filings for spouses, parents, children, and siblings of U.S. citizens and LPRs.",
-      "headline": "The paperwork that keeps families under one roof.",
+      "short": "The paperwork that keeps families under one roof.",
+      "headline": "Reuniting families — one petition at a time.",
       "timeline": "Immediate relatives: 8–16 months. Preference categories: variable.",
       "forms": "I-130, I-130A, proof of relationship",
       "agency": "USCIS",

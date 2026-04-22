@@ -5,8 +5,8 @@
       "description": "Defensa de deportación, asilo, audiencias de fianza, peticiones familiares, VAWA, Visa U, naturalización y más. Precios transparentes."
     },
     "eyebrow": "Nuestros Servicios",
-    "title": "Representación migratoria integral.",
-    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio se maneja internamente — con abogados que conocen su caso por nombre.",
+    "title": "Representación migratoria completa. Cada audiencia manejada internamente.",
+    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio a continuación es manejado por abogados que conocen su caso por nombre — no por número de expediente.",
     "startingAt": "Desde",
     "tabs": {
       "all": "Todos los servicios",
@@ -41,27 +41,27 @@
   "practiceFaq": {
     "q1": {
       "question": "¿Cuánto tarda normalmente el proceso?",
-      "answer": "Los tiempos migratorios los controla USCIS, las cortes de inmigración y los tribunales federales — no nosotros. Una estimación realista depende del tipo de caso, los tiempos actuales en su jurisdicción y qué tan completa esté su evidencia. En su consulta gratuita le daremos un plazo concreto según cómo se vea su caso."
+      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios del circuito federal — no por nosotros. Un estimado realista depende de su tipo de caso específico, los atrasos actuales en su jurisdicción, y qué tan completa esté su evidencia. Durante su consulta gratuita, le daremos un cronograma concreto basado en cómo realmente se ve su caso — no una fantasía del mejor escenario."
     },
     "q2": {
       "question": "¿Qué pasa si niegan mi caso?",
-      "answer": "Una negación rara vez es el final. Según el trámite, puede tener 30 días para presentar una moción de reapertura, una apelación ante la BIA o — en algunos casos — una petición federal de revisión ante la corte de circuito. Le explicamos todas las opciones, los costos y las probabilidades con honestidad."
+      "answer": "Una negación no es el final. Dependiendo de las circunstancias, podemos presentar una moción para reabrir, una moción para reconsiderar, o una apelación ante la Junta de Apelaciones de Inmigración. En algunos casos, podemos escalar a la corte de circuito federal. Discutimos todas las opciones con usted el mismo día y nunca dejamos que un plazo venza sin una decisión."
     },
     "q3": {
       "question": "¿Puedo trabajar mientras mi caso está pendiente?",
-      "answer": "En muchas situaciones sí — con un Documento de Autorización de Empleo (EAD, Formulario I-765) vinculado a su trámite. La elegibilidad depende del tipo de caso y la fecha de presentación. Tramitamos el EAD como parte de nuestros paquetes cuando aplica."
+      "answer": "En muchos casos, sí. Si usted califica, podemos presentar una solicitud de Autorización de Empleo I-765 junto con su caso principal. Para solicitantes de asilo, puede ser elegible para un permiso de trabajo 180 días después de la presentación. Le diremos exactamente cuándo y cómo durante su consulta."
     },
     "q4": {
       "question": "¿Ofrecen planes de pago?",
-      "answer": "Sí. Las tarifas fijas hacen predecibles los costos, y cada contrato incluye un plan de pagos por escrito que divide el monto en cuotas manejables. Facturamos con total transparencia — sin cargos sorpresa."
+      "answer": "Sí. Ofrecemos planes de pago mensuales, quincenales, y semanales. La mayoría de los clientes pagan un pago inicial de $2,500–$3,000 y luego distribuyen el resto durante la vida del caso. También aceptamos Affirm Pay Later para clientes que prefieren financiar el monto total. Nunca dejaremos que el costo sea la razón por la que no obtenga representación."
     },
     "q5": {
       "question": "¿La primera consulta es realmente gratis?",
-      "answer": "Sí. Su consulta gratuita es una conversación de 20 a 30 minutos con un especialista de admisión o un abogado. Escuchamos su historia, identificamos los temas legales y le decimos qué haríamos. Sale con un plan, nos contrate o no."
+      "answer": "Sí. Sin tarjeta de crédito. Sin obligación de contratarnos. Un miembro real de nuestro equipo — no un chatbot — revisará su situación, explicará sus opciones, y le dará una evaluación honesta. Si no somos la opción correcta, se lo diremos. Si otra firma puede ayudarle mejor, le referiremos."
     },
     "q6": {
-      "question": "¿Pueden ayudarme si no vivo en Florida?",
-      "answer": "Sí. Representamos clientes en cortes de inmigración y oficinas de USCIS en todo el país. Como la inmigración es ley federal, su dirección no limita quién puede representarlo — la mayoría del trabajo lo hacemos de forma remota, con comparecencias presenciales cuando son requeridas."
+      "question": "¿Pueden ayudar si no vivo en Florida?",
+      "answer": "Absolutamente. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Manejamos casos en los 50 estados. La mayoría de nuestras consultas se realizan por teléfono o WhatsApp — no necesita viajar a Miami."
     }
   }
 }

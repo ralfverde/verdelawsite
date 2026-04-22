@@ -259,8 +259,8 @@
       "description": "Removal defense, asylum, bond hearings, family petitions, VAWA, U-visa, naturalization and more. Transparent pricing."
     },
     "eyebrow": "Our Services",
-    "title": "Full-service immigration representation.",
-    "subtitle": "From emergency bond hearings to green card interviews, every service below is handled in-house — by attorneys who know your case by name.",
+    "title": "Full-service immigration representation. Every hearing handled in-house.",
+    "subtitle": "From emergency bond hearings to green card interviews, every service below is handled by attorneys who know your case by name — not by file number.",
     "startingAt": "From",
     "tabs": {
       "all": "All services",
@@ -295,34 +295,34 @@
   "practiceFaq": {
     "q1": {
       "question": "How long does the process usually take?",
-      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. A realistic estimate depends on your specific case type, current backlogs at your venue, and the completeness of your evidence. During your free consultation we'll give you a concrete timeline based on what your case actually looks like."
+      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. A realistic estimate depends on your specific case type, current backlogs at your venue, and the completeness of your evidence. During your free consultation, we'll give you a concrete timeline based on what your case actually looks like — not a best-case fantasy."
     },
     "q2": {
       "question": "What happens if my case is denied?",
-      "answer": "A denial is rarely the end. Depending on the filing, you may have 30 days to file a motion to reopen, an appeal to the BIA, or — in some cases — a federal petition for review at the circuit court. We explain all your options, the costs, and the odds honestly."
+      "answer": "A denial is not the end. Depending on the circumstances, we can file a motion to reopen, a motion to reconsider, or an appeal to the Board of Immigration Appeals. In some cases, we can escalate to federal circuit court. We discuss all options with you the same day and never let a deadline pass without a decision."
     },
     "q3": {
       "question": "Can I work while my case is pending?",
-      "answer": "In many situations yes — through an Employment Authorization Document (EAD, Form I-765) tied to your underlying filing. Eligibility depends on the case type and filing date. We file the EAD as part of our case packages whenever it applies."
+      "answer": "In many cases, yes. If you're eligible, we can file an I-765 Employment Authorization application alongside your main case. For asylum applicants, you may be eligible for a work permit 180 days after filing. We'll tell you exactly when and how during your consultation."
     },
     "q4": {
       "question": "Do you offer payment plans?",
-      "answer": "Yes. Flat fees make costs predictable, and every engagement we take on comes with a written payment plan that splits the fee into manageable installments. We bill in full transparency — no surprise charges."
+      "answer": "Yes. We offer monthly, biweekly, and weekly payment plans. Most clients pay a down payment of $2,500–$3,000 and then spread the rest over the life of the case. We also accept Affirm Pay Later for clients who prefer to finance the full amount. We'll never let cost be the reason you don't get representation."
     },
     "q5": {
       "question": "Is the first consultation really free?",
-      "answer": "Yes. Your free consultation is a 20–30 minute conversation with an intake specialist or attorney. We listen to your story, identify the legal issues, and tell you what we'd do. You leave with a plan whether you hire us or not."
+      "answer": "Yes. No credit card required. No obligation to hire us. A real member of our team — not a chatbot — will walk through your situation, explain your options, and give you an honest assessment. If we're not the right fit, we'll tell you. If another firm can help you better, we'll refer you."
     },
     "q6": {
       "question": "Can you help if I don't live in Florida?",
-      "answer": "Yes. We represent clients in immigration courts and USCIS offices nationwide. Because immigration is federal law, your physical address does not limit who can represent you — most of our work is done remotely, with court appearances handled in person when required."
+      "answer": "Absolutely. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court in the country. We handle cases in all 50 states. Most of our consultations happen by phone or WhatsApp — you don't need to travel to Miami."
     }
   },
   "services": {
     "deportation-defense": {
       "title": "Deportation Defense",
-      "short": "Full-service defense when the government files removal proceedings against you.",
-      "headline": "When the government comes for you, we come for them.",
+      "short": "When the government comes for you, we come for them.",
+      "headline": "Your life is on the line. We don't take that lightly.",
       "timeline": "12–36 months",
       "forms": "EOIR-28, EOIR-42B, I-589",
       "agency": "EOIR",
@@ -342,8 +342,8 @@
     },
     "deportation-detained": {
       "title": "Deportation Defense (Detained)",
-      "short": "Emergency representation when your loved one is in ICE custody.",
-      "headline": "Out of detention first. Then we fight the case.",
+      "short": "Out of detention first. Then we fight the case.",
+      "headline": "Every hour in detention is an hour your family is waiting.",
       "timeline": "3–12 months",
       "forms": "EOIR-28, I-286, EOIR-42B",
       "agency": "EOIR / ICE",
@@ -363,8 +363,8 @@
     },
     "deportation-adjustment": {
       "title": "Deportation Defense + Adjustment of Status",
-      "short": "Combined defense in removal proceedings plus a green card application.",
-      "headline": "Defend in court. Adjust in court. One plan, one fee.",
+      "short": "Defend in court. Adjust in court. One plan, one fee.",
+      "headline": "A green card, won inside the courtroom.",
       "timeline": "12–24 months",
       "forms": "EOIR-28, I-485, I-864, I-693",
       "agency": "EOIR",
@@ -384,8 +384,8 @@
     },
     "cancellation-of-removal": {
       "title": "Cancellation of Removal",
-      "short": "42A and 42B relief for long-term residents facing deportation.",
-      "headline": "Ten years of your life, ten years of hope, protected.",
+      "short": "Ten years of your life, protected.",
+      "headline": "You built a life here. We build the case to keep it.",
       "timeline": "18–36 months",
       "forms": "EOIR-42A, EOIR-42B, biometrics package",
       "agency": "EOIR",
@@ -405,8 +405,8 @@
     },
     "master-calendar": {
       "title": "Master Calendar Hearing",
-      "short": "Individual Master Calendar appearance in immigration court.",
-      "headline": "Don't face the judge alone.",
+      "short": "Don't face the judge alone.",
+      "headline": "The hearing is short. The consequences are long.",
       "timeline": "Single hearing (30–45 minutes at court, preparation separate)",
       "forms": "EOIR-28",
       "agency": "EOIR",
@@ -426,8 +426,8 @@
     },
     "individual-hearing": {
       "title": "Individual (Merits) Hearing",
-      "short": "Full merits hearing representation on removal relief.",
-      "headline": "One hearing. Your life on the line. We don't improvise.",
+      "short": "One hearing. Your life on the line. We don't improvise.",
+      "headline": "This is the day. We've prepared for it for months.",
       "timeline": "Half-day to full-day hearing; 60–90 days of prep",
       "forms": "Relief-specific applications, witness affidavits, legal brief",
       "agency": "EOIR",
@@ -447,14 +447,14 @@
     },
     "asylum": {
       "title": "Affirmative Asylum (USCIS)",
-      "short": "Affirmative asylum applications filed with USCIS.",
-      "headline": "Your story belongs in the record. Told right.",
+      "short": "Your story belongs in the record. Told right.",
+      "headline": "The declaration is the heart of your case. We don't let it be weak.",
       "timeline": "12–36 months to interview; decision variable",
       "forms": "I-589, declaration, country conditions evidence",
       "agency": "USCIS",
       "overview1": "Affirmative asylum is available to people in the U.S. who are not yet in removal proceedings and who fear persecution in their home country on account of race, religion, nationality, political opinion, or membership in a particular social group.",
-      "overview2": "The case turns on credibility. Your declaration is the heart of the file. Every date, every actor, every event must be consistent and corroborated where possible. Gaps or contradictions sink cases.",
-      "overview3": "We draft your declaration in Spanish first (with you), translate it, corroborate it with country reports and supporting affidavits, and prep you for the asylum interview.",
+      "overview2": "The case turns on credibility. Your declaration is the heart of the file. Every detail, every event, every corroborating piece of evidence matters — because Asylum Officers are trained to look for inconsistencies. One short, scared, poorly prepared answer can end the case.",
+      "overview3": "We draft your declaration through multiple sessions to produce a detailed, consistent personal statement. We gather country reports and supporting affidavits, and prep you for the asylum interview with our attorneys present.",
       "step1Title": "Eligibility & one-year bar",
       "step1Desc": "Confirm eligibility and either meet the one-year filing deadline or fit an exception.",
       "step2Title": "Declaration drafting",
@@ -468,8 +468,8 @@
     },
     "credible-fear-interview": {
       "title": "Credible Fear Interview",
-      "short": "Representation for Credible Fear or Reasonable Fear interviews at a detention facility.",
-      "headline": "The interview that decides whether you get a chance at asylum.",
+      "short": "The interview that decides whether you get a chance at asylum.",
+      "headline": "One short interview. The rest of your life on the other side.",
       "timeline": "7–30 days from referral; interview prep in days",
       "forms": "I-589 (post-pass), interview prep materials",
       "agency": "USCIS (Asylum Office)",
@@ -495,8 +495,8 @@
       "forms": "Bond motion, sponsor affidavits, evidence of ties",
       "agency": "EOIR",
       "overview1": "A bond hearing is where an immigration judge decides whether to release a person from ICE custody while their removal case proceeds. The judge looks at flight risk, danger to the community, and community ties.",
-      "overview2": "Preparation is everything. We gather proof of address, employment, family ties, tax records, clean criminal history, U.S. citizen/LPR relative support, sponsor affidavits, and community letters. We present a full picture — not just a request.",
-      "overview3": "Most of our detained clients are released within 2–4 weeks of engagement. Bond amounts vary by case; we negotiate where possible and file custody redeterminations when bond is denied initially.",
+      "overview2": "Preparation is everything. We gather proof of address, employment, family ties, tax returns, clean criminal history, U.S. citizen/LPR relative support, sponsor affidavits, and community letters. We present a full picture — not just a request.",
+      "overview3": "Most of our detained clients are released within 3–4 weeks of engagement. Bond amounts vary by case; we negotiate where possible and file custody redetermination when bond is denied initially.",
       "step1Title": "Emergency consultation",
       "step1Desc": "Same-day intake. Identify the facility, pull A-file, start evidence collection.",
       "step2Title": "Evidence package",
@@ -510,8 +510,8 @@
     },
     "bond-deportation-package": {
       "title": "Bond + Deportation Defense Package",
-      "short": "All-in-one engagement: bond, release, and full removal defense.",
-      "headline": "One team. One fee. Start to finish.",
+      "short": "One team. One fee. Start to finish.",
+      "headline": "Out of custody. Into court. Home safe.",
       "timeline": "12–24 months total",
       "forms": "Bond motion, EOIR-42B, I-589",
       "agency": "EOIR",
@@ -531,8 +531,8 @@
     },
     "bond-habeas": {
       "title": "Bond + Habeas Corpus",
-      "short": "Federal habeas petition for clients held beyond statutory limits.",
-      "headline": "When ICE holds you past the law, we go to federal court.",
+      "short": "When ICE holds you past the law, we go to federal court.",
+      "headline": "There is a deadline the government has to follow. We enforce it.",
       "timeline": "30–90 days",
       "forms": "28 U.S.C. § 2241 petition, evidence of prolonged detention",
       "agency": "U.S. District Court / EOIR",
@@ -552,8 +552,8 @@
     },
     "bia-appeal": {
       "title": "BIA Appeal",
-      "short": "Appeal an immigration judge's decision to the Board of Immigration Appeals.",
-      "headline": "The judge's decision isn't the last word.",
+      "short": "The judge's decision isn't the last word.",
+      "headline": "The fight isn't over. It just moved upstairs.",
       "timeline": "9–18 months",
       "forms": "EOIR-26, EOIR-27, appellate brief",
       "agency": "BIA (Board of Immigration Appeals)",
@@ -573,8 +573,8 @@
     },
     "motion-to-reopen": {
       "title": "Motion to Reopen",
-      "short": "Reopen a case based on new evidence, ineffective assistance, or changed country conditions.",
-      "headline": "New facts deserve a new look.",
+      "short": "New facts deserve a new look.",
+      "headline": "A closed case isn't always a dead case.",
       "timeline": "6–12 months",
       "forms": "Motion, supporting affidavits, new evidence",
       "agency": "EOIR / BIA",
@@ -594,8 +594,8 @@
     },
     "motion-to-terminate": {
       "title": "Motion to Terminate",
-      "short": "Terminate removal proceedings when the NTA is defective or relief is granted elsewhere.",
-      "headline": "Sometimes the best defense is no case at all.",
+      "short": "Sometimes the best defense is no case at all.",
+      "headline": "End the proceedings before they can end you.",
       "timeline": "3–9 months",
       "forms": "Motion to terminate, supporting evidence",
       "agency": "EOIR",
@@ -615,8 +615,8 @@
     },
     "change-of-venue": {
       "title": "Change of Venue",
-      "short": "Move your immigration court case to a court closer to where you live.",
-      "headline": "You shouldn't have to cross three states for a hearing.",
+      "short": "You shouldn't have to cross three states for a hearing.",
+      "headline": "The right court. Closer to you.",
       "timeline": "30–90 days",
       "forms": "Motion to change venue, address evidence",
       "agency": "EOIR",
@@ -636,8 +636,8 @@
     },
     "circuit-appeal": {
       "title": "Petition for Review (Circuit Court)",
-      "short": "Federal appellate review of a final BIA order.",
-      "headline": "Federal court is the last honest look your case gets.",
+      "short": "Federal court is the last honest look your case gets.",
+      "headline": "When the agency won't budge, the circuit can.",
       "timeline": "12–24 months",
       "forms": "Petition for review, appellate brief, record",
       "agency": "U.S. Court of Appeals",
@@ -657,8 +657,8 @@
     },
     "habeas-corpus": {
       "title": "Habeas Corpus",
-      "short": "Federal habeas for unlawful detention beyond statutory bounds.",
-      "headline": "Unlawful detention has a federal remedy.",
+      "short": "Unlawful detention has a federal remedy.",
+      "headline": "The Constitution doesn't pause at the detention center door.",
       "timeline": "60–120 days",
       "forms": "28 U.S.C. § 2241 petition, evidence of prolonged detention",
       "agency": "U.S. District Court",
@@ -678,8 +678,8 @@
     },
     "family-petitions": {
       "title": "Family-Based Petitions (I-130)",
-      "short": "I-130 filings for spouses, parents, children, and siblings of U.S. citizens and LPRs.",
-      "headline": "The paperwork that keeps families under one roof.",
+      "short": "The paperwork that keeps families under one roof.",
+      "headline": "Reuniting families — one petition at a time.",
       "timeline": "Immediate relatives: 8–16 months. Preference categories: variable.",
       "forms": "I-130, I-130A, proof of relationship",
       "agency": "USCIS",
@@ -699,8 +699,8 @@
     },
     "adjustment-of-status": {
       "title": "Adjustment of Status (I-485)",
-      "short": "Green card application for eligible beneficiaries inside the U.S.",
-      "headline": "From paperwork to permanent residence.",
+      "short": "From paperwork to permanent residence.",
+      "headline": "One interview between you and your green card.",
       "timeline": "10–18 months",
       "forms": "I-485, I-864, I-693, I-765 (optional), I-131 (optional)",
       "agency": "USCIS",
@@ -721,13 +721,13 @@
     "family-package": {
       "title": "Family Package (I-130 + I-485 + EAD)",
       "short": "The complete family-based green card journey, bundled.",
-      "headline": "One plan. One flat fee. Green card at the end.",
+      "headline": "One family. One attorney. One plan from petition to green card.",
       "timeline": "10–18 months",
       "forms": "I-130, I-485, I-864, I-693, I-765, I-131",
       "agency": "USCIS",
-      "overview1": "This package combines the I-130 petition, the I-485 adjustment, and the I-765 EAD application into a single engagement — the path most family-based green card cases actually take.",
-      "overview2": "You get predictable pricing, a single point of contact, and coordinated filings. We file everything concurrently where eligible and prep you for a single combined USCIS interview.",
-      "overview3": "Most of our family-based clients choose this package. It's the cleanest path from 'filing date' to 'green card in hand.'",
+      "overview1": "Our family package handles the I-130 petition, the I-485 adjustment of status application, and the employment authorization document — everything you need for a spouse, parent, or child of a U.S. citizen or permanent resident to get their green card.",
+      "overview2": "We coordinate the entire timeline so filings don't conflict, evidence is consistent across applications, and you don't pay three separate attorneys to do one job.",
+      "overview3": "Every family case gets a dedicated paralegal who tracks deadlines, prepares documents, and keeps you updated throughout. You'll never have to wonder what's happening with your case.",
       "step1Title": "Full eligibility review",
       "step1Desc": "Admissibility, relationship, sponsor finances.",
       "step2Title": "Evidence package",
@@ -741,8 +741,8 @@
     },
     "provisional-waiver": {
       "title": "Provisional Waiver (I-601A)",
-      "short": "Waiver of unlawful presence before consular processing abroad.",
-      "headline": "File here. Interview home. Come back approved.",
+      "short": "File here. Interview home. Come back approved.",
+      "headline": "A waiver here means you come back, not a maybe.",
       "timeline": "12–24 months",
       "forms": "I-601A, hardship evidence, supporting documentation",
       "agency": "USCIS",
@@ -762,14 +762,14 @@
     },
     "vawa": {
       "title": "VAWA Self-Petition (I-360)",
-      "short": "Immigration relief for abused spouses, children, and parents of U.S. citizens or LPRs.",
-      "headline": "Your abuser does not control your immigration status.",
+      "short": "You don't need your abuser's permission. Or their knowledge.",
+      "headline": "The law protects you. Even if you're undocumented. Even if no one believes you yet.",
       "timeline": "14–24 months",
       "forms": "I-360, personal statement, corroborating evidence",
       "agency": "USCIS (Vermont Service Center)",
-      "overview1": "The Violence Against Women Act lets abused spouses, children, and parents of U.S. citizens or LPRs petition for their own immigration status — without the abuser's knowledge, signature, or involvement.",
-      "overview2": "Confidentiality is absolute. VAWA files are treated under special protections; your abuser cannot obtain any information about the filing. We correspond through the address you specify.",
-      "overview3": "Strong VAWA cases are built on the personal statement, corroborated by police reports, medical records, photographs, counselor notes, and affidavits from people who witnessed the relationship.",
+      "overview1": "VAWA — the Violence Against Women Act — allows spouses, children, and parents of abusive U.S. citizens or permanent residents to self-petition for immigration status independently. Your abuser does not need to know you applied. They will not be notified.",
+      "overview2": "The standard of proof is 'any credible evidence.' You do not need a police report. You do not need a conviction. You need your story, told clearly and supported by whatever evidence you have — declarations, photos, messages, medical records, therapy records, or witness statements.",
+      "overview3": "Every VAWA case at Verde Law is handled with absolute confidentiality. Your file is stored separately. Your name does not appear in shared systems. We understand that safety comes before paperwork.",
       "step1Title": "Safe intake",
       "step1Desc": "Confidential consultation, safety planning, case eligibility review.",
       "step2Title": "Evidence gathering",
@@ -783,8 +783,8 @@
     },
     "u-visa": {
       "title": "U-Visa",
-      "short": "Immigration relief for victims of serious crimes who cooperate with law enforcement.",
-      "headline": "What happened to you was not your fault. You have rights.",
+      "short": "What happened to you was not your fault. You have rights.",
+      "headline": "You helped the system. Now we help the system protect you.",
       "timeline": "5–8 years to visa; 4+ years for work permit",
       "forms": "I-918, I-918B, personal statement",
       "agency": "USCIS",
@@ -804,8 +804,8 @@
     },
     "work-permit": {
       "title": "Work Permit (I-765)",
-      "short": "Employment Authorization Document application.",
-      "headline": "Work legally while your case is pending.",
+      "short": "Work legally while your case is pending.",
+      "headline": "A paycheck. A normal life. One form away.",
       "timeline": "3–6 months",
       "forms": "I-765, supporting documentation",
       "agency": "USCIS",
@@ -825,8 +825,8 @@
     },
     "work-permit-addon": {
       "title": "Work Permit (Add-On)",
-      "short": "Discounted I-765 add-on for clients with an existing case.",
-      "headline": "Work permit, bundled with your case.",
+      "short": "Work permit, bundled with your case.",
+      "headline": "Already our client? Your work permit is a flat-fee add-on.",
       "timeline": "3–6 months",
       "forms": "I-765",
       "agency": "USCIS",
@@ -846,8 +846,8 @@
     },
     "naturalization": {
       "title": "Naturalization (N-400)",
-      "short": "U.S. citizenship application, interview prep, and oath ceremony.",
-      "headline": "From green card to citizenship — the last step home.",
+      "short": "From green card to citizenship — the last step home.",
+      "headline": "You've earned this. We make sure nothing gets in the way.",
       "timeline": "8–14 months",
       "forms": "N-400, supporting documents",
       "agency": "USCIS",
@@ -867,8 +867,8 @@
     },
     "green-card-renewal": {
       "title": "Green Card Renewal (I-90)",
-      "short": "Renew or replace a lawful permanent resident card.",
-      "headline": "Renewal without the headache.",
+      "short": "Renewal without the headache.",
+      "headline": "Keep the status you already earned. No stress.",
       "timeline": "6–12 months",
       "forms": "I-90, supporting documentation",
       "agency": "USCIS",
@@ -888,8 +888,8 @@
     },
     "foia-request": {
       "title": "FOIA Request",
-      "short": "Obtain your A-file or case records from USCIS, ICE, or EOIR.",
-      "headline": "Know what the government has on you.",
+      "short": "Know what the government has on you.",
+      "headline": "Before the next move, see the whole board.",
       "timeline": "3–12 months",
       "forms": "G-639, targeted FOIA requests",
       "agency": "USCIS / ICE / EOIR",
@@ -909,8 +909,8 @@
     },
     "rfe-response": {
       "title": "RFE Response",
-      "short": "Targeted response to a Request for Evidence from USCIS.",
-      "headline": "One chance to answer. We get it right.",
+      "short": "One chance to answer. We get it right.",
+      "headline": "An RFE is a door. We walk through it with the right papers.",
       "timeline": "Due within RFE deadline (typically 30–87 days)",
       "forms": "RFE response package",
       "agency": "USCIS",
@@ -930,8 +930,8 @@
     },
     "ice-checkin": {
       "title": "ICE Check-In Representation",
-      "short": "Attorney representation at ISAP/ICE supervised check-ins.",
-      "headline": "You don't face ICE alone.",
+      "short": "You don't face ICE alone.",
+      "headline": "An attorney in the room changes every check-in.",
       "timeline": "Per scheduled check-in",
       "forms": "G-28, check-in accompaniment",
       "agency": "ICE",

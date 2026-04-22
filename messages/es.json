@@ -259,8 +259,8 @@
       "description": "Defensa de deportación, asilo, audiencias de fianza, peticiones familiares, VAWA, Visa U, naturalización y más. Precios transparentes."
     },
     "eyebrow": "Nuestros Servicios",
-    "title": "Representación migratoria integral.",
-    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio se maneja internamente — con abogados que conocen su caso por nombre.",
+    "title": "Representación migratoria completa. Cada audiencia manejada internamente.",
+    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio a continuación es manejado por abogados que conocen su caso por nombre — no por número de expediente.",
     "startingAt": "Desde",
     "tabs": {
       "all": "Todos los servicios",
@@ -295,34 +295,34 @@
   "practiceFaq": {
     "q1": {
       "question": "¿Cuánto tarda normalmente el proceso?",
-      "answer": "Los tiempos migratorios los controla USCIS, las cortes de inmigración y los tribunales federales — no nosotros. Una estimación realista depende del tipo de caso, los tiempos actuales en su jurisdicción y qué tan completa esté su evidencia. En su consulta gratuita le daremos un plazo concreto según cómo se vea su caso."
+      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios del circuito federal — no por nosotros. Un estimado realista depende de su tipo de caso específico, los atrasos actuales en su jurisdicción, y qué tan completa esté su evidencia. Durante su consulta gratuita, le daremos un cronograma concreto basado en cómo realmente se ve su caso — no una fantasía del mejor escenario."
     },
     "q2": {
       "question": "¿Qué pasa si niegan mi caso?",
-      "answer": "Una negación rara vez es el final. Según el trámite, puede tener 30 días para presentar una moción de reapertura, una apelación ante la BIA o — en algunos casos — una petición federal de revisión ante la corte de circuito. Le explicamos todas las opciones, los costos y las probabilidades con honestidad."
+      "answer": "Una negación no es el final. Dependiendo de las circunstancias, podemos presentar una moción para reabrir, una moción para reconsiderar, o una apelación ante la Junta de Apelaciones de Inmigración. En algunos casos, podemos escalar a la corte de circuito federal. Discutimos todas las opciones con usted el mismo día y nunca dejamos que un plazo venza sin una decisión."
     },
     "q3": {
       "question": "¿Puedo trabajar mientras mi caso está pendiente?",
-      "answer": "En muchas situaciones sí — con un Documento de Autorización de Empleo (EAD, Formulario I-765) vinculado a su trámite. La elegibilidad depende del tipo de caso y la fecha de presentación. Tramitamos el EAD como parte de nuestros paquetes cuando aplica."
+      "answer": "En muchos casos, sí. Si usted califica, podemos presentar una solicitud de Autorización de Empleo I-765 junto con su caso principal. Para solicitantes de asilo, puede ser elegible para un permiso de trabajo 180 días después de la presentación. Le diremos exactamente cuándo y cómo durante su consulta."
     },
     "q4": {
       "question": "¿Ofrecen planes de pago?",
-      "answer": "Sí. Las tarifas fijas hacen predecibles los costos, y cada contrato incluye un plan de pagos por escrito que divide el monto en cuotas manejables. Facturamos con total transparencia — sin cargos sorpresa."
+      "answer": "Sí. Ofrecemos planes de pago mensuales, quincenales, y semanales. La mayoría de los clientes pagan un pago inicial de $2,500–$3,000 y luego distribuyen el resto durante la vida del caso. También aceptamos Affirm Pay Later para clientes que prefieren financiar el monto total. Nunca dejaremos que el costo sea la razón por la que no obtenga representación."
     },
     "q5": {
       "question": "¿La primera consulta es realmente gratis?",
-      "answer": "Sí. Su consulta gratuita es una conversación de 20 a 30 minutos con un especialista de admisión o un abogado. Escuchamos su historia, identificamos los temas legales y le decimos qué haríamos. Sale con un plan, nos contrate o no."
+      "answer": "Sí. Sin tarjeta de crédito. Sin obligación de contratarnos. Un miembro real de nuestro equipo — no un chatbot — revisará su situación, explicará sus opciones, y le dará una evaluación honesta. Si no somos la opción correcta, se lo diremos. Si otra firma puede ayudarle mejor, le referiremos."
     },
     "q6": {
-      "question": "¿Pueden ayudarme si no vivo en Florida?",
-      "answer": "Sí. Representamos clientes en cortes de inmigración y oficinas de USCIS en todo el país. Como la inmigración es ley federal, su dirección no limita quién puede representarlo — la mayoría del trabajo lo hacemos de forma remota, con comparecencias presenciales cuando son requeridas."
+      "question": "¿Pueden ayudar si no vivo en Florida?",
+      "answer": "Absolutamente. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Manejamos casos en los 50 estados. La mayoría de nuestras consultas se realizan por teléfono o WhatsApp — no necesita viajar a Miami."
     }
   },
   "services": {
     "deportation-defense": {
       "title": "Defensa de Deportación",
-      "short": "Defensa integral cuando el gobierno abre un proceso de deportación en su contra.",
-      "headline": "Cuando el gobierno va por usted, nosotros vamos por ellos.",
+      "short": "Cuando el gobierno viene por usted, nosotros vamos por ellos.",
+      "headline": "Su vida está en juego. Nosotros no tomamos eso a la ligera.",
       "timeline": "12–36 meses",
       "forms": "EOIR-28, EOIR-42B, I-589",
       "agency": "EOIR",
@@ -342,8 +342,8 @@
     },
     "deportation-detained": {
       "title": "Defensa de Deportación (Detenido)",
-      "short": "Representación de emergencia cuando su ser querido está bajo custodia de ICE.",
-      "headline": "Primero fuera de detención. Después peleamos el caso.",
+      "short": "Fuera de detención primero. Después peleamos el caso.",
+      "headline": "Cada hora en detención es una hora que su familia está esperando.",
       "timeline": "3–12 meses",
       "forms": "EOIR-28, I-286, EOIR-42B",
       "agency": "EOIR / ICE",
@@ -363,8 +363,8 @@
     },
     "deportation-adjustment": {
       "title": "Defensa de Deportación + Ajuste de Estatus",
-      "short": "Defensa en proceso de deportación combinada con solicitud de residencia.",
-      "headline": "Defender en corte. Ajustar en corte. Un plan, una tarifa.",
+      "short": "Defender en corte. Ajustar en corte. Un plan, una tarifa.",
+      "headline": "Una residencia, ganada dentro de la sala del tribunal.",
       "timeline": "12–24 meses",
       "forms": "EOIR-28, I-485, I-864, I-693",
       "agency": "EOIR",
@@ -384,8 +384,8 @@
     },
     "cancellation-of-removal": {
       "title": "Cancelación de Deportación",
-      "short": "Alivio 42A y 42B para residentes de larga data que enfrentan deportación.",
-      "headline": "Diez años de su vida, diez años de esperanza, protegidos.",
+      "short": "Diez años de su vida, protegidos.",
+      "headline": "Usted construyó una vida aquí. Nosotros construimos el caso para conservarla.",
       "timeline": "18–36 meses",
       "forms": "EOIR-42A, EOIR-42B, paquete biométrico",
       "agency": "EOIR",
@@ -405,8 +405,8 @@
     },
     "master-calendar": {
       "title": "Audiencia Maestra",
-      "short": "Comparecencia individual en Audiencia Maestra en corte de inmigración.",
-      "headline": "No enfrente al juez solo.",
+      "short": "No enfrente al juez solo.",
+      "headline": "La audiencia es corta. Las consecuencias son largas.",
       "timeline": "Audiencia única (30–45 minutos en corte; preparación aparte)",
       "forms": "EOIR-28",
       "agency": "EOIR",
@@ -426,8 +426,8 @@
     },
     "individual-hearing": {
       "title": "Audiencia Individual (de Méritos)",
-      "short": "Representación completa en audiencia de méritos sobre alivio de deportación.",
-      "headline": "Una audiencia. Su vida en juego. No improvisamos.",
+      "short": "Una audiencia. Su vida en juego. No improvisamos.",
+      "headline": "Este es el día. Llevamos meses preparándonos para él.",
       "timeline": "Audiencia de medio a un día completo; 60–90 días de preparación",
       "forms": "Solicitudes específicas del alivio, declaraciones de testigos, memorial legal",
       "agency": "EOIR",
@@ -447,14 +447,14 @@
     },
     "asylum": {
       "title": "Asilo Afirmativo (USCIS)",
-      "short": "Solicitudes de asilo afirmativo presentadas ante USCIS.",
-      "headline": "Su historia pertenece al expediente. Contada bien.",
+      "short": "Su historia pertenece al expediente. Contada correctamente.",
+      "headline": "La declaración es el corazón de su caso. No permitimos que sea débil.",
       "timeline": "12–36 meses hasta la entrevista; decisión variable",
       "forms": "I-589, declaración, evidencia de condiciones de país",
       "agency": "USCIS",
       "overview1": "El asilo afirmativo está disponible para personas en EE.UU. que aún no están en proceso de deportación y que temen persecución en su país de origen por raza, religión, nacionalidad, opinión política o pertenencia a un grupo social particular.",
-      "overview2": "El caso gira en torno a la credibilidad. Su declaración es el corazón del expediente. Cada fecha, cada persona, cada evento debe ser consistente y corroborado cuando sea posible. Los vacíos o contradicciones hunden los casos.",
-      "overview3": "Redactamos su declaración primero en español (con usted), la traducimos, la corroboramos con informes de país y declaraciones juradas, y lo preparamos para la entrevista de asilo.",
+      "overview2": "El caso depende de la credibilidad. Su declaración es el corazón del expediente. Cada detalle, cada evento, cada pieza de evidencia corroborante importa — porque los Oficiales de Asilo están entrenados para buscar inconsistencias. Una respuesta corta, con miedo, y mal preparada puede terminar el caso.",
+      "overview3": "Redactamos su declaración a través de múltiples sesiones para producir un testimonio personal detallado y consistente. Recopilamos reportes de país y declaraciones juradas de apoyo, y le preparamos para la entrevista de asilo con nuestros abogados presentes.",
       "step1Title": "Elegibilidad y regla del año",
       "step1Desc": "Confirmar elegibilidad y cumplir con el plazo de presentación de un año o encajar una excepción.",
       "step2Title": "Redacción de la declaración",
@@ -468,8 +468,8 @@
     },
     "credible-fear-interview": {
       "title": "Entrevista de Miedo Creíble",
-      "short": "Representación en entrevistas de Miedo Creíble o Razonable en centros de detención.",
-      "headline": "La entrevista que decide si tendrá oportunidad de asilo.",
+      "short": "La entrevista que decide si tendrá oportunidad de asilo.",
+      "headline": "Una entrevista corta. El resto de su vida del otro lado.",
       "timeline": "7–30 días desde la remisión; preparación en días",
       "forms": "I-589 (después de pasar), materiales de preparación de entrevista",
       "agency": "USCIS (Oficina de Asilo)",
@@ -495,8 +495,8 @@
       "forms": "Moción de fianza, declaraciones juradas de patrocinador, evidencia de arraigo",
       "agency": "EOIR",
       "overview1": "Una audiencia de fianza es donde un juez de inmigración decide si libera a una persona de la custodia de ICE mientras avanza el caso de deportación. El juez considera el riesgo de fuga, el peligro para la comunidad y los lazos comunitarios.",
-      "overview2": "La preparación lo es todo. Reunimos prueba de domicilio, empleo, lazos familiares, récords tributarios, historial penal limpio, apoyo de familiares ciudadanos/residentes, declaraciones juradas de patrocinadores y cartas de la comunidad. Presentamos el retrato completo — no solo una solicitud.",
-      "overview3": "La mayoría de nuestros clientes detenidos salen dentro de 2–4 semanas de iniciado el caso. Los montos de fianza varían; negociamos cuando se puede y presentamos redeterminaciones de custodia si se niega la fianza al inicio.",
+      "overview2": "La preparación lo es todo. Recopilamos prueba de dirección, empleo, lazos familiares, declaraciones de impuestos, historial criminal limpio, apoyo de familiares ciudadanos/residentes, declaraciones juradas de patrocinadores, y cartas de la comunidad. Presentamos un panorama completo — no solo una solicitud.",
+      "overview3": "La mayoría de nuestros clientes detenidos son liberados dentro de 3–4 semanas de contratarnos. Los montos de fianza varían por caso; negociamos cuando es posible y presentamos redeterminación de custodia cuando la fianza es negada inicialmente.",
       "step1Title": "Consulta de emergencia",
       "step1Desc": "Admisión el mismo día. Identificar la instalación, pedir el A-file, iniciar la recolección de evidencia.",
       "step2Title": "Paquete de evidencia",
@@ -510,8 +510,8 @@
     },
     "bond-deportation-package": {
       "title": "Paquete: Fianza + Defensa de Deportación",
-      "short": "Representación todo-en-uno: fianza, liberación y defensa completa de deportación.",
-      "headline": "Un solo equipo. Una sola tarifa. De principio a fin.",
+      "short": "Un solo equipo. Una sola tarifa. De principio a fin.",
+      "headline": "Fuera de custodia. En corte. De regreso en casa.",
       "timeline": "12–24 meses en total",
       "forms": "Moción de fianza, EOIR-42B, I-589",
       "agency": "EOIR",
@@ -531,8 +531,8 @@
     },
     "bond-habeas": {
       "title": "Fianza + Habeas Corpus",
-      "short": "Petición federal de habeas para clientes detenidos más allá de los límites legales.",
-      "headline": "Cuando ICE lo retiene fuera de la ley, vamos a corte federal.",
+      "short": "Cuando ICE lo retiene fuera de la ley, vamos a corte federal.",
+      "headline": "Existe un plazo que el gobierno debe respetar. Nosotros lo hacemos cumplir.",
       "timeline": "30–90 días",
       "forms": "Petición 28 U.S.C. § 2241, evidencia de detención prolongada",
       "agency": "Corte Federal de Distrito / EOIR",
@@ -552,8 +552,8 @@
     },
     "bia-appeal": {
       "title": "Apelación BIA",
-      "short": "Apelar la decisión de un juez de inmigración ante la Junta de Apelaciones.",
-      "headline": "La decisión del juez no es la última palabra.",
+      "short": "La decisión del juez no es la última palabra.",
+      "headline": "La pelea no terminó. Solo subió un piso.",
       "timeline": "9–18 meses",
       "forms": "EOIR-26, EOIR-27, memorial de apelación",
       "agency": "BIA (Junta de Apelaciones de Inmigración)",
@@ -573,8 +573,8 @@
     },
     "motion-to-reopen": {
       "title": "Moción para Reabrir",
-      "short": "Reabrir un caso con base en nueva evidencia, asistencia ineficaz o cambio de condiciones de país.",
-      "headline": "Hechos nuevos merecen una nueva mirada.",
+      "short": "Hechos nuevos merecen una nueva mirada.",
+      "headline": "Un caso cerrado no siempre es un caso muerto.",
       "timeline": "6–12 meses",
       "forms": "Moción, declaraciones juradas de apoyo, nueva evidencia",
       "agency": "EOIR / BIA",
@@ -594,8 +594,8 @@
     },
     "motion-to-terminate": {
       "title": "Moción para Terminar",
-      "short": "Terminar el proceso de deportación cuando el NTA es defectuoso o el alivio se obtiene en otro foro.",
-      "headline": "A veces la mejor defensa es que no haya caso.",
+      "short": "A veces la mejor defensa es que no haya caso.",
+      "headline": "Terminar el proceso antes de que pueda terminar con usted.",
       "timeline": "3–9 meses",
       "forms": "Moción para terminar, evidencia de apoyo",
       "agency": "EOIR",
@@ -615,8 +615,8 @@
     },
     "change-of-venue": {
       "title": "Cambio de Jurisdicción",
-      "short": "Trasladar su caso de inmigración a la corte más cercana a donde vive.",
-      "headline": "No debería tener que cruzar tres estados para una audiencia.",
+      "short": "No debería tener que cruzar tres estados para una audiencia.",
+      "headline": "La corte correcta. Más cerca de usted.",
       "timeline": "30–90 días",
       "forms": "Moción de cambio de jurisdicción, evidencia de domicilio",
       "agency": "EOIR",
@@ -636,8 +636,8 @@
     },
     "circuit-appeal": {
       "title": "Petición de Revisión (Corte de Circuito)",
-      "short": "Revisión federal de una orden final de la BIA.",
-      "headline": "La corte federal es la última mirada honesta que recibe su caso.",
+      "short": "La corte federal es la última mirada honesta que recibe su caso.",
+      "headline": "Cuando la agencia no cede, el circuito sí puede.",
       "timeline": "12–24 meses",
       "forms": "Petición de revisión, memorial de apelación, expediente",
       "agency": "Corte Federal de Apelaciones",
@@ -657,8 +657,8 @@
     },
     "habeas-corpus": {
       "title": "Habeas Corpus",
-      "short": "Habeas federal contra detención ilegal más allá de los límites legales.",
-      "headline": "La detención ilegal tiene un remedio federal.",
+      "short": "La detención ilegal tiene un remedio federal.",
+      "headline": "La Constitución no se detiene en la puerta del centro de detención.",
       "timeline": "60–120 días",
       "forms": "Petición 28 U.S.C. § 2241, evidencia de detención prolongada",
       "agency": "Corte Federal de Distrito",
@@ -678,8 +678,8 @@
     },
     "family-petitions": {
       "title": "Peticiones Familiares (I-130)",
-      "short": "Presentaciones I-130 para cónyuges, padres, hijos y hermanos de ciudadanos y residentes permanentes.",
-      "headline": "Los trámites que mantienen a la familia bajo un mismo techo.",
+      "short": "Los trámites que mantienen a la familia bajo un mismo techo.",
+      "headline": "Reunir familias — una petición a la vez.",
       "timeline": "Familiares inmediatos: 8–16 meses. Categorías de preferencia: variable.",
       "forms": "I-130, I-130A, prueba de la relación",
       "agency": "USCIS",
@@ -699,8 +699,8 @@
     },
     "adjustment-of-status": {
       "title": "Ajuste de Estatus (I-485)",
-      "short": "Solicitud de residencia para beneficiarios elegibles dentro de EE.UU.",
-      "headline": "De los trámites a la residencia permanente.",
+      "short": "De los trámites a la residencia permanente.",
+      "headline": "Una entrevista entre usted y su residencia.",
       "timeline": "10–18 meses",
       "forms": "I-485, I-864, I-693, I-765 (opcional), I-131 (opcional)",
       "agency": "USCIS",
@@ -720,14 +720,14 @@
     },
     "family-package": {
       "title": "Paquete Familiar (I-130 + I-485 + EAD)",
-      "short": "El camino completo de residencia familiar, empaquetado.",
-      "headline": "Un solo plan. Una tarifa fija. Residencia al final.",
+      "short": "El camino completo hacia la residencia por familia, en un solo paquete.",
+      "headline": "Una familia. Un abogado. Un plan desde la petición hasta la residencia.",
       "timeline": "10–18 meses",
       "forms": "I-130, I-485, I-864, I-693, I-765, I-131",
       "agency": "USCIS",
-      "overview1": "Este paquete combina la petición I-130, el ajuste I-485 y la solicitud de EAD I-765 en una sola representación — el camino que la mayoría de los casos familiares en realidad recorren.",
-      "overview2": "Obtiene precios predecibles, un único punto de contacto y presentaciones coordinadas. Radicamos todo de forma concurrente cuando es elegible y lo preparamos para una sola entrevista combinada ante USCIS.",
-      "overview3": "La mayoría de nuestros clientes familiares eligen este paquete. Es el camino más limpio entre la fecha de presentación y la tarjeta en la mano.",
+      "overview1": "Nuestro paquete familiar maneja la petición I-130, la solicitud de ajuste de estatus I-485, y el documento de autorización de empleo — todo lo que necesita para que el cónyuge, padre, o hijo de un ciudadano o residente permanente obtenga su residencia.",
+      "overview2": "Coordinamos toda la línea de tiempo para que las presentaciones no entren en conflicto, la evidencia sea consistente entre las solicitudes, y usted no pague a tres abogados separados para hacer un solo trabajo.",
+      "overview3": "Cada caso familiar recibe un paralegal dedicado que rastrea fechas límite, prepara documentos, y le mantiene informado durante todo el proceso. Nunca tendrá que preguntarse qué está pasando con su caso.",
       "step1Title": "Revisión de elegibilidad completa",
       "step1Desc": "Admisibilidad, relación familiar, finanzas del patrocinador.",
       "step2Title": "Paquete de evidencia",
@@ -741,8 +741,8 @@
     },
     "provisional-waiver": {
       "title": "Perdón Provisional (I-601A)",
-      "short": "Perdón de presencia ilegal antes del proceso consular en el extranjero.",
-      "headline": "Presente aquí. Entreviste allá. Regrese aprobado.",
+      "short": "Presente aquí. Entreviste allá. Regrese aprobado.",
+      "headline": "Un perdón aquí significa que regresa, no un quizás.",
       "timeline": "12–24 meses",
       "forms": "I-601A, evidencia de perjuicio, documentación de apoyo",
       "agency": "USCIS",
@@ -762,14 +762,14 @@
     },
     "vawa": {
       "title": "Auto-petición VAWA (I-360)",
-      "short": "Alivio migratorio para cónyuges, hijos y padres abusados por un ciudadano o residente permanente.",
-      "headline": "Su abusador no controla su estatus migratorio.",
+      "short": "No necesita el permiso de su agresor. Ni su conocimiento.",
+      "headline": "La ley le protege. Aunque no tenga documentos. Aunque nadie le crea todavía.",
       "timeline": "14–24 meses",
       "forms": "I-360, declaración personal, evidencia de respaldo",
       "agency": "USCIS (Centro de Servicio de Vermont)",
-      "overview1": "La Ley de Violencia Contra la Mujer (VAWA) permite que cónyuges, hijos y padres abusados por ciudadanos o residentes permanentes peticionen su propio estatus migratorio — sin el conocimiento, firma ni participación del abusador.",
-      "overview2": "La confidencialidad es absoluta. Los expedientes VAWA reciben protecciones especiales; su abusador no puede obtener información alguna sobre la presentación. Nos comunicamos por la dirección que usted indique.",
-      "overview3": "Los casos VAWA sólidos se construyen sobre la declaración personal, corroborada con reportes policiales, récords médicos, fotografías, notas de terapia y declaraciones de testigos que presenciaron la relación.",
+      "overview1": "VAWA — la Ley de Violencia Contra la Mujer — permite a cónyuges, hijos, y padres de ciudadanos o residentes permanentes abusivos solicitar estatus migratorio de forma independiente. Su agresor no necesita saber que usted aplicó. No será notificado.",
+      "overview2": "El estándar de prueba es 'cualquier evidencia creíble.' No necesita un reporte policial. No necesita una condena. Necesita su historia, contada claramente y respaldada por cualquier evidencia que tenga — declaraciones, fotos, mensajes, récords médicos, récords de terapia, o declaraciones de testigos.",
+      "overview3": "Cada caso de VAWA en Verde Law se maneja con absoluta confidencialidad. Su expediente se almacena por separado. Su nombre no aparece en sistemas compartidos. Entendemos que la seguridad viene antes que el papeleo.",
       "step1Title": "Admisión segura",
       "step1Desc": "Consulta confidencial, plan de seguridad, revisión de elegibilidad.",
       "step2Title": "Recolección de evidencia",
@@ -783,8 +783,8 @@
     },
     "u-visa": {
       "title": "Visa U",
-      "short": "Alivio migratorio para víctimas de crímenes graves que cooperan con las autoridades.",
-      "headline": "Lo que le pasó no fue su culpa. Usted tiene derechos.",
+      "short": "Lo que le pasó no fue su culpa. Usted tiene derechos.",
+      "headline": "Usted ayudó al sistema. Ahora ayudamos al sistema a protegerle.",
       "timeline": "5–8 años hasta la visa; 4+ años para el permiso de trabajo",
       "forms": "I-918, I-918B, declaración personal",
       "agency": "USCIS",
@@ -804,8 +804,8 @@
     },
     "work-permit": {
       "title": "Permiso de Trabajo (I-765)",
-      "short": "Solicitud del Documento de Autorización de Empleo.",
-      "headline": "Trabaje legalmente mientras su caso está pendiente.",
+      "short": "Trabaje legalmente mientras su caso está pendiente.",
+      "headline": "Un sueldo. Una vida normal. A un formulario de distancia.",
       "timeline": "3–6 meses",
       "forms": "I-765, documentación de apoyo",
       "agency": "USCIS",
@@ -825,8 +825,8 @@
     },
     "work-permit-addon": {
       "title": "Permiso de Trabajo (Complemento)",
-      "short": "Complemento I-765 con descuento para clientes con un caso en curso.",
-      "headline": "Permiso de trabajo, incluido con su caso.",
+      "short": "Permiso de trabajo, incluido con su caso.",
+      "headline": "¿Ya es nuestro cliente? Su permiso de trabajo es un complemento con tarifa fija.",
       "timeline": "3–6 meses",
       "forms": "I-765",
       "agency": "USCIS",
@@ -846,8 +846,8 @@
     },
     "naturalization": {
       "title": "Naturalización (N-400)",
-      "short": "Solicitud de ciudadanía estadounidense, preparación de entrevista y ceremonia de juramento.",
-      "headline": "De la residencia a la ciudadanía — el último paso a casa.",
+      "short": "De la residencia a la ciudadanía — el último paso a casa.",
+      "headline": "Usted se lo ganó. Nos aseguramos de que nada se interponga.",
       "timeline": "8–14 meses",
       "forms": "N-400, documentos de apoyo",
       "agency": "USCIS",
@@ -867,8 +867,8 @@
     },
     "green-card-renewal": {
       "title": "Renovación de Residencia (I-90)",
-      "short": "Renovar o reemplazar la tarjeta de residente permanente.",
-      "headline": "Renovar sin dolores de cabeza.",
+      "short": "Renovar sin dolores de cabeza.",
+      "headline": "Conserve el estatus que ya ganó. Sin estrés.",
       "timeline": "6–12 meses",
       "forms": "I-90, documentación de apoyo",
       "agency": "USCIS",
@@ -888,8 +888,8 @@
     },
     "foia-request": {
       "title": "Solicitud FOIA",
-      "short": "Obtenga su A-file o expediente ante USCIS, ICE o EOIR.",
-      "headline": "Sepa qué tiene el gobierno sobre usted.",
+      "short": "Sepa qué tiene el gobierno sobre usted.",
+      "headline": "Antes del próximo movimiento, vea todo el tablero.",
       "timeline": "3–12 meses",
       "forms": "G-639, solicitudes FOIA dirigidas",
       "agency": "USCIS / ICE / EOIR",
@@ -909,8 +909,8 @@
     },
     "rfe-response": {
       "title": "Respuesta a RFE",
-      "short": "Respuesta dirigida a una Solicitud de Evidencia de USCIS.",
-      "headline": "Una oportunidad para responder. La aprovechamos bien.",
+      "short": "Una oportunidad para responder. La aprovechamos bien.",
+      "headline": "Un RFE es una puerta. La cruzamos con los papeles correctos.",
       "timeline": "Dentro del plazo del RFE (normalmente 30–87 días)",
       "forms": "Paquete de respuesta al RFE",
       "agency": "USCIS",
@@ -930,8 +930,8 @@
     },
     "ice-checkin": {
       "title": "Representación en Check-In de ICE",
-      "short": "Representación de abogado en check-ins supervisados de ISAP/ICE.",
-      "headline": "Usted no enfrenta a ICE solo.",
+      "short": "Usted no enfrenta a ICE solo.",
+      "headline": "Un abogado en la sala cambia cada check-in.",
       "timeline": "Por cada check-in programado",
       "forms": "G-28, acompañamiento al check-in",
       "agency": "ICE",
