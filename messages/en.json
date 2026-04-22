@@ -40,10 +40,10 @@
     "bannerLight": {
       "title": "Thousands of families have trusted Verde Law with their future. You could be next."
     },
-    "subtitle": "Confidential consultations in Spanish, English, Haitian Creole, and Portuguese.",
+    "subtitle": "Confidential consultations in English and Spanish.",
     "freeConsultation": "Free Consultation",
     "finalTitle": "Your case cannot wait. But the consultation is free.",
-    "finalSubtitle": "100% free. 100% confidential. A real attorney reviews your case. Not a paralegal, not a bot.",
+    "finalSubtitle": "100% free. 100% confidential. Our legal team reviews your case personally.",
     "scheduleCTA": "Schedule My Free Consultation"
   },
   "floating": {
@@ -141,11 +141,11 @@
     "title": "Four steps. No retainer until we agree on a plan.",
     "step1": {
       "title": "Free Consultation",
-      "desc": "Call, WhatsApp, or schedule online. A real person walks through your situation in 15–30 minutes. Not a bot. No cost. No pressure."
+      "desc": "Call, WhatsApp, or schedule online. A member of our legal team walks through your situation in 15 to 30 minutes. No cost. No pressure."
     },
     "step2": {
       "title": "Case Evaluation",
-      "desc": "Our attorneys review the facts, identify your options, and tell you honestly what's possible and what isn't. You'll know exactly where you stand."
+      "desc": "Our legal team reviews the facts, identifies your options, and gives you an honest assessment of what is possible. You will know exactly where you stand."
     },
     "step3": {
       "title": "Legal Preparation",
@@ -283,7 +283,7 @@
     },
     "q5": {
       "question": "Is the first consultation really free?",
-      "answer": "Yes. No credit card required. No obligation to hire us. A real member of our team, not a chatbot, will walk through your situation, explain your options, and give you an honest assessment. If we're not the right fit, we'll tell you. If another firm can help you better, we'll refer you."
+      "answer": "Yes. No credit card required. No obligation to hire us. A member of our legal team will walk through your situation, explain your options, and give you an honest assessment. If we're not the right fit, we'll tell you. If another firm can help you better, we'll refer you."
     },
     "q6": {
       "question": "Can you help if I don't live in Florida?",
@@ -960,7 +960,7 @@
       "values": {
         "accessibility": {
           "title": "Accessibility",
-          "desc": "Flat fees. Payment plans. Free consultations. Legal services in your language. Representation should never depend on who you know or what you can pay up front."
+          "desc": "Flat fees. Payment plans. Free consultations. Full service in English and Spanish. Representation should never depend on who you know or what you can pay up front."
         },
         "excellence": {
           "title": "Excellence",
@@ -1099,7 +1099,7 @@
       "channels": {
         "phone": {
           "title": "Phone",
-          "desc": "Call (305) 786-3003. A real person answers in English or Spanish, day or night."
+          "desc": "Call (305) 786-3003. Our team answers in English and Spanish."
         },
         "whatsapp": {
           "title": "WhatsApp",
@@ -1223,7 +1223,7 @@
   "globalFaq": {
     "consultation": {
       "question": "What is a free consultation and what does it include?",
-      "answer": "A free consultation is a 15–30 minute conversation by phone, WhatsApp, or video with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
+      "answer": "A free consultation is a 15 to 30 minute conversation by phone, WhatsApp, or video with a member of our legal team. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
     },
     "cost": {
       "question": "How much does it cost to hire an immigration attorney?",
@@ -1424,11 +1424,11 @@
   "contact": {
     "seo": {
       "title": "Contact Verde Law for a Free Immigration Consultation",
-      "description": "Call, WhatsApp, email, or visit our Miami office. We answer in English, Spanish, Haitian Creole, and Portuguese."
+      "description": "Call, WhatsApp, email, or visit our Miami office. We answer in English and Spanish."
     },
     "eyebrow": "Contact Us",
     "title": "Let's talk about your case.",
-    "subtitle": "Pick the channel that works for you: phone, WhatsApp, email, or the form below. Every message reaches a real person within hours.",
+    "subtitle": "Pick the channel that works for you: phone, WhatsApp, email, or the form below. Every message reaches our team within hours.",
     "info": {
       "title": "Direct lines",
       "whatsapp": "Message us on WhatsApp"

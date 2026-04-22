@@ -28,8 +28,8 @@
   "process": {
     "eyebrow": "Cómo Funciona",
     "title": "Cuatro pasos. No hay pago hasta que acordemos un plan.",
-    "step1": { "title": "Consulta Gratuita", "desc": "Llame, envíe WhatsApp, o agende en línea. Una persona real revisa su situación en 15–30 minutos. Sin costo. Sin presión." },
-    "step2": { "title": "Evaluación del Caso", "desc": "Nuestros abogados revisan los hechos, identifican sus opciones, y le dicen honestamente qué es posible y qué no lo es. Usted sabrá exactamente dónde se encuentra." },
+    "step1": { "title": "Consulta Gratuita", "desc": "Llame, envíe WhatsApp, o agende en línea. Un miembro de nuestro equipo legal revisa su situación en 15 a 30 minutos. Sin costo. Sin presión." },
+    "step2": { "title": "Evaluación del Caso", "desc": "Nuestro equipo legal revisa los hechos, identifica sus opciones, y le da una evaluación honesta de lo que es posible. Usted sabrá exactamente dónde se encuentra." },
     "step3": { "title": "Preparación Legal", "desc": "Construimos su caso: declaraciones, paquetes de evidencia, testimonio de expertos, todo. Usted sabrá qué vamos a presentar antes de que lo presentemos." },
     "step4": { "title": "Representación Completa", "desc": "Le representamos desde la primera audiencia hasta la decisión final. Si el juez falla en nuestra contra, discutimos apelaciones el mismo día. No desaparecemos después de presentar." }
   },

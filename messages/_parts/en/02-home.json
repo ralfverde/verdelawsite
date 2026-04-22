@@ -28,8 +28,8 @@
   "process": {
     "eyebrow": "How It Works",
     "title": "Four steps. No retainer until we agree on a plan.",
-    "step1": { "title": "Free Consultation", "desc": "Call, WhatsApp, or schedule online. A real person walks through your situation in 15–30 minutes. Not a bot. No cost. No pressure." },
-    "step2": { "title": "Case Evaluation", "desc": "Our attorneys review the facts, identify your options, and tell you honestly what's possible and what isn't. You'll know exactly where you stand." },
+    "step1": { "title": "Free Consultation", "desc": "Call, WhatsApp, or schedule online. A member of our legal team walks through your situation in 15 to 30 minutes. No cost. No pressure." },
+    "step2": { "title": "Case Evaluation", "desc": "Our legal team reviews the facts, identifies your options, and gives you an honest assessment of what is possible. You will know exactly where you stand." },
     "step3": { "title": "Legal Preparation", "desc": "We build your case: declarations, evidence packages, expert testimony, everything. You'll know what we're filing before we file it." },
     "step4": { "title": "Full Representation", "desc": "We represent you from the first hearing to the final decision. If the judge rules against us, we discuss appeals the same day. We don't disappear after filing." }
   },

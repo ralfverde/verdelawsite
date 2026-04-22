@@ -33,7 +33,7 @@
       "title": "Meet us from anywhere.",
       "body": "Most of our consultations happen by phone, WhatsApp, or video. You don't need to travel to Miami, and you don't need to take a day off work. Pick the channel that works for you. We're there.",
       "channels": {
-        "phone": { "title": "Phone", "desc": "Call (305) 786-3003. A real person answers in English or Spanish, day or night." },
+        "phone": { "title": "Phone", "desc": "Call (305) 786-3003. Our team answers in English and Spanish." },
         "whatsapp": { "title": "WhatsApp", "desc": "Message us at any hour. We reply as soon as we're back in the office, usually within minutes during the day." },
         "video": { "title": "Video call", "desc": "Zoom, Google Meet, or FaceTime. We'll send the link after you book." }
       }

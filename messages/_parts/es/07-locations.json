@@ -33,7 +33,7 @@
       "title": "Reúnase con nosotros desde cualquier lugar.",
       "body": "La mayoría de nuestras consultas son por teléfono, WhatsApp o video. No necesita viajar a Miami ni tomarse un día libre del trabajo. Elija el canal que le funcione. Ahí estamos.",
       "channels": {
-        "phone": { "title": "Teléfono", "desc": "Llame al (305) 786-3003. Una persona real contesta en inglés o español, de día o de noche." },
+        "phone": { "title": "Teléfono", "desc": "Llame al (305) 786-3003. Nuestro equipo contesta en inglés y español." },
         "whatsapp": { "title": "WhatsApp", "desc": "Escríbanos a cualquier hora. Respondemos tan pronto regresamos a la oficina, usualmente en minutos durante el día." },
         "video": { "title": "Videollamada", "desc": "Zoom, Google Meet, o FaceTime. Le enviaremos el enlace después de que agende." }
       }
