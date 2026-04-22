@@ -14,9 +14,9 @@
     "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "eyebrow": "Abogados de Inmigración — Los 50 Estados",
+    "eyebrow": "Abogados de Inmigración en Los 50 Estados",
     "title": "Usted merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
-    "subtitle": "Verde Law ha representado a miles de familias en corte de inmigración — desde audiencias de asilo hasta procedimientos de fianza y defensa contra la deportación. Su primera consulta es gratuita, confidencial, y sin ninguna presión para contratarnos.",
+    "subtitle": "Verde Law ha representado a miles de familias en corte de inmigración, desde audiencias de asilo hasta procedimientos de fianza y defensa contra la deportación. Su primera consulta es gratuita, confidencial, y sin ninguna presión para contratarnos.",
     "ctaPrimary": "Agendar Mi Consulta Gratuita",
     "ctaWhatsApp": "Envíenos un WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
@@ -24,7 +24,7 @@
     "badges": {
       "cases": "Miles de familias representadas",
       "states": "Los 50 estados",
-      "free": "Consulta gratuita — siempre"
+      "free": "Consulta gratuita, siempre"
     }
   },
   "socialProof": {
@@ -35,7 +35,7 @@
   },
   "cta": {
     "bannerDark": {
-      "title": "¿Tiene un caso de inmigración? Hable con nosotros hoy — sin costo, sin compromiso, sin juicio."
+      "title": "¿Tiene un caso de inmigración? Hable con nosotros hoy. Sin costo, sin compromiso, sin juicio."
     },
     "bannerLight": {
       "title": "Miles de familias han confiado en Verde Law con su futuro. Usted puede ser la siguiente."
@@ -43,7 +43,7 @@
     "subtitle": "Consultas confidenciales en español, inglés, criollo haitiano y portugués.",
     "freeConsultation": "Consulta Gratis",
     "finalTitle": "Su caso no puede esperar. Pero la consulta es gratuita.",
-    "finalSubtitle": "100% gratuita. 100% confidencial. Un abogado real — no un paralegal, no un bot — revisa su caso.",
+    "finalSubtitle": "100% gratuita. 100% confidencial. Un abogado real revisa su caso. No un paralegal, no un bot.",
     "scheduleCTA": "Agendar Mi Consulta Gratuita"
   },
   "floating": {
@@ -96,15 +96,15 @@
       },
       "bond": {
         "title": "Audiencias de Fianza",
-        "desc": "Su ser querido está detenido. Cada día adentro es un día de más. Luchamos por su liberación — rápido."
+        "desc": "Su ser querido está detenido. Cada día adentro es un día de más. Luchamos por su liberación, rápido."
       },
       "family": {
         "title": "Peticiones Familiares",
-        "desc": "Reunimos familias a través de peticiones I-130, ajuste de estatus y procesamiento consular. El papeleo es nuestro — la reunión es suya."
+        "desc": "Reunimos familias a través de peticiones I-130, ajuste de estatus y procesamiento consular. El papeleo es nuestro. La reunión es suya."
       },
       "vawaU": {
         "title": "VAWA y Visa U",
-        "desc": "Las víctimas de abuso y crimen tienen protecciones legales. No necesita el permiso de su agresor para aplicar. Nosotros manejamos todo — confidencialmente."
+        "desc": "Las víctimas de abuso y crimen tienen protecciones legales. No necesita el permiso de su agresor para aplicar. Nosotros manejamos todo, confidencialmente."
       },
       "naturalization": {
         "title": "Naturalización y Ciudadanía",
@@ -115,8 +115,8 @@
   "whyVerde": {
     "eyebrow": "Por Qué Las Familias Nos Eligen",
     "title": "No somos solo otra firma. Somos su equipo.",
-    "body1": "Rafael Verde no fundó Verde Law porque quería dirigir una firma de abogados. La fundó porque él fue un niño inmigrante en el sur de la Florida sin nadie a quién llamar cuando el sistema se complicaba — y no quería que la familia de nadie más se sintiera así.",
-    "body2": "Cada caso en Verde Law recibe la misma preparación, la misma urgencia, y el mismo nivel de atención — ya sea una audiencia de fianza que necesita ocurrir esta semana o una petición familiar que tomará dieciocho meses. Devolvemos las llamadas el mismo día, explicamos todo en lenguaje claro, y no paramos hasta que su caso se resuelva.",
+    "body1": "Rafael Verde no fundó Verde Law porque quería dirigir una firma de abogados. La fundó porque él fue un niño inmigrante en el sur de la Florida sin nadie a quién llamar cuando el sistema se complicaba, y no quería que la familia de nadie más se sintiera así.",
+    "body2": "Cada caso en Verde Law recibe la misma preparación, la misma urgencia, y el mismo nivel de atención, ya sea una audiencia de fianza que necesita ocurrir esta semana o una petición familiar que tomará dieciocho meses. Devolvemos las llamadas el mismo día, explicamos todo en lenguaje claro, y no paramos hasta que su caso se resuelva.",
     "reasons": {
       "bilingual": {
         "title": "Su idioma, siempre",
@@ -127,12 +127,12 @@
         "desc": "La ley de inmigración es federal. Un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Nos presentamos en persona cuando es necesario, y remotamente cuando es permitido."
       },
       "free": {
-        "title": "Consulta gratuita — sin condiciones",
-        "desc": "Evaluamos su caso sin costo. Sin tarjeta de crédito. Sin compromiso. Sin llamadas de seguimiento presionándole para firmar. Si no somos la opción correcta, se lo diremos — y le diremos quién sí lo es."
+        "title": "Consulta gratuita, sin condiciones",
+        "desc": "Evaluamos su caso sin costo. Sin tarjeta de crédito. Sin compromiso. Sin llamadas de seguimiento presionándole para firmar. Si no somos la opción correcta, se lo diremos, y le diremos quién sí lo es."
       },
       "tech": {
         "title": "Su caso, rastreado en tiempo real",
-        "desc": "Con Verde+, nuestra plataforma de inmigración, usted ve exactamente dónde está su caso — las 24 horas, desde su teléfono. No más llamar a la oficina y esperar que le devuelvan la llamada."
+        "desc": "Con Verde+, nuestra plataforma de inmigración, usted ve exactamente dónde está su caso las 24 horas, desde su teléfono. No más llamar a la oficina y esperar que le devuelvan la llamada."
       }
     }
   },
@@ -141,15 +141,15 @@
     "title": "Cuatro pasos. No hay pago hasta que acordemos un plan.",
     "step1": {
       "title": "Consulta Gratuita",
-      "desc": "Llame, envíe WhatsApp, o agende en línea. Una persona real — no un bot — revisa su situación en 15–30 minutos. Sin costo. Sin presión."
+      "desc": "Llame, envíe WhatsApp, o agende en línea. Una persona real revisa su situación en 15–30 minutos. Sin costo. Sin presión."
     },
     "step2": {
       "title": "Evaluación del Caso",
-      "desc": "Nuestros abogados revisan los hechos, identifican sus opciones, y le dicen honestamente qué es posible — y qué no lo es. Usted sabrá exactamente dónde se encuentra."
+      "desc": "Nuestros abogados revisan los hechos, identifican sus opciones, y le dicen honestamente qué es posible y qué no lo es. Usted sabrá exactamente dónde se encuentra."
     },
     "step3": {
       "title": "Preparación Legal",
-      "desc": "Construimos su caso — declaraciones, paquetes de evidencia, testimonio de expertos, todo. Usted sabrá qué vamos a presentar antes de que lo presentemos."
+      "desc": "Construimos su caso: declaraciones, paquetes de evidencia, testimonio de expertos, todo. Usted sabrá qué vamos a presentar antes de que lo presentemos."
     },
     "step4": {
       "title": "Representación Completa",
@@ -167,12 +167,12 @@
     "photoEyebrow": "Fundador y Abogado Principal",
     "name": "Rafael Verde",
     "role": "Fundador y Abogado Principal",
-    "body1": "Rafael Verde nació en las afueras de La Habana. Cuando su familia llegó al sur de la Florida, era un niño sin conexiones, sin inglés, y sin mapa — solo con lo mismo que cada familia inmigrante lleva consigo: la creencia de que el trabajo duro aquí significa una vida mejor.",
-    "body2": "Estudió en Doral Academy, luego en Florida International University, y después en Barry University School of Law. Pero la abogacía no fue el plan desde el principio — la defensa de otros sí. Rafael pasó años en comunicaciones y relaciones públicas antes de darse cuenta de que las personas que más necesitaban una voz no tenían a nadie hablando por ellas en la corte. Así que construyó Verde Law: no para ser la firma de inmigración más grande, sino para ser la que trata a cada familia como su propia familia merecía ser tratada cuando llegaron — con urgencia, con respeto, y con alguien que realmente entiende lo que está en juego porque lo ha vivido. Miles de familias después, la misión no ha cambiado.",
+    "body1": "Rafael Verde nació en las afueras de La Habana. Cuando su familia llegó al sur de la Florida, era un niño sin conexiones, sin inglés, y sin mapa. Solo con lo mismo que cada familia inmigrante lleva consigo: la creencia de que el trabajo duro aquí significa una vida mejor.",
+    "body2": "Estudió en Doral Academy, luego en Florida International University, y después en Barry University School of Law. Pero la abogacía no fue el plan desde el principio. La defensa de otros sí. Rafael pasó años en comunicaciones y relaciones públicas antes de darse cuenta de que las personas que más necesitaban una voz no tenían a nadie hablando por ellas en la corte. Así que construyó Verde Law: no para ser la firma de inmigración más grande, sino para ser la que trata a cada familia como su propia familia merecía ser tratada cuando llegaron: con urgencia, con respeto, y con alguien que realmente entiende lo que está en juego porque lo ha vivido. Miles de familias después, la misión no ha cambiado.",
     "viewTeam": "Conozca al equipo completo",
     "credentials": {
-      "georgetown": "Educación: Florida International University — B.S., Relaciones Públicas y Comunicaciones",
-      "aila": "Educación: Barry University School of Law — Juris Doctor",
+      "georgetown": "Educación: Florida International University, B.S., Relaciones Públicas y Comunicaciones",
+      "aila": "Educación: Barry University School of Law, Juris Doctor",
       "floridaBar": "Barra: Colegio de Abogados de Florida · Corte de Apelaciones de EE.UU., Circuito Once · Corte de Distrito de EE.UU., Distrito Sur de Florida",
       "eleventhCircuit": "Idiomas: Inglés · Español"
     }
@@ -180,7 +180,7 @@
   "videoShowcase": {
     "eyebrow": "Educación Gratuita",
     "title": "Respuestas claras sobre sus derechos migratorios.",
-    "subtitle": "Más de 60,000 personas nos siguen en TikTok para aprender cómo funciona realmente el sistema de inmigración — en español, en lenguaje claro, sin jerga legal.",
+    "subtitle": "Más de 60,000 personas nos siguen en TikTok para aprender cómo funciona realmente el sistema de inmigración, en español, en lenguaje claro, sin jerga legal.",
     "videos": {
       "v1": {
         "cat": "Detención ICE",
@@ -204,7 +204,7 @@
   "verdePlusTeaser": {
     "eyebrow": "Próximamente",
     "title": "Verde+: Su caso de inmigración, en la palma de su mano.",
-    "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en los Estados Unidos. Gratis para todos — con funciones exclusivas para clientes de Verde Law.",
+    "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en los Estados Unidos. Gratis para todos, con funciones exclusivas para clientes de Verde Law.",
     "cta": "Más información sobre Verde+",
     "features": {
       "caseTracker": {
@@ -232,7 +232,7 @@
     },
     "eyebrow": "Nuestros Servicios",
     "title": "Representación migratoria completa. Cada audiencia manejada internamente.",
-    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio a continuación es manejado por abogados que conocen su caso por nombre — no por número de expediente.",
+    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio a continuación es manejado por abogados que conocen su caso por nombre, no por número de expediente.",
     "startingAt": "Desde",
     "tabs": {
       "all": "Todos los servicios",
@@ -267,7 +267,7 @@
   "practiceFaq": {
     "q1": {
       "question": "¿Cuánto tarda normalmente el proceso?",
-      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios del circuito federal — no por nosotros. Un estimado realista depende de su tipo de caso específico, los atrasos actuales en su jurisdicción, y qué tan completa esté su evidencia. Durante su consulta gratuita, le daremos un cronograma concreto basado en cómo realmente se ve su caso — no una fantasía del mejor escenario."
+      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios del circuito federal, no por nosotros. Un estimado realista depende de su tipo de caso específico, los atrasos actuales en su jurisdicción, y qué tan completa esté su evidencia. Durante su consulta gratuita, le daremos un cronograma concreto basado en cómo realmente se ve su caso, no una fantasía del mejor escenario."
     },
     "q2": {
       "question": "¿Qué pasa si niegan mi caso?",
@@ -283,11 +283,11 @@
     },
     "q5": {
       "question": "¿La primera consulta es realmente gratis?",
-      "answer": "Sí. Sin tarjeta de crédito. Sin obligación de contratarnos. Un miembro real de nuestro equipo — no un chatbot — revisará su situación, explicará sus opciones, y le dará una evaluación honesta. Si no somos la opción correcta, se lo diremos. Si otra firma puede ayudarle mejor, le referiremos."
+      "answer": "Sí. Sin tarjeta de crédito. Sin obligación de contratarnos. Un miembro real de nuestro equipo, no un chatbot, revisará su situación, explicará sus opciones, y le dará una evaluación honesta. Si no somos la opción correcta, se lo diremos. Si otra firma puede ayudarle mejor, le referiremos."
     },
     "q6": {
       "question": "¿Pueden ayudar si no vivo en Florida?",
-      "answer": "Absolutamente. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Manejamos casos en los 50 estados. La mayoría de nuestras consultas se realizan por teléfono o WhatsApp — no necesita viajar a Miami."
+      "answer": "Absolutamente. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Manejamos casos en los 50 estados. La mayoría de nuestras consultas se realizan por teléfono o WhatsApp. No necesita viajar a Miami."
     }
   },
   "services": {
@@ -320,7 +320,7 @@
       "forms": "EOIR-28, I-286, EOIR-42B",
       "agency": "EOIR / ICE",
       "overview1": "La detención lo cambia todo. Los trámites se mueven más rápido, las visitas están restringidas y la presión emocional sobre la familia es enorme. Presentamos mociones de emergencia para llevarlo ante un juez lo antes posible.",
-      "overview2": "Nuestra práctica de detenidos combina fianza, solicitudes de liberación y defensa sustantiva de deportación en una sola representación coordinada — porque separarlas cuesta tiempo que usted no tiene.",
+      "overview2": "Nuestra práctica de detenidos combina fianza, solicitudes de liberación y defensa sustantiva de deportación en una sola representación coordinada, porque separarlas cuesta tiempo que usted no tiene.",
       "overview3": "Coordinamos con la instalación de detención, con la familia afuera y con la corte para mantener a todos informados y para mover el caso mientras usted está adentro.",
       "step1Title": "Admisión de emergencia",
       "step1Desc": "Consulta el mismo día con la familia. Pedimos el A-file, identificamos la instalación y presentamos el EOIR-28.",
@@ -363,7 +363,7 @@
       "agency": "EOIR",
       "overview1": "La cancelación de deportación es un alivio discrecional para personas que han vivido 10+ años en EE.UU. y que tienen familiares calificados (ciudadanos o residentes permanentes) que sufrirían un perjuicio excepcional y extremadamente inusual si usted fuera deportado.",
       "overview2": "Es una de las formas de alivio más difíciles de ganar. El estándar de perjuicio es intencionalmente alto. Ganar requiere evidencia detallada y corroborada y una narrativa convincente que ningún otro caso replica.",
-      "overview3": "Preparamos los casos de cancelación como juicios — testigos expertos, evaluaciones psicológicas, condiciones de país, récords médicos, escolares y documentación financiera de cada familiar calificado.",
+      "overview3": "Preparamos los casos de cancelación como juicios: testigos expertos, evaluaciones psicológicas, condiciones de país, récords médicos, escolares y documentación financiera de cada familiar calificado.",
       "step1Title": "Auditoría de elegibilidad",
       "step1Desc": "Presencia física continua, familiar calificado, buen carácter moral, sin barreras.",
       "step2Title": "Evidencia de perjuicio",
@@ -382,9 +382,9 @@
       "timeline": "Audiencia única (30–45 minutos en corte; preparación aparte)",
       "forms": "EOIR-28",
       "agency": "EOIR",
-      "overview1": "La Audiencia Maestra es el trámite donde se presentan alegaciones, se identifica el alivio y se programa la audiencia de méritos. Es corta pero decisiva — los errores aquí limitan lo que puede buscar después.",
+      "overview1": "La Audiencia Maestra es el trámite donde se presentan alegaciones, se identifica el alivio y se programa la audiencia de méritos. Es corta pero decisiva. Los errores aquí limitan lo que puede buscar después.",
       "overview2": "Comparecemos con usted, presentamos las alegaciones correctamente, solicitamos todo el alivio para el que pueda calificar y empujamos por el mejor calendario posible.",
-      "overview3": "Este servicio está diseñado para clientes que quieren una única comparecencia en Audiencia Maestra sin contratarnos para el caso completo — normalmente porque el caso está en una etapa inicial o de transición.",
+      "overview3": "Este servicio está diseñado para clientes que quieren una única comparecencia en Audiencia Maestra sin contratarnos para el caso completo, normalmente porque el caso está en una etapa inicial o de transición.",
       "step1Title": "Consulta previa",
       "step1Desc": "Revisar su NTA y expediente para determinar qué alivio solicitar.",
       "step2Title": "Preparación de alegaciones",
@@ -403,7 +403,7 @@
       "timeline": "Audiencia de medio a un día completo; 60–90 días de preparación",
       "forms": "Solicitudes específicas del alivio, declaraciones de testigos, memorial legal",
       "agency": "EOIR",
-      "overview1": "La Audiencia Individual (también llamada audiencia de méritos) es donde se decide su caso. Usted presenta evidencia, testifica bajo juramento y se argumentan los temas legales. El juez emite una decisión — a veces desde el estrado.",
+      "overview1": "La Audiencia Individual (también llamada audiencia de méritos) es donde se decide su caso. Usted presenta evidencia, testifica bajo juramento y se argumentan los temas legales. El juez emite una decisión, a veces desde el estrado.",
       "overview2": "Aceptamos representación solo para la audiencia de méritos cuando un cliente ya tiene abogado pero necesita preparación de nivel de juicio y presencia en sala. Trabajamos junto a su abogado actual o por nuestra cuenta.",
       "overview3": "Nuestra preparación incluye entrenamiento de testigos, simulacros de contrainterrogatorio, coordinación de expertos, memorial legal, lista de pruebas y una carpeta que el juez realmente pueda usar.",
       "step1Title": "Análisis del caso",
@@ -413,7 +413,7 @@
       "step3Title": "Finalización de evidencia",
       "step3Desc": "Lista de pruebas, evidencia de respaldo, declaraciones de expertos, informes de país.",
       "step4Title": "La audiencia",
-      "step4Desc": "Representación completa en sala — apertura, directo, contrainterrogatorio, cierre.",
+      "step4Desc": "Representación completa en sala: apertura, directo, contrainterrogatorio, cierre.",
       "step5Title": "Post-decisión",
       "step5Desc": "Revisión de la decisión escrita. Apelación si es necesario (30 días para la BIA)."
     },
@@ -425,7 +425,7 @@
       "forms": "I-589, declaración, evidencia de condiciones de país",
       "agency": "USCIS",
       "overview1": "El asilo afirmativo está disponible para personas en EE.UU. que aún no están en proceso de deportación y que temen persecución en su país de origen por raza, religión, nacionalidad, opinión política o pertenencia a un grupo social particular.",
-      "overview2": "El caso depende de la credibilidad. Su declaración es el corazón del expediente. Cada detalle, cada evento, cada pieza de evidencia corroborante importa — porque los Oficiales de Asilo están entrenados para buscar inconsistencias. Una respuesta corta, con miedo, y mal preparada puede terminar el caso.",
+      "overview2": "El caso depende de la credibilidad. Su declaración es el corazón del expediente. Cada detalle, cada evento, cada pieza de evidencia corroborante importa, porque los Oficiales de Asilo están entrenados para buscar inconsistencias. Una respuesta corta, con miedo, y mal preparada puede terminar el caso.",
       "overview3": "Redactamos su declaración a través de múltiples sesiones para producir un testimonio personal detallado y consistente. Recopilamos reportes de país y declaraciones juradas de apoyo, y le preparamos para la entrevista de asilo con nuestros abogados presentes.",
       "step1Title": "Elegibilidad y regla del año",
       "step1Desc": "Confirmar elegibilidad y cumplir con el plazo de presentación de un año o encajar una excepción.",
@@ -436,7 +436,7 @@
       "step4Title": "Biométricos y entrevista",
       "step4Desc": "Biométricos en el ASC; entrevista de asilo en la oficina con nuestro abogado presente.",
       "step5Title": "Decisión",
-      "step5Desc": "Concesión, aprobación recomendada, remisión a corte o respuesta a NOID — manejamos cada escenario."
+      "step5Desc": "Concesión, aprobación recomendada, remisión a corte o respuesta a NOID. Manejamos cada escenario."
     },
     "credible-fear-interview": {
       "title": "Entrevista de Miedo Creíble",
@@ -467,7 +467,7 @@
       "forms": "Moción de fianza, declaraciones juradas de patrocinador, evidencia de arraigo",
       "agency": "EOIR",
       "overview1": "Una audiencia de fianza es donde un juez de inmigración decide si libera a una persona de la custodia de ICE mientras avanza el caso de deportación. El juez considera el riesgo de fuga, el peligro para la comunidad y los lazos comunitarios.",
-      "overview2": "La preparación lo es todo. Recopilamos prueba de dirección, empleo, lazos familiares, declaraciones de impuestos, historial criminal limpio, apoyo de familiares ciudadanos/residentes, declaraciones juradas de patrocinadores, y cartas de la comunidad. Presentamos un panorama completo — no solo una solicitud.",
+      "overview2": "La preparación lo es todo. Recopilamos prueba de dirección, empleo, lazos familiares, declaraciones de impuestos, historial criminal limpio, apoyo de familiares ciudadanos/residentes, declaraciones juradas de patrocinadores, y cartas de la comunidad. Presentamos un panorama completo, no solo una solicitud.",
       "overview3": "La mayoría de nuestros clientes detenidos son liberados dentro de 3–4 semanas de contratarnos. Los montos de fianza varían por caso; negociamos cuando es posible y presentamos redeterminación de custodia cuando la fianza es negada inicialmente.",
       "step1Title": "Consulta de emergencia",
       "step1Desc": "Admisión el mismo día. Identificar la instalación, pedir el A-file, iniciar la recolección de evidencia.",
@@ -508,7 +508,7 @@
       "timeline": "30–90 días",
       "forms": "Petición 28 U.S.C. § 2241, evidencia de detención prolongada",
       "agency": "Corte Federal de Distrito / EOIR",
-      "overview1": "Algunas detenciones son ilegales — detención obligatoria que se ha prolongado demasiado, detención post-orden más allá del plazo de seis meses de Zadvydas, o detención sin audiencia de fianza. El habeas federal puede forzar la liberación.",
+      "overview1": "Algunas detenciones son ilegales: detención obligatoria que se ha prolongado demasiado, detención post-orden más allá del plazo de seis meses de Zadvydas, o detención sin audiencia de fianza. El habeas federal puede forzar la liberación.",
       "overview2": "Combinamos una moción de fianza (cuando es posible) con una petición federal de habeas para atacar la detención en varios frentes a la vez.",
       "overview3": "Son casos complejos con ventanas cortas. Nos movemos rápido y solo los aceptamos cuando podemos construir un expediente real.",
       "step1Title": "Análisis de la detención",
@@ -583,7 +583,7 @@
       "step4Title": "Audiencia",
       "step4Desc": "Argumento oral si la corte lo fija.",
       "step5Title": "Decisión",
-      "step5Desc": "Terminación, cierre administrativo o negación — preparados para cada escenario."
+      "step5Desc": "Terminación, cierre administrativo o negación. Preparados para cada escenario."
     },
     "change-of-venue": {
       "title": "Cambio de Jurisdicción",
@@ -614,7 +614,7 @@
       "forms": "Petición de revisión, memorial de apelación, expediente",
       "agency": "Corte Federal de Apelaciones",
       "overview1": "Si la BIA confirma una negación, tiene 30 días para presentar una petición de revisión ante la corte federal de circuito que cubre el lugar donde el juez de inmigración conoció del caso. Los jueces federales revisan por errores legales y constitucionales.",
-      "overview2": "Estos casos requieren destreza de apelación federal — citas al expediente, planteamiento legal y argumento oral ante un panel de tres jueces. Los preparamos como las apelaciones federales que son.",
+      "overview2": "Estos casos requieren destreza de apelación federal: citas al expediente, planteamiento legal y argumento oral ante un panel de tres jueces. Los preparamos como las apelaciones federales que son.",
       "overview3": "Rafael está admitido ante el Undécimo Circuito. Para casos en otros circuitos nos asociamos con abogados locales admitidos.",
       "step1Title": "Revisión del expediente",
       "step1Desc": "Obtener y leer todo el expediente administrativo.",
@@ -646,12 +646,12 @@
       "step4Title": "Respuesta del gobierno",
       "step4Desc": "Revisar el memorial del gobierno; presentar réplica y cualquier petición enmendada.",
       "step5Title": "Fallo",
-      "step5Desc": "Liberación por orden de la corte, audiencia de fianza o negación — apelación lista si hace falta."
+      "step5Desc": "Liberación por orden de la corte, audiencia de fianza o negación. Apelación lista si hace falta."
     },
     "family-petitions": {
       "title": "Peticiones Familiares (I-130)",
       "short": "Los trámites que mantienen a la familia bajo un mismo techo.",
-      "headline": "Reunir familias — una petición a la vez.",
+      "headline": "Reunir familias, una petición a la vez.",
       "timeline": "Familiares inmediatos: 8–16 meses. Categorías de preferencia: variable.",
       "forms": "I-130, I-130A, prueba de la relación",
       "agency": "USCIS",
@@ -697,7 +697,7 @@
       "timeline": "10–18 meses",
       "forms": "I-130, I-485, I-864, I-693, I-765, I-131",
       "agency": "USCIS",
-      "overview1": "Nuestro paquete familiar maneja la petición I-130, la solicitud de ajuste de estatus I-485, y el documento de autorización de empleo — todo lo que necesita para que el cónyuge, padre, o hijo de un ciudadano o residente permanente obtenga su residencia.",
+      "overview1": "Nuestro paquete familiar maneja la petición I-130, la solicitud de ajuste de estatus I-485, y el documento de autorización de empleo. Todo lo que necesita para que el cónyuge, padre, o hijo de un ciudadano o residente permanente obtenga su residencia.",
       "overview2": "Coordinamos toda la línea de tiempo para que las presentaciones no entren en conflicto, la evidencia sea consistente entre las solicitudes, y usted no pague a tres abogados separados para hacer un solo trabajo.",
       "overview3": "Cada caso familiar recibe un paralegal dedicado que rastrea fechas límite, prepara documentos, y le mantiene informado durante todo el proceso. Nunca tendrá que preguntarse qué está pasando con su caso.",
       "step1Title": "Revisión de elegibilidad completa",
@@ -719,8 +719,8 @@
       "forms": "I-601A, evidencia de perjuicio, documentación de apoyo",
       "agency": "USCIS",
       "overview1": "El perdón provisional I-601A permite que ciertos solicitantes pidan un perdón de presencia ilegal antes de salir de EE.UU. para el proceso consular. Aprobado en EE.UU., usted viaja para la entrevista y regresa aprobado.",
-      "overview2": "El caso depende de demostrar perjuicio extremo para un cónyuge o padre ciudadano o residente permanente si le fuera impedido regresar. Evidencia médica, financiera, educativa y de condiciones de país — todas aportan.",
-      "overview3": "Preparamos los casos de perjuicio con el mismo cuidado que los de cancelación — evidencia completa, declaraciones de expertos cuando sean útiles, y una narrativa que se lee como una sola historia coherente.",
+      "overview2": "El caso depende de demostrar perjuicio extremo para un cónyuge o padre ciudadano o residente permanente si le fuera impedido regresar. Evidencia médica, financiera, educativa y de condiciones de país. Todas aportan.",
+      "overview3": "Preparamos los casos de perjuicio con el mismo cuidado que los de cancelación: evidencia completa, declaraciones de expertos cuando sean útiles, y una narrativa que se lee como una sola historia coherente.",
       "step1Title": "Auditoría de elegibilidad",
       "step1Desc": "Confirmar familiar calificado y ausencia de causales descalificantes.",
       "step2Title": "Evidencia de perjuicio",
@@ -739,8 +739,8 @@
       "timeline": "14–24 meses",
       "forms": "I-360, declaración personal, evidencia de respaldo",
       "agency": "USCIS (Centro de Servicio de Vermont)",
-      "overview1": "VAWA — la Ley de Violencia Contra la Mujer — permite a cónyuges, hijos, y padres de ciudadanos o residentes permanentes abusivos solicitar estatus migratorio de forma independiente. Su agresor no necesita saber que usted aplicó. No será notificado.",
-      "overview2": "El estándar de prueba es 'cualquier evidencia creíble.' No necesita un reporte policial. No necesita una condena. Necesita su historia, contada claramente y respaldada por cualquier evidencia que tenga — declaraciones, fotos, mensajes, récords médicos, récords de terapia, o declaraciones de testigos.",
+      "overview1": "VAWA, la Ley de Violencia Contra la Mujer, permite a cónyuges, hijos, y padres de ciudadanos o residentes permanentes abusivos solicitar estatus migratorio de forma independiente. Su agresor no necesita saber que usted aplicó. No será notificado.",
+      "overview2": "El estándar de prueba es 'cualquier evidencia creíble.' No necesita un reporte policial. No necesita una condena. Necesita su historia, contada claramente y respaldada por cualquier evidencia que tenga: declaraciones, fotos, mensajes, récords médicos, récords de terapia, o declaraciones de testigos.",
       "overview3": "Cada caso de VAWA en Verde Law se maneja con absoluta confidencialidad. Su expediente se almacena por separado. Su nombre no aparece en sistemas compartidos. Entendemos que la seguridad viene antes que el papeleo.",
       "step1Title": "Admisión segura",
       "step1Desc": "Consulta confidencial, plan de seguridad, revisión de elegibilidad.",
@@ -781,7 +781,7 @@
       "timeline": "3–6 meses",
       "forms": "I-765, documentación de apoyo",
       "agency": "USCIS",
-      "overview1": "El Documento de Autorización de Empleo (EAD, formulario I-765) permite que solicitantes elegibles trabajen legalmente en EE.UU. Las categorías de elegibilidad varían — solicitantes de asilo, de ajuste, beneficiarios de DACA, lista de espera de Visa U, VAWA y más.",
+      "overview1": "El Documento de Autorización de Empleo (EAD, formulario I-765) permite que solicitantes elegibles trabajen legalmente en EE.UU. Las categorías de elegibilidad varían: solicitantes de asilo, de ajuste, beneficiarios de DACA, lista de espera de Visa U, VAWA y más.",
       "overview2": "Identificamos la categoría de elegibilidad correcta, preparamos la solicitud y damos seguimiento a los biométricos y la aprobación.",
       "overview3": "Los EAD normalmente llegan en 3–6 meses. Las renovaciones pueden presentarse hasta 180 días antes del vencimiento, con extensiones automáticas de 540 días en muchas categorías.",
       "step1Title": "Identificación de categoría",
@@ -818,13 +818,13 @@
     },
     "naturalization": {
       "title": "Naturalización (N-400)",
-      "short": "De la residencia a la ciudadanía — el último paso a casa.",
+      "short": "De la residencia a la ciudadanía. El último paso a casa.",
       "headline": "Usted se lo ganó. Nos aseguramos de que nada se interponga.",
       "timeline": "8–14 meses",
       "forms": "N-400, documentos de apoyo",
       "agency": "USCIS",
       "overview1": "La naturalización es el camino de la residencia permanente a la ciudadanía estadounidense. Requiere 5 años como residente permanente (3 si está casado con ciudadano), residencia continua y presencia física, buen carácter moral, y conocimientos básicos de inglés y cívica.",
-      "overview2": "Revisamos posibles problemas que puedan descarrilar la solicitud — impuestos no presentados, ausencias prolongadas, antecedentes penales, no registro del servicio selectivo — y planeamos en consecuencia.",
+      "overview2": "Revisamos posibles problemas que puedan descarrilar la solicitud (impuestos no presentados, ausencias prolongadas, antecedentes penales, no registro del servicio selectivo) y planeamos en consecuencia.",
       "overview3": "Lo preparamos para la prueba de inglés y cívica y hacemos una entrevista simulada antes de la real.",
       "step1Title": "Auditoría de elegibilidad",
       "step1Desc": "Residencia, presencia, carácter, impuestos, viajes y antecedentes penales.",
@@ -846,7 +846,7 @@
       "agency": "USCIS",
       "overview1": "La residencia debe renovarse cada 10 años. El I-90 también cubre reemplazos por tarjetas perdidas, robadas o dañadas, y correcciones de errores en tarjetas existentes.",
       "overview2": "Manejamos la presentación, respondemos a cualquier RFE y damos seguimiento hasta la entrega de la tarjeta.",
-      "overview3": "Considere solicitar la ciudadanía en lugar de renovar, si es elegible — le diremos si el N-400 tiene más sentido que la renovación.",
+      "overview3": "Considere solicitar la ciudadanía en lugar de renovar, si es elegible. Le diremos si el N-400 tiene más sentido que la renovación.",
       "step1Title": "Verificación de elegibilidad",
       "step1Desc": "Confirmar la categoría y si la renovación (no el N-400) es el camino correcto.",
       "step2Title": "Radicación del I-90",
@@ -865,7 +865,7 @@
       "timeline": "3–12 meses",
       "forms": "G-639, solicitudes FOIA dirigidas",
       "agency": "USCIS / ICE / EOIR",
-      "overview1": "Su A-file (expediente de extranjero) contiene todo lo que el gobierno tiene registrado sobre su historial migratorio — solicitudes anteriores, entradas, detenciones, notificaciones, decisiones. Es la base para cualquier decisión seria de estrategia.",
+      "overview1": "Su A-file (expediente de extranjero) contiene todo lo que el gobierno tiene registrado sobre su historial migratorio: solicitudes anteriores, entradas, detenciones, notificaciones, decisiones. Es la base para cualquier decisión seria de estrategia.",
       "overview2": "Presentamos solicitudes FOIA dirigidas, respondemos a cualquier carta de deficiencia y le entregamos un resumen escrito de lo que muestran los registros.",
       "overview3": "Útil antes de presentar nuevas solicitudes, antes del proceso consular, antes de consultas penal-migratorias y en cualquier caso donde el historial previo importe.",
       "step1Title": "Alcance de la solicitud",
@@ -888,7 +888,7 @@
       "agency": "USCIS",
       "overview1": "Una Solicitud de Evidencia (RFE) es USCIS pidiendo más información antes de decidir un caso. Una respuesta sólida puede salvar un caso que de otra forma sería negado. Una débil sella la negación.",
       "overview2": "Leemos el RFE con cuidado, identificamos exactamente qué pide USCIS y por qué, reunimos los documentos correctos y redactamos una respuesta legal dirigida que atiende cada preocupación de frente.",
-      "overview3": "Aceptamos respuestas a RFE incluso cuando no presentamos el caso original — común cuando el abogado original falló o el cliente presentó por su cuenta.",
+      "overview3": "Aceptamos respuestas a RFE incluso cuando no presentamos el caso original. Común cuando el abogado original falló o el cliente presentó por su cuenta.",
       "step1Title": "Análisis del RFE",
       "step1Desc": "Leer la notificación, identificar los temas y determinar qué se está pidiendo realmente.",
       "step2Title": "Recolección de evidencia",
@@ -924,7 +924,7 @@
   },
   "about": {
     "seo": {
-      "title": "Sobre Verde Law — Bufete Humanitario de Inmigración",
+      "title": "Sobre Verde Law, un Bufete Humanitario de Inmigración",
       "description": "Un bufete con sede en Miami, fundado por un inmigrante, para inmigrantes. Miles de familias atendidas en los 50 estados."
     },
     "eyebrow": "Sobre Nosotros",
@@ -934,10 +934,10 @@
       "eyebrow": "Nuestra Historia",
       "title": "De La Habana a la sala de audiencias.",
       "p1": "El camino de Rafael Verde para fundar Verde Law no comenzó en una biblioteca de derecho. Comenzó en un pequeño pueblo en las afueras de La Habana, donde creció en una comunidad unida que le enseñó dos cosas temprano: la importancia de defender a los demás, y la realidad de que a veces el sistema en el que naces no está construido para ti.",
-      "p2": "Cuando su familia emigró al sur de la Florida, Rafael se adaptó rápido — pero nunca olvidó cómo se siente llegar a un lugar nuevo sin nada más que esperanza. Pasó por Doral Academy, obtuvo un título en Relaciones Públicas y Comunicaciones en Florida International University, y pasó años aprendiendo cómo darle voz a la gente antes de darse cuenta de que quienes más la necesitaban estaban sentados en cortes de inmigración sin nadie que hablara por ellos. Esa realización lo llevó a Barry University School of Law, y luego — semanas después de pasar el examen de la barra — a fundar Verde Law.",
+      "p2": "Cuando su familia emigró al sur de la Florida, Rafael se adaptó rápido, pero nunca olvidó cómo se siente llegar a un lugar nuevo sin nada más que esperanza. Pasó por Doral Academy, obtuvo un título en Relaciones Públicas y Comunicaciones en Florida International University, y pasó años aprendiendo cómo darle voz a la gente antes de darse cuenta de que quienes más la necesitaban estaban sentados en cortes de inmigración sin nadie que hablara por ellos. Esa realización lo llevó a Barry University School of Law, y luego, semanas después de pasar el examen de la barra, a fundar Verde Law.",
       "p3": "La firma no fue construida para ser la más grande. Fue construida para ser la que trata cada caso como la propia familia de Rafael merecía ser tratada cuando llegaron: con urgencia, con honestidad, y con un abogado que genuinamente entiende lo que está en juego porque él ha estado del otro lado de ese miedo.",
-      "p4": "Hoy, Verde Law es un equipo de abogados, paralegales y personal de apoyo sirviendo a familias inmigrantes en los 50 estados. Los casos son más grandes, el equipo es más fuerte, y el alcance es más amplio — pero cada cliente nuevo sigue recibiendo lo mismo que Rafael prometió desde el primer día: alguien que lucha por su familia como si fuera la suya.",
-      "imageCaption": "Oficina de Miami — Coral Way, 2026.",
+      "p4": "Hoy, Verde Law es un equipo de abogados, paralegales y personal de apoyo sirviendo a familias inmigrantes en los 50 estados. Los casos son más grandes, el equipo es más fuerte, y el alcance es más amplio. Pero cada cliente nuevo sigue recibiendo lo mismo que Rafael prometió desde el primer día: alguien que lucha por su familia como si fuera la suya.",
+      "imageCaption": "Oficina de Miami. Coral Way, 2026.",
       "milestones": {
         "founded": {
           "value": "Fundada en 2024",
@@ -956,7 +956,7 @@
     "mission": {
       "eyebrow": "Nuestra Misión",
       "title": "Por qué hacemos esto.",
-      "quote": "Creemos que cada inmigrante merece representación legal de calidad — sin importar su situación económica, sin importar su estatus, sin importar de dónde viene.",
+      "quote": "Creemos que cada inmigrante merece representación legal de calidad, sin importar su situación económica, sin importar su estatus, sin importar de dónde viene.",
       "values": {
         "accessibility": {
           "title": "Accesibilidad",
@@ -968,7 +968,7 @@
         },
         "humanity": {
           "title": "Humanidad",
-          "desc": "Las personas sentadas frente a nosotros están asustadas, agotadas, y quedándose sin opciones. Las recibimos con paciencia y respeto cada vez — porque eso no es un extra, es lo mínimo."
+          "desc": "Las personas sentadas frente a nosotros están asustadas, agotadas, y quedándose sin opciones. Las recibimos con paciencia y respeto cada vez. Eso no es un extra, es lo mínimo."
         }
       }
     },
@@ -986,12 +986,12 @@
   },
   "team": {
     "seo": {
-      "title": "Nuestro Equipo — Abogados de Inmigración de Verde Law",
+      "title": "Nuestro Equipo en Verde Law, Abogados de Inmigración",
       "description": "Conozca a los abogados, paralegales y equipo de soporte de Verde Law que luchan por familias inmigrantes en todo el país."
     },
     "eyebrow": "Nuestro Equipo",
     "title": "Las personas que luchan por su familia.",
-    "subtitle": "Abogados, paralegales y personal de apoyo — cada uno de nosotros está aquí por la misma razón.",
+    "subtitle": "Abogados, paralegales y personal de apoyo. Cada uno de nosotros está aquí por la misma razón.",
     "teamEyebrow": "Conozca al equipo",
     "teamTitle": "Conozca al equipo.",
     "paralegal": "Paralegal",
@@ -1012,12 +1012,12 @@
     "bookWith": "Agendar con {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde nació en las afueras de La Habana, Cuba. Su familia emigró al sur de la Florida cuando era joven, y esa experiencia — llegar a un lugar nuevo sin nada más que esperanza — moldeó todo lo que vino después.",
+        "p1": "Rafael Verde nació en las afueras de La Habana, Cuba. Su familia emigró al sur de la Florida cuando era joven, y esa experiencia, llegar a un lugar nuevo sin nada más que esperanza, moldeó todo lo que vino después.",
         "p2": "Después de estudiar comunicaciones en Florida International University y obtener su J.D. de Barry University School of Law, Rafael fundó Verde Law con un solo objetivo: darle a las familias inmigrantes la calidad de representación que merecen, brindada por alguien que entiende lo que están pasando porque lo ha vivido. Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
         "p3": "Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
         "education": {
           "label": "Educación",
-          "value": "Florida International University · B.S., Relaciones Públicas y Comunicaciones — Barry University School of Law · Juris Doctor"
+          "value": "Florida International University · B.S., Relaciones Públicas y Comunicaciones. Barry University School of Law · Juris Doctor"
         },
         "barAdmissions": {
           "label": "Admisiones a la Barra",
@@ -1051,35 +1051,35 @@
       "mayerli": "Mayerli gestiona los expedientes de asilo y VAWA, y prepara las declaraciones personales junto a los abogados.",
       "flor": "Flor coordina peticiones familiares, proceso consular y presentaciones ante USCIS desde la admisión hasta la aprobación.",
       "alba": "Alba apoya nuestra práctica de defensa de deportación con la recolección de evidencia, las presentaciones en corte y la comunicación con el cliente.",
-      "daliana": "Daliana mantiene el bufete funcionando día a día — calendarización, relaciones con proveedores y los pequeños detalles que les importan a los clientes.",
+      "daliana": "Daliana mantiene el bufete funcionando día a día: calendarización, relaciones con proveedores y los pequeños detalles que les importan a los clientes.",
       "jeanine": "Jeanine dirige nuestro equipo de admisiones, lo que significa que normalmente es la primera persona con quien usted habla cuando llama.",
-      "yunetsy": "Yunetsy maneja la facturación con la transparencia que nuestros clientes merecen — facturas claras, planes de pago flexibles, cero sorpresas.",
+      "yunetsy": "Yunetsy maneja la facturación con la transparencia que nuestros clientes merecen: facturas claras, planes de pago flexibles, cero sorpresas.",
       "vianney": "Vianney lidera nuestro marketing y alcance comunitario, incluyendo el canal educativo de TikTok que llega cada semana a decenas de miles de inmigrantes."
     },
     "join": {
       "eyebrow": "Carreras",
       "title": "Trabaje con nosotros.",
-      "body": "Estamos contratando abogados, paralegales, y especialistas de intake bilingües. Si quiere practicar la ley de inmigración de la manera correcta — con recursos reales, tarifas fijas, y un equipo que respeta su tiempo — nos gustaría conocerle.",
+      "body": "Estamos contratando abogados, paralegales, y especialistas de intake bilingües. Si quiere practicar la ley de inmigración de la manera correcta, con recursos reales, tarifas fijas, y un equipo que respeta su tiempo, nos gustaría conocerle.",
       "cta": "Ver posiciones abiertas"
     }
   },
   "locations": {
     "seo": {
-      "title": "Ubicaciones — Abogados de Inmigración de Verde Law",
+      "title": "Ubicaciones: Abogados de Inmigración de Verde Law",
       "description": "Bufete de inmigración con sede en Miami que atiende clientes en los 50 estados. Consultas virtuales disponibles en cualquier parte de EE.UU."
     },
     "eyebrow": "Ubicaciones",
     "title": "Con base en Miami. Luchando en todo el país.",
-    "subtitle": "Nuestra oficina está en Coral Way. Nuestros clientes están en todas partes — desde la detención de Krome hasta las cortes de inmigración en Chicago, Nueva York, Los Ángeles, y cada circuito en el medio.",
+    "subtitle": "Nuestra oficina está en Coral Way. Nuestros clientes están en todas partes, desde la detención de Krome hasta las cortes de inmigración en Chicago, Nueva York, Los Ángeles, y cada circuito en el medio.",
     "office": {
       "eyebrow": "Oficina Principal",
-      "title": "Venga en persona, o no — ambas opciones funcionan.",
+      "title": "Venga en persona, o no. Ambas opciones funcionan.",
       "directions": "Cómo llegar"
     },
     "national": {
       "eyebrow": "Cobertura Nacional",
       "title": "Los 50 estados. Una firma.",
-      "body": "La ley de inmigración es federal. No importa en qué estado viva — un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Nos presentamos en persona cuando es necesario, remotamente cuando es permitido, y manejamos la logística para que usted no tenga que hacerlo.",
+      "body": "La ley de inmigración es federal. No importa en qué estado viva. Un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Nos presentamos en persona cuando es necesario, remotamente cuando es permitido, y manejamos la logística para que usted no tenga que hacerlo.",
       "topStatesLabel": "Estados que atendemos con más frecuencia",
       "states": {
         "florida": "Florida",
@@ -1095,7 +1095,7 @@
     "virtual": {
       "eyebrow": "Consultas Virtuales",
       "title": "Reúnase con nosotros desde cualquier lugar.",
-      "body": "La mayoría de nuestras consultas son por teléfono, WhatsApp o video. No necesita viajar a Miami ni tomarse un día libre del trabajo. Elija el canal que le funcione — ahí estamos.",
+      "body": "La mayoría de nuestras consultas son por teléfono, WhatsApp o video. No necesita viajar a Miami ni tomarse un día libre del trabajo. Elija el canal que le funcione. Ahí estamos.",
       "channels": {
         "phone": {
           "title": "Teléfono",
@@ -1114,7 +1114,7 @@
   },
   "education": {
     "seo": {
-      "title": "Centro de Educación Migratoria — Verde Law",
+      "title": "Centro de Educación Migratoria de Verde Law",
       "description": "Guías, artículos y videos gratuitos sobre derecho migratorio. Conozca sus derechos en el sistema de EE.UU."
     },
     "eyebrow": "Educación",
@@ -1144,7 +1144,7 @@
         },
         "a2": {
           "category": "Asilo",
-          "title": "El plazo de un año para presentar asilo — las excepciones que debe conocer",
+          "title": "El plazo de un año para presentar asilo y las excepciones que debe conocer",
           "excerpt": "La mayoría de las personas que pasan el plazo de un año todavía tienen opciones. Estas son las excepciones que salvan casos.",
           "date": "Marzo 2026",
           "readTime": "8 min de lectura"
@@ -1223,19 +1223,19 @@
   "globalFaq": {
     "consultation": {
       "question": "¿Qué es una consulta gratuita y qué incluye?",
-      "answer": "Una consulta gratuita es una conversación de 15–30 minutos — por teléfono, WhatsApp, o video — con un especialista de intake o un abogado. Escuchamos lo que está pasando, identificamos los asuntos legales de su caso, y le damos opciones honestas con números reales. No tiene costo, no hay obligación de contratarnos, y nada de lo que comparta sale de la firma."
+      "answer": "Una consulta gratuita es una conversación de 15–30 minutos por teléfono, WhatsApp, o video con un especialista de intake o un abogado. Escuchamos lo que está pasando, identificamos los asuntos legales de su caso, y le damos opciones honestas con números reales. No tiene costo, no hay obligación de contratarnos, y nada de lo que comparta sale de la firma."
     },
     "cost": {
       "question": "¿Cuánto cuesta contratar un abogado de inmigración?",
-      "answer": "Nuestros honorarios dependen del tipo de caso y su complejidad. Cobramos tarifas fijas — nunca por hora — para que sepa el costo total antes de firmar. Durante su consulta gratuita, le daremos una cotización exacta sin cargos ocultos. Los planes de pago siempre están disponibles, y nunca dejaremos que el costo sea la razón por la que no obtenga representación."
+      "answer": "Nuestros honorarios dependen del tipo de caso y su complejidad. Cobramos tarifas fijas, nunca por hora, para que sepa el costo total antes de firmar. Durante su consulta gratuita, le daremos una cotización exacta sin cargos ocultos. Los planes de pago siempre están disponibles, y nunca dejaremos que el costo sea la razón por la que no obtenga representación."
     },
     "outsideFlorida": {
       "question": "¿Pueden ayudarme si no vivo en Florida?",
-      "answer": "Sí. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Manejamos casos en los 50 estados. La mayoría de las consultas ocurren por teléfono o WhatsApp — no necesita viajar a Miami."
+      "answer": "Sí. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Manejamos casos en los 50 estados. La mayoría de las consultas ocurren por teléfono o WhatsApp. No necesita viajar a Miami."
     },
     "deportationOrder": {
       "question": "Ya tengo una orden de deportación. ¿Es demasiado tarde?",
-      "answer": "No necesariamente. Dependiendo de por qué y cuándo se emitió la orden, podemos presentar una moción para reabrir, una moción para reconsiderar, o una apelación. En algunos casos, podemos suspender la deportación mientras peleamos. Cada orden vieja es diferente — tráiganosla y le diremos, honestamente, qué todavía es posible."
+      "answer": "No necesariamente. Dependiendo de por qué y cuándo se emitió la orden, podemos presentar una moción para reabrir, una moción para reconsiderar, o una apelación. En algunos casos, podemos suspender la deportación mientras peleamos. Cada orden vieja es diferente. Tráiganosla y le diremos, honestamente, qué todavía es posible."
     },
     "asylumProcess": {
       "question": "¿Cómo funciona el proceso de asilo?",
@@ -1243,11 +1243,11 @@
     },
     "bondHearing": {
       "question": "Mi familiar fue detenido por ICE. ¿Qué hacemos?",
-      "answer": "Llámenos inmediatamente — (305) 786-3003. Las primeras 48 horas son las que más importan. Presentamos la solicitud de fianza pocos días después de ser contratados, y la mayoría de nuestros clientes detenidos son liberados dentro de 3–4 semanas. No permita que su familiar firme nada — especialmente no salida voluntaria — hasta que haya hablado con un abogado."
+      "answer": "Llámenos inmediatamente al (305) 786-3003. Las primeras 48 horas son las que más importan. Presentamos la solicitud de fianza pocos días después de ser contratados, y la mayoría de nuestros clientes detenidos son liberados dentro de 3–4 semanas. No permita que su familiar firme nada, especialmente no salida voluntaria, hasta que haya hablado con un abogado."
     },
     "timeline": {
       "question": "¿Cuánto tardará mi caso?",
-      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios federales — no por nosotros. Los permisos de trabajo normalmente toman 6–12 meses. Las audiencias de fianza ocurren en pocas semanas. El asilo y la defensa de deportación pueden durar de 1–3 años. Le daremos un estimado concreto para su caso específico durante la consulta — no una fantasía del mejor escenario."
+      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios federales, no por nosotros. Los permisos de trabajo normalmente toman 6–12 meses. Las audiencias de fianza ocurren en pocas semanas. El asilo y la defensa de deportación pueden durar de 1–3 años. Le daremos un estimado concreto para su caso específico durante la consulta, no una fantasía del mejor escenario."
     },
     "workWhilePending": {
       "question": "¿Puedo trabajar legalmente mientras mi caso está pendiente?",
@@ -1255,7 +1255,7 @@
     },
     "documents": {
       "question": "¿Qué documentos debo traer a la consulta?",
-      "answer": "Lo que tenga — pasaportes, documentos de casos previos, notificaciones de corte, I-94s, solicitudes antiguas, reportes policiales, récords médicos. Si no tiene nada, está bien también. Hablaremos de lo que recuerde y le diremos qué necesitamos reunir. Venga como está."
+      "answer": "Lo que tenga: pasaportes, documentos de casos previos, notificaciones de corte, I-94s, solicitudes antiguas, reportes policiales, récords médicos. Si no tiene nada, está bien también. Hablaremos de lo que recuerde y le diremos qué necesitamos reunir. Venga como está."
     },
     "paymentPlans": {
       "question": "¿Ofrecen planes de pago?",
@@ -1263,7 +1263,7 @@
     },
     "vawaEligibility": {
       "question": "¿Soy elegible para VAWA si no tengo un reporte policial?",
-      "answer": "Sí. VAWA usa un estándar de \"cualquier evidencia creíble.\" No necesita un reporte policial. No necesita una condena. Necesita su historia, contada claramente, respaldada por lo que tenga — fotografías, mensajes, récords médicos, notas de terapia, o declaraciones de amigos y familiares. Su agresor no es notificado. Nunca."
+      "answer": "Sí. VAWA usa un estándar de \"cualquier evidencia creíble.\" No necesita un reporte policial. No necesita una condena. Necesita su historia, contada claramente, respaldada por lo que tenga: fotografías, mensajes, récords médicos, notas de terapia, o declaraciones de amigos y familiares. Su agresor no es notificado. Nunca."
     },
     "iceDetention": {
       "question": "¿Qué debo hacer si ICE me detiene?",
@@ -1271,25 +1271,25 @@
     },
     "detainedHelp": {
       "question": "¿Qué tan rápido pueden ayudar si mi familiar está detenido ahora mismo?",
-      "answer": "Atendemos llamadas de emergencia de detención el mismo día. Pedimos el A-file, identificamos la instalación, y ponemos un abogado en el caso en cuestión de horas. Las mociones de fianza se presentan típicamente en 3–5 días hábiles, y la mayoría de los clientes detenidos son liberados dentro de 3–4 semanas. Llame al (305) 786-3003 ahora — cada hora importa."
+      "answer": "Atendemos llamadas de emergencia de detención el mismo día. Pedimos el A-file, identificamos la instalación, y ponemos un abogado en el caso en cuestión de horas. Las mociones de fianza se presentan típicamente en 3–5 días hábiles, y la mayoría de los clientes detenidos son liberados dentro de 3–4 semanas. Llame al (305) 786-3003 ahora. Cada hora importa."
     },
     "uVisa": {
       "question": "¿Qué es una Visa U y califico?",
-      "answer": "La Visa U es para no ciudadanos que fueron víctimas de un crimen grave calificante (violencia doméstica, agresión sexual, asalto con lesiones graves, tráfico, y más) y cooperaron con las autoridades. Usted califica si sufrió un daño sustancial y tiene una certificación de las autoridades — que le ayudamos a obtener. Las listas de espera son largas, pero hay permisos de trabajo provisionales y acción diferida mientras espera."
+      "answer": "La Visa U es para no ciudadanos que fueron víctimas de un crimen grave calificante (violencia doméstica, agresión sexual, asalto con lesiones graves, tráfico, y más) y cooperaron con las autoridades. Usted califica si sufrió un daño sustancial y tiene una certificación de las autoridades, que le ayudamos a obtener. Las listas de espera son largas, pero hay permisos de trabajo provisionales y acción diferida mientras espera."
     },
     "citizenship": {
       "question": "He sido residente por 5 años. ¿Debo aplicar para la ciudadanía?",
-      "answer": "Probablemente sí — pero depende de varias cosas: su presencia física, su historial de viajes, sus declaraciones de impuestos, y si tiene problemas criminales previos. Un N-400 mal presentado puede poner a un residente permanente en proceso de deportación. Hacemos una auditoría completa de elegibilidad antes de presentar para que su solicitud sea una celebración, no un riesgo."
+      "answer": "Probablemente sí, pero depende de varias cosas: su presencia física, su historial de viajes, sus declaraciones de impuestos, y si tiene problemas criminales previos. Un N-400 mal presentado puede poner a un residente permanente en proceso de deportación. Hacemos una auditoría completa de elegibilidad antes de presentar para que su solicitud sea una celebración, no un riesgo."
     }
   },
   "verdePlus": {
     "seo": {
-      "title": "Verde+ — La App de Inmigración para Familias Hispanas en EE.UU.",
+      "title": "Verde+. La App de Inmigración para Familias Hispanas en EE.UU.",
       "description": "Siga su caso, escanee documentos, aprenda sus derechos y conéctese con su abogado. Gratis para todos. Funciones exclusivas para clientes de Verde Law."
     },
     "hero": {
       "title": "Su caso de inmigración, simplificado.",
-      "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en Estados Unidos. Gratis para todos — con funciones exclusivas para clientes de Verde Law.",
+      "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en Estados Unidos. Gratis para todos, con funciones exclusivas para clientes de Verde Law.",
       "ctaDownload": "Descargar la app",
       "ctaMore": "Ver funciones"
     },
@@ -1297,7 +1297,7 @@
       "caseTracker": {
         "eyebrow": "Función 01",
         "title": "Sepa exactamente dónde está su caso.",
-        "desc": "Actualizaciones en tiempo real en cada paso de su asunto migratorio. Desde la firma del contrato hasta la decisión final, puede ver qué sigue — y cuándo.",
+        "desc": "Actualizaciones en tiempo real en cada paso de su asunto migratorio. Desde la firma del contrato hasta la decisión final, puede ver qué sigue y cuándo.",
         "h1": "Línea de tiempo visual de su caso",
         "h2": "Notificaciones automáticas de cambios",
         "h3": "Acceso 24/7 desde cualquier dispositivo"
@@ -1415,7 +1415,7 @@
     },
     "download": {
       "title": "Descargue Verde+ hoy.",
-      "subtitle": "Rastree su caso, escanee sus documentos, aprenda sus derechos — todo en una app, en su idioma.",
+      "subtitle": "Rastree su caso, escanee sus documentos, aprenda sus derechos, todo en una app, en su idioma.",
       "appStore": "App Store",
       "playStore": "Google Play",
       "tagline": "Es gratis. Para todos."
@@ -1423,12 +1423,12 @@
   },
   "contact": {
     "seo": {
-      "title": "Contacte a Verde Law — Consulta Migratoria Gratis",
+      "title": "Contacte a Verde Law para una Consulta Migratoria Gratis",
       "description": "Llame, escriba por WhatsApp, envíe un correo o visite nuestra oficina en Miami. Respondemos en inglés, español, kreyòl ayisyen y portugués."
     },
     "eyebrow": "Contáctenos",
     "title": "Hablemos sobre su caso.",
-    "subtitle": "Escoja el canal que mejor le funcione — teléfono, WhatsApp, correo electrónico, o el formulario abajo. Cada mensaje llega a una persona real en horas.",
+    "subtitle": "Escoja el canal que mejor le funcione: teléfono, WhatsApp, correo electrónico, o el formulario abajo. Cada mensaje llega a una persona real en horas.",
     "info": {
       "title": "Líneas directas",
       "whatsapp": "Escríbanos por WhatsApp"
@@ -1469,7 +1469,7 @@
       },
       "s2": {
         "heading": "Qué recopilamos",
-        "body": "Cuando usted llena un formulario o nos contacta, recopilamos la información que nos proporciona — nombre, teléfono, correo y los detalles de su caso. Cuando navega el sitio, recopilamos analíticas web estándar (páginas visitadas, ubicación aproximada, tipo de dispositivo) mediante cookies y registros del servidor."
+        "body": "Cuando usted llena un formulario o nos contacta, recopilamos la información que nos proporciona: nombre, teléfono, correo y los detalles de su caso. Cuando navega el sitio, recopilamos analíticas web estándar (páginas visitadas, ubicación aproximada, tipo de dispositivo) mediante cookies y registros del servidor."
       },
       "s3": {
         "heading": "Cómo usamos su información",
@@ -1520,7 +1520,7 @@
   },
   "notFound": {
     "title": "Página no encontrada.",
-    "body": "La página que busca no existe o ha sido movida. Pero seguimos aquí — y su caso todavía importa.",
+    "body": "La página que busca no existe o ha sido movida. Pero seguimos aquí, y su caso todavía importa.",
     "cta": "Volver al Inicio",
     "phone": "¿Necesita ayuda? Llámenos al {phone}"
   },
@@ -1562,7 +1562,7 @@
       "urgency": {
         "question": "¿Qué tan pronto necesita ayuda?",
         "options": {
-          "immediate": "De inmediato — tengo un plazo próximo",
+          "immediate": "De inmediato. Tengo un plazo próximo",
           "weeks": "En las próximas semanas",
           "exploring": "Solo estoy explorando mis opciones"
         }
@@ -1570,7 +1570,7 @@
     },
     "results": {
       "heading": "Según sus respuestas, así podemos ayudar:",
-      "body": "Cada caso es único. Una consulta gratuita le dará un panorama claro de sus opciones — con tiempos honestos y números reales.",
+      "body": "Cada caso es único. Una consulta gratuita le dará un panorama claro de sus opciones, con tiempos honestos y números reales.",
       "ctaPrimary": "Agendar Mi Consulta Gratuita",
       "ctaWhatsApp": "O escríbanos por WhatsApp",
       "disclaimer": "Esto no es asesoramiento legal. Los resultados dependen de las circunstancias individuales. Los resultados pasados no garantizan resultados futuros."

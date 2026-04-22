@@ -1,21 +1,21 @@
 {
   "locations": {
     "seo": {
-      "title": "Ubicaciones — Abogados de Inmigración de Verde Law",
+      "title": "Ubicaciones: Abogados de Inmigración de Verde Law",
       "description": "Bufete de inmigración con sede en Miami que atiende clientes en los 50 estados. Consultas virtuales disponibles en cualquier parte de EE.UU."
     },
     "eyebrow": "Ubicaciones",
     "title": "Con base en Miami. Luchando en todo el país.",
-    "subtitle": "Nuestra oficina está en Coral Way. Nuestros clientes están en todas partes — desde la detención de Krome hasta las cortes de inmigración en Chicago, Nueva York, Los Ángeles, y cada circuito en el medio.",
+    "subtitle": "Nuestra oficina está en Coral Way. Nuestros clientes están en todas partes, desde la detención de Krome hasta las cortes de inmigración en Chicago, Nueva York, Los Ángeles, y cada circuito en el medio.",
     "office": {
       "eyebrow": "Oficina Principal",
-      "title": "Venga en persona, o no — ambas opciones funcionan.",
+      "title": "Venga en persona, o no. Ambas opciones funcionan.",
       "directions": "Cómo llegar"
     },
     "national": {
       "eyebrow": "Cobertura Nacional",
       "title": "Los 50 estados. Una firma.",
-      "body": "La ley de inmigración es federal. No importa en qué estado viva — un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Nos presentamos en persona cuando es necesario, remotamente cuando es permitido, y manejamos la logística para que usted no tenga que hacerlo.",
+      "body": "La ley de inmigración es federal. No importa en qué estado viva. Un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Nos presentamos en persona cuando es necesario, remotamente cuando es permitido, y manejamos la logística para que usted no tenga que hacerlo.",
       "topStatesLabel": "Estados que atendemos con más frecuencia",
       "states": {
         "florida": "Florida",
@@ -31,7 +31,7 @@
     "virtual": {
       "eyebrow": "Consultas Virtuales",
       "title": "Reúnase con nosotros desde cualquier lugar.",
-      "body": "La mayoría de nuestras consultas son por teléfono, WhatsApp o video. No necesita viajar a Miami ni tomarse un día libre del trabajo. Elija el canal que le funcione — ahí estamos.",
+      "body": "La mayoría de nuestras consultas son por teléfono, WhatsApp o video. No necesita viajar a Miami ni tomarse un día libre del trabajo. Elija el canal que le funcione. Ahí estamos.",
       "channels": {
         "phone": { "title": "Teléfono", "desc": "Llame al (305) 786-3003. Una persona real contesta en inglés o español, de día o de noche." },
         "whatsapp": { "title": "WhatsApp", "desc": "Escríbanos a cualquier hora. Respondemos tan pronto regresamos a la oficina, usualmente en minutos durante el día." },

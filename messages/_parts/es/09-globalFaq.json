@@ -2,19 +2,19 @@
   "globalFaq": {
     "consultation": {
       "question": "¿Qué es una consulta gratuita y qué incluye?",
-      "answer": "Una consulta gratuita es una conversación de 15–30 minutos — por teléfono, WhatsApp, o video — con un especialista de intake o un abogado. Escuchamos lo que está pasando, identificamos los asuntos legales de su caso, y le damos opciones honestas con números reales. No tiene costo, no hay obligación de contratarnos, y nada de lo que comparta sale de la firma."
+      "answer": "Una consulta gratuita es una conversación de 15–30 minutos por teléfono, WhatsApp, o video con un especialista de intake o un abogado. Escuchamos lo que está pasando, identificamos los asuntos legales de su caso, y le damos opciones honestas con números reales. No tiene costo, no hay obligación de contratarnos, y nada de lo que comparta sale de la firma."
     },
     "cost": {
       "question": "¿Cuánto cuesta contratar un abogado de inmigración?",
-      "answer": "Nuestros honorarios dependen del tipo de caso y su complejidad. Cobramos tarifas fijas — nunca por hora — para que sepa el costo total antes de firmar. Durante su consulta gratuita, le daremos una cotización exacta sin cargos ocultos. Los planes de pago siempre están disponibles, y nunca dejaremos que el costo sea la razón por la que no obtenga representación."
+      "answer": "Nuestros honorarios dependen del tipo de caso y su complejidad. Cobramos tarifas fijas, nunca por hora, para que sepa el costo total antes de firmar. Durante su consulta gratuita, le daremos una cotización exacta sin cargos ocultos. Los planes de pago siempre están disponibles, y nunca dejaremos que el costo sea la razón por la que no obtenga representación."
     },
     "outsideFlorida": {
       "question": "¿Pueden ayudarme si no vivo en Florida?",
-      "answer": "Sí. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Manejamos casos en los 50 estados. La mayoría de las consultas ocurren por teléfono o WhatsApp — no necesita viajar a Miami."
+      "answer": "Sí. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Manejamos casos en los 50 estados. La mayoría de las consultas ocurren por teléfono o WhatsApp. No necesita viajar a Miami."
     },
     "deportationOrder": {
       "question": "Ya tengo una orden de deportación. ¿Es demasiado tarde?",
-      "answer": "No necesariamente. Dependiendo de por qué y cuándo se emitió la orden, podemos presentar una moción para reabrir, una moción para reconsiderar, o una apelación. En algunos casos, podemos suspender la deportación mientras peleamos. Cada orden vieja es diferente — tráiganosla y le diremos, honestamente, qué todavía es posible."
+      "answer": "No necesariamente. Dependiendo de por qué y cuándo se emitió la orden, podemos presentar una moción para reabrir, una moción para reconsiderar, o una apelación. En algunos casos, podemos suspender la deportación mientras peleamos. Cada orden vieja es diferente. Tráiganosla y le diremos, honestamente, qué todavía es posible."
     },
     "asylumProcess": {
       "question": "¿Cómo funciona el proceso de asilo?",
@@ -22,11 +22,11 @@
     },
     "bondHearing": {
       "question": "Mi familiar fue detenido por ICE. ¿Qué hacemos?",
-      "answer": "Llámenos inmediatamente — (305) 786-3003. Las primeras 48 horas son las que más importan. Presentamos la solicitud de fianza pocos días después de ser contratados, y la mayoría de nuestros clientes detenidos son liberados dentro de 3–4 semanas. No permita que su familiar firme nada — especialmente no salida voluntaria — hasta que haya hablado con un abogado."
+      "answer": "Llámenos inmediatamente al (305) 786-3003. Las primeras 48 horas son las que más importan. Presentamos la solicitud de fianza pocos días después de ser contratados, y la mayoría de nuestros clientes detenidos son liberados dentro de 3–4 semanas. No permita que su familiar firme nada, especialmente no salida voluntaria, hasta que haya hablado con un abogado."
     },
     "timeline": {
       "question": "¿Cuánto tardará mi caso?",
-      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios federales — no por nosotros. Los permisos de trabajo normalmente toman 6–12 meses. Las audiencias de fianza ocurren en pocas semanas. El asilo y la defensa de deportación pueden durar de 1–3 años. Le daremos un estimado concreto para su caso específico durante la consulta — no una fantasía del mejor escenario."
+      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios federales, no por nosotros. Los permisos de trabajo normalmente toman 6–12 meses. Las audiencias de fianza ocurren en pocas semanas. El asilo y la defensa de deportación pueden durar de 1–3 años. Le daremos un estimado concreto para su caso específico durante la consulta, no una fantasía del mejor escenario."
     },
     "workWhilePending": {
       "question": "¿Puedo trabajar legalmente mientras mi caso está pendiente?",
@@ -34,7 +34,7 @@
     },
     "documents": {
       "question": "¿Qué documentos debo traer a la consulta?",
-      "answer": "Lo que tenga — pasaportes, documentos de casos previos, notificaciones de corte, I-94s, solicitudes antiguas, reportes policiales, récords médicos. Si no tiene nada, está bien también. Hablaremos de lo que recuerde y le diremos qué necesitamos reunir. Venga como está."
+      "answer": "Lo que tenga: pasaportes, documentos de casos previos, notificaciones de corte, I-94s, solicitudes antiguas, reportes policiales, récords médicos. Si no tiene nada, está bien también. Hablaremos de lo que recuerde y le diremos qué necesitamos reunir. Venga como está."
     },
     "paymentPlans": {
       "question": "¿Ofrecen planes de pago?",
@@ -42,7 +42,7 @@
     },
     "vawaEligibility": {
       "question": "¿Soy elegible para VAWA si no tengo un reporte policial?",
-      "answer": "Sí. VAWA usa un estándar de \"cualquier evidencia creíble.\" No necesita un reporte policial. No necesita una condena. Necesita su historia, contada claramente, respaldada por lo que tenga — fotografías, mensajes, récords médicos, notas de terapia, o declaraciones de amigos y familiares. Su agresor no es notificado. Nunca."
+      "answer": "Sí. VAWA usa un estándar de \"cualquier evidencia creíble.\" No necesita un reporte policial. No necesita una condena. Necesita su historia, contada claramente, respaldada por lo que tenga: fotografías, mensajes, récords médicos, notas de terapia, o declaraciones de amigos y familiares. Su agresor no es notificado. Nunca."
     },
     "iceDetention": {
       "question": "¿Qué debo hacer si ICE me detiene?",
@@ -50,15 +50,15 @@
     },
     "detainedHelp": {
       "question": "¿Qué tan rápido pueden ayudar si mi familiar está detenido ahora mismo?",
-      "answer": "Atendemos llamadas de emergencia de detención el mismo día. Pedimos el A-file, identificamos la instalación, y ponemos un abogado en el caso en cuestión de horas. Las mociones de fianza se presentan típicamente en 3–5 días hábiles, y la mayoría de los clientes detenidos son liberados dentro de 3–4 semanas. Llame al (305) 786-3003 ahora — cada hora importa."
+      "answer": "Atendemos llamadas de emergencia de detención el mismo día. Pedimos el A-file, identificamos la instalación, y ponemos un abogado en el caso en cuestión de horas. Las mociones de fianza se presentan típicamente en 3–5 días hábiles, y la mayoría de los clientes detenidos son liberados dentro de 3–4 semanas. Llame al (305) 786-3003 ahora. Cada hora importa."
     },
     "uVisa": {
       "question": "¿Qué es una Visa U y califico?",
-      "answer": "La Visa U es para no ciudadanos que fueron víctimas de un crimen grave calificante (violencia doméstica, agresión sexual, asalto con lesiones graves, tráfico, y más) y cooperaron con las autoridades. Usted califica si sufrió un daño sustancial y tiene una certificación de las autoridades — que le ayudamos a obtener. Las listas de espera son largas, pero hay permisos de trabajo provisionales y acción diferida mientras espera."
+      "answer": "La Visa U es para no ciudadanos que fueron víctimas de un crimen grave calificante (violencia doméstica, agresión sexual, asalto con lesiones graves, tráfico, y más) y cooperaron con las autoridades. Usted califica si sufrió un daño sustancial y tiene una certificación de las autoridades, que le ayudamos a obtener. Las listas de espera son largas, pero hay permisos de trabajo provisionales y acción diferida mientras espera."
     },
     "citizenship": {
       "question": "He sido residente por 5 años. ¿Debo aplicar para la ciudadanía?",
-      "answer": "Probablemente sí — pero depende de varias cosas: su presencia física, su historial de viajes, sus declaraciones de impuestos, y si tiene problemas criminales previos. Un N-400 mal presentado puede poner a un residente permanente en proceso de deportación. Hacemos una auditoría completa de elegibilidad antes de presentar para que su solicitud sea una celebración, no un riesgo."
+      "answer": "Probablemente sí, pero depende de varias cosas: su presencia física, su historial de viajes, sus declaraciones de impuestos, y si tiene problemas criminales previos. Un N-400 mal presentado puede poner a un residente permanente en proceso de deportación. Hacemos una auditoría completa de elegibilidad antes de presentar para que su solicitud sea una celebración, no un riesgo."
     }
   }
 }

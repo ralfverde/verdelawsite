@@ -17,7 +17,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Verde Law, PLLC — Humanitarian Immigration Attorneys",
+  title: "Verde Law, PLLC · Humanitarian Immigration Attorneys",
   description:
     "Miami-based humanitarian immigration law firm serving Spanish-speaking immigrants across all 50 states.",
   metadataBase: new URL("https://verdelaw.com"),

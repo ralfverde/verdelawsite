@@ -23,7 +23,7 @@
       "timeline": "30–90 days",
       "forms": "28 U.S.C. § 2241 petition, evidence of prolonged detention",
       "agency": "U.S. District Court / EOIR",
-      "overview1": "Some detention is unlawful — mandatory detention that's gone on too long, post-order detention past the Zadvydas six-month mark, or detention without a bond hearing at all. Federal habeas relief can force release.",
+      "overview1": "Some detention is unlawful: mandatory detention that's gone on too long, post-order detention past the Zadvydas six-month mark, or detention without a bond hearing at all. Federal habeas relief can force release.",
       "overview2": "We combine a bond filing (when available) with a federal habeas petition to attack the detention on multiple fronts simultaneously.",
       "overview3": "These are complex cases with short windows. We move fast and we don't take them unless we can build a real record.",
       "step1Title": "Detention analysis", "step1Desc": "Review custody history, statutory basis, and Zadvydas/Demore posture.",
@@ -78,7 +78,7 @@
       "step2Title": "OPLA coordination", "step2Desc": "Request prosecutorial discretion where applicable.",
       "step3Title": "Motion filing", "step3Desc": "File the motion with supporting brief and evidence.",
       "step4Title": "Hearing", "step4Desc": "Oral argument if the court sets one.",
-      "step5Title": "Decision", "step5Desc": "Termination, administrative closure, or denial — next steps prepared for each."
+      "step5Title": "Decision", "step5Desc": "Termination, administrative closure, or denial. Next steps prepared for each."
     },
     "change-of-venue": {
       "title": "Change of Venue",
@@ -104,7 +104,7 @@
       "forms": "Petition for review, appellate brief, record",
       "agency": "U.S. Court of Appeals",
       "overview1": "If the BIA affirms a denial, you have 30 days to file a petition for review in the federal circuit court covering where the immigration judge sat. Federal judges review for legal and constitutional errors.",
-      "overview2": "These cases require federal appellate skill — record citations, legal framing, and argument in open court before a three-judge panel. We brief them like the federal appeals they are.",
+      "overview2": "These cases require federal appellate skill: record citations, legal framing, and argument in open court before a three-judge panel. We brief them like the federal appeals they are.",
       "overview3": "Rafael is admitted to the Eleventh Circuit. For cases in other circuits we associate with admitted local counsel.",
       "step1Title": "Record review", "step1Desc": "Obtain and read the entire administrative record.",
       "step2Title": "Issue identification", "step2Desc": "Legal errors, due process, constitutional issues.",
@@ -126,12 +126,12 @@
       "step2Title": "Petition drafting", "step2Desc": "Draft habeas petition with declarations and exhibits.",
       "step3Title": "Filing & service", "step3Desc": "File in the appropriate district court; serve DHS/ICE.",
       "step4Title": "Government response", "step4Desc": "Review government brief; file reply and any amended petition.",
-      "step5Title": "Ruling", "step5Desc": "Court-ordered release, bond hearing, or denial — appeal ready if needed."
+      "step5Title": "Ruling", "step5Desc": "Court-ordered release, bond hearing, or denial. Appeal ready if needed."
     },
     "family-petitions": {
       "title": "Family-Based Petitions (I-130)",
       "short": "The paperwork that keeps families under one roof.",
-      "headline": "Reuniting families — one petition at a time.",
+      "headline": "Reuniting families, one petition at a time.",
       "timeline": "Immediate relatives: 8–16 months. Preference categories: variable.",
       "forms": "I-130, I-130A, proof of relationship",
       "agency": "USCIS",

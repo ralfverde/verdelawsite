@@ -23,7 +23,7 @@
       "timeline": "30–90 días",
       "forms": "Petición 28 U.S.C. § 2241, evidencia de detención prolongada",
       "agency": "Corte Federal de Distrito / EOIR",
-      "overview1": "Algunas detenciones son ilegales — detención obligatoria que se ha prolongado demasiado, detención post-orden más allá del plazo de seis meses de Zadvydas, o detención sin audiencia de fianza. El habeas federal puede forzar la liberación.",
+      "overview1": "Algunas detenciones son ilegales: detención obligatoria que se ha prolongado demasiado, detención post-orden más allá del plazo de seis meses de Zadvydas, o detención sin audiencia de fianza. El habeas federal puede forzar la liberación.",
       "overview2": "Combinamos una moción de fianza (cuando es posible) con una petición federal de habeas para atacar la detención en varios frentes a la vez.",
       "overview3": "Son casos complejos con ventanas cortas. Nos movemos rápido y solo los aceptamos cuando podemos construir un expediente real.",
       "step1Title": "Análisis de la detención", "step1Desc": "Revisar el historial de custodia, la base legal y la postura bajo Zadvydas/Demore.",
@@ -78,7 +78,7 @@
       "step2Title": "Coordinación con OPLA", "step2Desc": "Solicitar discreción fiscal cuando corresponda.",
       "step3Title": "Radicación de la moción", "step3Desc": "Presentar la moción con memorial y evidencia de apoyo.",
       "step4Title": "Audiencia", "step4Desc": "Argumento oral si la corte lo fija.",
-      "step5Title": "Decisión", "step5Desc": "Terminación, cierre administrativo o negación — preparados para cada escenario."
+      "step5Title": "Decisión", "step5Desc": "Terminación, cierre administrativo o negación. Preparados para cada escenario."
     },
     "change-of-venue": {
       "title": "Cambio de Jurisdicción",
@@ -104,7 +104,7 @@
       "forms": "Petición de revisión, memorial de apelación, expediente",
       "agency": "Corte Federal de Apelaciones",
       "overview1": "Si la BIA confirma una negación, tiene 30 días para presentar una petición de revisión ante la corte federal de circuito que cubre el lugar donde el juez de inmigración conoció del caso. Los jueces federales revisan por errores legales y constitucionales.",
-      "overview2": "Estos casos requieren destreza de apelación federal — citas al expediente, planteamiento legal y argumento oral ante un panel de tres jueces. Los preparamos como las apelaciones federales que son.",
+      "overview2": "Estos casos requieren destreza de apelación federal: citas al expediente, planteamiento legal y argumento oral ante un panel de tres jueces. Los preparamos como las apelaciones federales que son.",
       "overview3": "Rafael está admitido ante el Undécimo Circuito. Para casos en otros circuitos nos asociamos con abogados locales admitidos.",
       "step1Title": "Revisión del expediente", "step1Desc": "Obtener y leer todo el expediente administrativo.",
       "step2Title": "Identificación de temas", "step2Desc": "Errores legales, debido proceso, temas constitucionales.",
@@ -126,12 +126,12 @@
       "step2Title": "Redacción de la petición", "step2Desc": "Redactar la petición de habeas con declaraciones y anexos.",
       "step3Title": "Presentación y notificación", "step3Desc": "Radicar en la corte de distrito correspondiente; notificar al DHS/ICE.",
       "step4Title": "Respuesta del gobierno", "step4Desc": "Revisar el memorial del gobierno; presentar réplica y cualquier petición enmendada.",
-      "step5Title": "Fallo", "step5Desc": "Liberación por orden de la corte, audiencia de fianza o negación — apelación lista si hace falta."
+      "step5Title": "Fallo", "step5Desc": "Liberación por orden de la corte, audiencia de fianza o negación. Apelación lista si hace falta."
     },
     "family-petitions": {
       "title": "Peticiones Familiares (I-130)",
       "short": "Los trámites que mantienen a la familia bajo un mismo techo.",
-      "headline": "Reunir familias — una petición a la vez.",
+      "headline": "Reunir familias, una petición a la vez.",
       "timeline": "Familiares inmediatos: 8–16 meses. Categorías de preferencia: variable.",
       "forms": "I-130, I-130A, prueba de la relación",
       "agency": "USCIS",

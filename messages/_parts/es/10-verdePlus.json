@@ -1,12 +1,12 @@
 {
   "verdePlus": {
     "seo": {
-      "title": "Verde+ — La App de Inmigración para Familias Hispanas en EE.UU.",
+      "title": "Verde+. La App de Inmigración para Familias Hispanas en EE.UU.",
       "description": "Siga su caso, escanee documentos, aprenda sus derechos y conéctese con su abogado. Gratis para todos. Funciones exclusivas para clientes de Verde Law."
     },
     "hero": {
       "title": "Su caso de inmigración, simplificado.",
-      "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en Estados Unidos. Gratis para todos — con funciones exclusivas para clientes de Verde Law.",
+      "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en Estados Unidos. Gratis para todos, con funciones exclusivas para clientes de Verde Law.",
       "ctaDownload": "Descargar la app",
       "ctaMore": "Ver funciones"
     },
@@ -14,7 +14,7 @@
       "caseTracker": {
         "eyebrow": "Función 01",
         "title": "Sepa exactamente dónde está su caso.",
-        "desc": "Actualizaciones en tiempo real en cada paso de su asunto migratorio. Desde la firma del contrato hasta la decisión final, puede ver qué sigue — y cuándo.",
+        "desc": "Actualizaciones en tiempo real en cada paso de su asunto migratorio. Desde la firma del contrato hasta la decisión final, puede ver qué sigue y cuándo.",
         "h1": "Línea de tiempo visual de su caso",
         "h2": "Notificaciones automáticas de cambios",
         "h3": "Acceso 24/7 desde cualquier dispositivo"
@@ -84,7 +84,7 @@
     },
     "download": {
       "title": "Descargue Verde+ hoy.",
-      "subtitle": "Rastree su caso, escanee sus documentos, aprenda sus derechos — todo en una app, en su idioma.",
+      "subtitle": "Rastree su caso, escanee sus documentos, aprenda sus derechos, todo en una app, en su idioma.",
       "appStore": "App Store",
       "playStore": "Google Play",
       "tagline": "Es gratis. Para todos."

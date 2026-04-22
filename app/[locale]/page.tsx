@@ -28,12 +28,12 @@ export async function generateMetadata({
     locale,
     title:
       locale === "es"
-        ? "Abogados de Inmigración en Miami — Verde Law"
-        : "Miami Immigration Attorneys — Verde Law",
+        ? "Abogados de Inmigración en Miami · Verde Law"
+        : "Miami Immigration Attorneys · Verde Law",
     description:
       locale === "es"
-        ? "Más de 600 familias confían en Verde Law para defender sus derechos migratorios en los 50 estados. Consulta gratuita, sin compromiso."
-        : "Over 600 families trust Verde Law to defend their immigration rights across all 50 states. Free consultation, no obligation.",
+        ? "Miles de familias confían en Verde Law para defender sus derechos migratorios en los 50 estados. Consulta gratuita, sin compromiso."
+        : "Thousands of families trust Verde Law to defend their immigration rights across all 50 states. Free consultation, no obligation.",
     path: locale === "es" ? "/es" : "/",
     alternatePaths: { en: "/", es: "/es" },
   });

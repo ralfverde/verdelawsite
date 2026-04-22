@@ -6,7 +6,7 @@
     },
     "eyebrow": "Our Services",
     "title": "Full-service immigration representation. Every hearing handled in-house.",
-    "subtitle": "From emergency bond hearings to green card interviews, every service below is handled by attorneys who know your case by name — not by file number.",
+    "subtitle": "From emergency bond hearings to green card interviews, every service below is handled by attorneys who know your case by name, not by file number.",
     "startingAt": "From",
     "tabs": {
       "all": "All services",
@@ -41,7 +41,7 @@
   "practiceFaq": {
     "q1": {
       "question": "How long does the process usually take?",
-      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. A realistic estimate depends on your specific case type, current backlogs at your venue, and the completeness of your evidence. During your free consultation, we'll give you a concrete timeline based on what your case actually looks like — not a best-case fantasy."
+      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules, not by us. A realistic estimate depends on your specific case type, current backlogs at your venue, and the completeness of your evidence. During your free consultation, we'll give you a concrete timeline based on what your case actually looks like, not a best-case fantasy."
     },
     "q2": {
       "question": "What happens if my case is denied?",
@@ -57,11 +57,11 @@
     },
     "q5": {
       "question": "Is the first consultation really free?",
-      "answer": "Yes. No credit card required. No obligation to hire us. A real member of our team — not a chatbot — will walk through your situation, explain your options, and give you an honest assessment. If we're not the right fit, we'll tell you. If another firm can help you better, we'll refer you."
+      "answer": "Yes. No credit card required. No obligation to hire us. A real member of our team, not a chatbot, will walk through your situation, explain your options, and give you an honest assessment. If we're not the right fit, we'll tell you. If another firm can help you better, we'll refer you."
     },
     "q6": {
       "question": "Can you help if I don't live in Florida?",
-      "answer": "Absolutely. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court in the country. We handle cases in all 50 states. Most of our consultations happen by phone or WhatsApp — you don't need to travel to Miami."
+      "answer": "Absolutely. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court in the country. We handle cases in all 50 states. Most of our consultations happen by phone or WhatsApp. You don't need to travel to Miami."
     }
   }
 }

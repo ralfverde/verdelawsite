@@ -1,7 +1,7 @@
 {
   "notFound": {
     "title": "Page not found.",
-    "body": "The page you're looking for doesn't exist or has been moved. But we're still here — and your case still matters.",
+    "body": "The page you're looking for doesn't exist or has been moved. But we're still here, and your case still matters.",
     "cta": "Back to Home",
     "phone": "Need help? Call us at {phone}"
   }

@@ -1,12 +1,12 @@
 {
   "team": {
     "seo": {
-      "title": "Our Team — Verde Law Immigration Attorneys",
+      "title": "Our Team at Verde Law Immigration Attorneys",
       "description": "Meet the Verde Law attorneys, paralegals, and support team fighting for immigrant families across the country."
     },
     "eyebrow": "Our Team",
     "title": "The people fighting for your family.",
-    "subtitle": "Attorneys, paralegals, and support staff — every one of us is here for the same reason.",
+    "subtitle": "Attorneys, paralegals, and support staff. Every one of us is here for the same reason.",
     "teamEyebrow": "Meet the team",
     "teamTitle": "Meet the team.",
     "paralegal": "Paralegal",
@@ -23,10 +23,10 @@
     "bookWith": "Book with {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde was born on the outskirts of Havana, Cuba. His family emigrated to South Florida when he was young, and that experience — arriving somewhere new with nothing but hope — shaped everything that came after.",
+        "p1": "Rafael Verde was born on the outskirts of Havana, Cuba. His family emigrated to South Florida when he was young, and that experience, arriving somewhere new with nothing but hope, shaped everything that came after.",
         "p2": "After studying communications at Florida International University and earning his J.D. from Barry University School of Law, Rafael founded Verde Law with one goal: to give immigrant families the quality of representation they deserve, delivered by someone who understands what they're going through because he's lived it. Today, he personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
         "p3": "Today, Rafael personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
-        "education": { "label": "Education", "value": "Florida International University · B.S., Public Relations & Communications — Barry University School of Law · Juris Doctor" },
+        "education": { "label": "Education", "value": "Florida International University · B.S., Public Relations & Communications. Barry University School of Law · Juris Doctor" },
         "barAdmissions": { "label": "Bar Admissions", "value": "Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida" },
         "languages": { "label": "Languages", "value": "English · Español" }
       },
@@ -44,15 +44,15 @@
       "mayerli": "Mayerli manages asylum and VAWA files, and prepares personal declarations alongside the attorneys.",
       "flor": "Flor coordinates family-based petitions, consular processing, and USCIS filings from intake to approval.",
       "alba": "Alba supports our removal defense practice with evidence gathering, court filings, and client communication.",
-      "daliana": "Daliana keeps the firm running day to day — scheduling, vendor relationships, and the small things that matter to clients.",
+      "daliana": "Daliana keeps the firm running day to day: scheduling, vendor relationships, and the small things that matter to clients.",
       "jeanine": "Jeanine runs our intake team, which means she's usually the first person you talk to when you call.",
-      "yunetsy": "Yunetsy handles billing with the transparency our clients deserve — clear invoices, flexible payment plans, zero surprises.",
+      "yunetsy": "Yunetsy handles billing with the transparency our clients deserve: clear invoices, flexible payment plans, zero surprises.",
       "vianney": "Vianney leads our marketing and community outreach, including the TikTok education channel that reaches tens of thousands of immigrants every week."
     },
     "join": {
       "eyebrow": "Careers",
       "title": "Work with us.",
-      "body": "We're hiring attorneys, paralegals, and bilingual intake specialists. If you want to practice immigration law the right way — with real resources, flat fees, and a team that respects your time — we'd like to meet you.",
+      "body": "We're hiring attorneys, paralegals, and bilingual intake specialists. If you want to practice immigration law the right way, with real resources, flat fees, and a team that respects your time, we'd like to meet you.",
       "cta": "See open positions"
     }
   }

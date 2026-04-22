@@ -1,12 +1,12 @@
 {
   "team": {
     "seo": {
-      "title": "Nuestro Equipo — Abogados de Inmigración de Verde Law",
+      "title": "Nuestro Equipo en Verde Law, Abogados de Inmigración",
       "description": "Conozca a los abogados, paralegales y equipo de soporte de Verde Law que luchan por familias inmigrantes en todo el país."
     },
     "eyebrow": "Nuestro Equipo",
     "title": "Las personas que luchan por su familia.",
-    "subtitle": "Abogados, paralegales y personal de apoyo — cada uno de nosotros está aquí por la misma razón.",
+    "subtitle": "Abogados, paralegales y personal de apoyo. Cada uno de nosotros está aquí por la misma razón.",
     "teamEyebrow": "Conozca al equipo",
     "teamTitle": "Conozca al equipo.",
     "paralegal": "Paralegal",
@@ -23,10 +23,10 @@
     "bookWith": "Agendar con {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde nació en las afueras de La Habana, Cuba. Su familia emigró al sur de la Florida cuando era joven, y esa experiencia — llegar a un lugar nuevo sin nada más que esperanza — moldeó todo lo que vino después.",
+        "p1": "Rafael Verde nació en las afueras de La Habana, Cuba. Su familia emigró al sur de la Florida cuando era joven, y esa experiencia, llegar a un lugar nuevo sin nada más que esperanza, moldeó todo lo que vino después.",
         "p2": "Después de estudiar comunicaciones en Florida International University y obtener su J.D. de Barry University School of Law, Rafael fundó Verde Law con un solo objetivo: darle a las familias inmigrantes la calidad de representación que merecen, brindada por alguien que entiende lo que están pasando porque lo ha vivido. Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
         "p3": "Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
-        "education": { "label": "Educación", "value": "Florida International University · B.S., Relaciones Públicas y Comunicaciones — Barry University School of Law · Juris Doctor" },
+        "education": { "label": "Educación", "value": "Florida International University · B.S., Relaciones Públicas y Comunicaciones. Barry University School of Law · Juris Doctor" },
         "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Corte de Apelaciones de EE.UU., Circuito Once · Corte de Distrito de EE.UU., Distrito Sur de Florida" },
         "languages": { "label": "Idiomas", "value": "Inglés · Español" }
       },
@@ -44,15 +44,15 @@
       "mayerli": "Mayerli gestiona los expedientes de asilo y VAWA, y prepara las declaraciones personales junto a los abogados.",
       "flor": "Flor coordina peticiones familiares, proceso consular y presentaciones ante USCIS desde la admisión hasta la aprobación.",
       "alba": "Alba apoya nuestra práctica de defensa de deportación con la recolección de evidencia, las presentaciones en corte y la comunicación con el cliente.",
-      "daliana": "Daliana mantiene el bufete funcionando día a día — calendarización, relaciones con proveedores y los pequeños detalles que les importan a los clientes.",
+      "daliana": "Daliana mantiene el bufete funcionando día a día: calendarización, relaciones con proveedores y los pequeños detalles que les importan a los clientes.",
       "jeanine": "Jeanine dirige nuestro equipo de admisiones, lo que significa que normalmente es la primera persona con quien usted habla cuando llama.",
-      "yunetsy": "Yunetsy maneja la facturación con la transparencia que nuestros clientes merecen — facturas claras, planes de pago flexibles, cero sorpresas.",
+      "yunetsy": "Yunetsy maneja la facturación con la transparencia que nuestros clientes merecen: facturas claras, planes de pago flexibles, cero sorpresas.",
       "vianney": "Vianney lidera nuestro marketing y alcance comunitario, incluyendo el canal educativo de TikTok que llega cada semana a decenas de miles de inmigrantes."
     },
     "join": {
       "eyebrow": "Carreras",
       "title": "Trabaje con nosotros.",
-      "body": "Estamos contratando abogados, paralegales, y especialistas de intake bilingües. Si quiere practicar la ley de inmigración de la manera correcta — con recursos reales, tarifas fijas, y un equipo que respeta su tiempo — nos gustaría conocerle.",
+      "body": "Estamos contratando abogados, paralegales, y especialistas de intake bilingües. Si quiere practicar la ley de inmigración de la manera correcta, con recursos reales, tarifas fijas, y un equipo que respeta su tiempo, nos gustaría conocerle.",
       "cta": "Ver posiciones abiertas"
     }
   }

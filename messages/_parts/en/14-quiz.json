@@ -37,7 +37,7 @@
       "urgency": {
         "question": "How soon do you need help?",
         "options": {
-          "immediate": "Immediately — I have an upcoming deadline",
+          "immediate": "Immediately. I have an upcoming deadline",
           "weeks": "Within the next few weeks",
           "exploring": "I'm just exploring my options"
         }
@@ -45,7 +45,7 @@
     },
     "results": {
       "heading": "Based on your answers, here's how we can help:",
-      "body": "Every case is unique. A free consultation will give you a clear picture of your specific options — with honest timelines and real numbers.",
+      "body": "Every case is unique. A free consultation will give you a clear picture of your specific options, with honest timelines and real numbers.",
       "ctaPrimary": "Schedule My Free Consultation",
       "ctaWhatsApp": "Or message us on WhatsApp",
       "disclaimer": "This is not legal advice. Results depend on individual circumstances. Past outcomes do not guarantee future outcomes."

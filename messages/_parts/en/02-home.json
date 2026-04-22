@@ -7,30 +7,30 @@
     "cards": {
       "deportation": { "title": "Deportation Defense", "desc": "When the government files removal proceedings, we stand between you and deportation. Every hearing, every motion, every argument." },
       "asylum": { "title": "Political Asylum", "desc": "If you fled persecution in your home country, the law may protect you here. We build the strongest possible case for your safety." },
-      "bond": { "title": "Bond Hearings", "desc": "Your loved one is detained. Every day inside is a day too many. We fight for their release — fast." },
-      "family": { "title": "Family Petitions", "desc": "Reuniting families through I-130 petitions, adjustment of status, and consular processing. The paperwork is ours — the reunion is yours." },
-      "vawaU": { "title": "VAWA & U-Visa", "desc": "Survivors of abuse and crime have legal protections. You don't need your abuser's permission to apply. We handle everything — confidentially." },
+      "bond": { "title": "Bond Hearings", "desc": "Your loved one is detained. Every day inside is a day too many. We fight for their release, fast." },
+      "family": { "title": "Family Petitions", "desc": "Reuniting families through I-130 petitions, adjustment of status, and consular processing. The paperwork is ours. The reunion is yours." },
+      "vawaU": { "title": "VAWA & U-Visa", "desc": "Survivors of abuse and crime have legal protections. You don't need your abuser's permission to apply. We handle everything, confidentially." },
       "naturalization": { "title": "Naturalization & Citizenship", "desc": "You've earned the right to call this country home. We handle your N-400 application, interview prep, and everything in between." }
     }
   },
   "whyVerde": {
     "eyebrow": "Why Families Choose Us",
     "title": "We're not just another firm. We're your team.",
-    "body1": "Rafael Verde didn't start Verde Law because he wanted to run a law firm. He started it because he'd been an immigrant kid in South Florida with no one to call when the system got complicated — and he didn't want anyone else's family to feel that way.",
-    "body2": "Every case at Verde Law gets the same preparation, the same urgency, and the same level of care — whether it's a bond hearing that needs to happen this week or a family petition that will take eighteen months. We return calls the same day, we explain things in plain language, and we don't stop until your case is resolved.",
+    "body1": "Rafael Verde didn't start Verde Law because he wanted to run a law firm. He started it because he'd been an immigrant kid in South Florida with no one to call when the system got complicated, and he didn't want anyone else's family to feel that way.",
+    "body2": "Every case at Verde Law gets the same preparation, the same urgency, and the same level of care, whether it's a bond hearing that needs to happen this week or a family petition that will take eighteen months. We return calls the same day, we explain things in plain language, and we don't stop until your case is resolved.",
     "reasons": {
       "bilingual": { "title": "Your language, always", "desc": "Every person at Verde Law speaks Spanish. You will never need a translator, never feel lost in your own case, and never wonder what your attorney just said." },
       "national": { "title": "50 states. One firm.", "desc": "Immigration law is federal. A Florida-licensed attorney can represent you in any immigration court in the country. We appear in person when required, remotely when allowed." },
-      "free": { "title": "Free consultation — no strings", "desc": "We evaluate your case at no cost. No credit card. No commitment. No follow-up calls pressuring you to sign. If we're not the right fit, we'll tell you — and we'll tell you who is." },
-      "tech": { "title": "Your case, tracked in real time", "desc": "With Verde+, our immigration platform, you see exactly where your case stands — 24/7, from your phone. No more calling the office and waiting for a callback." }
+      "free": { "title": "Free consultation, no strings", "desc": "We evaluate your case at no cost. No credit card. No commitment. No follow-up calls pressuring you to sign. If we're not the right fit, we'll tell you, and we'll tell you who is." },
+      "tech": { "title": "Your case, tracked in real time", "desc": "With Verde+, our immigration platform, you see exactly where your case stands 24/7, from your phone. No more calling the office and waiting for a callback." }
     }
   },
   "process": {
     "eyebrow": "How It Works",
     "title": "Four steps. No retainer until we agree on a plan.",
-    "step1": { "title": "Free Consultation", "desc": "Call, WhatsApp, or schedule online. A real person — not a bot — walks through your situation in 15–30 minutes. No cost. No pressure." },
-    "step2": { "title": "Case Evaluation", "desc": "Our attorneys review the facts, identify your options, and tell you honestly what's possible — and what isn't. You'll know exactly where you stand." },
-    "step3": { "title": "Legal Preparation", "desc": "We build your case — declarations, evidence packages, expert testimony, everything. You'll know what we're filing before we file it." },
+    "step1": { "title": "Free Consultation", "desc": "Call, WhatsApp, or schedule online. A real person walks through your situation in 15–30 minutes. Not a bot. No cost. No pressure." },
+    "step2": { "title": "Case Evaluation", "desc": "Our attorneys review the facts, identify your options, and tell you honestly what's possible and what isn't. You'll know exactly where you stand." },
+    "step3": { "title": "Legal Preparation", "desc": "We build your case: declarations, evidence packages, expert testimony, everything. You'll know what we're filing before we file it." },
     "step4": { "title": "Full Representation", "desc": "We represent you from the first hearing to the final decision. If the judge rules against us, we discuss appeals the same day. We don't disappear after filing." }
   },
   "testimonials": {
@@ -44,12 +44,12 @@
     "photoEyebrow": "Founder & Managing Attorney",
     "name": "Rafael Verde",
     "role": "Founder & Managing Attorney",
-    "body1": "Rafael Verde was born on the outskirts of Havana. When his family came to South Florida, he was a kid with no connections, no English, and no roadmap — just the same thing every immigrant family carries: the belief that hard work here means a better life.",
-    "body2": "He went to Doral Academy, then Florida International University, then Barry University School of Law. But law school wasn't the plan from birth — advocacy was. Rafael spent years in communications and public relations before realizing that the people who needed the loudest voice had no one speaking for them in court. So he built Verde Law: not to be the biggest immigration firm, but to be the one that treats every family the way his own family deserved to be treated when they arrived — with urgency, with respect, and with someone who actually understands what's at stake because he's lived it. Thousands of families later, the mission hasn't changed.",
+    "body1": "Rafael Verde was born on the outskirts of Havana. When his family came to South Florida, he was a kid with no connections, no English, and no roadmap. Just the same thing every immigrant family carries: the belief that hard work here means a better life.",
+    "body2": "He went to Doral Academy, then Florida International University, then Barry University School of Law. But law school wasn't the plan from birth. Advocacy was. Rafael spent years in communications and public relations before realizing that the people who needed the loudest voice had no one speaking for them in court. So he built Verde Law: not to be the biggest immigration firm, but to be the one that treats every family the way his own family deserved to be treated when they arrived, with urgency, with respect, and with someone who actually understands what's at stake because he's lived it. Thousands of families later, the mission hasn't changed.",
     "viewTeam": "Meet the full team",
     "credentials": {
-      "georgetown": "Education: Florida International University — B.S., Public Relations & Communications",
-      "aila": "Education: Barry University School of Law — Juris Doctor",
+      "georgetown": "Education: Florida International University, B.S., Public Relations & Communications",
+      "aila": "Education: Barry University School of Law, Juris Doctor",
       "floridaBar": "Bar: Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida",
       "eleventhCircuit": "Languages: English · Spanish"
     }
@@ -57,7 +57,7 @@
   "videoShowcase": {
     "eyebrow": "Free Education",
     "title": "Clear answers about your immigration rights.",
-    "subtitle": "More than 60,000 people follow us on TikTok to learn how the immigration system actually works — in Spanish, in plain language, no legal jargon.",
+    "subtitle": "More than 60,000 people follow us on TikTok to learn how the immigration system actually works. In Spanish, in plain language, no legal jargon.",
     "videos": {
       "v1": { "cat": "ICE Detention", "title": "What to do if ICE knocks on your door" },
       "v2": { "cat": "Asylum", "title": "The 5 mistakes that sink asylum cases" },
@@ -72,7 +72,7 @@
   "verdePlusTeaser": {
     "eyebrow": "Coming Soon",
     "title": "Verde+: Your immigration case, in the palm of your hand.",
-    "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone — with exclusive features for Verde Law clients.",
+    "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone, with exclusive features for Verde Law clients.",
     "cta": "More about Verde+",
     "features": {
       "caseTracker": { "title": "Case Tracker", "desc": "See exactly where your case stands in real time." },

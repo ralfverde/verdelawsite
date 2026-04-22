@@ -6,7 +6,7 @@
     },
     "eyebrow": "Nuestros Servicios",
     "title": "Representación migratoria completa. Cada audiencia manejada internamente.",
-    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio a continuación es manejado por abogados que conocen su caso por nombre — no por número de expediente.",
+    "subtitle": "Desde audiencias de fianza de emergencia hasta entrevistas de residencia, cada servicio a continuación es manejado por abogados que conocen su caso por nombre, no por número de expediente.",
     "startingAt": "Desde",
     "tabs": {
       "all": "Todos los servicios",
@@ -41,7 +41,7 @@
   "practiceFaq": {
     "q1": {
       "question": "¿Cuánto tarda normalmente el proceso?",
-      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios del circuito federal — no por nosotros. Un estimado realista depende de su tipo de caso específico, los atrasos actuales en su jurisdicción, y qué tan completa esté su evidencia. Durante su consulta gratuita, le daremos un cronograma concreto basado en cómo realmente se ve su caso — no una fantasía del mejor escenario."
+      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios del circuito federal, no por nosotros. Un estimado realista depende de su tipo de caso específico, los atrasos actuales en su jurisdicción, y qué tan completa esté su evidencia. Durante su consulta gratuita, le daremos un cronograma concreto basado en cómo realmente se ve su caso, no una fantasía del mejor escenario."
     },
     "q2": {
       "question": "¿Qué pasa si niegan mi caso?",
@@ -57,11 +57,11 @@
     },
     "q5": {
       "question": "¿La primera consulta es realmente gratis?",
-      "answer": "Sí. Sin tarjeta de crédito. Sin obligación de contratarnos. Un miembro real de nuestro equipo — no un chatbot — revisará su situación, explicará sus opciones, y le dará una evaluación honesta. Si no somos la opción correcta, se lo diremos. Si otra firma puede ayudarle mejor, le referiremos."
+      "answer": "Sí. Sin tarjeta de crédito. Sin obligación de contratarnos. Un miembro real de nuestro equipo, no un chatbot, revisará su situación, explicará sus opciones, y le dará una evaluación honesta. Si no somos la opción correcta, se lo diremos. Si otra firma puede ayudarle mejor, le referiremos."
     },
     "q6": {
       "question": "¿Pueden ayudar si no vivo en Florida?",
-      "answer": "Absolutamente. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Manejamos casos en los 50 estados. La mayoría de nuestras consultas se realizan por teléfono o WhatsApp — no necesita viajar a Miami."
+      "answer": "Absolutamente. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Manejamos casos en los 50 estados. La mayoría de nuestras consultas se realizan por teléfono o WhatsApp. No necesita viajar a Miami."
     }
   }
 }

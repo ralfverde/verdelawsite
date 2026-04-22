@@ -1,7 +1,7 @@
 {
   "notFound": {
     "title": "Página no encontrada.",
-    "body": "La página que busca no existe o ha sido movida. Pero seguimos aquí — y su caso todavía importa.",
+    "body": "La página que busca no existe o ha sido movida. Pero seguimos aquí, y su caso todavía importa.",
     "cta": "Volver al Inicio",
     "phone": "¿Necesita ayuda? Llámenos al {phone}"
   }

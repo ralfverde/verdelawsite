@@ -2,19 +2,19 @@
   "globalFaq": {
     "consultation": {
       "question": "What is a free consultation and what does it include?",
-      "answer": "A free consultation is a 15–30 minute conversation — by phone, WhatsApp, or video — with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
+      "answer": "A free consultation is a 15–30 minute conversation by phone, WhatsApp, or video with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
     },
     "cost": {
       "question": "How much does it cost to hire an immigration attorney?",
-      "answer": "Our fees depend on the type of case and its complexity. We charge flat fees — never hourly — so you know the total cost before you sign anything. During your free consultation, we'll give you an exact quote with no hidden charges. Payment plans are always available, and we'll never let cost be the reason you don't get representation."
+      "answer": "Our fees depend on the type of case and its complexity. We charge flat fees, never hourly, so you know the total cost before you sign anything. During your free consultation, we'll give you an exact quote with no hidden charges. Payment plans are always available, and we'll never let cost be the reason you don't get representation."
     },
     "outsideFlorida": {
       "question": "Can you help me if I don't live in Florida?",
-      "answer": "Yes. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We handle cases in all 50 states. Most consultations happen by phone or WhatsApp — you don't need to travel to Miami."
+      "answer": "Yes. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We handle cases in all 50 states. Most consultations happen by phone or WhatsApp. You don't need to travel to Miami."
     },
     "deportationOrder": {
       "question": "I already have a deportation order. Is it too late?",
-      "answer": "Not necessarily. Depending on why and when the order was issued, we may be able to file a motion to reopen, a motion to reconsider, or an appeal. In some cases, we can stay the removal while we fight. Every old order is different — bring us yours and we'll tell you, honestly, what's still possible."
+      "answer": "Not necessarily. Depending on why and when the order was issued, we may be able to file a motion to reopen, a motion to reconsider, or an appeal. In some cases, we can stay the removal while we fight. Every old order is different. Bring us yours and we'll tell you, honestly, what's still possible."
     },
     "asylumProcess": {
       "question": "How does the asylum process work?",
@@ -22,11 +22,11 @@
     },
     "bondHearing": {
       "question": "My family member was detained by ICE. What do we do?",
-      "answer": "Call us immediately — (305) 786-3003. The first 48 hours matter most. We file for bond within a few days of being retained, and most of our detained clients are released within 3–4 weeks. Do not have your family member sign anything — especially not voluntary departure — until they've spoken with an attorney."
+      "answer": "Call us immediately at (305) 786-3003. The first 48 hours matter most. We file for bond within a few days of being retained, and most of our detained clients are released within 3–4 weeks. Do not have your family member sign anything, especially not voluntary departure, until they've spoken with an attorney."
     },
     "timeline": {
       "question": "How long will my case take?",
-      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. Work permits typically take 6–12 months. Bond hearings happen within a few weeks. Asylum and removal defense can run 1–3 years. We'll give you a concrete estimate for your specific case during the consultation — not a best-case fantasy."
+      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules, not by us. Work permits typically take 6–12 months. Bond hearings happen within a few weeks. Asylum and removal defense can run 1–3 years. We'll give you a concrete estimate for your specific case during the consultation, not a best-case fantasy."
     },
     "workWhilePending": {
       "question": "Can I work legally while my case is pending?",
@@ -34,7 +34,7 @@
     },
     "documents": {
       "question": "What documents should I bring to the consultation?",
-      "answer": "Whatever you have — passports, prior case documents, court notices, I-94s, old applications, police reports, medical records. If you don't have anything, that's fine too. We'll talk through what you remember and tell you what we need to gather. Come as you are."
+      "answer": "Whatever you have: passports, prior case documents, court notices, I-94s, old applications, police reports, medical records. If you don't have anything, that's fine too. We'll talk through what you remember and tell you what we need to gather. Come as you are."
     },
     "paymentPlans": {
       "question": "Do you offer payment plans?",
@@ -42,7 +42,7 @@
     },
     "vawaEligibility": {
       "question": "Am I eligible for VAWA if I don't have a police report?",
-      "answer": "Yes. VAWA uses an \"any credible evidence\" standard. You do not need a police report. You do not need a conviction. You need your story, told clearly, supported by whatever you have — photographs, messages, medical records, therapy notes, or statements from friends and family. Your abuser is not notified. Ever."
+      "answer": "Yes. VAWA uses an \"any credible evidence\" standard. You do not need a police report. You do not need a conviction. You need your story, told clearly, supported by whatever you have: photographs, messages, medical records, therapy notes, or statements from friends and family. Your abuser is not notified. Ever."
     },
     "iceDetention": {
       "question": "What should I do if ICE detains me?",
@@ -50,15 +50,15 @@
     },
     "detainedHelp": {
       "question": "How fast can you help if my family member is detained right now?",
-      "answer": "We take emergency detention calls the same day. We pull the A-file, identify the facility, and get an attorney on the case within hours. Bond motions are typically filed within 3–5 business days, and most detained clients are released within 3–4 weeks. Call (305) 786-3003 now — every hour matters."
+      "answer": "We take emergency detention calls the same day. We pull the A-file, identify the facility, and get an attorney on the case within hours. Bond motions are typically filed within 3–5 business days, and most detained clients are released within 3–4 weeks. Call (305) 786-3003 now. Every hour matters."
     },
     "uVisa": {
       "question": "What is a U-visa and do I qualify?",
-      "answer": "The U-visa is for noncitizens who were victims of a qualifying serious crime (domestic violence, sexual assault, felonious assault, trafficking, and more) and cooperated with law enforcement. You qualify if you suffered substantial harm and have a law enforcement certification — which we help you obtain. Waitlists are long, but interim work permits and deferred action are available while you wait."
+      "answer": "The U-visa is for noncitizens who were victims of a qualifying serious crime (domestic violence, sexual assault, felonious assault, trafficking, and more) and cooperated with law enforcement. You qualify if you suffered substantial harm and have a law enforcement certification, which we help you obtain. Waitlists are long, but interim work permits and deferred action are available while you wait."
     },
     "citizenship": {
       "question": "I've been a green card holder for 5 years. Should I apply for citizenship?",
-      "answer": "Probably yes — but it depends on a few things: your physical presence, your travel history, your tax filings, and whether you have any prior criminal issues. A bad N-400 filing can put a lawful permanent resident into removal proceedings. We run a full eligibility audit before filing so your application is a celebration, not a risk."
+      "answer": "Probably yes, but it depends on a few things: your physical presence, your travel history, your tax filings, and whether you have any prior criminal issues. A bad N-400 filing can put a lawful permanent resident into removal proceedings. We run a full eligibility audit before filing so your application is a celebration, not a risk."
     }
   }
 }

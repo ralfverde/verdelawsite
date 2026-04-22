@@ -7,30 +7,30 @@
     "cards": {
       "deportation": { "title": "Defensa de Deportación", "desc": "Cuando el gobierno inicia un proceso de deportación, nosotros nos ponemos entre usted y la deportación. Cada audiencia, cada moción, cada argumento." },
       "asylum": { "title": "Asilo Político", "desc": "Si huyó de la persecución en su país, la ley puede protegerle aquí. Nosotros construimos el caso más fuerte posible para su seguridad." },
-      "bond": { "title": "Audiencias de Fianza", "desc": "Su ser querido está detenido. Cada día adentro es un día de más. Luchamos por su liberación — rápido." },
-      "family": { "title": "Peticiones Familiares", "desc": "Reunimos familias a través de peticiones I-130, ajuste de estatus y procesamiento consular. El papeleo es nuestro — la reunión es suya." },
-      "vawaU": { "title": "VAWA y Visa U", "desc": "Las víctimas de abuso y crimen tienen protecciones legales. No necesita el permiso de su agresor para aplicar. Nosotros manejamos todo — confidencialmente." },
+      "bond": { "title": "Audiencias de Fianza", "desc": "Su ser querido está detenido. Cada día adentro es un día de más. Luchamos por su liberación, rápido." },
+      "family": { "title": "Peticiones Familiares", "desc": "Reunimos familias a través de peticiones I-130, ajuste de estatus y procesamiento consular. El papeleo es nuestro. La reunión es suya." },
+      "vawaU": { "title": "VAWA y Visa U", "desc": "Las víctimas de abuso y crimen tienen protecciones legales. No necesita el permiso de su agresor para aplicar. Nosotros manejamos todo, confidencialmente." },
       "naturalization": { "title": "Naturalización y Ciudadanía", "desc": "Usted se ha ganado el derecho de llamar a este país su hogar. Nosotros manejamos su solicitud N-400, preparación para la entrevista, y todo lo demás." }
     }
   },
   "whyVerde": {
     "eyebrow": "Por Qué Las Familias Nos Eligen",
     "title": "No somos solo otra firma. Somos su equipo.",
-    "body1": "Rafael Verde no fundó Verde Law porque quería dirigir una firma de abogados. La fundó porque él fue un niño inmigrante en el sur de la Florida sin nadie a quién llamar cuando el sistema se complicaba — y no quería que la familia de nadie más se sintiera así.",
-    "body2": "Cada caso en Verde Law recibe la misma preparación, la misma urgencia, y el mismo nivel de atención — ya sea una audiencia de fianza que necesita ocurrir esta semana o una petición familiar que tomará dieciocho meses. Devolvemos las llamadas el mismo día, explicamos todo en lenguaje claro, y no paramos hasta que su caso se resuelva.",
+    "body1": "Rafael Verde no fundó Verde Law porque quería dirigir una firma de abogados. La fundó porque él fue un niño inmigrante en el sur de la Florida sin nadie a quién llamar cuando el sistema se complicaba, y no quería que la familia de nadie más se sintiera así.",
+    "body2": "Cada caso en Verde Law recibe la misma preparación, la misma urgencia, y el mismo nivel de atención, ya sea una audiencia de fianza que necesita ocurrir esta semana o una petición familiar que tomará dieciocho meses. Devolvemos las llamadas el mismo día, explicamos todo en lenguaje claro, y no paramos hasta que su caso se resuelva.",
     "reasons": {
       "bilingual": { "title": "Su idioma, siempre", "desc": "Cada persona en Verde Law habla español. Nunca necesitará un traductor, nunca se sentirá perdido en su propio caso, y nunca se preguntará qué fue lo que dijo su abogado." },
       "national": { "title": "50 estados. Una firma.", "desc": "La ley de inmigración es federal. Un abogado licenciado en Florida puede representarle en cualquier corte de inmigración del país. Nos presentamos en persona cuando es necesario, y remotamente cuando es permitido." },
-      "free": { "title": "Consulta gratuita — sin condiciones", "desc": "Evaluamos su caso sin costo. Sin tarjeta de crédito. Sin compromiso. Sin llamadas de seguimiento presionándole para firmar. Si no somos la opción correcta, se lo diremos — y le diremos quién sí lo es." },
-      "tech": { "title": "Su caso, rastreado en tiempo real", "desc": "Con Verde+, nuestra plataforma de inmigración, usted ve exactamente dónde está su caso — las 24 horas, desde su teléfono. No más llamar a la oficina y esperar que le devuelvan la llamada." }
+      "free": { "title": "Consulta gratuita, sin condiciones", "desc": "Evaluamos su caso sin costo. Sin tarjeta de crédito. Sin compromiso. Sin llamadas de seguimiento presionándole para firmar. Si no somos la opción correcta, se lo diremos, y le diremos quién sí lo es." },
+      "tech": { "title": "Su caso, rastreado en tiempo real", "desc": "Con Verde+, nuestra plataforma de inmigración, usted ve exactamente dónde está su caso las 24 horas, desde su teléfono. No más llamar a la oficina y esperar que le devuelvan la llamada." }
     }
   },
   "process": {
     "eyebrow": "Cómo Funciona",
     "title": "Cuatro pasos. No hay pago hasta que acordemos un plan.",
-    "step1": { "title": "Consulta Gratuita", "desc": "Llame, envíe WhatsApp, o agende en línea. Una persona real — no un bot — revisa su situación en 15–30 minutos. Sin costo. Sin presión." },
-    "step2": { "title": "Evaluación del Caso", "desc": "Nuestros abogados revisan los hechos, identifican sus opciones, y le dicen honestamente qué es posible — y qué no lo es. Usted sabrá exactamente dónde se encuentra." },
-    "step3": { "title": "Preparación Legal", "desc": "Construimos su caso — declaraciones, paquetes de evidencia, testimonio de expertos, todo. Usted sabrá qué vamos a presentar antes de que lo presentemos." },
+    "step1": { "title": "Consulta Gratuita", "desc": "Llame, envíe WhatsApp, o agende en línea. Una persona real revisa su situación en 15–30 minutos. Sin costo. Sin presión." },
+    "step2": { "title": "Evaluación del Caso", "desc": "Nuestros abogados revisan los hechos, identifican sus opciones, y le dicen honestamente qué es posible y qué no lo es. Usted sabrá exactamente dónde se encuentra." },
+    "step3": { "title": "Preparación Legal", "desc": "Construimos su caso: declaraciones, paquetes de evidencia, testimonio de expertos, todo. Usted sabrá qué vamos a presentar antes de que lo presentemos." },
     "step4": { "title": "Representación Completa", "desc": "Le representamos desde la primera audiencia hasta la decisión final. Si el juez falla en nuestra contra, discutimos apelaciones el mismo día. No desaparecemos después de presentar." }
   },
   "testimonials": {
@@ -44,12 +44,12 @@
     "photoEyebrow": "Fundador y Abogado Principal",
     "name": "Rafael Verde",
     "role": "Fundador y Abogado Principal",
-    "body1": "Rafael Verde nació en las afueras de La Habana. Cuando su familia llegó al sur de la Florida, era un niño sin conexiones, sin inglés, y sin mapa — solo con lo mismo que cada familia inmigrante lleva consigo: la creencia de que el trabajo duro aquí significa una vida mejor.",
-    "body2": "Estudió en Doral Academy, luego en Florida International University, y después en Barry University School of Law. Pero la abogacía no fue el plan desde el principio — la defensa de otros sí. Rafael pasó años en comunicaciones y relaciones públicas antes de darse cuenta de que las personas que más necesitaban una voz no tenían a nadie hablando por ellas en la corte. Así que construyó Verde Law: no para ser la firma de inmigración más grande, sino para ser la que trata a cada familia como su propia familia merecía ser tratada cuando llegaron — con urgencia, con respeto, y con alguien que realmente entiende lo que está en juego porque lo ha vivido. Miles de familias después, la misión no ha cambiado.",
+    "body1": "Rafael Verde nació en las afueras de La Habana. Cuando su familia llegó al sur de la Florida, era un niño sin conexiones, sin inglés, y sin mapa. Solo con lo mismo que cada familia inmigrante lleva consigo: la creencia de que el trabajo duro aquí significa una vida mejor.",
+    "body2": "Estudió en Doral Academy, luego en Florida International University, y después en Barry University School of Law. Pero la abogacía no fue el plan desde el principio. La defensa de otros sí. Rafael pasó años en comunicaciones y relaciones públicas antes de darse cuenta de que las personas que más necesitaban una voz no tenían a nadie hablando por ellas en la corte. Así que construyó Verde Law: no para ser la firma de inmigración más grande, sino para ser la que trata a cada familia como su propia familia merecía ser tratada cuando llegaron: con urgencia, con respeto, y con alguien que realmente entiende lo que está en juego porque lo ha vivido. Miles de familias después, la misión no ha cambiado.",
     "viewTeam": "Conozca al equipo completo",
     "credentials": {
-      "georgetown": "Educación: Florida International University — B.S., Relaciones Públicas y Comunicaciones",
-      "aila": "Educación: Barry University School of Law — Juris Doctor",
+      "georgetown": "Educación: Florida International University, B.S., Relaciones Públicas y Comunicaciones",
+      "aila": "Educación: Barry University School of Law, Juris Doctor",
       "floridaBar": "Barra: Colegio de Abogados de Florida · Corte de Apelaciones de EE.UU., Circuito Once · Corte de Distrito de EE.UU., Distrito Sur de Florida",
       "eleventhCircuit": "Idiomas: Inglés · Español"
     }
@@ -57,7 +57,7 @@
   "videoShowcase": {
     "eyebrow": "Educación Gratuita",
     "title": "Respuestas claras sobre sus derechos migratorios.",
-    "subtitle": "Más de 60,000 personas nos siguen en TikTok para aprender cómo funciona realmente el sistema de inmigración — en español, en lenguaje claro, sin jerga legal.",
+    "subtitle": "Más de 60,000 personas nos siguen en TikTok para aprender cómo funciona realmente el sistema de inmigración, en español, en lenguaje claro, sin jerga legal.",
     "videos": {
       "v1": { "cat": "Detención ICE", "title": "Qué hacer si ICE toca su puerta" },
       "v2": { "cat": "Asilo", "title": "Los 5 errores que hunden los casos de asilo" },
@@ -72,7 +72,7 @@
   "verdePlusTeaser": {
     "eyebrow": "Próximamente",
     "title": "Verde+: Su caso de inmigración, en la palma de su mano.",
-    "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en los Estados Unidos. Gratis para todos — con funciones exclusivas para clientes de Verde Law.",
+    "subtitle": "La primera plataforma todo-en-uno diseñada para inmigrantes hispanos en los Estados Unidos. Gratis para todos, con funciones exclusivas para clientes de Verde Law.",
     "cta": "Más información sobre Verde+",
     "features": {
       "caseTracker": { "title": "Seguimiento de Caso", "desc": "Vea exactamente dónde está su caso en tiempo real." },

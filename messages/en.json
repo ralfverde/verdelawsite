@@ -14,9 +14,9 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "eyebrow": "Immigration Attorneys — All 50 States",
+    "eyebrow": "Immigration Attorneys Serving All 50 States",
     "title": "You deserve an attorney who answers the phone, speaks your language, and fights like it's personal.",
-    "subtitle": "Verde Law has represented thousands of families in immigration court — from asylum hearings to bond proceedings to deportation defense. Your first consultation is free, confidential, and comes with zero pressure to hire us.",
+    "subtitle": "Verde Law has represented thousands of families in immigration court, from asylum hearings to bond proceedings to deportation defense. Your first consultation is free, confidential, and comes with zero pressure to hire us.",
     "ctaPrimary": "Schedule My Free Consultation",
     "ctaWhatsApp": "Send us a WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
@@ -24,7 +24,7 @@
     "badges": {
       "cases": "Thousands of families represented",
       "states": "All 50 states",
-      "free": "Free consultation — always"
+      "free": "Free consultation, always"
     }
   },
   "socialProof": {
@@ -35,7 +35,7 @@
   },
   "cta": {
     "bannerDark": {
-      "title": "Have an immigration case? Talk to us today — no cost, no obligation, no judgment."
+      "title": "Have an immigration case? Talk to us today. No cost, no obligation, no judgment."
     },
     "bannerLight": {
       "title": "Thousands of families have trusted Verde Law with their future. You could be next."
@@ -43,7 +43,7 @@
     "subtitle": "Confidential consultations in Spanish, English, Haitian Creole, and Portuguese.",
     "freeConsultation": "Free Consultation",
     "finalTitle": "Your case cannot wait. But the consultation is free.",
-    "finalSubtitle": "100% free. 100% confidential. A real attorney — not a paralegal, not a bot — reviews your case.",
+    "finalSubtitle": "100% free. 100% confidential. A real attorney reviews your case. Not a paralegal, not a bot.",
     "scheduleCTA": "Schedule My Free Consultation"
   },
   "floating": {
@@ -96,15 +96,15 @@
       },
       "bond": {
         "title": "Bond Hearings",
-        "desc": "Your loved one is detained. Every day inside is a day too many. We fight for their release — fast."
+        "desc": "Your loved one is detained. Every day inside is a day too many. We fight for their release, fast."
       },
       "family": {
         "title": "Family Petitions",
-        "desc": "Reuniting families through I-130 petitions, adjustment of status, and consular processing. The paperwork is ours — the reunion is yours."
+        "desc": "Reuniting families through I-130 petitions, adjustment of status, and consular processing. The paperwork is ours. The reunion is yours."
       },
       "vawaU": {
         "title": "VAWA & U-Visa",
-        "desc": "Survivors of abuse and crime have legal protections. You don't need your abuser's permission to apply. We handle everything — confidentially."
+        "desc": "Survivors of abuse and crime have legal protections. You don't need your abuser's permission to apply. We handle everything, confidentially."
       },
       "naturalization": {
         "title": "Naturalization & Citizenship",
@@ -115,8 +115,8 @@
   "whyVerde": {
     "eyebrow": "Why Families Choose Us",
     "title": "We're not just another firm. We're your team.",
-    "body1": "Rafael Verde didn't start Verde Law because he wanted to run a law firm. He started it because he'd been an immigrant kid in South Florida with no one to call when the system got complicated — and he didn't want anyone else's family to feel that way.",
-    "body2": "Every case at Verde Law gets the same preparation, the same urgency, and the same level of care — whether it's a bond hearing that needs to happen this week or a family petition that will take eighteen months. We return calls the same day, we explain things in plain language, and we don't stop until your case is resolved.",
+    "body1": "Rafael Verde didn't start Verde Law because he wanted to run a law firm. He started it because he'd been an immigrant kid in South Florida with no one to call when the system got complicated, and he didn't want anyone else's family to feel that way.",
+    "body2": "Every case at Verde Law gets the same preparation, the same urgency, and the same level of care, whether it's a bond hearing that needs to happen this week or a family petition that will take eighteen months. We return calls the same day, we explain things in plain language, and we don't stop until your case is resolved.",
     "reasons": {
       "bilingual": {
         "title": "Your language, always",
@@ -127,12 +127,12 @@
         "desc": "Immigration law is federal. A Florida-licensed attorney can represent you in any immigration court in the country. We appear in person when required, remotely when allowed."
       },
       "free": {
-        "title": "Free consultation — no strings",
-        "desc": "We evaluate your case at no cost. No credit card. No commitment. No follow-up calls pressuring you to sign. If we're not the right fit, we'll tell you — and we'll tell you who is."
+        "title": "Free consultation, no strings",
+        "desc": "We evaluate your case at no cost. No credit card. No commitment. No follow-up calls pressuring you to sign. If we're not the right fit, we'll tell you, and we'll tell you who is."
       },
       "tech": {
         "title": "Your case, tracked in real time",
-        "desc": "With Verde+, our immigration platform, you see exactly where your case stands — 24/7, from your phone. No more calling the office and waiting for a callback."
+        "desc": "With Verde+, our immigration platform, you see exactly where your case stands 24/7, from your phone. No more calling the office and waiting for a callback."
       }
     }
   },
@@ -141,15 +141,15 @@
     "title": "Four steps. No retainer until we agree on a plan.",
     "step1": {
       "title": "Free Consultation",
-      "desc": "Call, WhatsApp, or schedule online. A real person — not a bot — walks through your situation in 15–30 minutes. No cost. No pressure."
+      "desc": "Call, WhatsApp, or schedule online. A real person walks through your situation in 15–30 minutes. Not a bot. No cost. No pressure."
     },
     "step2": {
       "title": "Case Evaluation",
-      "desc": "Our attorneys review the facts, identify your options, and tell you honestly what's possible — and what isn't. You'll know exactly where you stand."
+      "desc": "Our attorneys review the facts, identify your options, and tell you honestly what's possible and what isn't. You'll know exactly where you stand."
     },
     "step3": {
       "title": "Legal Preparation",
-      "desc": "We build your case — declarations, evidence packages, expert testimony, everything. You'll know what we're filing before we file it."
+      "desc": "We build your case: declarations, evidence packages, expert testimony, everything. You'll know what we're filing before we file it."
     },
     "step4": {
       "title": "Full Representation",
@@ -167,12 +167,12 @@
     "photoEyebrow": "Founder & Managing Attorney",
     "name": "Rafael Verde",
     "role": "Founder & Managing Attorney",
-    "body1": "Rafael Verde was born on the outskirts of Havana. When his family came to South Florida, he was a kid with no connections, no English, and no roadmap — just the same thing every immigrant family carries: the belief that hard work here means a better life.",
-    "body2": "He went to Doral Academy, then Florida International University, then Barry University School of Law. But law school wasn't the plan from birth — advocacy was. Rafael spent years in communications and public relations before realizing that the people who needed the loudest voice had no one speaking for them in court. So he built Verde Law: not to be the biggest immigration firm, but to be the one that treats every family the way his own family deserved to be treated when they arrived — with urgency, with respect, and with someone who actually understands what's at stake because he's lived it. Thousands of families later, the mission hasn't changed.",
+    "body1": "Rafael Verde was born on the outskirts of Havana. When his family came to South Florida, he was a kid with no connections, no English, and no roadmap. Just the same thing every immigrant family carries: the belief that hard work here means a better life.",
+    "body2": "He went to Doral Academy, then Florida International University, then Barry University School of Law. But law school wasn't the plan from birth. Advocacy was. Rafael spent years in communications and public relations before realizing that the people who needed the loudest voice had no one speaking for them in court. So he built Verde Law: not to be the biggest immigration firm, but to be the one that treats every family the way his own family deserved to be treated when they arrived, with urgency, with respect, and with someone who actually understands what's at stake because he's lived it. Thousands of families later, the mission hasn't changed.",
     "viewTeam": "Meet the full team",
     "credentials": {
-      "georgetown": "Education: Florida International University — B.S., Public Relations & Communications",
-      "aila": "Education: Barry University School of Law — Juris Doctor",
+      "georgetown": "Education: Florida International University, B.S., Public Relations & Communications",
+      "aila": "Education: Barry University School of Law, Juris Doctor",
       "floridaBar": "Bar: Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida",
       "eleventhCircuit": "Languages: English · Spanish"
     }
@@ -180,7 +180,7 @@
   "videoShowcase": {
     "eyebrow": "Free Education",
     "title": "Clear answers about your immigration rights.",
-    "subtitle": "More than 60,000 people follow us on TikTok to learn how the immigration system actually works — in Spanish, in plain language, no legal jargon.",
+    "subtitle": "More than 60,000 people follow us on TikTok to learn how the immigration system actually works. In Spanish, in plain language, no legal jargon.",
     "videos": {
       "v1": {
         "cat": "ICE Detention",
@@ -204,7 +204,7 @@
   "verdePlusTeaser": {
     "eyebrow": "Coming Soon",
     "title": "Verde+: Your immigration case, in the palm of your hand.",
-    "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone — with exclusive features for Verde Law clients.",
+    "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone, with exclusive features for Verde Law clients.",
     "cta": "More about Verde+",
     "features": {
       "caseTracker": {
@@ -232,7 +232,7 @@
     },
     "eyebrow": "Our Services",
     "title": "Full-service immigration representation. Every hearing handled in-house.",
-    "subtitle": "From emergency bond hearings to green card interviews, every service below is handled by attorneys who know your case by name — not by file number.",
+    "subtitle": "From emergency bond hearings to green card interviews, every service below is handled by attorneys who know your case by name, not by file number.",
     "startingAt": "From",
     "tabs": {
       "all": "All services",
@@ -267,7 +267,7 @@
   "practiceFaq": {
     "q1": {
       "question": "How long does the process usually take?",
-      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. A realistic estimate depends on your specific case type, current backlogs at your venue, and the completeness of your evidence. During your free consultation, we'll give you a concrete timeline based on what your case actually looks like — not a best-case fantasy."
+      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules, not by us. A realistic estimate depends on your specific case type, current backlogs at your venue, and the completeness of your evidence. During your free consultation, we'll give you a concrete timeline based on what your case actually looks like, not a best-case fantasy."
     },
     "q2": {
       "question": "What happens if my case is denied?",
@@ -283,11 +283,11 @@
     },
     "q5": {
       "question": "Is the first consultation really free?",
-      "answer": "Yes. No credit card required. No obligation to hire us. A real member of our team — not a chatbot — will walk through your situation, explain your options, and give you an honest assessment. If we're not the right fit, we'll tell you. If another firm can help you better, we'll refer you."
+      "answer": "Yes. No credit card required. No obligation to hire us. A real member of our team, not a chatbot, will walk through your situation, explain your options, and give you an honest assessment. If we're not the right fit, we'll tell you. If another firm can help you better, we'll refer you."
     },
     "q6": {
       "question": "Can you help if I don't live in Florida?",
-      "answer": "Absolutely. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court in the country. We handle cases in all 50 states. Most of our consultations happen by phone or WhatsApp — you don't need to travel to Miami."
+      "answer": "Absolutely. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court in the country. We handle cases in all 50 states. Most of our consultations happen by phone or WhatsApp. You don't need to travel to Miami."
     }
   },
   "services": {
@@ -320,7 +320,7 @@
       "forms": "EOIR-28, I-286, EOIR-42B",
       "agency": "EOIR / ICE",
       "overview1": "Detention changes everything. Filings move faster, visits are restricted, and the psychological pressure on your family is enormous. We file emergency motions to get you before a judge quickly.",
-      "overview2": "Our detained practice combines bond work, release requests, and substantive removal defense in a single coordinated engagement — because separating them costs time you don't have.",
+      "overview2": "Our detained practice combines bond work, release requests, and substantive removal defense in a single coordinated engagement, because separating them costs time you don't have.",
       "overview3": "We coordinate with the detention facility, family outside, and the court to keep everyone informed and to move the case forward while you're inside.",
       "step1Title": "Emergency intake",
       "step1Desc": "Same-day consultation with family. We pull A-file, identify the facility, and file EOIR-28.",
@@ -363,7 +363,7 @@
       "agency": "EOIR",
       "overview1": "Cancellation of removal is a discretionary form of relief for people who've lived in the U.S. for 10+ years and who have qualifying U.S. citizen or LPR relatives who would suffer exceptional and extremely unusual hardship if you were removed.",
       "overview2": "It is one of the hardest forms of relief to win. The hardship standard is intentionally high. Winning requires detailed, corroborated evidence and a compelling narrative that no other case replicates.",
-      "overview3": "We prepare cancellation cases like trials — expert witnesses, psychological evaluations, country conditions, medical records, school records, and financial documentation for every qualifying relative.",
+      "overview3": "We prepare cancellation cases like trials: expert witnesses, psychological evaluations, country conditions, medical records, school records, and financial documentation for every qualifying relative.",
       "step1Title": "Eligibility audit",
       "step1Desc": "Continuous physical presence, qualifying relative, good moral character, no bars.",
       "step2Title": "Hardship evidence",
@@ -382,9 +382,9 @@
       "timeline": "Single hearing (30–45 minutes at court, preparation separate)",
       "forms": "EOIR-28",
       "agency": "EOIR",
-      "overview1": "A Master Calendar is the procedural hearing where you enter pleadings, identify relief, and get the merits hearing scheduled. It's short but consequential — mistakes here limit what you can pursue later.",
+      "overview1": "A Master Calendar is the procedural hearing where you enter pleadings, identify relief, and get the merits hearing scheduled. It's short but consequential. Mistakes here limit what you can pursue later.",
       "overview2": "We appear with you, enter pleadings correctly, request all relief you may qualify for, and push for the best possible schedule.",
-      "overview3": "This service is designed for clients who want a one-time Master Calendar appearance without engaging us for the full case — typically because the case is in an early or transitional stage.",
+      "overview3": "This service is designed for clients who want a one-time Master Calendar appearance without engaging us for the full case, typically because the case is in an early or transitional stage.",
       "step1Title": "Pre-hearing consultation",
       "step1Desc": "Review your NTA and file to determine what relief to request.",
       "step2Title": "Pleadings preparation",
@@ -403,7 +403,7 @@
       "timeline": "Half-day to full-day hearing; 60–90 days of prep",
       "forms": "Relief-specific applications, witness affidavits, legal brief",
       "agency": "EOIR",
-      "overview1": "The Individual Hearing (also called the merits hearing) is where your case is decided. You present evidence, testify under oath, and argue legal issues. The judge issues a decision — sometimes from the bench.",
+      "overview1": "The Individual Hearing (also called the merits hearing) is where your case is decided. You present evidence, testify under oath, and argue legal issues. The judge issues a decision, sometimes from the bench.",
       "overview2": "We accept merits-only representation when a client has an existing attorney handling the case but needs trial-level preparation and courtroom presence. We work alongside your current counsel or solo.",
       "overview3": "Our merits prep includes witness prep, mock cross-examination, expert coordination, legal brief, exhibit list, and a binder the judge can actually use.",
       "step1Title": "Case analysis",
@@ -413,7 +413,7 @@
       "step3Title": "Evidence finalization",
       "step3Desc": "Exhibit list, corroborating evidence, expert declarations, country reports.",
       "step4Title": "The hearing",
-      "step4Desc": "Full courtroom representation — opening, direct, cross, closing.",
+      "step4Desc": "Full courtroom representation: opening, direct, cross, closing.",
       "step5Title": "Post-decision",
       "step5Desc": "Written decision review. Appeal if needed (30 days to BIA)."
     },
@@ -425,7 +425,7 @@
       "forms": "I-589, declaration, country conditions evidence",
       "agency": "USCIS",
       "overview1": "Affirmative asylum is available to people in the U.S. who are not yet in removal proceedings and who fear persecution in their home country on account of race, religion, nationality, political opinion, or membership in a particular social group.",
-      "overview2": "The case turns on credibility. Your declaration is the heart of the file. Every detail, every event, every corroborating piece of evidence matters — because Asylum Officers are trained to look for inconsistencies. One short, scared, poorly prepared answer can end the case.",
+      "overview2": "The case turns on credibility. Your declaration is the heart of the file. Every detail, every event, every corroborating piece of evidence matters, because Asylum Officers are trained to look for inconsistencies. One short, scared, poorly prepared answer can end the case.",
       "overview3": "We draft your declaration through multiple sessions to produce a detailed, consistent personal statement. We gather country reports and supporting affidavits, and prep you for the asylum interview with our attorneys present.",
       "step1Title": "Eligibility & one-year bar",
       "step1Desc": "Confirm eligibility and either meet the one-year filing deadline or fit an exception.",
@@ -436,7 +436,7 @@
       "step4Title": "Biometrics & interview",
       "step4Desc": "Biometrics at ASC; asylum interview at the asylum office with our attorney present.",
       "step5Title": "Decision",
-      "step5Desc": "Grant, recommended approval, referral to court, or NOID response — we handle each outcome."
+      "step5Desc": "Grant, recommended approval, referral to court, or NOID response. We handle each outcome."
     },
     "credible-fear-interview": {
       "title": "Credible Fear Interview",
@@ -467,7 +467,7 @@
       "forms": "Bond motion, sponsor affidavits, evidence of ties",
       "agency": "EOIR",
       "overview1": "A bond hearing is where an immigration judge decides whether to release a person from ICE custody while their removal case proceeds. The judge looks at flight risk, danger to the community, and community ties.",
-      "overview2": "Preparation is everything. We gather proof of address, employment, family ties, tax returns, clean criminal history, U.S. citizen/LPR relative support, sponsor affidavits, and community letters. We present a full picture — not just a request.",
+      "overview2": "Preparation is everything. We gather proof of address, employment, family ties, tax returns, clean criminal history, U.S. citizen/LPR relative support, sponsor affidavits, and community letters. We present a full picture, not just a request.",
       "overview3": "Most of our detained clients are released within 3–4 weeks of engagement. Bond amounts vary by case; we negotiate where possible and file custody redetermination when bond is denied initially.",
       "step1Title": "Emergency consultation",
       "step1Desc": "Same-day intake. Identify the facility, pull A-file, start evidence collection.",
@@ -508,7 +508,7 @@
       "timeline": "30–90 days",
       "forms": "28 U.S.C. § 2241 petition, evidence of prolonged detention",
       "agency": "U.S. District Court / EOIR",
-      "overview1": "Some detention is unlawful — mandatory detention that's gone on too long, post-order detention past the Zadvydas six-month mark, or detention without a bond hearing at all. Federal habeas relief can force release.",
+      "overview1": "Some detention is unlawful: mandatory detention that's gone on too long, post-order detention past the Zadvydas six-month mark, or detention without a bond hearing at all. Federal habeas relief can force release.",
       "overview2": "We combine a bond filing (when available) with a federal habeas petition to attack the detention on multiple fronts simultaneously.",
       "overview3": "These are complex cases with short windows. We move fast and we don't take them unless we can build a real record.",
       "step1Title": "Detention analysis",
@@ -583,7 +583,7 @@
       "step4Title": "Hearing",
       "step4Desc": "Oral argument if the court sets one.",
       "step5Title": "Decision",
-      "step5Desc": "Termination, administrative closure, or denial — next steps prepared for each."
+      "step5Desc": "Termination, administrative closure, or denial. Next steps prepared for each."
     },
     "change-of-venue": {
       "title": "Change of Venue",
@@ -614,7 +614,7 @@
       "forms": "Petition for review, appellate brief, record",
       "agency": "U.S. Court of Appeals",
       "overview1": "If the BIA affirms a denial, you have 30 days to file a petition for review in the federal circuit court covering where the immigration judge sat. Federal judges review for legal and constitutional errors.",
-      "overview2": "These cases require federal appellate skill — record citations, legal framing, and argument in open court before a three-judge panel. We brief them like the federal appeals they are.",
+      "overview2": "These cases require federal appellate skill: record citations, legal framing, and argument in open court before a three-judge panel. We brief them like the federal appeals they are.",
       "overview3": "Rafael is admitted to the Eleventh Circuit. For cases in other circuits we associate with admitted local counsel.",
       "step1Title": "Record review",
       "step1Desc": "Obtain and read the entire administrative record.",
@@ -646,12 +646,12 @@
       "step4Title": "Government response",
       "step4Desc": "Review government brief; file reply and any amended petition.",
       "step5Title": "Ruling",
-      "step5Desc": "Court-ordered release, bond hearing, or denial — appeal ready if needed."
+      "step5Desc": "Court-ordered release, bond hearing, or denial. Appeal ready if needed."
     },
     "family-petitions": {
       "title": "Family-Based Petitions (I-130)",
       "short": "The paperwork that keeps families under one roof.",
-      "headline": "Reuniting families — one petition at a time.",
+      "headline": "Reuniting families, one petition at a time.",
       "timeline": "Immediate relatives: 8–16 months. Preference categories: variable.",
       "forms": "I-130, I-130A, proof of relationship",
       "agency": "USCIS",
@@ -697,7 +697,7 @@
       "timeline": "10–18 months",
       "forms": "I-130, I-485, I-864, I-693, I-765, I-131",
       "agency": "USCIS",
-      "overview1": "Our family package handles the I-130 petition, the I-485 adjustment of status application, and the employment authorization document — everything you need for a spouse, parent, or child of a U.S. citizen or permanent resident to get their green card.",
+      "overview1": "Our family package handles the I-130 petition, the I-485 adjustment of status application, and the employment authorization document. It's everything you need for a spouse, parent, or child of a U.S. citizen or permanent resident to get their green card.",
       "overview2": "We coordinate the entire timeline so filings don't conflict, evidence is consistent across applications, and you don't pay three separate attorneys to do one job.",
       "overview3": "Every family case gets a dedicated paralegal who tracks deadlines, prepares documents, and keeps you updated throughout. You'll never have to wonder what's happening with your case.",
       "step1Title": "Full eligibility review",
@@ -720,7 +720,7 @@
       "agency": "USCIS",
       "overview1": "The I-601A provisional waiver lets certain applicants file for a waiver of unlawful presence before leaving the U.S. for consular processing. Approved in the U.S., you travel for the interview, and return approved.",
       "overview2": "The case hinges on proving extreme hardship to a U.S. citizen or LPR spouse or parent if you were barred from returning. Medical, financial, educational, and country-conditions evidence all contribute.",
-      "overview3": "We prepare hardship cases with the same care as cancellation cases — full evidence, expert declarations where useful, and a narrative that reads as a single coherent story.",
+      "overview3": "We prepare hardship cases with the same care as cancellation cases: full evidence, expert declarations where useful, and a narrative that reads as a single coherent story.",
       "step1Title": "Eligibility audit",
       "step1Desc": "Confirm qualifying relative and absence of disqualifying issues.",
       "step2Title": "Hardship evidence",
@@ -739,8 +739,8 @@
       "timeline": "14–24 months",
       "forms": "I-360, personal statement, corroborating evidence",
       "agency": "USCIS (Vermont Service Center)",
-      "overview1": "VAWA — the Violence Against Women Act — allows spouses, children, and parents of abusive U.S. citizens or permanent residents to self-petition for immigration status independently. Your abuser does not need to know you applied. They will not be notified.",
-      "overview2": "The standard of proof is 'any credible evidence.' You do not need a police report. You do not need a conviction. You need your story, told clearly and supported by whatever evidence you have — declarations, photos, messages, medical records, therapy records, or witness statements.",
+      "overview1": "VAWA, the Violence Against Women Act, allows spouses, children, and parents of abusive U.S. citizens or permanent residents to self-petition for immigration status independently. Your abuser does not need to know you applied. They will not be notified.",
+      "overview2": "The standard of proof is 'any credible evidence.' You do not need a police report. You do not need a conviction. You need your story, told clearly and supported by whatever evidence you have: declarations, photos, messages, medical records, therapy records, or witness statements.",
       "overview3": "Every VAWA case at Verde Law is handled with absolute confidentiality. Your file is stored separately. Your name does not appear in shared systems. We understand that safety comes before paperwork.",
       "step1Title": "Safe intake",
       "step1Desc": "Confidential consultation, safety planning, case eligibility review.",
@@ -781,7 +781,7 @@
       "timeline": "3–6 months",
       "forms": "I-765, supporting documentation",
       "agency": "USCIS",
-      "overview1": "The I-765 Employment Authorization Document (EAD) lets eligible applicants work legally in the U.S. Eligibility categories vary — asylum applicants, adjustment applicants, DACA recipients, U-visa waitlist, VAWA, and more.",
+      "overview1": "The I-765 Employment Authorization Document (EAD) lets eligible applicants work legally in the U.S. Eligibility categories vary: asylum applicants, adjustment applicants, DACA recipients, U-visa waitlist, VAWA, and more.",
       "overview2": "We identify the correct eligibility category, prepare the application, and track biometrics and approval.",
       "overview3": "EADs typically arrive in 3–6 months. Renewals can be filed up to 180 days before expiration, with automatic 540-day extensions in many categories.",
       "step1Title": "Category identification",
@@ -818,13 +818,13 @@
     },
     "naturalization": {
       "title": "Naturalization (N-400)",
-      "short": "From green card to citizenship — the last step home.",
+      "short": "From green card to citizenship. The last step home.",
       "headline": "You've earned this. We make sure nothing gets in the way.",
       "timeline": "8–14 months",
       "forms": "N-400, supporting documents",
       "agency": "USCIS",
       "overview1": "Naturalization is the path from lawful permanent residence to U.S. citizenship. Eligibility requires 5 years of LPR status (3 if married to a U.S. citizen), continuous residence and physical presence, good moral character, and basic English and civics.",
-      "overview2": "We screen for issues that can derail the application — failure to file taxes, extended absences abroad, criminal issues, selective service non-registration — and plan accordingly.",
+      "overview2": "We screen for issues that can derail the application (failure to file taxes, extended absences abroad, criminal issues, selective service non-registration) and plan accordingly.",
       "overview3": "We prep you for the English/civics test and conduct a mock interview before the real one.",
       "step1Title": "Eligibility audit",
       "step1Desc": "Residence, presence, character, tax, travel, and criminal screening.",
@@ -846,7 +846,7 @@
       "agency": "USCIS",
       "overview1": "Green cards must be renewed every 10 years. The I-90 also covers replacements for lost, stolen, or damaged cards, and corrections for errors on existing cards.",
       "overview2": "We handle the filing, respond to any RFEs, and track approval through card delivery.",
-      "overview3": "Consider filing for citizenship instead if eligible — we'll tell you if the N-400 makes more sense than a renewal.",
+      "overview3": "Consider filing for citizenship instead if eligible. We'll tell you if the N-400 makes more sense than a renewal.",
       "step1Title": "Eligibility check",
       "step1Desc": "Confirm category and that renewal (not N-400) is the right path.",
       "step2Title": "I-90 filing",
@@ -865,7 +865,7 @@
       "timeline": "3–12 months",
       "forms": "G-639, targeted FOIA requests",
       "agency": "USCIS / ICE / EOIR",
-      "overview1": "Your A-file (alien file) contains everything the government has on file about your immigration history — prior applications, entries, detentions, notices, decisions. It's the baseline for any serious strategy decision.",
+      "overview1": "Your A-file (alien file) contains everything the government has on file about your immigration history: prior applications, entries, detentions, notices, decisions. It's the baseline for any serious strategy decision.",
       "overview2": "We file targeted FOIA requests, respond to any deficiency letters, and provide a written summary of what the records show.",
       "overview3": "Useful before filing new applications, before consular processing, before criminal-immigration consultations, and in any case where the prior record matters.",
       "step1Title": "Request scope",
@@ -888,7 +888,7 @@
       "agency": "USCIS",
       "overview1": "A Request for Evidence (RFE) is USCIS asking for more information before deciding a case. A strong RFE response can save an otherwise denied case. A weak one seals the denial.",
       "overview2": "We read the RFE carefully, identify exactly what USCIS is asking and why, gather the right documents, and draft a targeted legal response that addresses each concern head-on.",
-      "overview3": "We take RFE responses even when we didn't file the underlying case — common when the original attorney dropped the ball or the client filed pro se.",
+      "overview3": "We take RFE responses even when we didn't file the underlying case. Common when the original attorney dropped the ball or the client filed pro se.",
       "step1Title": "RFE analysis",
       "step1Desc": "Read the notice, identify the issues, and determine what's really being requested.",
       "step2Title": "Evidence gathering",
@@ -924,7 +924,7 @@
   },
   "about": {
     "seo": {
-      "title": "About Verde Law — Humanitarian Immigration Firm",
+      "title": "About Verde Law, a Humanitarian Immigration Firm",
       "description": "A Miami-based firm founded by an immigrant, for immigrants. Thousands of families served across all 50 states."
     },
     "eyebrow": "About Us",
@@ -934,10 +934,10 @@
       "eyebrow": "Our Story",
       "title": "From Havana to the courtroom.",
       "p1": "Rafael Verde's path to founding Verde Law didn't start in a law library. It started in a small town on the outskirts of Havana, where he grew up in a close-knit community that taught him two things early: the importance of standing up for others, and the reality that sometimes the system you're born into isn't built for you.",
-      "p2": "When his family emigrated to South Florida, Rafael adapted fast — but he never forgot what it felt like to arrive somewhere new with nothing but hope. He went through Doral Academy, earned a degree in Public Relations and Communications at Florida International University, and spent years learning how to give people a voice before realizing the people who needed it most were sitting in immigration courtrooms with no one to speak for them. That realization led him to Barry University School of Law, and then — weeks after passing the bar — to founding Verde Law.",
+      "p2": "When his family emigrated to South Florida, Rafael adapted fast, but he never forgot what it felt like to arrive somewhere new with nothing but hope. He went through Doral Academy, earned a degree in Public Relations and Communications at Florida International University, and spent years learning how to give people a voice before realizing the people who needed it most were sitting in immigration courtrooms with no one to speak for them. That realization led him to Barry University School of Law, and then, weeks after passing the bar, to founding Verde Law.",
       "p3": "The firm wasn't built to be the biggest. It was built to be the one that treats every case the way Rafael's own family deserved to be treated when they arrived: with urgency, with honesty, and with an attorney who genuinely understands what's on the line because he's been on the other side of that fear.",
-      "p4": "Today, Verde Law is a team of attorneys, paralegals, and support staff serving immigrant families in all 50 states. The cases are bigger, the team is stronger, and the reach is wider — but every new client still gets the same thing Rafael promised from day one: someone who fights for your family like it's their own.",
-      "imageCaption": "Miami office — Coral Way, 2026.",
+      "p4": "Today, Verde Law is a team of attorneys, paralegals, and support staff serving immigrant families in all 50 states. The cases are bigger, the team is stronger, and the reach is wider. But every new client still gets the same thing Rafael promised from day one: someone who fights for your family like it's their own.",
+      "imageCaption": "Miami office. Coral Way, 2026.",
       "milestones": {
         "founded": {
           "value": "Founded 2024",
@@ -956,7 +956,7 @@
     "mission": {
       "eyebrow": "Our Mission",
       "title": "Why we do this.",
-      "quote": "We believe every immigrant deserves quality legal representation — regardless of their financial situation, regardless of their status, regardless of where they come from.",
+      "quote": "We believe every immigrant deserves quality legal representation, regardless of their financial situation, regardless of their status, regardless of where they come from.",
       "values": {
         "accessibility": {
           "title": "Accessibility",
@@ -968,7 +968,7 @@
         },
         "humanity": {
           "title": "Humanity",
-          "desc": "The people sitting across from us are scared, exhausted, and running out of options. We meet them with patience and respect every single time — because that's not a bonus, that's the baseline."
+          "desc": "The people sitting across from us are scared, exhausted, and running out of options. We meet them with patience and respect every single time. That's not a bonus, that's the baseline."
         }
       }
     },
@@ -986,12 +986,12 @@
   },
   "team": {
     "seo": {
-      "title": "Our Team — Verde Law Immigration Attorneys",
+      "title": "Our Team at Verde Law Immigration Attorneys",
       "description": "Meet the Verde Law attorneys, paralegals, and support team fighting for immigrant families across the country."
     },
     "eyebrow": "Our Team",
     "title": "The people fighting for your family.",
-    "subtitle": "Attorneys, paralegals, and support staff — every one of us is here for the same reason.",
+    "subtitle": "Attorneys, paralegals, and support staff. Every one of us is here for the same reason.",
     "teamEyebrow": "Meet the team",
     "teamTitle": "Meet the team.",
     "paralegal": "Paralegal",
@@ -1012,12 +1012,12 @@
     "bookWith": "Book with {name}",
     "bios": {
       "rafael-verde": {
-        "p1": "Rafael Verde was born on the outskirts of Havana, Cuba. His family emigrated to South Florida when he was young, and that experience — arriving somewhere new with nothing but hope — shaped everything that came after.",
+        "p1": "Rafael Verde was born on the outskirts of Havana, Cuba. His family emigrated to South Florida when he was young, and that experience, arriving somewhere new with nothing but hope, shaped everything that came after.",
         "p2": "After studying communications at Florida International University and earning his J.D. from Barry University School of Law, Rafael founded Verde Law with one goal: to give immigrant families the quality of representation they deserve, delivered by someone who understands what they're going through because he's lived it. Today, he personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
         "p3": "Today, Rafael personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
         "education": {
           "label": "Education",
-          "value": "Florida International University · B.S., Public Relations & Communications — Barry University School of Law · Juris Doctor"
+          "value": "Florida International University · B.S., Public Relations & Communications. Barry University School of Law · Juris Doctor"
         },
         "barAdmissions": {
           "label": "Bar Admissions",
@@ -1051,35 +1051,35 @@
       "mayerli": "Mayerli manages asylum and VAWA files, and prepares personal declarations alongside the attorneys.",
       "flor": "Flor coordinates family-based petitions, consular processing, and USCIS filings from intake to approval.",
       "alba": "Alba supports our removal defense practice with evidence gathering, court filings, and client communication.",
-      "daliana": "Daliana keeps the firm running day to day — scheduling, vendor relationships, and the small things that matter to clients.",
+      "daliana": "Daliana keeps the firm running day to day: scheduling, vendor relationships, and the small things that matter to clients.",
       "jeanine": "Jeanine runs our intake team, which means she's usually the first person you talk to when you call.",
-      "yunetsy": "Yunetsy handles billing with the transparency our clients deserve — clear invoices, flexible payment plans, zero surprises.",
+      "yunetsy": "Yunetsy handles billing with the transparency our clients deserve: clear invoices, flexible payment plans, zero surprises.",
       "vianney": "Vianney leads our marketing and community outreach, including the TikTok education channel that reaches tens of thousands of immigrants every week."
     },
     "join": {
       "eyebrow": "Careers",
       "title": "Work with us.",
-      "body": "We're hiring attorneys, paralegals, and bilingual intake specialists. If you want to practice immigration law the right way — with real resources, flat fees, and a team that respects your time — we'd like to meet you.",
+      "body": "We're hiring attorneys, paralegals, and bilingual intake specialists. If you want to practice immigration law the right way, with real resources, flat fees, and a team that respects your time, we'd like to meet you.",
       "cta": "See open positions"
     }
   },
   "locations": {
     "seo": {
-      "title": "Locations — Verde Law Immigration Attorneys",
+      "title": "Locations: Verde Law Immigration Attorneys",
       "description": "Miami-based immigration firm serving clients in all 50 states. Virtual consultations available anywhere in the U.S."
     },
     "eyebrow": "Locations",
     "title": "Based in Miami. Fighting nationwide.",
-    "subtitle": "Our office is in Coral Way. Our clients are everywhere — from Krome detention to immigration courts in Chicago, New York, Los Angeles, and every circuit in between.",
+    "subtitle": "Our office is in Coral Way. Our clients are everywhere, from Krome detention to immigration courts in Chicago, New York, Los Angeles, and every circuit in between.",
     "office": {
       "eyebrow": "Main Office",
-      "title": "Come in person, or don't — both work.",
+      "title": "Come in person, or don't. Both work.",
       "directions": "Get directions"
     },
     "national": {
       "eyebrow": "Nationwide Coverage",
       "title": "All 50 states. One firm.",
-      "body": "Immigration law is federal. It doesn't matter which state you live in — a Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We appear in person when required, remotely when allowed, and we handle the logistics so you don't have to.",
+      "body": "Immigration law is federal. It doesn't matter which state you live in. A Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We appear in person when required, remotely when allowed, and we handle the logistics so you don't have to.",
       "topStatesLabel": "States we serve most often",
       "states": {
         "florida": "Florida",
@@ -1095,7 +1095,7 @@
     "virtual": {
       "eyebrow": "Virtual Consultations",
       "title": "Meet us from anywhere.",
-      "body": "Most of our consultations happen by phone, WhatsApp, or video. You don't need to travel to Miami, and you don't need to take a day off work. Pick the channel that works for you — we're there.",
+      "body": "Most of our consultations happen by phone, WhatsApp, or video. You don't need to travel to Miami, and you don't need to take a day off work. Pick the channel that works for you. We're there.",
       "channels": {
         "phone": {
           "title": "Phone",
@@ -1114,7 +1114,7 @@
   },
   "education": {
     "seo": {
-      "title": "Immigration Education Center — Verde Law",
+      "title": "Immigration Education Center at Verde Law",
       "description": "Free guides, articles, and video explainers about immigration law. Know your rights in the U.S. system."
     },
     "eyebrow": "Education",
@@ -1144,7 +1144,7 @@
         },
         "a2": {
           "category": "Asylum",
-          "title": "The one-year asylum filing deadline — exceptions you should know",
+          "title": "The one-year asylum filing deadline and the exceptions you should know",
           "excerpt": "Most people who miss the one-year deadline still have options. Here are the exceptions that save cases.",
           "date": "March 2026",
           "readTime": "8 min read"
@@ -1223,19 +1223,19 @@
   "globalFaq": {
     "consultation": {
       "question": "What is a free consultation and what does it include?",
-      "answer": "A free consultation is a 15–30 minute conversation — by phone, WhatsApp, or video — with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
+      "answer": "A free consultation is a 15–30 minute conversation by phone, WhatsApp, or video with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
     },
     "cost": {
       "question": "How much does it cost to hire an immigration attorney?",
-      "answer": "Our fees depend on the type of case and its complexity. We charge flat fees — never hourly — so you know the total cost before you sign anything. During your free consultation, we'll give you an exact quote with no hidden charges. Payment plans are always available, and we'll never let cost be the reason you don't get representation."
+      "answer": "Our fees depend on the type of case and its complexity. We charge flat fees, never hourly, so you know the total cost before you sign anything. During your free consultation, we'll give you an exact quote with no hidden charges. Payment plans are always available, and we'll never let cost be the reason you don't get representation."
     },
     "outsideFlorida": {
       "question": "Can you help me if I don't live in Florida?",
-      "answer": "Yes. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We handle cases in all 50 states. Most consultations happen by phone or WhatsApp — you don't need to travel to Miami."
+      "answer": "Yes. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We handle cases in all 50 states. Most consultations happen by phone or WhatsApp. You don't need to travel to Miami."
     },
     "deportationOrder": {
       "question": "I already have a deportation order. Is it too late?",
-      "answer": "Not necessarily. Depending on why and when the order was issued, we may be able to file a motion to reopen, a motion to reconsider, or an appeal. In some cases, we can stay the removal while we fight. Every old order is different — bring us yours and we'll tell you, honestly, what's still possible."
+      "answer": "Not necessarily. Depending on why and when the order was issued, we may be able to file a motion to reopen, a motion to reconsider, or an appeal. In some cases, we can stay the removal while we fight. Every old order is different. Bring us yours and we'll tell you, honestly, what's still possible."
     },
     "asylumProcess": {
       "question": "How does the asylum process work?",
@@ -1243,11 +1243,11 @@
     },
     "bondHearing": {
       "question": "My family member was detained by ICE. What do we do?",
-      "answer": "Call us immediately — (305) 786-3003. The first 48 hours matter most. We file for bond within a few days of being retained, and most of our detained clients are released within 3–4 weeks. Do not have your family member sign anything — especially not voluntary departure — until they've spoken with an attorney."
+      "answer": "Call us immediately at (305) 786-3003. The first 48 hours matter most. We file for bond within a few days of being retained, and most of our detained clients are released within 3–4 weeks. Do not have your family member sign anything, especially not voluntary departure, until they've spoken with an attorney."
     },
     "timeline": {
       "question": "How long will my case take?",
-      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. Work permits typically take 6–12 months. Bond hearings happen within a few weeks. Asylum and removal defense can run 1–3 years. We'll give you a concrete estimate for your specific case during the consultation — not a best-case fantasy."
+      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules, not by us. Work permits typically take 6–12 months. Bond hearings happen within a few weeks. Asylum and removal defense can run 1–3 years. We'll give you a concrete estimate for your specific case during the consultation, not a best-case fantasy."
     },
     "workWhilePending": {
       "question": "Can I work legally while my case is pending?",
@@ -1255,7 +1255,7 @@
     },
     "documents": {
       "question": "What documents should I bring to the consultation?",
-      "answer": "Whatever you have — passports, prior case documents, court notices, I-94s, old applications, police reports, medical records. If you don't have anything, that's fine too. We'll talk through what you remember and tell you what we need to gather. Come as you are."
+      "answer": "Whatever you have: passports, prior case documents, court notices, I-94s, old applications, police reports, medical records. If you don't have anything, that's fine too. We'll talk through what you remember and tell you what we need to gather. Come as you are."
     },
     "paymentPlans": {
       "question": "Do you offer payment plans?",
@@ -1263,7 +1263,7 @@
     },
     "vawaEligibility": {
       "question": "Am I eligible for VAWA if I don't have a police report?",
-      "answer": "Yes. VAWA uses an \"any credible evidence\" standard. You do not need a police report. You do not need a conviction. You need your story, told clearly, supported by whatever you have — photographs, messages, medical records, therapy notes, or statements from friends and family. Your abuser is not notified. Ever."
+      "answer": "Yes. VAWA uses an \"any credible evidence\" standard. You do not need a police report. You do not need a conviction. You need your story, told clearly, supported by whatever you have: photographs, messages, medical records, therapy notes, or statements from friends and family. Your abuser is not notified. Ever."
     },
     "iceDetention": {
       "question": "What should I do if ICE detains me?",
@@ -1271,25 +1271,25 @@
     },
     "detainedHelp": {
       "question": "How fast can you help if my family member is detained right now?",
-      "answer": "We take emergency detention calls the same day. We pull the A-file, identify the facility, and get an attorney on the case within hours. Bond motions are typically filed within 3–5 business days, and most detained clients are released within 3–4 weeks. Call (305) 786-3003 now — every hour matters."
+      "answer": "We take emergency detention calls the same day. We pull the A-file, identify the facility, and get an attorney on the case within hours. Bond motions are typically filed within 3–5 business days, and most detained clients are released within 3–4 weeks. Call (305) 786-3003 now. Every hour matters."
     },
     "uVisa": {
       "question": "What is a U-visa and do I qualify?",
-      "answer": "The U-visa is for noncitizens who were victims of a qualifying serious crime (domestic violence, sexual assault, felonious assault, trafficking, and more) and cooperated with law enforcement. You qualify if you suffered substantial harm and have a law enforcement certification — which we help you obtain. Waitlists are long, but interim work permits and deferred action are available while you wait."
+      "answer": "The U-visa is for noncitizens who were victims of a qualifying serious crime (domestic violence, sexual assault, felonious assault, trafficking, and more) and cooperated with law enforcement. You qualify if you suffered substantial harm and have a law enforcement certification, which we help you obtain. Waitlists are long, but interim work permits and deferred action are available while you wait."
     },
     "citizenship": {
       "question": "I've been a green card holder for 5 years. Should I apply for citizenship?",
-      "answer": "Probably yes — but it depends on a few things: your physical presence, your travel history, your tax filings, and whether you have any prior criminal issues. A bad N-400 filing can put a lawful permanent resident into removal proceedings. We run a full eligibility audit before filing so your application is a celebration, not a risk."
+      "answer": "Probably yes, but it depends on a few things: your physical presence, your travel history, your tax filings, and whether you have any prior criminal issues. A bad N-400 filing can put a lawful permanent resident into removal proceedings. We run a full eligibility audit before filing so your application is a celebration, not a risk."
     }
   },
   "verdePlus": {
     "seo": {
-      "title": "Verde+ — The Immigration App for Hispanic Families in the U.S.",
+      "title": "Verde+. The Immigration App for Hispanic Families in the U.S.",
       "description": "Track your case, scan documents, learn your rights, and connect with your attorney. Free for everyone. Exclusive features for Verde Law clients."
     },
     "hero": {
       "title": "Your immigration case, simplified.",
-      "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone — with exclusive features for Verde Law clients.",
+      "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone, with exclusive features for Verde Law clients.",
       "ctaDownload": "Download the app",
       "ctaMore": "See features"
     },
@@ -1297,7 +1297,7 @@
       "caseTracker": {
         "eyebrow": "Feature 01",
         "title": "Know exactly where your case stands.",
-        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you can see what's happening next — and when.",
+        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you can see what's happening next and when.",
         "h1": "Visual timeline of your case",
         "h2": "Automatic notifications on changes",
         "h3": "24/7 access from any device"
@@ -1415,7 +1415,7 @@
     },
     "download": {
       "title": "Download Verde+ today.",
-      "subtitle": "Track your case, scan your documents, learn your rights — all in one app, in your language.",
+      "subtitle": "Track your case, scan your documents, learn your rights, all in one app, in your language.",
       "appStore": "App Store",
       "playStore": "Google Play",
       "tagline": "It's free. For everyone."
@@ -1423,12 +1423,12 @@
   },
   "contact": {
     "seo": {
-      "title": "Contact Verde Law — Free Immigration Consultation",
+      "title": "Contact Verde Law for a Free Immigration Consultation",
       "description": "Call, WhatsApp, email, or visit our Miami office. We answer in English, Spanish, Haitian Creole, and Portuguese."
     },
     "eyebrow": "Contact Us",
     "title": "Let's talk about your case.",
-    "subtitle": "Pick the channel that works for you — phone, WhatsApp, email, or the form below. Every message reaches a real person within hours.",
+    "subtitle": "Pick the channel that works for you: phone, WhatsApp, email, or the form below. Every message reaches a real person within hours.",
     "info": {
       "title": "Direct lines",
       "whatsapp": "Message us on WhatsApp"
@@ -1469,7 +1469,7 @@
       },
       "s2": {
         "heading": "What we collect",
-        "body": "When you fill out a form or contact us, we collect the information you give us — name, phone number, email, and any details about your case. When you browse the site, we collect standard web analytics (pages visited, approximate location, device type) using cookies and server logs."
+        "body": "When you fill out a form or contact us, we collect the information you give us: name, phone number, email, and any details about your case. When you browse the site, we collect standard web analytics (pages visited, approximate location, device type) using cookies and server logs."
       },
       "s3": {
         "heading": "How we use your information",
@@ -1520,7 +1520,7 @@
   },
   "notFound": {
     "title": "Page not found.",
-    "body": "The page you're looking for doesn't exist or has been moved. But we're still here — and your case still matters.",
+    "body": "The page you're looking for doesn't exist or has been moved. But we're still here, and your case still matters.",
     "cta": "Back to Home",
     "phone": "Need help? Call us at {phone}"
   },
@@ -1562,7 +1562,7 @@
       "urgency": {
         "question": "How soon do you need help?",
         "options": {
-          "immediate": "Immediately — I have an upcoming deadline",
+          "immediate": "Immediately. I have an upcoming deadline",
           "weeks": "Within the next few weeks",
           "exploring": "I'm just exploring my options"
         }
@@ -1570,7 +1570,7 @@
     },
     "results": {
       "heading": "Based on your answers, here's how we can help:",
-      "body": "Every case is unique. A free consultation will give you a clear picture of your specific options — with honest timelines and real numbers.",
+      "body": "Every case is unique. A free consultation will give you a clear picture of your specific options, with honest timelines and real numbers.",
       "ctaPrimary": "Schedule My Free Consultation",
       "ctaWhatsApp": "Or message us on WhatsApp",
       "disclaimer": "This is not legal advice. Results depend on individual circumstances. Past outcomes do not guarantee future outcomes."

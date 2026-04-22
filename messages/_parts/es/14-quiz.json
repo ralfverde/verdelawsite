@@ -37,7 +37,7 @@
       "urgency": {
         "question": "¿Qué tan pronto necesita ayuda?",
         "options": {
-          "immediate": "De inmediato — tengo un plazo próximo",
+          "immediate": "De inmediato. Tengo un plazo próximo",
           "weeks": "En las próximas semanas",
           "exploring": "Solo estoy explorando mis opciones"
         }
@@ -45,7 +45,7 @@
     },
     "results": {
       "heading": "Según sus respuestas, así podemos ayudar:",
-      "body": "Cada caso es único. Una consulta gratuita le dará un panorama claro de sus opciones — con tiempos honestos y números reales.",
+      "body": "Cada caso es único. Una consulta gratuita le dará un panorama claro de sus opciones, con tiempos honestos y números reales.",
       "ctaPrimary": "Agendar Mi Consulta Gratuita",
       "ctaWhatsApp": "O escríbanos por WhatsApp",
       "disclaimer": "Esto no es asesoramiento legal. Los resultados dependen de las circunstancias individuales. Los resultados pasados no garantizan resultados futuros."

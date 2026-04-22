@@ -14,9 +14,9 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "eyebrow": "Immigration Attorneys — All 50 States",
+    "eyebrow": "Immigration Attorneys Serving All 50 States",
     "title": "You deserve an attorney who answers the phone, speaks your language, and fights like it's personal.",
-    "subtitle": "Verde Law has represented thousands of families in immigration court — from asylum hearings to bond proceedings to deportation defense. Your first consultation is free, confidential, and comes with zero pressure to hire us.",
+    "subtitle": "Verde Law has represented thousands of families in immigration court, from asylum hearings to bond proceedings to deportation defense. Your first consultation is free, confidential, and comes with zero pressure to hire us.",
     "ctaPrimary": "Schedule My Free Consultation",
     "ctaWhatsApp": "Send us a WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
@@ -24,7 +24,7 @@
     "badges": {
       "cases": "Thousands of families represented",
       "states": "All 50 states",
-      "free": "Free consultation — always"
+      "free": "Free consultation, always"
     }
   },
   "socialProof": {
@@ -35,7 +35,7 @@
   },
   "cta": {
     "bannerDark": {
-      "title": "Have an immigration case? Talk to us today — no cost, no obligation, no judgment."
+      "title": "Have an immigration case? Talk to us today. No cost, no obligation, no judgment."
     },
     "bannerLight": {
       "title": "Thousands of families have trusted Verde Law with their future. You could be next."
@@ -43,7 +43,7 @@
     "subtitle": "Confidential consultations in Spanish, English, Haitian Creole, and Portuguese.",
     "freeConsultation": "Free Consultation",
     "finalTitle": "Your case cannot wait. But the consultation is free.",
-    "finalSubtitle": "100% free. 100% confidential. A real attorney — not a paralegal, not a bot — reviews your case.",
+    "finalSubtitle": "100% free. 100% confidential. A real attorney reviews your case. Not a paralegal, not a bot.",
     "scheduleCTA": "Schedule My Free Consultation"
   },
   "floating": {

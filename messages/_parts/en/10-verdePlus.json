@@ -1,12 +1,12 @@
 {
   "verdePlus": {
     "seo": {
-      "title": "Verde+ — The Immigration App for Hispanic Families in the U.S.",
+      "title": "Verde+. The Immigration App for Hispanic Families in the U.S.",
       "description": "Track your case, scan documents, learn your rights, and connect with your attorney. Free for everyone. Exclusive features for Verde Law clients."
     },
     "hero": {
       "title": "Your immigration case, simplified.",
-      "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone — with exclusive features for Verde Law clients.",
+      "subtitle": "The first all-in-one platform built for Hispanic immigrants in the United States. Free for everyone, with exclusive features for Verde Law clients.",
       "ctaDownload": "Download the app",
       "ctaMore": "See features"
     },
@@ -14,7 +14,7 @@
       "caseTracker": {
         "eyebrow": "Feature 01",
         "title": "Know exactly where your case stands.",
-        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you can see what's happening next — and when.",
+        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you can see what's happening next and when.",
         "h1": "Visual timeline of your case",
         "h2": "Automatic notifications on changes",
         "h3": "24/7 access from any device"
@@ -84,7 +84,7 @@
     },
     "download": {
       "title": "Download Verde+ today.",
-      "subtitle": "Track your case, scan your documents, learn your rights — all in one app, in your language.",
+      "subtitle": "Track your case, scan your documents, learn your rights, all in one app, in your language.",
       "appStore": "App Store",
       "playStore": "Google Play",
       "tagline": "It's free. For everyone."
