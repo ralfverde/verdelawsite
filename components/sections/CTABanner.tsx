@@ -17,7 +17,7 @@ export function CTABanner({ variant = "dark", titleKey = "bannerDark.title" }: P
   const isDark = variant === "dark";
 
   return (
-    <section aria-label="Call to action" className={isDark ? "bg-[var(--verde-800)]" : "bg-[var(--cream)]"}>
+    <section aria-label="Call to action" className={isDark ? "noise-bg bg-[var(--verde-800)]" : "bg-[var(--cream)]"}>
       <motion.div
         variants={fadeUp}
         initial="hidden"

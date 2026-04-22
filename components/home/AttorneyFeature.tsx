@@ -13,7 +13,7 @@ export function AttorneyFeature() {
   const credentials = ["georgetown", "aila", "floridaBar", "eleventhCircuit"];
 
   return (
-    <section className="bg-[var(--verde-950)] text-white section-y">
+    <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
       <div className="container-wide grid lg:grid-cols-[0.8fr_1fr] gap-14 items-center">
         <motion.div
           variants={slideInRight}

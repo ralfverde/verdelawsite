@@ -22,26 +22,33 @@ export function CookieConsent() {
     <AnimatePresence>
       {visible && (
         <motion.div
-          initial={{ y: 100, opacity: 0 }}
+          initial={{ y: 24, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          exit={{ y: 100, opacity: 0 }}
-          transition={{ duration: 0.35 }}
-          className="fixed inset-x-4 bottom-[96px] lg:bottom-6 z-50 max-w-3xl mx-auto bg-[var(--cream)] text-[var(--text-dark)] border border-black/10 rounded-xl shadow-2xl p-5 md:p-6 flex flex-col md:flex-row md:items-center gap-4"
+          exit={{ y: 20, opacity: 0 }}
+          transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
           role="dialog"
           aria-label={t("ariaLabel")}
+          className="fixed inset-x-0 z-50 bottom-[60px] lg:bottom-0 bg-[var(--verde-950)]/95 backdrop-blur-md border-t border-white/10"
         >
-          <p className="text-sm leading-relaxed flex-1">{t("message")}</p>
-          <div className="flex items-center gap-3">
-            <button
-              type="button"
-              onClick={accept}
-              className="cta-gold text-sm"
-            >
-              {t("accept")}
-            </button>
-            <a href="/privacy" className="text-sm text-[var(--verde-700)] underline underline-offset-4">
-              {t("learnMore")}
-            </a>
+          <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-3 md:gap-6 px-4 md:px-6 py-3">
+            <p className="text-sm text-white/60 leading-relaxed flex-1">
+              {t("message")}
+            </p>
+            <div className="flex items-center gap-4 shrink-0">
+              <a
+                href="/privacy"
+                className="text-sm text-white/50 hover:text-white/80 underline underline-offset-2 transition-colors"
+              >
+                {t("learnMore")}
+              </a>
+              <button
+                type="button"
+                onClick={accept}
+                className="bg-[var(--gold-500)] hover:bg-[var(--gold-400)] text-[var(--verde-950)] text-sm font-semibold px-5 py-2 rounded-full transition-colors"
+              >
+                {t("accept")}
+              </button>
+            </div>
           </div>
         </motion.div>
       )}

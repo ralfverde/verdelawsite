@@ -98,7 +98,7 @@ export default async function TeamPage({ params }: { params: Promise<{ locale: "
       </section>
 
       {/* Paralegals */}
-      <section className="bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("paralegalsEyebrow")}</SectionEyebrow>
           <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("paralegalsTitle")}</h2>
@@ -154,7 +154,7 @@ export default async function TeamPage({ params }: { params: Promise<{ locale: "
       </section>
 
       {/* Join */}
-      <section className="bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
         <div className="container-wide grid lg:grid-cols-2 gap-10 items-center">
           <div>
             <SectionEyebrow>{t("join.eyebrow")}</SectionEyebrow>

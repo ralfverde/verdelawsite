@@ -35,8 +35,8 @@ export function Navbar() {
   }, []);
 
   const bgClass = scrolled
-    ? "bg-[var(--verde-950)]/90 backdrop-blur-md border-b border-white/5"
-    : "bg-transparent border-b border-transparent";
+    ? "bg-[var(--verde-950)]/90 backdrop-blur-xl border-b border-white/[0.06]"
+    : "bg-transparent backdrop-blur-0 border-b border-transparent";
 
   return (
     <>
@@ -44,7 +44,8 @@ export function Navbar() {
         {t("skip")}
       </a>
       <header
-        className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${bgClass}`}
+        className={`fixed inset-x-0 top-0 z-50 will-change-[background-color,backdrop-filter] ${bgClass}`}
+        style={{ transition: "background-color 0.4s cubic-bezier(0.22, 1, 0.36, 1), backdrop-filter 0.4s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.4s cubic-bezier(0.22, 1, 0.36, 1)" }}
         aria-label="Primary"
       >
         <div className="container-wide flex items-center justify-between gap-6 py-4">

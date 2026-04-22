@@ -51,7 +51,7 @@ export default async function VerdePlusPage({ params }: { params: Promise<{ loca
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-[var(--verde-950)] text-white pt-32 pb-24 md:pt-40 md:pb-32">
+      <section className="noise-bg relative overflow-hidden bg-[var(--verde-950)] text-white pt-32 pb-24 md:pt-40 md:pb-32">
         <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900),var(--verde-950)_70%)]" />
         <div aria-hidden className="absolute inset-x-0 -bottom-20 h-40 bg-gradient-to-t from-[var(--gold-500)]/20 to-transparent" />
 
@@ -190,7 +190,7 @@ export default async function VerdePlusPage({ params }: { params: Promise<{ loca
       </section>
 
       {/* Download CTA */}
-      <section className="bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
         <div className="container-wide text-center">
           <PhoneMockup />
           <h2 className="mt-12 font-display text-3xl md:text-5xl">{t("download.title")}</h2>

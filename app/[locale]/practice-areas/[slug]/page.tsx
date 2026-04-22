@@ -161,7 +161,7 @@ export default async function PracticeAreaDetailPage({
       </section>
 
       {/* Process */}
-      <section className="bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{tPage("processEyebrow")}</SectionEyebrow>
           <h2 className="mt-3 font-display text-3xl md:text-5xl">{tPage("processTitle")}</h2>
@@ -199,7 +199,7 @@ export default async function PracticeAreaDetailPage({
 
       {/* Related */}
       {related.length > 0 && (
-        <section className="bg-[var(--verde-950)] text-white section-y">
+        <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
           <div className="container-wide">
             <SectionEyebrow>{tPage("relatedEyebrow")}</SectionEyebrow>
             <h2 className="mt-3 font-display text-2xl md:text-4xl">{tPage("relatedTitle")}</h2>

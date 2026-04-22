@@ -6,7 +6,7 @@ import { Phone } from "lucide-react";
 export default async function NotFound() {
   const t = await getTranslations("notFound");
   return (
-    <section className="min-h-[80vh] flex items-center justify-center bg-[var(--verde-950)] text-white pt-32 pb-20">
+    <section className="noise-bg min-h-[80vh] flex items-center justify-center bg-[var(--verde-950)] text-white pt-32 pb-20">
       <div className="container-narrow text-center">
         <p className="font-display text-[clamp(96px,18vw,220px)] leading-none text-[var(--gold-500)]">
           404

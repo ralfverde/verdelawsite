@@ -9,7 +9,7 @@ import { fadeUp } from "@/lib/animations";
 export function FinalCTA() {
   const t = useTranslations("cta");
   return (
-    <section className="relative overflow-hidden bg-[var(--verde-800)] text-white">
+    <section className="noise-bg relative overflow-hidden bg-[var(--verde-800)] text-white">
       <div aria-hidden className="absolute inset-0 opacity-[0.12] bg-[radial-gradient(circle_at_25%_30%,var(--gold-500),transparent_55%),radial-gradient(circle_at_75%_70%,var(--verde-500),transparent_55%)]" />
       <motion.div
         variants={fadeUp}

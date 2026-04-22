@@ -44,8 +44,8 @@ export function WhyVerde() {
             <motion.div
               key={r.key}
               variants={child}
-              whileHover={{ y: -4 }}
-              transition={{ duration: 0.3 }}
+              whileHover={{ y: -8 }}
+              transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
               className="card-accent p-6 flex gap-5 items-start"
             >
               <span className="shrink-0 grid place-items-center rounded-lg bg-[var(--verde-800)]/10 text-[var(--verde-800)]" style={{ width: 48, height: 48 }}>

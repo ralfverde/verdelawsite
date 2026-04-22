@@ -17,7 +17,7 @@ const steps = [
 export function ProcessSteps() {
   const t = useTranslations("process");
   return (
-    <section className="bg-[var(--verde-950)] text-white section-y">
+    <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
       <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }} className="container-wide">
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
         <h2 className="mt-3 font-display" style={{ fontSize: "clamp(32px,4vw,56px)", lineHeight: 1.06 }}>

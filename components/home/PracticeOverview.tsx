@@ -20,7 +20,7 @@ const cards = [
 export function PracticeOverview() {
   const t = useTranslations("practiceOverview");
   return (
-    <section className="bg-[var(--verde-950)] text-white section-y">
+    <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
       <motion.div
         variants={fadeUp}
         initial="hidden"
@@ -46,8 +46,8 @@ export function PracticeOverview() {
           <motion.div
             key={c.key}
             variants={child}
-            whileHover={{ y: -6 }}
-            transition={{ duration: 0.3 }}
+            whileHover={{ y: -8 }}
+            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             className="card-dark p-8"
           >
             <c.icon className="text-[var(--gold-500)]" size={28} />

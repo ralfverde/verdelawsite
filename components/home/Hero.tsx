@@ -17,7 +17,7 @@ export function Hero() {
 
   return (
     <section
-      className="relative min-h-[100svh] overflow-hidden bg-[var(--verde-950)] text-white flex items-center"
+      className="noise-bg relative min-h-[100svh] overflow-hidden bg-[var(--verde-950)] text-white flex items-center"
       aria-label="Hero"
     >
       {/* Radial gradient */}

@@ -105,7 +105,7 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
       </section>
 
       {/* Videos */}
-      <section className="bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("videos.eyebrow")}</SectionEyebrow>
           <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("videos.title")}</h2>
@@ -158,7 +158,7 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
       </section>
 
       {/* Newsletter */}
-      <section className="bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
         <div className="container-wide grid lg:grid-cols-2 gap-10 items-center">
           <div>
             <SectionEyebrow>{t("newsletter.eyebrow")}</SectionEyebrow>

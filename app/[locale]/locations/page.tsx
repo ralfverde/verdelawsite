@@ -90,7 +90,7 @@ export default async function LocationsPage({ params }: { params: Promise<{ loca
       </section>
 
       {/* National coverage */}
-      <section className="bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("national.eyebrow")}</SectionEyebrow>
           <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("national.title")}</h2>

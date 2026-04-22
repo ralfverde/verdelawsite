@@ -87,7 +87,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       </section>
 
       {/* Mission */}
-      <section className="bg-[var(--verde-950)] text-white section-y relative overflow-hidden">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y relative overflow-hidden">
         <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--verde-900),var(--verde-950)_70%)]" />
         <div className="container-wide relative">
           <SectionEyebrow>{t("mission.eyebrow")}</SectionEyebrow>
@@ -128,7 +128,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       </section>
 
       {/* Office */}
-      <section className="bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("office.eyebrow")}</SectionEyebrow>
           <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("office.title")}</h2>

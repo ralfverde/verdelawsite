@@ -19,7 +19,7 @@ export function VerdePlusTeaser() {
   const t = useTranslations("verdePlusTeaser");
 
   return (
-    <section className="relative bg-[var(--verde-950)] text-white section-y border-t-2 border-[var(--gold-500)]/60 overflow-hidden">
+    <section className="noise-bg relative bg-[var(--verde-950)] text-white section-y border-t-2 border-[var(--gold-500)]/60 overflow-hidden">
       <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(200,169,81,0.12),transparent_55%),radial-gradient(circle_at_80%_120%,rgba(90,173,138,0.14),transparent_55%)]" />
 
       <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }} className="container-wide relative">

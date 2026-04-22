@@ -29,8 +29,8 @@ export function Card({
 
   return (
     <motion.div
-      whileHover={hover ? { y: -6 } : undefined}
-      transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+      whileHover={hover ? { y: -8 } : undefined}
+      transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
       className={`${base} ${className}`}
     >
       <Tag className="block p-8 h-full">{children}</Tag>

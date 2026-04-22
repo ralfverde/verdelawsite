@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { FIRM } from "@/lib/constants";
 
@@ -31,23 +32,36 @@ export function FloatingWhatsApp() {
   }, []);
 
   return (
-    <div className="fixed right-6 z-40 bottom-24 lg:bottom-6 flex flex-col items-end gap-2">
+    <div className="fixed z-40 flex flex-col items-end gap-2 right-4 lg:right-6 bottom-[84px] lg:bottom-6">
       {showTip && (
-        <div className="animate-fade-in bg-white text-[var(--text-dark)] text-sm px-4 py-2.5 rounded-lg shadow-xl max-w-[220px]">
+        <motion.div
+          initial={{ opacity: 0, y: 6 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 6 }}
+          className="bg-white text-[var(--text-dark)] text-sm px-4 py-2.5 rounded-lg shadow-xl max-w-[220px]"
+        >
           {t("tooltip")}
-        </div>
+        </motion.div>
       )}
-      <a
+      <motion.a
         href={FIRM.whatsapp}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
-        className="grid place-items-center rounded-full bg-[#25D366] text-white shadow-lg hover:scale-110 transition-transform"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.96 }}
+        transition={{ type: "spring", stiffness: 360, damping: 24 }}
+        className="relative grid place-items-center rounded-full bg-[#25D366] text-white shadow-[0_0_20px_rgba(37,211,102,0.3)]"
         style={{ width: 56, height: 56 }}
       >
-        <span className="absolute inset-0 rounded-full bg-[#25D366]/60 animate-ping" aria-hidden />
+        {/* Pulse ring — outer only, does not affect icon */}
+        <span
+          aria-hidden
+          className="absolute inset-0 rounded-full bg-[#25D366]/40 animate-ping"
+          style={{ animationDuration: "2.4s" }}
+        />
         <WhatsAppIcon />
-      </a>
+      </motion.a>
     </div>
   );
 }
