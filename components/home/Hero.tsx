@@ -6,17 +6,21 @@ import { useTranslations } from "next-intl";
 import { MessageCircle, ChevronDown, Shield, Globe, BadgeCheck, Scale } from "lucide-react";
 import { FIRM } from "@/lib/constants";
 import { easeOut } from "@/lib/animations";
+import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
 
 export function Hero() {
   const t = useTranslations("hero");
   const sectionRef = useRef<HTMLElement>(null);
 
-  // Parallax on the photo card — light (0 → -40px), not on the whole hero.
+  // Parallax on the photo card (foreground) + the radial background
+  // layer (slower). Both hooks off a single scrollYProgress scoped to
+  // the hero so they freeze once the section leaves the viewport.
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ["start start", "end start"],
   });
   const photoY = useTransform(scrollYProgress, [0, 1], [0, -40]);
+  const bgY = useTransform(scrollYProgress, [0, 1], [0, -60]);
 
   // Hide the scroll indicator after the user has scrolled past 100px.
   const [showScrollCue, setShowScrollCue] = useState(true);
@@ -42,10 +46,13 @@ export function Hero() {
       className="noise-bg relative min-h-[100svh] overflow-hidden bg-verde-950 text-white flex items-center"
       aria-label="Hero"
     >
-      <div
+      <motion.div
+        style={{ y: bgY }}
         aria-hidden
         className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--verde-900)_0%,var(--verde-950)_70%)]"
       />
+
+      <FloatingOrbs />
 
       <div className="container-wide relative grid lg:grid-cols-[1.15fr_1fr] gap-14 lg:gap-20 items-center pt-32 pb-28 lg:py-40">
         {/* Left: copy */}

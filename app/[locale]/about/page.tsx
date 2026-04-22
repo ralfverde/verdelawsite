@@ -5,6 +5,7 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
+import { SectionDivider } from "@/components/ui/SectionDivider";
 import { CountUp } from "@/components/ui/CountUp";
 import { Link } from "@/i18n/navigation";
 import {
@@ -123,6 +124,7 @@ export default async function AboutPage({
           </p>
         </div>
       </section>
+      <SectionDivider variant="diagonal" direction="dark-to-light" />
 
       {/* Our Story */}
       <section className="bg-cream text-verde-950 section-y">
@@ -247,6 +249,7 @@ export default async function AboutPage({
           </ul>
         </div>
       </section>
+      <SectionDivider variant="diagonal" direction="dark-to-light" />
 
       {/* By the numbers */}
       <section className="bg-cream text-verde-950 py-20">
@@ -271,6 +274,7 @@ export default async function AboutPage({
           ))}
         </div>
       </section>
+      <SectionDivider variant="diagonal" direction="light-to-dark" />
 
       {/* Office / Culture */}
       <section className="noise-bg bg-verde-950 text-white section-y">

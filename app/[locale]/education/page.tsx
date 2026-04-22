@@ -5,6 +5,7 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { Accordion } from "@/components/ui/Accordion";
+import { SectionDivider } from "@/components/ui/SectionDivider";
 import { NewsletterForm } from "@/components/education/NewsletterForm";
 import {
   Play,
@@ -82,6 +83,7 @@ export default async function EducationPage({
         subtitle={t("subtitle")}
         crumbs={[{ label: tNav("home"), href: "/" }, { label: tNav("education") }]}
       />
+      <SectionDivider variant="diagonal" direction="dark-to-light" />
 
       {/* Articles */}
       <section className="bg-cream text-verde-950 section-y">
@@ -208,6 +210,7 @@ export default async function EducationPage({
           </div>
         </div>
       </section>
+      <SectionDivider variant="diagonal" direction="dark-to-light" />
 
       {/* FAQ */}
       <section className="bg-cream text-verde-950 section-y">
@@ -225,6 +228,7 @@ export default async function EducationPage({
           </div>
         </div>
       </section>
+      <SectionDivider variant="diagonal" direction="light-to-dark" />
 
       {/* Newsletter */}
       <section className="noise-bg bg-verde-950 text-white py-20">

@@ -4,6 +4,7 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { PhoneMockup } from "@/components/verdeplus/PhoneMockup";
+import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
 import {
   Route,
   BarChart3,
@@ -70,6 +71,7 @@ export default async function VerdePlusPage({
           aria-hidden
           className="absolute inset-x-0 -bottom-20 h-40 bg-gradient-to-t from-gold-500/20 to-transparent"
         />
+        <FloatingOrbs />
 
         <div className="container-wide relative grid lg:grid-cols-[1.1fr_1fr] gap-14 items-center">
           <div>

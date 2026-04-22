@@ -13,6 +13,7 @@ import { EligibilityQuiz } from "@/components/home/EligibilityQuiz";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
+import { SectionDivider } from "@/components/ui/SectionDivider";
 import { buildMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -48,6 +49,7 @@ export default async function HomePage({
   return (
     <>
       <Hero />
+      <SectionDivider variant="diagonal" direction="dark-to-light" />
       <SocialProof />
       <PracticeOverview />
       <CTABanner variant="light" titleKey="bannerLight.title" />
@@ -55,6 +57,7 @@ export default async function HomePage({
       <ProcessSteps />
       <CTABanner variant="dark" titleKey="bannerDark.title" />
       <Testimonials />
+      <SectionDivider variant="diagonal" direction="light-to-dark" />
 
       {/* Eligibility quiz */}
       <section className="noise-bg bg-verde-950 py-24">
@@ -73,7 +76,9 @@ export default async function HomePage({
       </section>
 
       <AttorneyFeature />
+      <SectionDivider variant="diagonal" direction="dark-to-light" />
       <VideoShowcase />
+      <SectionDivider variant="diagonal" direction="light-to-dark" />
       <VerdePlusTeaser />
       <FinalCTA />
     </>

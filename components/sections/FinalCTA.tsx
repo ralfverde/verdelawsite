@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { MessageCircle, Phone } from "lucide-react";
 import { FIRM } from "@/lib/constants";
 import { fadeUp } from "@/lib/animations";
+import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
 
 export function FinalCTA() {
   const t = useTranslations("cta");
@@ -14,6 +15,7 @@ export function FinalCTA() {
         aria-hidden
         className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(200,169,81,0.08),transparent_70%)]"
       />
+      <FloatingOrbs />
       <motion.div
         variants={fadeUp}
         initial="hidden"
