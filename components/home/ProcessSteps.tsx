@@ -1,11 +1,12 @@
 "use client";
 
+import { Fragment } from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Phone, FileSearch, FileCheck2, Gavel } from "lucide-react";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
-import { fadeUp, container, child } from "@/lib/animations";
+import { fadeUp, easeOut } from "@/lib/animations";
 
 const steps = [
   { key: "step1", icon: Phone },
@@ -16,47 +17,103 @@ const steps = [
 
 export function ProcessSteps() {
   const t = useTranslations("process");
+
   return (
-    <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
-      <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }} className="container-wide">
+    <section className="noise-bg bg-verde-950 text-white section-y">
+      <motion.div
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.15 }}
+        className="container-wide"
+      >
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
-        <h2 className="mt-3 font-display" style={{ fontSize: "clamp(32px,4vw,56px)", lineHeight: 1.06 }}>
+        <h2
+          className="mt-3 font-display"
+          style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)", lineHeight: 1.06 }}
+        >
           {t("title")}
         </h2>
         <GoldAccentLine className="mt-5" />
       </motion.div>
 
-      <motion.ol
-        variants={container}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-80px" }}
-        className="container-wide mt-14 relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
-      >
-        {/* Connecting line */}
-        <motion.div
-          initial={{ scaleX: 0 }}
-          whileInView={{ scaleX: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.5, ease: [0.25, 0.1, 0.25, 1] }}
-          style={{ transformOrigin: "0% 50%" }}
-          className="hidden lg:block absolute left-0 right-0 top-[34px] h-[2px] bg-gradient-to-r from-[var(--gold-500)] via-[var(--gold-500)]/30 to-transparent"
-          aria-hidden
-        />
+      {/* Desktop: horizontal timeline */}
+      <div className="container-wide mt-16 hidden lg:block">
+        <div className="grid grid-cols-[auto_1fr_auto_1fr_auto_1fr_auto] items-start">
+          {steps.map((step, i) => (
+            <Fragment key={step.key}>
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.6, delay: i * 0.2, ease: easeOut }}
+                className="flex flex-col items-center text-center px-4 max-w-[240px] mx-auto"
+              >
+                <div className="group w-16 h-16 rounded-full border-2 border-gold-500 grid place-items-center transition-colors duration-300 hover:bg-gold-500">
+                  <span className="text-2xl font-display text-gold-500 group-hover:text-verde-950 transition-colors duration-300">
+                    {i + 1}
+                  </span>
+                </div>
+                <step.icon className="text-gold-500/60 mt-4" size={22} />
+                <h3 className="text-lg font-semibold text-white mt-4 mb-2">
+                  {t(`${step.key}.title`)}
+                </h3>
+                <p className="text-sm text-white/50 leading-relaxed">
+                  {t(`${step.key}.desc`)}
+                </p>
+              </motion.div>
+              {i < steps.length - 1 && (
+                <motion.div
+                  initial={{ scaleX: 0 }}
+                  whileInView={{ scaleX: 1 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{
+                    duration: 0.7,
+                    delay: 0.2 + i * 0.2 + 0.3,
+                    ease: easeOut,
+                  }}
+                  style={{ transformOrigin: "0% 50%" }}
+                  className="h-[2px] bg-gradient-to-r from-gold-500/40 to-gold-500/40 mt-8"
+                  aria-hidden
+                />
+              )}
+            </Fragment>
+          ))}
+        </div>
+      </div>
 
-        {steps.map((s, i) => (
-          <motion.li key={s.key} variants={child} className="relative">
-            <div className="relative z-10 grid place-items-center rounded-full border-2 border-[var(--gold-500)] bg-[var(--verde-950)] text-[var(--gold-500)] font-display" style={{ width: 68, height: 68 }}>
-              <span className="text-3xl">{i + 1}</span>
-            </div>
-            <s.icon className="mt-5 text-[var(--gold-500)]" size={22} />
-            <h3 className="mt-3 font-display text-2xl">{t(`${s.key}.title`)}</h3>
-            <p className="mt-2 text-sm text-white/65 leading-relaxed max-w-xs">
-              {t(`${s.key}.desc`)}
-            </p>
-          </motion.li>
-        ))}
-      </motion.ol>
+      {/* Mobile: vertical timeline */}
+      <div className="container-wide mt-14 lg:hidden relative">
+        <div
+          aria-hidden
+          className="absolute left-8 top-8 bottom-8 w-[2px] bg-gold-500/20"
+        />
+        <ol className="space-y-10">
+          {steps.map((step, i) => (
+            <motion.li
+              key={step.key}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6, delay: i * 0.15, ease: easeOut }}
+              className="relative pl-20"
+            >
+              <div className="absolute left-0 top-0 w-16 h-16 rounded-full border-2 border-gold-500 bg-verde-950 grid place-items-center">
+                <span className="text-2xl font-display text-gold-500">{i + 1}</span>
+              </div>
+              <div className="pt-2">
+                <step.icon className="text-gold-500/60 mb-3" size={20} />
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  {t(`${step.key}.title`)}
+                </h3>
+                <p className="text-sm text-white/50 leading-relaxed">
+                  {t(`${step.key}.desc`)}
+                </p>
+              </div>
+            </motion.li>
+          ))}
+        </ol>
+      </div>
     </section>
   );
 }

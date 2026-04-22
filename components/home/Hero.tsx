@@ -1,13 +1,31 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { MessageCircle, ChevronDown, Shield, Globe, BadgeCheck } from "lucide-react";
+import { MessageCircle, ChevronDown, Shield, Globe, BadgeCheck, Scale } from "lucide-react";
 import { FIRM } from "@/lib/constants";
 import { easeOut } from "@/lib/animations";
 
 export function Hero() {
   const t = useTranslations("hero");
+  const sectionRef = useRef<HTMLElement>(null);
+
+  // Parallax on the photo card — light (0 → -40px), not on the whole hero.
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"],
+  });
+  const photoY = useTransform(scrollYProgress, [0, 1], [0, -40]);
+
+  // Hide the scroll indicator after the user has scrolled past 100px.
+  const [showScrollCue, setShowScrollCue] = useState(true);
+  useEffect(() => {
+    const onScroll = () => setShowScrollCue(window.scrollY < 100);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const trustBadges = [
     { key: "cases", icon: BadgeCheck },
@@ -15,148 +33,163 @@ export function Hero() {
     { key: "free", icon: Shield },
   ];
 
+  const title = t("title");
+  const titleWords = title.split(" ");
+
   return (
     <section
-      className="noise-bg relative min-h-[100svh] overflow-hidden bg-[var(--verde-950)] text-white flex items-center"
+      ref={sectionRef}
+      className="noise-bg relative min-h-[100svh] overflow-hidden bg-verde-950 text-white flex items-center"
       aria-label="Hero"
     >
-      {/* Radial gradient */}
       <div
         aria-hidden
         className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--verde-900)_0%,var(--verde-950)_70%)]"
       />
-      <div className="noise-overlay" aria-hidden />
 
-      <div className="container-wide relative grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center pt-32 pb-24 lg:py-40">
+      <div className="container-wide relative grid lg:grid-cols-[1.15fr_1fr] gap-14 lg:gap-20 items-center pt-32 pb-28 lg:py-40">
+        {/* Left: copy */}
         <div>
           <motion.p
-            initial={{ opacity: 0, y: 12 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3, ease: easeOut }}
-            className="text-xs md:text-sm font-semibold uppercase tracking-[0.22em] text-[var(--gold-500)]"
+            transition={{ duration: 0.5, delay: 0.2, ease: easeOut }}
+            className="eyebrow text-gold-500 mb-6"
           >
             {t("eyebrow")}
           </motion.p>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 22 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.5, ease: easeOut }}
-            className="mt-6 font-display text-white"
-            style={{ fontSize: "clamp(36px, 5.2vw, 72px)", lineHeight: 1.04 }}
+          {/* Title — word-by-word stagger */}
+          <h1
+            className="font-display text-white mb-6"
+            style={{ fontSize: "clamp(2.5rem, 5.5vw, 4.5rem)", lineHeight: 1.08 }}
           >
-            {t("title")}
-          </motion.h1>
+            {titleWords.map((word, i) => (
+              <span key={i} className="inline-block overflow-hidden pb-1 mr-[0.25em] last:mr-0">
+                <motion.span
+                  className="inline-block"
+                  initial={{ y: "110%", opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.7, delay: 0.4 + i * 0.05, ease: easeOut }}
+                >
+                  {word}
+                </motion.span>
+              </span>
+            ))}
+          </h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 22 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.7, ease: easeOut }}
-            className="mt-6 text-white/70 max-w-xl text-lg"
+            transition={{ duration: 0.6, delay: 0.7, ease: easeOut }}
+            className="text-lg md:text-xl text-white/60 leading-relaxed mb-10 max-w-lg"
           >
             {t("subtitle")}
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 22 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.9, ease: easeOut }}
-            className="mt-10 flex flex-wrap gap-3"
+            transition={{ duration: 0.6, delay: 0.9, ease: easeOut }}
+            className="flex flex-wrap gap-4"
           >
-            <a href={FIRM.bookingHref} className="cta-gold text-base">
+            <a href={FIRM.bookingHref} className="cta-gold text-base px-8 py-4">
               {t("ctaPrimary")}
             </a>
             <a
               href={FIRM.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-outline text-base"
+              className="cta-outline text-base px-7 py-4"
             >
               <MessageCircle size={18} /> {t("ctaWhatsApp")}
             </a>
           </motion.div>
 
-          <motion.ul
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 1.1 }}
-            className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-xl"
-          >
+          {/* Trust badges row */}
+          <ul className="mt-12 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row flex-wrap gap-y-5 sm:gap-y-0">
             {trustBadges.map((b, i) => (
               <motion.li
                 key={b.key}
-                initial={{ opacity: 0, y: 8 }}
+                initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: 1.2 + i * 0.1 }}
-                className="flex items-center gap-3"
+                transition={{ duration: 0.5, delay: 1.1 + i * 0.1, ease: easeOut }}
+                className="flex items-center gap-3 sm:pr-8 sm:mr-8 sm:border-r sm:border-white/10 last:border-r-0 last:mr-0 last:pr-0"
               >
-                <b.icon className="text-[var(--gold-500)] shrink-0" size={18} />
-                <span className="text-sm text-white/75">{t(`badges.${b.key}`)}</span>
+                <span className="w-10 h-10 rounded-full bg-gold-500/10 grid place-items-center shrink-0">
+                  <b.icon className="text-gold-500" size={18} />
+                </span>
+                <span className="text-sm font-medium text-white/70">
+                  {t(`badges.${b.key}`)}
+                </span>
               </motion.li>
             ))}
-          </motion.ul>
+          </ul>
         </div>
 
-        {/* Right: stylized portrait placeholder */}
+        {/* Right: photo placeholder card */}
         <motion.div
-          initial={{ opacity: 0, x: 50 }}
+          initial={{ opacity: 0, x: 80 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.9, delay: 0.8, ease: easeOut }}
+          transition={{ duration: 0.9, delay: 0.5, ease: easeOut }}
           className="relative"
         >
-          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-            <div className="absolute inset-0 bg-gradient-to-br from-[var(--verde-700)] via-[var(--verde-800)] to-[var(--verde-950)]" />
+          <motion.div
+            style={{ y: photoY }}
+            className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/[0.08] bg-gradient-to-br from-verde-700 via-verde-800 to-verde-950 shadow-[0_0_80px_rgba(61,139,110,0.15)]"
+          >
             <div
               aria-hidden
-              className="absolute inset-0 bg-[radial-gradient(circle_at_30%_25%,rgba(200,169,81,0.28),transparent_55%)]"
+              className="absolute inset-0 bg-[radial-gradient(circle_at_30%_25%,rgba(200,169,81,0.18),transparent_55%)]"
             />
-            {/* Silhouette */}
-            <svg
-              viewBox="0 0 400 500"
-              className="absolute inset-0 w-full h-full"
-              aria-label="Rafael Verde portrait placeholder"
-              role="img"
-            >
-              <defs>
-                <linearGradient id="sil" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="0%" stopColor="#2D5E47" stopOpacity="0.9" />
-                  <stop offset="100%" stopColor="#0A1F15" />
-                </linearGradient>
-              </defs>
-              <ellipse cx="200" cy="180" rx="80" ry="90" fill="url(#sil)" />
-              <path
-                d="M80 500 Q80 340 200 310 Q320 340 320 500 Z"
-                fill="url(#sil)"
-              />
-            </svg>
-            <div className="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-[var(--verde-950)] to-transparent">
-              <p className="text-xs text-[var(--gold-500)] uppercase tracking-[0.18em] font-semibold">
-                {t("portraitName")}
-              </p>
-              <p className="text-white text-sm mt-1 italic">{t("portraitRole")}</p>
+
+            {/* Centered icon */}
+            <div className="absolute inset-0 grid place-items-center">
+              <Scale size={120} className="text-gold-500/30" strokeWidth={1.25} />
             </div>
-          </div>
-          {/* Decorative vertical gold line */}
+
+            {/* Name block */}
+            <div className="absolute left-0 right-0 bottom-6 text-center">
+              <p className="font-display text-white/40 text-2xl">Rafael Verde</p>
+              <p className="text-white/20 text-sm mt-1 tracking-wide">
+                {t("portraitRole")}
+              </p>
+            </div>
+
+            {/* Gold accent line at bottom */}
+            <div
+              aria-hidden
+              className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-gold-500 to-gold-400"
+            />
+          </motion.div>
+
+          {/* Decorative side accents */}
           <div
             aria-hidden
-            className="absolute -left-6 top-10 bottom-10 w-[2px] bg-gradient-to-b from-transparent via-[var(--gold-500)] to-transparent hidden lg:block"
+            className="absolute -left-6 top-10 bottom-10 w-[2px] bg-gradient-to-b from-transparent via-gold-500/40 to-transparent hidden lg:block"
           />
-          {/* Geometric accent */}
           <div
             aria-hidden
-            className="absolute -right-6 -bottom-6 w-40 h-40 rounded-full border border-[var(--verde-700)] hidden lg:block"
+            className="absolute -right-6 -bottom-6 w-40 h-40 rounded-full border border-verde-700 hidden lg:block"
           />
         </motion.div>
       </div>
 
       {/* Scroll indicator */}
       <motion.div
-        animate={{ y: [0, 8, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/40"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: showScrollCue ? 1 : 0 }}
+        transition={{ duration: 0.3 }}
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/30"
         aria-hidden
       >
-        <ChevronDown size={26} />
+        <motion.span
+          animate={{ y: [0, 8, 0] }}
+          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+          className="block"
+        >
+          <ChevronDown size={26} />
+        </motion.span>
       </motion.div>
     </section>
   );

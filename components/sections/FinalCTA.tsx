@@ -9,37 +9,51 @@ import { fadeUp } from "@/lib/animations";
 export function FinalCTA() {
   const t = useTranslations("cta");
   return (
-    <section className="noise-bg relative overflow-hidden bg-[var(--verde-800)] text-white">
-      <div aria-hidden className="absolute inset-0 opacity-[0.12] bg-[radial-gradient(circle_at_25%_30%,var(--gold-500),transparent_55%),radial-gradient(circle_at_75%_70%,var(--verde-500),transparent_55%)]" />
+    <section className="noise-bg relative overflow-hidden bg-verde-800 text-white">
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(200,169,81,0.08),transparent_70%)]"
+      />
       <motion.div
         variants={fadeUp}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: "-80px" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="container-wide relative py-24 md:py-32 text-center"
       >
-        <h2 className="font-display text-4xl md:text-6xl leading-[1.05] max-w-4xl mx-auto">
+        <h2
+          className="font-display text-white text-center leading-tight mb-4"
+          style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.5rem)" }}
+        >
           {t("finalTitle")}
         </h2>
-        <p className="mt-5 text-white/70 text-lg max-w-2xl mx-auto">
+        <p className="text-lg text-white/50 text-center max-w-2xl mx-auto mb-10">
           {t("finalSubtitle")}
         </p>
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-          <a href={FIRM.bookingHref} className="cta-gold text-base">
+
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <a href={FIRM.bookingHref} className="cta-gold text-base px-8 py-4">
             {t("scheduleCTA")}
           </a>
           <a
             href={FIRM.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
-            className="cta-outline text-base"
+            className="cta-outline text-base px-7 py-4"
           >
             <MessageCircle size={18} /> WhatsApp
           </a>
-          <a href={FIRM.phoneHref} className="cta-outline text-base border-white/40 text-white hover:bg-white hover:text-[var(--verde-950)]">
+          <a
+            href={FIRM.phoneHref}
+            className="flex items-center gap-2 text-white/60 hover:text-white transition-colors px-4 py-3"
+          >
             <Phone size={18} /> {FIRM.phoneDisplay}
           </a>
         </div>
+
+        <p className="text-xs text-white/25 text-center mt-8 max-w-xl mx-auto">
+          {t("subtitle")}
+        </p>
       </motion.div>
     </section>
   );

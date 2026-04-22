@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Languages, MapPin, Gift, Smartphone } from "lucide-react";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
-import { container, child, fadeUp } from "@/lib/animations";
+import { fadeUp, easeOut } from "@/lib/animations";
 
 const reasons = [
   { key: "bilingual", icon: Languages },
@@ -17,51 +17,61 @@ const reasons = [
 export function WhyVerde() {
   const t = useTranslations("whyVerde");
   return (
-    <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
-      <div className="container-wide grid lg:grid-cols-[1fr_1fr] gap-14 items-start">
-        <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }}>
-          <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-[var(--verde-950)]" style={{ fontSize: "clamp(32px,4vw,56px)", lineHeight: 1.06 }}>
+    <section className="bg-cream text-verde-950 section-y">
+      <div className="container-wide grid lg:grid-cols-[1fr_1fr] gap-14 lg:gap-20 items-start">
+        {/* Left — copy */}
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.15 }}
+        >
+          <SectionEyebrow className="mb-4">{t("eyebrow")}</SectionEyebrow>
+          <GoldAccentLine className="mb-6" />
+          <h2
+            className="font-display text-verde-950 leading-tight mb-6"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
+          >
             {t("title")}
           </h2>
-          <GoldAccentLine className="mt-5" />
-          <p className="mt-7 text-[var(--text-dark-secondary)] leading-relaxed max-w-lg">
+          <p className="text-verde-950/60 leading-relaxed max-w-lg mb-4">
             {t("body1")}
           </p>
-          <p className="mt-4 text-[var(--text-dark-secondary)] leading-relaxed max-w-lg">
+          <p className="text-verde-950/60 leading-relaxed max-w-lg">
             {t("body2")}
           </p>
         </motion.div>
 
-        <motion.div
-          variants={container}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
-          className="grid gap-4"
-        >
-          {reasons.map((r) => (
+        {/* Right — feature cards */}
+        <div className="grid gap-4">
+          {reasons.map((r, i) => (
             <motion.div
               key={r.key}
-              variants={child}
-              whileHover={{ y: -8 }}
-              transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              className="card-accent p-6 flex gap-5 items-start"
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6, delay: i * 0.15, ease: easeOut }}
+              whileHover={{
+                y: -2,
+                transition: { duration: 0.3, ease: easeOut },
+              }}
+              className="flex gap-5 p-6 bg-white rounded-xl shadow-sm hover:shadow-lg hover:shadow-verde-950/5 transition-shadow duration-300"
             >
-              <span className="shrink-0 grid place-items-center rounded-lg bg-[var(--verde-800)]/10 text-[var(--verde-800)]" style={{ width: 48, height: 48 }}>
-                <r.icon size={22} />
+              <div className="w-1 rounded-full bg-gold-500 shrink-0 self-stretch" aria-hidden />
+              <span className="w-10 h-10 rounded-lg bg-verde-50 grid place-items-center shrink-0">
+                <r.icon size={20} className="text-verde-700" />
               </span>
-              <div>
-                <h3 className="font-display text-xl text-[var(--verde-950)]">
+              <div className="flex-1">
+                <h3 className="text-base font-semibold text-verde-950 mb-1">
                   {t(`reasons.${r.key}.title`)}
                 </h3>
-                <p className="mt-1 text-sm text-[var(--text-dark-secondary)] leading-relaxed">
+                <p className="text-sm text-verde-950/50 leading-relaxed">
                   {t(`reasons.${r.key}.desc`)}
                 </p>
               </div>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

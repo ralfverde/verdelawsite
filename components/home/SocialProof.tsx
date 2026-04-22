@@ -1,59 +1,70 @@
 "use client";
 
+import { Fragment } from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Star } from "lucide-react";
 import { CountUp } from "@/components/ui/CountUp";
-import { container, child } from "@/lib/animations";
+import { easeOut } from "@/lib/animations";
+
+type Stat = {
+  key: string;
+  value: number;
+  prefix?: string;
+  suffix?: string;
+  decimals?: number;
+  isRating?: boolean;
+};
+
+const stats: Stat[] = [
+  { key: "cases", value: 600, suffix: "+" },
+  { key: "states", value: 50 },
+  { key: "revenue", value: 2, prefix: "$", suffix: "M+" },
+  { key: "tiktok", value: 61, suffix: "K+" },
+  { key: "rating", value: 4.8, decimals: 1, isRating: true },
+];
 
 export function SocialProof() {
   const t = useTranslations("socialProof");
 
-  const items = [
-    { key: "cases", value: 600, suffix: "+" },
-    { key: "states", value: 50, suffix: "" },
-    { key: "revenue", value: 2, prefix: "$", suffix: "M+" },
-    { key: "tiktok", value: 61, suffix: "K+" },
-    { key: "rating", value: 4.8, decimals: 1, isRating: true },
-  ];
-
   return (
-    <section className="bg-[var(--cream)] text-[var(--verde-950)]">
-      <motion.div
-        variants={container}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        className="container-wide py-16 grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-10"
-      >
-        {items.map((item, i) => (
-          <motion.div
-            key={item.key}
-            variants={child}
-            className={`text-center md:text-left ${
-              i < items.length - 1 ? "md:border-r md:border-black/10 md:pr-6" : ""
-            }`}
-          >
-            <div className="font-display text-[var(--verde-800)] leading-none" style={{ fontSize: "clamp(34px, 4vw, 54px)" }}>
-              {item.isRating ? (
-                <span className="inline-flex items-center gap-2">
-                  <CountUp value={item.value} decimals={1} />
-                  <Star size={22} className="text-[var(--gold-500)] fill-[var(--gold-500)]" />
-                </span>
-              ) : (
-                <CountUp
-                  value={item.value}
-                  prefix={item.prefix ?? ""}
-                  suffix={item.suffix ?? ""}
+    <section className="bg-gradient-to-b from-[#FAF8F2] to-[#F4F0E6] text-verde-950">
+      <div className="container-wide py-16 md:py-20">
+        <div className="grid grid-cols-2 md:grid-cols-9 gap-y-10 gap-x-4 max-w-6xl mx-auto items-center text-center">
+          {stats.map((stat, i) => (
+            <Fragment key={stat.key}>
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ duration: 0.6, delay: i * 0.15, ease: easeOut }}
+              >
+                <div className="font-display text-5xl md:text-6xl text-verde-900 tabular-nums leading-none">
+                  {stat.isRating ? (
+                    <span className="inline-flex items-baseline gap-2">
+                      <CountUp value={stat.value} decimals={1} />
+                      <Star size={24} className="text-gold-500 fill-gold-500 translate-y-[-4px]" />
+                    </span>
+                  ) : (
+                    <>
+                      {stat.prefix && <span className="text-gold-500">{stat.prefix}</span>}
+                      <CountUp value={stat.value} />
+                      {stat.suffix && <span className="text-gold-500">{stat.suffix}</span>}
+                    </>
+                  )}
+                </div>
+                <p className="text-sm text-verde-900/50 mt-2">{t(stat.key)}</p>
+              </motion.div>
+              {i < stats.length - 1 && (
+                <div
+                  aria-hidden
+                  className="hidden md:block w-px h-16 bg-verde-900/10 justify-self-center"
                 />
               )}
-            </div>
-            <p className="mt-2 text-sm text-[var(--text-dark-secondary)]">
-              {t(item.key)}
-            </p>
-          </motion.div>
-        ))}
-      </motion.div>
+            </Fragment>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }
