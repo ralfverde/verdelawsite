@@ -136,38 +136,66 @@ export function Hero() {
           className="relative"
         >
           <div className="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-[480px] mx-auto">
-            {/* Decorative verde glow behind the photo */}
+            {/* Decorative verde halo behind the photo */}
             <div
               aria-hidden
-              className="absolute -inset-4 bg-gradient-to-b from-verde-600/20 via-verde-500/10 to-transparent rounded-3xl blur-2xl"
+              className="absolute -inset-6 bg-gradient-to-b from-verde-600/15 via-verde-500/10 to-transparent rounded-3xl blur-3xl"
             />
 
-            <div className="relative rounded-2xl overflow-hidden border border-white/[0.08] bg-black">
+            <div className="relative rounded-2xl overflow-hidden">
+              {/* Verde gradient backdrop that replaces the JPEG's
+                  black background. mix-blend-lighten on the image
+                  below lets this show through anywhere the photo is
+                  darker than this verde color. */}
+              <div
+                aria-hidden
+                className="absolute inset-0 bg-gradient-to-b from-verde-700 via-verde-800 to-verde-950"
+              />
+
               <Image
                 src="/images/rafael-verde-headshot.jpg"
                 alt={`${t("portraitName")}, ${t("portraitRole")}`}
                 width={480}
                 height={640}
-                className="w-full h-auto object-cover"
+                className="relative w-full h-auto object-cover mix-blend-lighten"
                 priority
                 sizes="(min-width: 1024px) 480px, (min-width: 640px) 400px, 320px"
               />
 
-              {/* Bottom gradient overlay so the name is readable */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent pt-20 pb-6 px-6">
+              {/* Edge feathers so the photo doesn't read as a hard
+                  rectangle against the hero. Bottom is the strongest
+                  fade so the name text sits on a clean gradient. */}
+              <div
+                aria-hidden
+                className="pointer-events-none absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-verde-950 to-transparent"
+              />
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-verde-950/60 to-transparent"
+              />
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-verde-950/60 to-transparent"
+              />
+              <div
+                aria-hidden
+                className="pointer-events-none absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-verde-950/40 to-transparent"
+              />
+
+              <div className="absolute bottom-0 left-0 right-0 z-10 px-6 pb-6">
                 <p className="font-heading font-semibold text-white text-lg">
                   {t("portraitName")}
                 </p>
-                <p className="font-body text-white/60 text-sm mt-0.5">
+                <p className="font-body text-white/50 text-sm mt-0.5">
                   {t("portraitRole")}
                 </p>
               </div>
             </div>
 
-            {/* Gold accent line at the bottom of the card */}
+            {/* Subtle gold accent line at the bottom of the card */}
             <div
               aria-hidden
-              className="absolute bottom-0 left-6 right-6 h-[2px] bg-gradient-to-r from-gold-500/0 via-gold-500/60 to-gold-500/0"
+              className="absolute bottom-0 left-8 right-8 h-[2px] bg-gradient-to-r from-gold-500/0 via-gold-500/40 to-gold-500/0"
             />
           </div>
         </motion.div>
