@@ -145,7 +145,7 @@ export default async function EducationPage({
                       {t(`articles.items.${a}.date`)} ·{" "}
                       {t(`articles.items.${a}.readTime`)}
                     </span>
-                    <span className="text-sm text-gold-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity inline-flex items-center gap-1">
+                    <span className="link-underline text-sm text-gold-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity inline-flex items-center gap-1">
                       {t("articles.readMore")}
                       <ArrowRight size={14} />
                     </span>

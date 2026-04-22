@@ -65,7 +65,7 @@ export function PracticeOverview() {
             </p>
             <Link
               href={`/practice-areas/${c.slug}` as never}
-              className="inline-flex items-center gap-2 text-sm font-medium text-gold-500"
+              className="link-underline inline-flex items-center gap-2 text-sm font-medium text-gold-500"
             >
               {t("learnMore")}
               <ArrowRight
@@ -86,7 +86,7 @@ export function PracticeOverview() {
       >
         <Link
           href="/practice-areas"
-          className="inline-flex items-center gap-2 text-gold-500 font-medium hover:gap-3 transition-all"
+          className="link-underline inline-flex items-center gap-2 text-gold-500 font-medium"
         >
           {t("viewAll")} <ArrowRight size={16} />
         </Link>

@@ -7,6 +7,8 @@ import { MessageCircle, ChevronDown, Shield, Globe, BadgeCheck, Scale } from "lu
 import { FIRM } from "@/lib/constants";
 import { easeOut } from "@/lib/animations";
 import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
+import { MagneticButton } from "@/components/ui/MagneticButton";
+import { TextReveal } from "@/components/ui/TextReveal";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -38,7 +40,6 @@ export function Hero() {
   ];
 
   const title = t("title");
-  const titleWords = title.split(" ");
 
   return (
     <section
@@ -66,24 +67,14 @@ export function Hero() {
             {t("eyebrow")}
           </motion.p>
 
-          {/* Title — word-by-word stagger */}
-          <h1
+          <TextReveal
+            as="h1"
+            whileInView={false}
             className="font-display text-white mb-6"
             style={{ fontSize: "clamp(2.5rem, 5.5vw, 4.5rem)", lineHeight: 1.08 }}
           >
-            {titleWords.map((word, i) => (
-              <span key={i} className="inline-block overflow-hidden pb-1 mr-[0.25em] last:mr-0">
-                <motion.span
-                  className="inline-block"
-                  initial={{ y: "110%", opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.7, delay: 0.4 + i * 0.05, ease: easeOut }}
-                >
-                  {word}
-                </motion.span>
-              </span>
-            ))}
-          </h1>
+            {title}
+          </TextReveal>
 
           <motion.p
             initial={{ opacity: 0, y: 16 }}
@@ -100,9 +91,11 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.9, ease: easeOut }}
             className="flex flex-wrap gap-4"
           >
-            <a href={FIRM.bookingHref} className="cta-gold text-base px-8 py-4">
-              {t("ctaPrimary")}
-            </a>
+            <MagneticButton>
+              <a href={FIRM.bookingHref} className="cta-gold text-base px-8 py-4">
+                {t("ctaPrimary")}
+              </a>
+            </MagneticButton>
             <a
               href={FIRM.whatsapp}
               target="_blank"

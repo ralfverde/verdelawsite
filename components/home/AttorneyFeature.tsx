@@ -87,7 +87,7 @@ export function AttorneyFeature() {
 
           <Link
             href="/our-team"
-            className="inline-flex items-center gap-2 mt-8 text-gold-500 font-medium hover:gap-3 transition-all"
+            className="link-underline inline-flex items-center gap-2 mt-8 text-gold-500 font-medium"
           >
             {t("viewTeam")} <ArrowRight size={16} />
           </Link>

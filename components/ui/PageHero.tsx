@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
+import { TextReveal } from "@/components/ui/TextReveal";
 import { Link } from "@/i18n/navigation";
 import { ChevronRight } from "lucide-react";
 
@@ -47,12 +48,14 @@ export function PageHero({
           </nav>
         )}
         {eyebrow && <SectionEyebrow>{eyebrow}</SectionEyebrow>}
-        <h1
+        <TextReveal
+          as="h1"
+          whileInView={false}
           className="mt-3 font-display text-white max-w-4xl"
           style={{ fontSize: "clamp(38px,5.2vw,78px)", lineHeight: 1.04 }}
         >
           {title}
-        </h1>
+        </TextReveal>
         <GoldAccentLine className="mt-6" />
         {subtitle && (
           <p className="mt-6 text-white/70 max-w-2xl text-lg">{subtitle}</p>

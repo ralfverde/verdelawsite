@@ -7,6 +7,7 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
+import { TextReveal } from "@/components/ui/TextReveal";
 import { iconMap } from "@/components/practice/iconMap";
 import { Link } from "@/i18n/navigation";
 import {
@@ -132,7 +133,9 @@ export default async function PracticeAreaDetailPage({
           </nav>
 
           <SectionEyebrow>{tPage("eyebrow")}</SectionEyebrow>
-          <h1
+          <TextReveal
+            as="h1"
+            whileInView={false}
             className="mt-3 font-display text-white max-w-4xl"
             style={{
               fontSize: "clamp(2.25rem, 5vw, 4.5rem)",
@@ -140,7 +143,7 @@ export default async function PracticeAreaDetailPage({
             }}
           >
             {t(`${svc.id}.title`)}
-          </h1>
+          </TextReveal>
           <GoldAccentLine className="mt-6" />
           <p className="mt-6 text-white/70 max-w-2xl text-lg leading-relaxed">
             {t(`${svc.id}.short`)}
@@ -315,7 +318,7 @@ export default async function PracticeAreaDetailPage({
                     <p className="text-sm text-white/50 leading-relaxed line-clamp-2 mb-4">
                       {t(`${r.id}.short`)}
                     </p>
-                    <span className="inline-flex items-center gap-2 text-gold-500 text-sm font-medium">
+                    <span className="link-underline inline-flex items-center gap-2 text-gold-500 text-sm font-medium">
                       {tPage("viewService")}
                       <ArrowRight
                         size={14}

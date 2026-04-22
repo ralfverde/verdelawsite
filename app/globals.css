@@ -264,6 +264,25 @@ p {
   }
 }
 
+/* Animated underline for inline text links */
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.link-underline:hover::after {
+  width: 100%;
+}
+
 /* Selection */
 ::selection { background: var(--gold-500); color: var(--verde-950); }
 

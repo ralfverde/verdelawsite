@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
+import { TextReveal } from "@/components/ui/TextReveal";
 import { PhoneMockup } from "@/components/verdeplus/PhoneMockup";
 import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
 import {
@@ -76,12 +77,14 @@ export default async function VerdePlusPage({
         <div className="container-wide relative grid lg:grid-cols-[1.1fr_1fr] gap-14 items-center">
           <div>
             <SectionEyebrow>VERDE+</SectionEyebrow>
-            <h1
+            <TextReveal
+              as="h1"
+              whileInView={false}
               className="mt-4 font-display text-white"
               style={{ fontSize: "clamp(2.5rem, 5.6vw, 5rem)", lineHeight: 1.04 }}
             >
               {t("hero.title")}
-            </h1>
+            </TextReveal>
             <GoldAccentLine className="mt-6" />
             <p className="mt-7 text-white/75 text-lg max-w-xl leading-relaxed">
               {t("hero.subtitle")}

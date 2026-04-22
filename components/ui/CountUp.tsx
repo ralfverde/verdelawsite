@@ -5,6 +5,7 @@ import { useInView } from "framer-motion";
 
 type Props = {
   value: number;
+  /** Total animation length. Default 1500ms. */
   duration?: number;
   prefix?: string;
   suffix?: string;
@@ -12,9 +13,17 @@ type Props = {
   className?: string;
 };
 
+/**
+ * CountUp with a subtle slot-machine ramp:
+ *  - Phase 1 (67% of duration): ticks through random intermediate
+ *    values every ~50ms, in the ballpark of the target.
+ *  - Phase 2 (remaining 33%): eases from the last random value to
+ *    the final target with a cubic ease-out.
+ * Respects prefers-reduced-motion by snapping straight to the target.
+ */
 export function CountUp({
   value,
-  duration = 2000,
+  duration = 1500,
   prefix = "",
   suffix = "",
   decimals = 0,
@@ -26,23 +35,49 @@ export function CountUp({
 
   useEffect(() => {
     if (!inView) return;
-    const prefersReduced = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-    if (prefersReduced) {
+    if (
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
       setDisplay(value);
       return;
     }
-    const start = performance.now();
-    let frame = 0;
-    function tick(now: number) {
-      const t = Math.min(1, (now - start) / duration);
-      const eased = 1 - Math.pow(1 - t, 3);
-      setDisplay(value * eased);
-      if (t < 1) frame = requestAnimationFrame(tick);
-    }
-    frame = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(frame);
+
+    const RANDOM_RATIO = 0.67;
+    const randomMs = Math.round(duration * RANDOM_RATIO);
+    const settleMs = duration - randomMs;
+
+    let lastRandom = 0;
+
+    const randomTimer = setInterval(() => {
+      // Keep the tick range visually close to the target so the
+      // transition into the settle phase isn't jarring.
+      const jitter = Math.random() * value * 1.1;
+      lastRandom = jitter;
+      setDisplay(jitter);
+    }, 50);
+
+    let raf: number | undefined;
+
+    const stopRandom = setTimeout(() => {
+      clearInterval(randomTimer);
+      const settleStart = performance.now();
+      const from = lastRandom;
+      function step(now: number) {
+        const t = Math.min(1, (now - settleStart) / settleMs);
+        const eased = 1 - Math.pow(1 - t, 3);
+        setDisplay(from + (value - from) * eased);
+        if (t < 1) raf = requestAnimationFrame(step);
+        else setDisplay(value);
+      }
+      raf = requestAnimationFrame(step);
+    }, randomMs);
+
+    return () => {
+      clearInterval(randomTimer);
+      clearTimeout(stopRandom);
+      if (raf) cancelAnimationFrame(raf);
+    };
   }, [inView, value, duration]);
 
   const formatted =

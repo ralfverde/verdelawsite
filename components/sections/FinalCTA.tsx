@@ -6,6 +6,8 @@ import { MessageCircle, Phone } from "lucide-react";
 import { FIRM } from "@/lib/constants";
 import { fadeUp } from "@/lib/animations";
 import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
+import { MagneticButton } from "@/components/ui/MagneticButton";
+import { TextReveal } from "@/components/ui/TextReveal";
 
 export function FinalCTA() {
   const t = useTranslations("cta");
@@ -23,20 +25,23 @@ export function FinalCTA() {
         viewport={{ once: true, amount: 0.2 }}
         className="container-wide relative py-24 md:py-32 text-center"
       >
-        <h2
+        <TextReveal
+          as="h2"
           className="font-display text-white text-center leading-tight mb-4"
           style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.5rem)" }}
         >
           {t("finalTitle")}
-        </h2>
+        </TextReveal>
         <p className="text-lg text-white/50 text-center max-w-2xl mx-auto mb-10">
           {t("finalSubtitle")}
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <a href={FIRM.bookingHref} className="cta-gold text-base px-8 py-4">
-            {t("scheduleCTA")}
-          </a>
+          <MagneticButton>
+            <a href={FIRM.bookingHref} className="cta-gold text-base px-8 py-4">
+              {t("scheduleCTA")}
+            </a>
+          </MagneticButton>
           <a
             href={FIRM.whatsapp}
             target="_blank"

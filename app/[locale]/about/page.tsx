@@ -6,6 +6,7 @@ import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { SectionDivider } from "@/components/ui/SectionDivider";
+import { TextReveal } from "@/components/ui/TextReveal";
 import { CountUp } from "@/components/ui/CountUp";
 import { Link } from "@/i18n/navigation";
 import {
@@ -112,12 +113,14 @@ export default async function AboutPage({
           </nav>
 
           <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
-          <h1
+          <TextReveal
+            as="h1"
+            whileInView={false}
             className="mt-3 font-display text-white max-w-4xl"
             style={{ fontSize: "clamp(2.5rem, 5.2vw, 4.5rem)", lineHeight: 1.04 }}
           >
             {t("title")}
-          </h1>
+          </TextReveal>
           <GoldAccentLine className="mt-6" />
           <p className="mt-6 text-white/70 max-w-2xl text-lg leading-relaxed">
             {t("subtitle")}

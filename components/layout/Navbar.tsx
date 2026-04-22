@@ -7,6 +7,7 @@ import { Menu, Phone } from "lucide-react";
 import { Logo } from "./Logo";
 import { LanguageToggle } from "./LanguageToggle";
 import { MobileMenu } from "./MobileMenu";
+import { MagneticButton } from "@/components/ui/MagneticButton";
 import { FIRM } from "@/lib/constants";
 
 type NavItem = { key: string; href: React.ComponentProps<typeof Link>["href"] };
@@ -74,9 +75,11 @@ export function Navbar() {
               <Phone size={16} />
               {FIRM.phoneDisplay}
             </a>
-            <a href={FIRM.bookingHref} className="cta-gold text-sm">
-              {t("freeConsultation")}
-            </a>
+            <MagneticButton>
+              <a href={FIRM.bookingHref} className="cta-gold text-sm">
+                {t("freeConsultation")}
+              </a>
+            </MagneticButton>
           </div>
 
           <button
