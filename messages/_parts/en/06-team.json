@@ -9,46 +9,6 @@
     "subtitle": "Attorneys, paralegals, and support staff. Every one of us is here for the same reason.",
     "teamEyebrow": "Meet the team",
     "teamTitle": "Meet the team.",
-    "paralegal": "Paralegal",
-    "attorneys": {
-      "rafael": { "title": "Founder & Managing Attorney" },
-      "jennifer": { "title": "Associate Attorney" }
-    },
-    "support": {
-      "officeManager": "Office Manager",
-      "intakeSupervisor": "Intake Supervisor",
-      "billing": "Billing Coordinator",
-      "marketing": "Marketing Director"
-    },
-    "bookWith": "Book with {name}",
-    "bios": {
-      "rafael-verde": {
-        "p1": "Rafael Verde was born on the outskirts of Havana, Cuba. His family emigrated to South Florida when he was young, and that experience, arriving somewhere new with nothing but hope, shaped everything that came after.",
-        "p2": "After studying communications at Florida International University and earning his J.D. from Barry University School of Law, Rafael founded Verde Law with one goal: to give immigrant families the quality of representation they deserve, delivered by someone who understands what they're going through because he's lived it. Today, he personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
-        "p3": "Today, Rafael personally reviews every new case, argues motions across the Eleventh Circuit, and leads a team serving families in all 50 states.",
-        "education": { "label": "Education", "value": "Florida International University · B.S., Public Relations & Communications. Barry University School of Law · Juris Doctor" },
-        "barAdmissions": { "label": "Bar Admissions", "value": "Florida Bar · U.S. Court of Appeals, Eleventh Circuit · U.S. District Court, Southern District of Florida" },
-        "languages": { "label": "Languages", "value": "English · Español" }
-      },
-      "jennifer-colon": {
-        "p1": "Jennifer Colón Rodríguez joined Verde Law in 2025 as the firm's second attorney. A humanitarian law specialist with experience in VAWA, U-visa, and removal defense cases.",
-        "p2": "She is a native Spanish speaker, a graduate of the University of Puerto Rico School of Law, and has spent her career representing survivors of domestic violence and trafficking. Clients regularly say she is the first attorney who made them feel safe enough to tell their full story.",
-        "p3": "Jennifer leads the firm's VAWA practice and supervises the paralegal team on humanitarian filings.",
-        "education": { "label": "Education", "value": "University of Puerto Rico School of Law · J.D., 2020" },
-        "barAdmissions": { "label": "Bar Admissions", "value": "Florida Bar · Puerto Rico Bar" },
-        "languages": { "label": "Languages", "value": "Español (native) · English" }
-      }
-    },
-    "teamBios": {
-      "aniela": "Aniela handles bond and detained matters, working directly with families from the moment a loved one is taken into ICE custody.",
-      "mayerli": "Mayerli manages asylum and VAWA files, and prepares personal declarations alongside the attorneys.",
-      "flor": "Flor coordinates family-based petitions, consular processing, and USCIS filings from intake to approval.",
-      "alba": "Alba supports our removal defense practice with evidence gathering, court filings, and client communication.",
-      "daliana": "Daliana keeps the firm running day to day: scheduling, vendor relationships, and the small things that matter to clients.",
-      "jeanine": "Jeanine runs our intake team, which means she's usually the first person you talk to when you call.",
-      "yunetsy": "Yunetsy handles billing with the transparency our clients deserve: clear invoices, flexible payment plans, zero surprises.",
-      "vianney": "Vianney leads our marketing and community outreach, including the TikTok education channel that reaches tens of thousands of immigrants every week."
-    },
     "join": {
       "eyebrow": "Careers",
       "title": "Work with us.",

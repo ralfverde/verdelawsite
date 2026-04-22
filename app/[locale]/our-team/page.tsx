@@ -5,8 +5,8 @@ import { PageHero } from "@/components/ui/PageHero";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
-import { team } from "@/data/team";
-import { Linkedin, ArrowRight } from "lucide-react";
+import { teamMembers } from "@/data/team";
+import { ArrowRight } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -51,105 +51,35 @@ export default async function TeamPage({
           <h2 className="mt-3 text-verde-950">{t("teamTitle")}</h2>
           <GoldAccentLine className="mt-5" />
 
-          <div className="mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {team.map((p) => {
-              const bioParagraphs = p.credentials
-                ? [t(`${p.bioKey}.p1`), t(`${p.bioKey}.p2`)]
-                : [t(p.bioKey)];
-              return (
-                <article
-                  key={p.id}
-                  className="group bg-white rounded-2xl overflow-hidden border border-verde-950/[0.04] shadow-sm hover:shadow-xl hover:shadow-verde-950/[0.06] hover:-translate-y-1 transition-all duration-300 flex flex-col"
-                >
-                  {/* Photo area */}
-                  <div
-                    className={`relative aspect-[4/5] overflow-hidden ${
-                      p.photo ? "bg-black" : p.gradient
-                    }`}
-                  >
-                    {p.photo ? (
-                      <Image
-                        src={p.photo}
-                        alt={p.name}
-                        fill
-                        sizes="(min-width: 1280px) 20vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                        className="object-cover object-top"
-                      />
-                    ) : (
-                      <>
-                        <div
-                          aria-hidden
-                          className="absolute inset-0 bg-[radial-gradient(circle_at_40%_30%,rgba(200,169,81,0.18),transparent_55%)]"
-                        />
-                        <div className="absolute inset-0 grid place-items-center">
-                          <span
-                            className="font-heading font-bold text-white/[0.06] select-none"
-                            style={{ fontSize: "80px" }}
-                          >
-                            {p.initials}
-                          </span>
-                        </div>
-                      </>
-                    )}
-                    <span className="absolute bottom-4 left-4 inline-flex px-3 py-1.5 rounded-full bg-gold-500/20 backdrop-blur-sm text-gold-400 text-xs font-heading font-semibold tracking-wide">
-                      {t(p.titleKey)}
-                    </span>
-                  </div>
+          <div className="mt-10 md:mt-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
+            {teamMembers.map((p) => (
+              <article
+                key={p.name}
+                className="group bg-white rounded-2xl overflow-hidden border border-verde-950/[0.04] shadow-sm hover:shadow-xl hover:shadow-verde-950/[0.06] hover:-translate-y-1 transition-all duration-300 flex flex-col"
+              >
+                <div className="relative aspect-square overflow-hidden bg-black">
+                  <Image
+                    src={p.photo}
+                    alt={p.name}
+                    fill
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
+                    className="object-cover object-top"
+                  />
+                  <span className="absolute bottom-3 left-3 inline-flex px-2.5 py-1 rounded-full bg-gold-500/20 backdrop-blur-sm text-gold-400 text-[10px] font-heading font-semibold tracking-wide">
+                    {p.role[locale]}
+                  </span>
+                </div>
 
-                  {/* Content area */}
-                  <div className="p-6 flex flex-col flex-1">
-                    <h3 className="font-heading font-bold text-xl tracking-tight text-verde-950">
-                      {p.name}
-                    </h3>
-                    <div className="mt-3 space-y-2 text-sm text-verde-950/55 leading-relaxed">
-                      {bioParagraphs.map((para, i) => (
-                        <p key={i}>{para}</p>
-                      ))}
-                    </div>
-
-                    {p.credentials && (
-                      <dl className="mt-4 pt-4 border-t border-verde-950/[0.06] space-y-2">
-                        {p.credentials.map((f) => (
-                          <div key={f} className="flex items-start gap-2">
-                            <dt className="text-xs font-semibold text-verde-950/30 uppercase tracking-wider w-24 shrink-0 pt-0.5">
-                              {t(`${p.bioKey}.${f}.label`)}
-                            </dt>
-                            <dd className="text-sm text-verde-950/55 flex-1">
-                              {t(`${p.bioKey}.${f}.value`)}
-                            </dd>
-                          </div>
-                        ))}
-                      </dl>
-                    )}
-
-                    {(p.linkedin || p.credentials) && (
-                      <div className="mt-auto pt-4 flex items-center gap-3">
-                        {p.linkedin && (
-                          <a
-                            href={p.linkedin}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label={`${p.name} LinkedIn`}
-                            className="text-verde-950/30 hover:text-verde-700 transition-colors"
-                          >
-                            <Linkedin size={18} />
-                          </a>
-                        )}
-                        {p.credentials && (
-                          <a
-                            href="#free-consultation"
-                            className="cta-outline text-xs ml-auto px-4 py-2"
-                          >
-                            {t("bookWith", { name: p.name.split(" ")[0] })}
-                            <ArrowRight size={14} />
-                          </a>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                </article>
-              );
-            })}
+                <div className="p-5 flex flex-col flex-1">
+                  <h3 className="font-heading font-bold text-base tracking-tight text-verde-950">
+                    {p.name}
+                  </h3>
+                  <p className="mt-2 text-sm text-verde-950/55 leading-relaxed">
+                    {p.bio[locale]}
+                  </p>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>

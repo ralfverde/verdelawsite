@@ -9,46 +9,6 @@
     "subtitle": "Abogados, paralegales y personal de apoyo. Cada uno de nosotros está aquí por la misma razón.",
     "teamEyebrow": "Conozca al equipo",
     "teamTitle": "Conozca al equipo.",
-    "paralegal": "Paralegal",
-    "attorneys": {
-      "rafael": { "title": "Fundador y Abogado Principal" },
-      "jennifer": { "title": "Abogada Asociada" }
-    },
-    "support": {
-      "officeManager": "Gerente de Oficina",
-      "intakeSupervisor": "Supervisora de Intake",
-      "billing": "Coordinadora de Facturación",
-      "marketing": "Directora de Marketing"
-    },
-    "bookWith": "Agendar con {name}",
-    "bios": {
-      "rafael-verde": {
-        "p1": "Rafael Verde nació en las afueras de La Habana, Cuba. Su familia emigró al sur de la Florida cuando era joven, y esa experiencia, llegar a un lugar nuevo sin nada más que esperanza, moldeó todo lo que vino después.",
-        "p2": "Después de estudiar comunicaciones en Florida International University y obtener su J.D. de Barry University School of Law, Rafael fundó Verde Law con un solo objetivo: darle a las familias inmigrantes la calidad de representación que merecen, brindada por alguien que entiende lo que están pasando porque lo ha vivido. Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
-        "p3": "Hoy, Rafael revisa personalmente cada caso nuevo, argumenta mociones en el Circuito Once, y lidera un equipo que sirve a familias en los 50 estados.",
-        "education": { "label": "Educación", "value": "Florida International University · B.S., Relaciones Públicas y Comunicaciones. Barry University School of Law · Juris Doctor" },
-        "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Corte de Apelaciones de EE.UU., Circuito Once · Corte de Distrito de EE.UU., Distrito Sur de Florida" },
-        "languages": { "label": "Idiomas", "value": "Inglés · Español" }
-      },
-      "jennifer-colon": {
-        "p1": "Jennifer Colón Rodríguez se unió a Verde Law en 2025 como la segunda abogada de la firma. Especialista en derecho humanitario con experiencia en casos de VAWA, Visa U, y defensa contra la deportación.",
-        "p2": "Es hablante nativa de español, graduada de la Facultad de Derecho de la Universidad de Puerto Rico, y ha dedicado su carrera a representar a sobrevivientes de violencia doméstica y trata de personas. Los clientes regularmente dicen que ella es la primera abogada que les hizo sentir lo suficientemente seguros para contar su historia completa.",
-        "p3": "Jennifer lidera la práctica de VAWA de la firma y supervisa al equipo de paralegales en presentaciones humanitarias.",
-        "education": { "label": "Educación", "value": "Facultad de Derecho, Universidad de Puerto Rico · J.D., 2020" },
-        "barAdmissions": { "label": "Admisiones a la Barra", "value": "Colegio de Abogados de Florida · Colegio de Abogados de Puerto Rico" },
-        "languages": { "label": "Idiomas", "value": "Español (nativo) · Inglés" }
-      }
-    },
-    "teamBios": {
-      "aniela": "Aniela maneja los asuntos de fianza y detenidos, trabajando directamente con las familias desde el momento en que ICE detiene a un ser querido.",
-      "mayerli": "Mayerli gestiona los expedientes de asilo y VAWA, y prepara las declaraciones personales junto a los abogados.",
-      "flor": "Flor coordina peticiones familiares, proceso consular y presentaciones ante USCIS desde la admisión hasta la aprobación.",
-      "alba": "Alba apoya nuestra práctica de defensa de deportación con la recolección de evidencia, las presentaciones en corte y la comunicación con el cliente.",
-      "daliana": "Daliana mantiene el bufete funcionando día a día: calendarización, relaciones con proveedores y los pequeños detalles que les importan a los clientes.",
-      "jeanine": "Jeanine dirige nuestro equipo de admisiones, lo que significa que normalmente es la primera persona con quien usted habla cuando llama.",
-      "yunetsy": "Yunetsy maneja la facturación con la transparencia que nuestros clientes merecen: facturas claras, planes de pago flexibles, cero sorpresas.",
-      "vianney": "Vianney lidera nuestro marketing y alcance comunitario, incluyendo el canal educativo de TikTok que llega cada semana a decenas de miles de inmigrantes."
-    },
     "join": {
       "eyebrow": "Carreras",
       "title": "Trabaje con nosotros.",
