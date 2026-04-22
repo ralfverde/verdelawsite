@@ -136,7 +136,24 @@ export function Hero() {
           className="relative"
         >
           <div className="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-[480px] mx-auto">
-            <div className="relative rounded-2xl overflow-hidden border border-white/[0.08] shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+            {/* Offset border card — gold-tinted frame shifted up/right
+                for a layered "stacked cards" depth effect. Hidden on
+                mobile where the tight padding makes the offset fight
+                the edges of the column. */}
+            <div
+              aria-hidden
+              className="hidden md:block absolute -top-3 -right-3 w-full h-full rounded-2xl border border-gold-500/20"
+            />
+
+            {/* Ambient halo — subtle verde-to-gold gradient glow
+                behind everything so the card feels luminous. */}
+            <div
+              aria-hidden
+              className="absolute -inset-6 bg-gradient-to-br from-verde-500/10 via-transparent to-gold-500/5 rounded-3xl blur-2xl"
+            />
+
+            {/* Main photo card */}
+            <div className="relative rounded-2xl overflow-hidden border border-white/[0.08] shadow-[0_25px_60px_rgba(0,0,0,0.4)]">
               <Image
                 src="/images/rafael-verde-hero.png"
                 alt={`${t("portraitName")}, ${t("portraitRole")}`}
@@ -146,7 +163,7 @@ export function Hero() {
                 priority
                 sizes="(min-width: 1024px) 480px, (min-width: 640px) 400px, 320px"
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent pt-16 pb-5 px-5">
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent pt-20 pb-5 px-6">
                 <p className="font-heading font-semibold text-white text-lg">
                   {t("portraitName")}
                 </p>
@@ -154,6 +171,29 @@ export function Hero() {
                   {t("portraitRole")}
                 </p>
               </div>
+            </div>
+
+            {/* Gold accent bar anchoring the card visually */}
+            <div
+              aria-hidden
+              className="absolute -bottom-2 left-8 right-8 h-[2px] bg-gradient-to-r from-gold-500/0 via-gold-500/50 to-gold-500/0"
+            />
+
+            {/* Decorative gold corner brackets. Hidden below md for
+                the same spacing reason as the offset border. */}
+            <div
+              aria-hidden
+              className="hidden md:block absolute -top-2 -left-2 w-8 h-8"
+            >
+              <span className="absolute top-0 left-0 w-full h-[2px] bg-gold-500/40" />
+              <span className="absolute top-0 left-0 w-[2px] h-full bg-gold-500/40" />
+            </div>
+            <div
+              aria-hidden
+              className="hidden md:block absolute -bottom-2 -right-2 w-8 h-8"
+            >
+              <span className="absolute bottom-0 right-0 w-full h-[2px] bg-gold-500/40" />
+              <span className="absolute bottom-0 right-0 w-[2px] h-full bg-gold-500/40" />
             </div>
           </div>
         </motion.div>
