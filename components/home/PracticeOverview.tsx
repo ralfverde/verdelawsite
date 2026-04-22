@@ -42,7 +42,7 @@ export function PracticeOverview() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.15 }}
-        className="container-wide mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        className="container-wide mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
       >
         {cards.map((c) => (
           <motion.div
@@ -81,7 +81,7 @@ export function PracticeOverview() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        className="container-wide mt-12 text-center"
+        className="container-wide mt-8 text-center"
       >
         <Link
           href="/practice-areas"

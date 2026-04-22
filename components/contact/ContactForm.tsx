@@ -23,7 +23,7 @@ export function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="bg-white rounded-2xl p-8 shadow-sm border border-verde-950/[0.04]">
+      <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-verde-950/[0.04]">
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <motion.div
             initial={{ scale: 0, opacity: 0 }}
@@ -42,7 +42,7 @@ export function ContactForm() {
   }
 
   return (
-    <div className="bg-white rounded-2xl p-8 shadow-sm border border-verde-950/[0.04]">
+    <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-verde-950/[0.04]">
       <form
         className="grid gap-5"
         onSubmit={handleSubmit}

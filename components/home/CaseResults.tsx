@@ -12,7 +12,7 @@ export function CaseResults() {
   const t = useTranslations("caseResults");
 
   return (
-    <section className="bg-cream text-verde-950 py-24">
+    <section className="bg-cream text-verde-950 py-16 md:py-20">
       <motion.div
         variants={fadeUp}
         initial="hidden"
@@ -34,7 +34,7 @@ export function CaseResults() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.15 }}
-        className="container-wide mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
+        className="container-wide mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
       >
         {resultIds.map((id) => (
           <motion.article

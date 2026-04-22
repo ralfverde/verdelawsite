@@ -23,7 +23,7 @@ export function CTABanner({ variant = "dark", titleKey = "bannerDark.title" }: P
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-40px" }}
-        className="container-wide py-14 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6"
+        className="container-wide py-10 md:py-12 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6"
       >
         <div className="flex items-start gap-4 max-w-3xl">
           <span className={`shrink-0 grid place-items-center rounded-lg ${isDark ? "bg-white/10 text-[var(--gold-500)]" : "bg-[var(--verde-800)] text-[var(--gold-500)]"}`} style={{ width: 48, height: 48 }}>

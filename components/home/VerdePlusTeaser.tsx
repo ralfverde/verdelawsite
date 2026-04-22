@@ -72,7 +72,7 @@ export function VerdePlusTeaser() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
-        className="container-wide relative mt-12 flex justify-center"
+        className="container-wide relative mt-8 flex justify-center"
       >
         <Link href="/verde-plus" className="cta-outline">
           {t("cta")} <ArrowRight size={18} />

@@ -65,7 +65,7 @@ export default async function HomePage({
       <SectionDivider variant="diagonal" direction="light-to-dark" />
 
       {/* Eligibility quiz */}
-      <section className="noise-bg bg-verde-950 py-24">
+      <section className="noise-bg bg-verde-950 py-16 md:py-20">
         <div className="container-wide text-center mb-12">
           <SectionEyebrow>{tQuiz("sectionEyebrow")}</SectionEyebrow>
           <h2

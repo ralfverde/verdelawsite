@@ -46,7 +46,7 @@ export function Testimonials() {
       </motion.div>
 
       <div
-        className="container-wide mt-12"
+        className="container-wide mt-10 md:mt-12"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
@@ -59,7 +59,7 @@ export function Testimonials() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -16 }}
                 transition={{ duration: 0.5, delay: i * 0.1, ease: easeOut }}
-                className={`relative flex flex-col bg-white rounded-2xl p-8 md:p-10 shadow-sm ${
+                className={`relative flex flex-col bg-white rounded-2xl p-6 md:p-8 shadow-sm ${
                   i > 0 ? "hidden md:flex" : ""
                 }`}
               >

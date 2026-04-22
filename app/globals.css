@@ -338,14 +338,19 @@ p, .text-body {
   padding-inline: var(--section-padding-x);
 }
 
+/* Verde Law spacing system.
+ * .section-y is the default vertical rhythm between content sections.
+ * Kept deliberately tight (64–80px per side = 128–160px combined) so
+ * sections feel connected rather than separated by empty page
+ * breaks. Heroes, stats bars, and the footer set their own values. */
 .section-y {
-  padding-block: 6rem;
+  padding-block: 4rem;
 }
 @media (min-width: 768px) {
-  .section-y { padding-block: 8rem; }
+  .section-y { padding-block: 5rem; }
 }
 @media (min-width: 1024px) {
-  .section-y { padding-block: 10rem; }
+  .section-y { padding-block: 5rem; }
 }
 
 .cta-gold {

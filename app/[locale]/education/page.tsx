@@ -169,7 +169,7 @@ export default async function EducationPage({
           </h2>
           <GoldAccentLine className="mt-5" />
 
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {videos.map((v) => (
               <a
                 key={v}

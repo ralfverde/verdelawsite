@@ -41,7 +41,7 @@ export function VideoShowcase() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.15 }}
-        className="container-wide mt-12 grid md:grid-cols-3 gap-6"
+        className="container-wide mt-10 md:mt-12 grid md:grid-cols-3 gap-6"
       >
         {videos.map((v) => (
           <motion.a

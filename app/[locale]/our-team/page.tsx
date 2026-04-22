@@ -50,7 +50,7 @@ export default async function TeamPage({
           <h2 className="mt-3 text-verde-950">{t("teamTitle")}</h2>
           <GoldAccentLine className="mt-5" />
 
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {team.map((p) => {
               const bioParagraphs = p.credentials
                 ? [t(`${p.bioKey}.p1`), t(`${p.bioKey}.p2`)]

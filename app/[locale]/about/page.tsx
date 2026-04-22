@@ -85,7 +85,7 @@ export default async function AboutPage({
     <>
       <ReadingProgress />
       {/* Hero */}
-      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-32 pb-24 md:pt-40 md:pb-32">
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-28 pb-16 md:pt-32 md:pb-20">
         <div
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900)_0%,var(--verde-950)_70%)]"
@@ -211,7 +211,7 @@ export default async function AboutPage({
           <GoldAccentLine className="mt-5" />
 
           {/* Large quote */}
-          <div className="relative max-w-3xl mx-auto mt-16 text-center px-4">
+          <div className="relative max-w-3xl mx-auto mt-10 md:mt-12 text-center px-4">
             <span
               aria-hidden
               className="absolute -top-6 -left-2 text-6xl text-gold-500/30 font-heading leading-none select-none pointer-events-none"
@@ -230,7 +230,7 @@ export default async function AboutPage({
           </div>
 
           {/* Value cards */}
-          <ul className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <ul className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             {values.map((v) => (
               <li
                 key={v.key}
@@ -253,7 +253,7 @@ export default async function AboutPage({
       <SectionDivider variant="diagonal" direction="dark-to-light" />
 
       {/* By the numbers */}
-      <section className="bg-cream text-verde-950 py-20">
+      <section className="bg-cream text-verde-950 py-10 md:py-14">
         <div className="container-wide flex flex-wrap items-center justify-center gap-10 md:gap-16">
           {stats.map((s, i) => (
             <Fragment key={s.key}>
@@ -288,7 +288,7 @@ export default async function AboutPage({
           </h2>
           <GoldAccentLine className="mt-5" />
 
-          <div className="mt-12 grid lg:grid-cols-[1.6fr_1fr] gap-8 lg:gap-10 items-start">
+          <div className="mt-10 md:mt-12 grid lg:grid-cols-[1.6fr_1fr] gap-8 lg:gap-10 items-start">
             {/* Photo gallery */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
               {galleryTiles.map((tile, i) => (

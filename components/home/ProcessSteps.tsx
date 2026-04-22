@@ -37,7 +37,7 @@ export function ProcessSteps() {
       </motion.div>
 
       {/* Desktop: horizontal timeline */}
-      <div className="container-wide mt-16 hidden lg:block">
+      <div className="container-wide mt-10 md:mt-12 hidden lg:block">
         <div className="grid grid-cols-[auto_1fr_auto_1fr_auto_1fr_auto] items-start">
           {steps.map((step, i) => (
             <Fragment key={step.key}>
@@ -92,7 +92,7 @@ export function ProcessSteps() {
       </div>
 
       {/* Mobile: vertical timeline */}
-      <div className="container-wide mt-14 lg:hidden relative">
+      <div className="container-wide mt-10 md:mt-12 lg:hidden relative">
         <div
           aria-hidden
           className="absolute left-8 top-8 bottom-8 w-[2px] bg-gold-500/20"

@@ -23,7 +23,7 @@ export function FinalCTA() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        className="container-wide relative py-24 md:py-32 text-center"
+        className="container-wide relative py-16 md:py-20 text-center"
       >
         <TextReveal
           as="h2"

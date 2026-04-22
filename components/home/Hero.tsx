@@ -45,7 +45,7 @@ export function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="noise-bg relative min-h-[100svh] overflow-hidden bg-verde-950 text-white flex items-center"
+      className="noise-bg relative min-h-[85vh] overflow-hidden bg-verde-950 text-white flex items-center"
       aria-label="Hero"
     >
       <motion.div
@@ -56,7 +56,7 @@ export function Hero() {
 
       <FloatingOrbs />
 
-      <div className="container-wide relative grid lg:grid-cols-[1.15fr_1fr] gap-14 lg:gap-20 items-center pt-32 pb-28 lg:py-40">
+      <div className="container-wide relative grid lg:grid-cols-[1.15fr_1fr] gap-12 lg:gap-16 items-center pt-28 pb-20 lg:py-24">
         {/* Left: copy */}
         <div>
           <motion.p

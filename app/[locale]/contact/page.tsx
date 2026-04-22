@@ -57,7 +57,7 @@ export default async function ContactPage({
           <ContactForm />
 
           {/* Contact info card */}
-          <aside className="bg-verde-950 rounded-2xl p-8 text-white self-start">
+          <aside className="bg-verde-950 rounded-2xl p-6 md:p-8 text-white self-start">
             <h2 className="text-xl font-heading mb-6">{t("info.title")}</h2>
 
             <ul className="space-y-4">

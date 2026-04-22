@@ -27,7 +27,7 @@ export function SocialProof() {
 
   return (
     <section className="bg-gradient-to-b from-[#FAF8F2] to-[#F4F0E6] text-verde-950">
-      <div className="container-wide py-14 md:py-20">
+      <div className="container-wide py-10 md:py-14">
         {/* Mobile: 2×2 grid. Desktop: single horizontal row with
             vertical dividers between each stat. whitespace-nowrap +
             flex-shrink-0 keep every number on one line at every width. */}

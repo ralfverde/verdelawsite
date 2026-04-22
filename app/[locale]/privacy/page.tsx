@@ -34,7 +34,7 @@ export default async function PrivacyPage({
   return (
     <>
       {/* Hero */}
-      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-32 pb-16 md:pt-40 md:pb-20">
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-28 pb-12 md:pt-32 md:pb-16">
         <div
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900),var(--verde-950)_70%)]"

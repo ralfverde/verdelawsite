@@ -85,7 +85,7 @@ export default async function LocationsPage({
           </div>
 
           {/* Office info card */}
-          <div className="bg-cream rounded-2xl p-8 border border-verde-950/5 shadow-sm">
+          <div className="bg-cream rounded-2xl p-6 md:p-8 border border-verde-950/5 shadow-sm">
             <SectionEyebrow>{t("office.eyebrow")}</SectionEyebrow>
             <h2 className="mt-3 font-heading text-2xl text-verde-950 mb-6">
               {t("office.title")}
@@ -148,7 +148,7 @@ export default async function LocationsPage({
           </h2>
           <GoldAccentLine className="mt-5" />
 
-          <div className="mt-12 grid lg:grid-cols-[1.4fr_1fr] gap-10 items-start">
+          <div className="mt-10 md:mt-12 grid lg:grid-cols-[1.4fr_1fr] gap-10 items-start">
             <USMapSVG />
             <div>
               <p className="text-white/75 leading-relaxed">{t("national.body")}</p>
