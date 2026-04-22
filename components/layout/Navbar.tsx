@@ -59,7 +59,7 @@ export function Navbar() {
               <Link
                 key={item.key}
                 href={item.href}
-                className="px-3 py-2 text-[15px] text-white/80 hover:text-white transition-colors"
+                className="px-3 py-2 text-nav text-white/80 hover:text-white transition-colors"
               >
                 {t(item.key)}
               </Link>

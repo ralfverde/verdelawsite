@@ -30,7 +30,7 @@ export function AttorneyFeature() {
 
           <div className="absolute inset-0 grid place-items-center">
             <span
-              className="font-display text-white/[0.06] select-none"
+              className="font-heading text-white/[0.06] select-none"
               style={{ fontSize: "120px" }}
             >
               RV
@@ -56,7 +56,7 @@ export function AttorneyFeature() {
         >
           <SectionEyebrow className="mb-3">{t("eyebrow")}</SectionEyebrow>
           <h2
-            className="font-display text-white mb-2"
+            className="font-heading text-white mb-2"
             style={{ fontSize: "clamp(2.25rem, 4vw, 3.5rem)", lineHeight: 1.05 }}
           >
             {t("name")}

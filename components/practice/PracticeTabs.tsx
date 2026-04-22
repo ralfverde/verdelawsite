@@ -80,7 +80,7 @@ export function PracticeTabs() {
               transition={{ duration: 0.3, ease: easeOut }}
               className="mb-8 p-6 rounded-xl bg-verde-50 border border-verde-100"
             >
-              <h3 className="text-lg font-display text-verde-950 mb-1">
+              <h3 className="text-lg font-heading text-verde-950 mb-1">
                 {t(`tabs.${active}`)}
               </h3>
               <p className="text-sm text-verde-950/50">
@@ -135,7 +135,7 @@ export function PracticeTabs() {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-lg font-display text-verde-950 group-hover:text-verde-800 transition-colors duration-300 mb-2">
+                    <h3 className="text-lg font-heading text-verde-950 group-hover:text-verde-800 transition-colors duration-300 mb-2">
                       {tSvc(`${s.id}.title`)}
                     </h3>
 

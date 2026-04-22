@@ -50,7 +50,7 @@ export default async function TeamPage({
         <div className="container-wide">
           <SectionEyebrow>{t("attorneysEyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display text-verde-950"
+            className="mt-3 font-heading text-verde-950"
             style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("attorneysTitle")}
@@ -71,7 +71,7 @@ export default async function TeamPage({
                   />
                   <div className="absolute inset-0 grid place-items-center">
                     <span
-                      className="font-display text-white/[0.05] select-none"
+                      className="font-heading text-white/[0.05] select-none"
                       style={{ fontSize: "100px" }}
                     >
                       {a.initials}
@@ -88,7 +88,7 @@ export default async function TeamPage({
 
                 {/* Content area */}
                 <div className="p-8 flex flex-col flex-1">
-                  <h3 className="text-2xl font-display text-verde-950 mb-1">
+                  <h3 className="text-2xl font-heading text-verde-950 mb-1">
                     {a.name}
                   </h3>
                   <p className="text-sm text-verde-950/50 mb-5">
@@ -143,7 +143,7 @@ export default async function TeamPage({
         <div className="container-wide">
           <SectionEyebrow>{t("paralegalsEyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display"
+            className="mt-3 font-heading"
             style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("paralegalsTitle")}
@@ -154,7 +154,7 @@ export default async function TeamPage({
             {paralegals.map((p) => (
               <div key={p.id} className="text-center group">
                 <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4 bg-gradient-to-br from-verde-500 to-verde-700 flex items-center justify-center border-2 border-gold-500/0 group-hover:border-gold-500/40 transition-colors duration-300">
-                  <span className="text-2xl font-display text-white/20">
+                  <span className="text-2xl font-heading text-white/20">
                     {p.initials}
                   </span>
                 </div>
@@ -174,7 +174,7 @@ export default async function TeamPage({
         <div className="container-wide">
           <SectionEyebrow>{t("supportEyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display text-verde-950"
+            className="mt-3 font-heading text-verde-950"
             style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("supportTitle")}
@@ -185,7 +185,7 @@ export default async function TeamPage({
             {support.map((s) => (
               <div key={s.id} className="text-center group">
                 <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4 bg-gradient-to-br from-verde-600 to-verde-800 flex items-center justify-center border-2 border-gold-500/0 group-hover:border-gold-500/40 transition-colors duration-300">
-                  <span className="text-2xl font-display text-white/25">
+                  <span className="text-2xl font-heading text-white/25">
                     {s.initials}
                   </span>
                 </div>
@@ -206,7 +206,7 @@ export default async function TeamPage({
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 max-w-4xl mx-auto">
             <div className="text-center md:text-left">
               <SectionEyebrow>{t("join.eyebrow")}</SectionEyebrow>
-              <h2 className="mt-2 text-3xl font-display text-verde-950">
+              <h2 className="mt-2 text-3xl font-heading text-verde-950">
                 {t("join.title")}
               </h2>
               <p className="mt-3 text-sm text-verde-950/50 max-w-md">

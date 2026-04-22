@@ -58,7 +58,7 @@ export default async function ContactPage({
 
           {/* Contact info card */}
           <aside className="bg-verde-950 rounded-2xl p-8 text-white self-start">
-            <h2 className="text-xl font-display mb-6">{t("info.title")}</h2>
+            <h2 className="text-xl font-heading mb-6">{t("info.title")}</h2>
 
             <ul className="space-y-4">
               <li className="flex items-start gap-3">

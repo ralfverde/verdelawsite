@@ -41,7 +41,7 @@ export function MobileMenu({ open, onClose, items }: Props) {
           aria-modal="true"
         >
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/5">
-            <span className="text-white font-display text-lg">Verde Law</span>
+            <span className="text-white font-heading text-lg">Verde Law</span>
             <button
               type="button"
               onClick={onClose}
@@ -63,7 +63,7 @@ export function MobileMenu({ open, onClose, items }: Props) {
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="block py-4 font-display text-3xl text-white border-b border-white/5"
+                  className="block py-4 font-heading text-3xl text-white border-b border-white/5"
                 >
                   {t(item.key)}
                 </Link>

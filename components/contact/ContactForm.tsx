@@ -32,7 +32,7 @@ export function ContactForm() {
           >
             <CheckCircle2 className="text-verde-500 w-16 h-16 mb-4" />
           </motion.div>
-          <h3 className="text-xl font-display text-verde-950 mb-2">
+          <h3 className="text-xl font-heading text-verde-950 mb-2">
             {t("successTitle")}
           </h3>
           <p className="text-sm text-verde-950/50">{t("successBody")}</p>

@@ -71,7 +71,7 @@ export function Hero() {
           <TextReveal
             as="h1"
             whileInView={false}
-            className="font-display text-white mb-6"
+            className="font-heading text-white mb-6"
             style={{ fontSize: "clamp(2.5rem, 5.5vw, 4.5rem)", lineHeight: 1.08 }}
           >
             {title}
@@ -153,7 +153,7 @@ export function Hero() {
 
             {/* Name block */}
             <div className="absolute left-0 right-0 bottom-6 text-center">
-              <p className="font-display text-white/40 text-2xl">Rafael Verde</p>
+              <p className="font-heading text-white/40 text-2xl">Rafael Verde</p>
               <p className="text-white/20 text-sm mt-1 tracking-wide">
                 {t("portraitRole")}
               </p>

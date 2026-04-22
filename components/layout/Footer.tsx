@@ -25,7 +25,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-5">
             <Logo />
-            <p className="font-display text-[var(--gold-500)] text-xl">
+            <p className="font-heading text-[var(--gold-500)] text-xl">
               {t("tagline")}
             </p>
             <p className="text-white/65 text-sm leading-relaxed max-w-[320px]">

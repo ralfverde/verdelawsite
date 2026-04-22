@@ -49,7 +49,7 @@ export default async function TermsPage({
           </nav>
 
           <SectionEyebrow>{t("title")}</SectionEyebrow>
-          <h1 className="mt-3 font-serif text-3xl md:text-4xl text-white">
+          <h1 className="mt-3 font-heading text-3xl md:text-4xl text-white">
             {t("title")}
           </h1>
           <p className="text-sm text-white/40 mt-3">{t("updated")}</p>
@@ -61,7 +61,7 @@ export default async function TermsPage({
         <div className="container-wide max-w-3xl mx-auto space-y-10">
           {sections.map((s) => (
             <article key={s} className="space-y-3">
-              <h2 className="font-display text-2xl md:text-3xl text-verde-950">
+              <h2 className="font-heading text-2xl md:text-3xl text-verde-950">
                 {t(`${s}.heading`)}
               </h2>
               <p className="text-sm text-verde-950/70 leading-relaxed">

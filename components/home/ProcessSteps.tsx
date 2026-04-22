@@ -29,7 +29,7 @@ export function ProcessSteps() {
       >
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
         <h2
-          className="mt-3 font-display"
+          className="mt-3 font-heading"
           style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)", lineHeight: 1.06 }}
         >
           {t("title")}
@@ -60,7 +60,7 @@ export function ProcessSteps() {
                   }}
                   className="group w-16 h-16 rounded-full border-2 border-gold-500 grid place-items-center transition-colors duration-300 hover:bg-gold-500"
                 >
-                  <span className="text-2xl font-display text-gold-500 group-hover:text-verde-950 transition-colors duration-300">
+                  <span className="text-2xl font-heading text-gold-500 group-hover:text-verde-950 transition-colors duration-300">
                     {i + 1}
                   </span>
                 </motion.div>
@@ -109,7 +109,7 @@ export function ProcessSteps() {
               className="relative pl-20"
             >
               <div className="absolute left-0 top-0 w-16 h-16 rounded-full border-2 border-gold-500 bg-verde-950 grid place-items-center">
-                <span className="text-2xl font-display text-gold-500">{i + 1}</span>
+                <span className="text-2xl font-heading text-gold-500">{i + 1}</span>
               </div>
               <div className="pt-2">
                 <step.icon className="text-gold-500/60 mb-3" size={20} />

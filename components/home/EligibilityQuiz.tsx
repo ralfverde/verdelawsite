@@ -121,7 +121,7 @@ export function EligibilityQuiz() {
             exit={{ opacity: 0, x: direction * -40 }}
             transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
           >
-            <h3 className="text-xl md:text-2xl font-display text-white mb-8 leading-snug">
+            <h3 className="text-xl md:text-2xl font-heading text-white mb-8 leading-snug">
               {t(`questions.${currentStep.id}.question`)}
             </h3>
 
@@ -168,7 +168,7 @@ export function EligibilityQuiz() {
             exit={{ opacity: 0, x: direction * -40 }}
             transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
           >
-            <h3 className="text-xl md:text-2xl font-display text-white mb-6 leading-snug">
+            <h3 className="text-xl md:text-2xl font-heading text-white mb-6 leading-snug">
               {t("results.heading")}
             </h3>
 

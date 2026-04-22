@@ -5,7 +5,7 @@ type Variant = "primary" | "secondary" | "outline" | "ghost" | "whatsapp";
 type Size = "md" | "lg";
 
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-lg font-semibold whitespace-nowrap transition-all duration-200 focus-visible:outline-2 focus-visible:outline-[var(--gold-500)] focus-visible:outline-offset-2";
+  "inline-flex items-center justify-center gap-2 rounded-lg text-button whitespace-nowrap transition-all duration-200 focus-visible:outline-2 focus-visible:outline-[var(--gold-500)] focus-visible:outline-offset-2";
 
 const variants: Record<Variant, string> = {
   primary:
@@ -21,8 +21,8 @@ const variants: Record<Variant, string> = {
 };
 
 const sizes: Record<Size, string> = {
-  md: "px-6 py-3 text-sm",
-  lg: "px-9 py-4 text-base",
+  md: "px-6 py-3",
+  lg: "px-9 py-4",
 };
 
 type Props = {

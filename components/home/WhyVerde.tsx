@@ -29,7 +29,7 @@ export function WhyVerde() {
           <SectionEyebrow className="mb-4">{t("eyebrow")}</SectionEyebrow>
           <GoldAccentLine className="mb-6" />
           <h2
-            className="font-display text-verde-950 leading-tight mb-6"
+            className="font-heading text-verde-950 leading-tight mb-6"
             style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
           >
             {t("title")}

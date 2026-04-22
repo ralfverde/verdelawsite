@@ -35,7 +35,7 @@ export function Testimonials() {
       >
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
         <h2
-          className="mt-3 font-display"
+          className="mt-3 font-heading"
           style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)", lineHeight: 1.06 }}
         >
           {t("title")}
@@ -60,13 +60,13 @@ export function Testimonials() {
                 className={`relative bg-white rounded-2xl p-8 md:p-10 shadow-sm ${i > 0 ? "hidden md:block" : ""}`}
               >
                 <span
-                  className="absolute -top-2 left-6 text-6xl font-display text-gold-500/20 leading-none select-none"
+                  className="absolute -top-2 left-6 text-6xl font-heading text-gold-500/20 leading-none select-none"
                   aria-hidden
                 >
                   &ldquo;
                 </span>
 
-                <p className="relative text-lg md:text-xl font-display text-verde-950 leading-relaxed italic mb-6">
+                <p className="relative text-quote text-verde-950 mb-6">
                   {t(`items.${id}.quote`)}
                 </p>
 

@@ -96,7 +96,7 @@ export default async function AboutPage({
         {/* Decorative giant quotation mark */}
         <span
           aria-hidden
-          className="absolute right-0 top-1/2 -translate-y-1/2 pr-4 md:pr-16 font-display text-white opacity-[0.03] select-none pointer-events-none leading-none"
+          className="absolute right-0 top-1/2 -translate-y-1/2 pr-4 md:pr-16 font-heading text-white opacity-[0.03] select-none pointer-events-none leading-none"
           style={{ fontSize: "clamp(180px, 26vw, 420px)" }}
         >
           &ldquo;
@@ -118,7 +118,7 @@ export default async function AboutPage({
           <TextReveal
             as="h1"
             whileInView={false}
-            className="mt-3 font-display text-white max-w-4xl"
+            className="mt-3 font-heading text-white max-w-4xl"
             style={{ fontSize: "clamp(2.5rem, 5.2vw, 4.5rem)", lineHeight: 1.04 }}
           >
             {t("title")}
@@ -137,7 +137,7 @@ export default async function AboutPage({
           <div>
             <SectionEyebrow>{t("story.eyebrow")}</SectionEyebrow>
             <h2
-              className="mt-3 font-display text-verde-950"
+              className="mt-3 font-heading text-verde-950"
               style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
             >
               {t("story.title")}
@@ -157,7 +157,7 @@ export default async function AboutPage({
                   key={k}
                   className="px-5 py-3 rounded-xl border border-verde-950/[0.06] bg-white shadow-sm"
                 >
-                  <p className="text-2xl font-display text-verde-950 leading-none">
+                  <p className="text-2xl font-heading text-verde-950 leading-none">
                     {t(`story.milestones.${k}.value`)}
                   </p>
                   <p className="text-xs text-verde-950/50 mt-1">
@@ -207,7 +207,7 @@ export default async function AboutPage({
         <div className="container-wide relative">
           <SectionEyebrow>{t("mission.eyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display text-white"
+            className="mt-3 font-heading text-white"
             style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("mission.title")}
@@ -218,16 +218,16 @@ export default async function AboutPage({
           <div className="relative max-w-3xl mx-auto mt-16 text-center px-4">
             <span
               aria-hidden
-              className="absolute -top-6 -left-2 text-6xl text-gold-500/30 font-display leading-none select-none pointer-events-none"
+              className="absolute -top-6 -left-2 text-6xl text-gold-500/30 font-heading leading-none select-none pointer-events-none"
             >
               &ldquo;
             </span>
-            <p className="text-2xl md:text-3xl font-display text-white/90 italic leading-relaxed">
+            <p className="text-2xl md:text-3xl font-heading text-white/90 italic leading-relaxed">
               {t("mission.quote")}
             </p>
             <span
               aria-hidden
-              className="absolute -bottom-10 -right-2 text-6xl text-gold-500/30 font-display leading-none select-none pointer-events-none"
+              className="absolute -bottom-10 -right-2 text-6xl text-gold-500/30 font-heading leading-none select-none pointer-events-none"
             >
               &rdquo;
             </span>
@@ -262,7 +262,7 @@ export default async function AboutPage({
           {stats.map((s, i) => (
             <Fragment key={s.key}>
               <div className="text-center">
-                <p className="font-display text-5xl md:text-6xl text-verde-950 tabular-nums leading-none">
+                <p className="text-stat text-verde-950 leading-none">
                   <CountUp value={s.value} suffix={s.suffix ?? ""} />
                 </p>
                 <p className="mt-2 text-sm text-verde-950/40">
@@ -286,7 +286,7 @@ export default async function AboutPage({
         <div className="container-wide">
           <SectionEyebrow>{t("office.eyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display text-white"
+            className="mt-3 font-heading text-white"
             style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("office.title")}
@@ -318,7 +318,7 @@ export default async function AboutPage({
 
             {/* Contact info card */}
             <aside className="bg-white/[0.04] border border-white/[0.08] rounded-xl p-6">
-              <h3 className="font-display text-2xl text-white mb-5">
+              <h3 className="font-heading text-2xl text-white mb-5">
                 {t("office.addressLabel")}
               </h3>
               <ul className="space-y-4 text-white/75">

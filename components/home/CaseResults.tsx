@@ -22,7 +22,7 @@ export function CaseResults() {
       >
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
         <h2
-          className="mt-3 font-display text-verde-950"
+          className="mt-3 font-heading text-verde-950"
           style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
         >
           {t("title")}
@@ -46,7 +46,7 @@ export function CaseResults() {
             <span className="inline-flex self-start px-3 py-1 rounded-full bg-gold-500/10 text-gold-600 text-xs font-semibold uppercase tracking-wider">
               {t(`items.${id}.type`)}
             </span>
-            <h3 className="my-3 text-lg font-display text-verde-950 leading-snug">
+            <h3 className="my-3 text-lg font-heading text-verde-950 leading-snug">
               {t(`items.${id}.headline`)}
             </h3>
             <p className="text-sm text-verde-950/50 leading-relaxed flex-1">

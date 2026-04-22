@@ -30,7 +30,7 @@ export function CTABanner({ variant = "dark", titleKey = "bannerDark.title" }: P
             <ShieldCheck size={22} />
           </span>
           <div>
-            <h3 className={`font-display text-2xl md:text-3xl ${isDark ? "text-white" : "text-[var(--verde-950)]"}`}>
+            <h3 className={`font-heading text-2xl md:text-3xl ${isDark ? "text-white" : "text-[var(--verde-950)]"}`}>
               {t(titleKey)}
             </h3>
             <p className={`mt-1 text-sm ${isDark ? "text-white/65" : "text-[var(--text-dark-secondary)]"}`}>

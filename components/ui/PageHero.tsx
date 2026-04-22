@@ -51,7 +51,7 @@ export function PageHero({
         <TextReveal
           as="h1"
           whileInView={false}
-          className="mt-3 font-display text-white max-w-4xl"
+          className="mt-3 font-heading text-white max-w-4xl"
           style={{ fontSize: "clamp(38px,5.2vw,78px)", lineHeight: 1.04 }}
         >
           {title}

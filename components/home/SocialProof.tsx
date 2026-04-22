@@ -39,7 +39,7 @@ export function SocialProof() {
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 0.6, delay: i * 0.15, ease: easeOut }}
               >
-                <div className="font-display text-5xl md:text-6xl text-verde-900 tabular-nums leading-none">
+                <div className="text-stat text-verde-900 leading-none">
                   {stat.isRating ? (
                     <span className="inline-flex items-baseline gap-2">
                       <CountUp value={stat.value} decimals={1} />

@@ -92,7 +92,7 @@ export default async function EducationPage({
         <div className="container-wide">
           <SectionEyebrow>{t("articles.eyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display text-verde-950"
+            className="mt-3 font-heading text-verde-950"
             style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("articles.title")}
@@ -136,7 +136,7 @@ export default async function EducationPage({
 
                 {/* Content */}
                 <div className="p-5 flex flex-col flex-1">
-                  <h3 className="text-base font-display text-verde-950 mb-2 line-clamp-2 group-hover:text-verde-700 transition-colors">
+                  <h3 className="text-base font-heading text-verde-950 mb-2 line-clamp-2 group-hover:text-verde-700 transition-colors">
                     {t(`articles.items.${a}.title`)}
                   </h3>
                   <p className="text-sm text-verde-950/50 line-clamp-2 mb-4">
@@ -164,7 +164,7 @@ export default async function EducationPage({
         <div className="container-wide">
           <SectionEyebrow>{t("videos.eyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display"
+            className="mt-3 font-heading"
             style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("videos.title")}
@@ -219,7 +219,7 @@ export default async function EducationPage({
         <div className="container-wide max-w-4xl">
           <SectionEyebrow>{t("faq.eyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display text-verde-950"
+            className="mt-3 font-heading text-verde-950"
             style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("faq.title")}
@@ -238,7 +238,7 @@ export default async function EducationPage({
           <div className="bg-verde-900 rounded-2xl p-8 md:p-12 max-w-4xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
             <div className="flex-[0_0_58%] max-w-[58ch]">
               <SectionEyebrow>{t("newsletter.eyebrow")}</SectionEyebrow>
-              <h2 className="mt-3 text-2xl md:text-3xl font-display text-white mb-3">
+              <h2 className="mt-3 text-2xl md:text-3xl font-heading text-white mb-3">
                 {t("newsletter.title")}
               </h2>
               <p className="text-sm text-white/50 leading-relaxed">

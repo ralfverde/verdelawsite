@@ -87,7 +87,7 @@ export default async function LocationsPage({
           {/* Office info card */}
           <div className="bg-cream rounded-2xl p-8 border border-verde-950/5 shadow-sm">
             <SectionEyebrow>{t("office.eyebrow")}</SectionEyebrow>
-            <h2 className="mt-3 font-display text-2xl text-verde-950 mb-6">
+            <h2 className="mt-3 font-heading text-2xl text-verde-950 mb-6">
               {t("office.title")}
             </h2>
 
@@ -142,7 +142,7 @@ export default async function LocationsPage({
         <div className="container-wide">
           <SectionEyebrow>{t("national.eyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display"
+            className="mt-3 font-heading"
             style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("national.title")}
@@ -180,7 +180,7 @@ export default async function LocationsPage({
         <div className="container-wide">
           <SectionEyebrow>{t("virtual.eyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display text-verde-950"
+            className="mt-3 font-heading text-verde-950"
             style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
           >
             {t("virtual.title")}

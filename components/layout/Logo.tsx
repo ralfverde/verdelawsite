@@ -14,7 +14,7 @@ export function Logo({ dark = false, compact = false }: { dark?: boolean; compac
       </span>
       {!compact && (
         <span className="flex flex-col leading-none">
-          <span className={`font-display text-xl ${textColor}`}>Verde Law</span>
+          <span className={`font-heading font-semibold text-xl tracking-tight ${textColor}`}>Verde Law</span>
           <span className="text-[10px] uppercase tracking-[0.15em] text-[var(--gold-500)] mt-1">
             Immigration Attorneys
           </span>

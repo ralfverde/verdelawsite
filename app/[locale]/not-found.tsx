@@ -22,7 +22,7 @@ export default function NotFound() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         aria-hidden
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-display text-gold-500/10 leading-none select-none pointer-events-none z-0"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-heading text-gold-500/10 leading-none select-none pointer-events-none z-0"
         style={{ fontSize: "clamp(150px, 28vw, 300px)" }}
       >
         404
@@ -35,7 +35,7 @@ export default function NotFound() {
         transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
         className="relative z-10 text-center max-w-xl"
       >
-        <h1 className="text-3xl font-display text-white mb-3">{t("title")}</h1>
+        <h1 className="text-3xl font-heading text-white mb-3">{t("title")}</h1>
         <p className="text-base text-white/50 mb-8">{t("body")}</p>
 
         <div className="flex items-center justify-center gap-4 flex-wrap">

@@ -80,7 +80,7 @@ export function PhoneMockup({ className = "", float = false, parallax = false }:
 
             {/* Header */}
             <div className="h-12 flex items-center px-5 border-b border-white/[0.04] shrink-0">
-              <span className="text-sm text-white/60 font-display">Verde+</span>
+              <span className="text-sm text-white/60 font-heading">Verde+</span>
             </div>
 
             {/* Content cards */}

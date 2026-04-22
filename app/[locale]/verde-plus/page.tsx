@@ -80,7 +80,7 @@ export default async function VerdePlusPage({
             <TextReveal
               as="h1"
               whileInView={false}
-              className="mt-4 font-display text-white"
+              className="mt-4 font-heading text-white"
               style={{ fontSize: "clamp(2.5rem, 5.6vw, 5rem)", lineHeight: 1.04 }}
             >
               {t("hero.title")}
@@ -133,7 +133,7 @@ export default async function VerdePlusPage({
                   {t(`features.${f.id}.eyebrow`)}
                 </SectionEyebrow>
                 <h2
-                  className={`font-display leading-tight mb-4 ${isDark ? "text-white" : "text-verde-950"}`}
+                  className={`font-heading leading-tight mb-4 ${isDark ? "text-white" : "text-verde-950"}`}
                   style={{
                     fontSize: "clamp(1.75rem, 3.4vw, 2.5rem)",
                   }}
@@ -168,7 +168,7 @@ export default async function VerdePlusPage({
         <div className="container-wide">
           <SectionEyebrow>{t("comparison.eyebrow")}</SectionEyebrow>
           <h2
-            className="mt-3 font-display text-verde-950"
+            className="mt-3 font-heading text-verde-950"
             style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
           >
             {t("comparison.title")}
@@ -234,7 +234,7 @@ export default async function VerdePlusPage({
           <PhoneMockup float />
 
           <h2
-            className="mt-12 font-display text-white mb-3"
+            className="mt-12 font-heading text-white mb-3"
             style={{ fontSize: "clamp(1.875rem, 3.6vw, 2.5rem)", lineHeight: 1.1 }}
           >
             {t("download.title")}

@@ -30,7 +30,7 @@ export function PracticeOverview() {
       >
         <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
         <h2
-          className="mt-3 font-display text-white"
+          className="mt-3 font-heading text-white"
           style={{ fontSize: "clamp(2rem, 4.2vw, 3.5rem)", lineHeight: 1.06 }}
         >
           {t("title")}
@@ -57,7 +57,7 @@ export function PracticeOverview() {
                 size={24}
               />
             </div>
-            <h3 className="font-display text-xl text-white mb-3">
+            <h3 className="font-heading text-xl text-white mb-3">
               {t(`cards.${c.key}.title`)}
             </h3>
             <p className="text-sm text-white/50 leading-relaxed mb-6">

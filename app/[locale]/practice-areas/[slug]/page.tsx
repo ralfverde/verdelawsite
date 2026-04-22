@@ -141,7 +141,7 @@ export default async function PracticeAreaDetailPage({
           <TextReveal
             as="h1"
             whileInView={false}
-            className="mt-3 font-display text-white max-w-4xl"
+            className="mt-3 font-heading text-white max-w-4xl"
             style={{
               fontSize: "clamp(2.25rem, 5vw, 4.5rem)",
               lineHeight: 1.04,
@@ -177,7 +177,7 @@ export default async function PracticeAreaDetailPage({
               <PeopleViewing variant="light" />
             </div>
             <SectionEyebrow>{tPage("overview")}</SectionEyebrow>
-            <h2 className="mt-3 font-display text-3xl md:text-4xl leading-tight">
+            <h2 className="mt-3 font-heading text-3xl md:text-4xl leading-tight">
               {t(`${svc.id}.headline`)}
             </h2>
             <GoldAccentLine className="mt-5" />
@@ -240,7 +240,7 @@ export default async function PracticeAreaDetailPage({
       <section className="noise-bg bg-verde-950 text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{tPage("processEyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">
+          <h2 className="mt-3 font-heading text-3xl md:text-5xl">
             {tPage("processTitle")}
           </h2>
           <GoldAccentLine className="mt-5" />
@@ -288,7 +288,7 @@ export default async function PracticeAreaDetailPage({
       <section className="bg-cream text-verde-950 section-y">
         <div className="container-wide max-w-4xl">
           <SectionEyebrow>{tPage("faqEyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">
+          <h2 className="mt-3 font-heading text-3xl md:text-5xl">
             {tPage("faqTitle")}
           </h2>
           <GoldAccentLine className="mt-5" />
@@ -303,7 +303,7 @@ export default async function PracticeAreaDetailPage({
         <section className="noise-bg bg-verde-950 text-white py-20">
           <div className="container-wide">
             <SectionEyebrow>{tPage("relatedEyebrow")}</SectionEyebrow>
-            <h2 className="mt-3 font-display text-2xl md:text-4xl text-white">
+            <h2 className="mt-3 font-heading text-2xl md:text-4xl text-white">
               {tPage("relatedTitle")}
             </h2>
             <GoldAccentLine className="mt-5" />
@@ -320,7 +320,7 @@ export default async function PracticeAreaDetailPage({
                     <div className="w-10 h-10 rounded-lg bg-gold-500/10 grid place-items-center mb-4">
                       <RIcon className="text-gold-500" size={20} />
                     </div>
-                    <h3 className="text-base font-display text-white mb-2">
+                    <h3 className="text-base font-heading text-white mb-2">
                       {t(`${r.id}.title`)}
                     </h3>
                     <p className="text-sm text-white/50 leading-relaxed line-clamp-2 mb-4">
