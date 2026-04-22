@@ -25,7 +25,7 @@ export function AttorneyFeature() {
           className="relative rounded-2xl overflow-hidden border border-white/[0.08] shadow-[0_20px_60px_rgba(13,43,30,0.4)] max-w-md w-full mx-auto lg:mx-0"
         >
           <Image
-            src="/images/rafael-verde-hero.png"
+            src="/images/rafael-verde-about.png"
             alt={`${t("name")}, ${t("role")}`}
             width={480}
             height={720}
