@@ -2,43 +2,42 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, type ReactNode } from "react";
+import { useRef, type ReactNode } from "react";
 
 type Props = { children: ReactNode };
 
 /**
- * Route-aware page transition. On the FIRST render we skip the initial
- * opacity:0 so server-rendered content is visible the moment the HTML
- * arrives — if JS ever fails to hydrate the page is still readable.
- * On subsequent client-side route changes the previous page fades out
- * and the next one slides up into place.
+ * Route-aware page transition.
+ *
+ * Critical design rules (each one is here because an earlier version
+ * shipped a visible bug):
+ *   - `initial={false}` on the very first render so the SSR'd HTML is
+ *     visible at opacity:1 without waiting for JS to hydrate. (A
+ *     prior commit shipped a hydration gap that hid the whole page.)
+ *   - `mode="wait"` so the exiting page fully unmounts before the
+ *     new one enters. Without this AnimatePresence keeps both nodes
+ *     in the DOM, stacked; the exiting height pushed the new page
+ *     below the fold and looked like a blank gap at the top.
+ *   - Opacity-only animation (no y transform). Any transform on the
+ *     wrapper creates measurable layout gaps during the transition.
+ *   - 180ms duration — short enough that users don't perceive the
+ *     gap, long enough that the crossfade still feels intentional.
  */
 export function PageTransition({ children }: Props) {
   const pathname = usePathname();
   const firstRender = useRef(true);
 
-  useEffect(() => {
-    if (firstRender.current) {
-      firstRender.current = false;
-      return;
-    }
-    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-  }, [pathname]);
+  const isFirst = firstRender.current;
+  if (firstRender.current) firstRender.current = false;
 
   return (
-    <AnimatePresence mode="sync">
+    <AnimatePresence mode="wait" initial={false}>
       <motion.div
         key={pathname}
-        initial={firstRender.current ? false : { opacity: 0, y: 20 }}
-        animate={{
-          opacity: 1,
-          y: 0,
-          transition: { duration: 0.4, delay: 0.1, ease: [0.22, 1, 0.36, 1] },
-        }}
-        exit={{
-          opacity: 0,
-          transition: { duration: 0.3, ease: [0.22, 1, 0.36, 1] },
-        }}
+        initial={isFirst ? false : { opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.18, ease: "easeInOut" }}
       >
         {children}
       </motion.div>
