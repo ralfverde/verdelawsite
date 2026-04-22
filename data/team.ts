@@ -130,8 +130,8 @@ export const teamMembers: TeamMember[] = [
     role: { en: "Paralegal", es: "Paralegal" },
     photo: "/images/team/aniela.png",
     bio: {
-      en: "One of the most experienced paralegals on the team. Handles a high volume of cases with consistency and care that clients notice and appreciate.",
-      es: "Una de las paralegales con más experiencia en el equipo. Maneja un alto volumen de casos con consistencia y cuidado que los clientes notan y aprecian.",
+      en: "Manages complex caseloads with consistency and attention to detail. Clients regularly mention her by name in their reviews for a reason.",
+      es: "Maneja cargas de casos complejas con consistencia y atención al detalle. Los clientes regularmente la mencionan por nombre en sus reseñas por una razón.",
     },
   },
   {
