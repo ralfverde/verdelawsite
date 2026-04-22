@@ -1,6 +1,5 @@
 {
   "live": {
-    "consultations": "{count} consultas programadas esta semana",
     "viewing": "{count} personas vieron este servicio hoy"
   },
   "trustBar": {

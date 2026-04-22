@@ -21,10 +21,9 @@
     "ctaWhatsApp": "Send us a WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Founder & Managing Attorney",
-    "badges": {
-      "cases": "1,000 + families represented",
-      "states": "All 50 states",
-      "free": "Free consultation, always"
+    "reviews": {
+      "on": "on Google",
+      "count": "130+ reviews"
     }
   },
   "socialProof": {

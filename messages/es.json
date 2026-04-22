@@ -21,10 +21,9 @@
     "ctaWhatsApp": "Envíenos un WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Fundador y Abogado Principal",
-    "badges": {
-      "cases": "1,000 + familias representadas",
-      "states": "Los 50 estados",
-      "free": "Consulta gratuita, siempre"
+    "reviews": {
+      "on": "en Google",
+      "count": "130+ reseñas"
     }
   },
   "socialProof": {
@@ -1515,7 +1514,6 @@
     }
   },
   "live": {
-    "consultations": "{count} consultas programadas esta semana",
     "viewing": "{count} personas vieron este servicio hoy"
   },
   "trustBar": {

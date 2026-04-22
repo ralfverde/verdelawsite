@@ -4,13 +4,12 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { MessageCircle, ChevronDown, Shield, Globe, BadgeCheck } from "lucide-react";
+import { MessageCircle, ChevronDown } from "lucide-react";
 import { FIRM } from "@/lib/constants";
 import { easeOut } from "@/lib/animations";
 import { FloatingOrbs } from "@/components/ui/FloatingOrbs";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { TextReveal } from "@/components/ui/TextReveal";
-import { LiveIndicator } from "@/components/ui/LiveIndicator";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -32,12 +31,6 @@ export function Hero() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  const trustBadges = [
-    { key: "cases", icon: BadgeCheck },
-    { key: "states", icon: Globe },
-    { key: "free", icon: Shield },
-  ];
 
   const title = t("title");
 
@@ -105,27 +98,37 @@ export function Hero() {
             </a>
           </motion.div>
 
-          {/* Trust badges row */}
-          <ul className="mt-12 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row flex-wrap gap-y-5 sm:gap-y-0">
-            {trustBadges.map((b, i) => (
-              <motion.li
-                key={b.key}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 1.1 + i * 0.1, ease: easeOut }}
-                className="flex items-center gap-3 sm:pr-8 sm:mr-8 sm:border-r sm:border-white/10 last:border-r-0 last:mr-0 last:pr-0"
-              >
-                <span className="w-10 h-10 rounded-full bg-gold-500/10 grid place-items-center shrink-0">
-                  <b.icon className="text-gold-500" size={18} />
-                </span>
-                <span className="text-sm font-medium text-white/70">
-                  {t(`badges.${b.key}`)}
-                </span>
-              </motion.li>
-            ))}
-          </ul>
+          {/* Google Reviews badge */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 1.1, ease: easeOut }}
+            className="mt-10 pt-8 border-t border-white/[0.06] flex items-center gap-3"
+          >
+            <div className="flex items-center gap-1">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <svg
+                  key={i}
+                  aria-hidden
+                  className="w-4 h-4 text-gold-500 fill-gold-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              ))}
+            </div>
 
-          <LiveIndicator />
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="font-heading font-bold text-white text-base">4.9</span>
+              <span className="text-white/40 text-sm font-body">
+                {t("reviews.on")}
+              </span>
+              <span aria-hidden className="text-white/20 text-sm">·</span>
+              <span className="text-white/40 text-sm font-body">
+                {t("reviews.count")}
+              </span>
+            </div>
+          </motion.div>
         </div>
 
         {/* Right: Rafael Verde headshot */}

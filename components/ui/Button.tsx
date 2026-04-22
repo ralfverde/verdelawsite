@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import type { ComponentProps, ReactNode } from "react";
 
 type Variant = "primary" | "secondary" | "outline" | "ghost" | "whatsapp";
@@ -58,7 +58,7 @@ export function Button({
       );
     }
     return (
-      <Link href={href} className={cls}>
+      <Link href={href as never} className={cls}>
         {children}
       </Link>
     );
