@@ -1,13 +1,29 @@
 import type { Metadata } from "next";
+import { Fragment } from "react";
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { PageHero } from "@/components/ui/PageHero";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { CountUp } from "@/components/ui/CountUp";
-import { Heart, HandHeart, Sparkles, Quote } from "lucide-react";
+import { Link } from "@/i18n/navigation";
+import {
+  Heart,
+  HandHeart,
+  Sparkles,
+  Camera,
+  Users,
+  Building,
+  Coffee,
+  Briefcase,
+  BookOpen,
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+} from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
+import { FIRM } from "@/lib/constants";
 
 export async function generateMetadata({
   params,
@@ -25,7 +41,11 @@ export async function generateMetadata({
   });
 }
 
-export default async function AboutPage({ params }: { params: Promise<{ locale: "en" | "es" }> }) {
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: "en" | "es" }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("about");
@@ -45,68 +65,183 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
     { key: "team", value: 22 },
   ];
 
+  const milestones: Array<"founded" | "employees" | "families"> = [
+    "founded",
+    "employees",
+    "families",
+  ];
+
+  const galleryTiles = [
+    { icon: Camera, gradient: "bg-gradient-to-br from-verde-600 to-verde-800" },
+    { icon: Users, gradient: "bg-gradient-to-bl from-verde-600 to-verde-900" },
+    { icon: Building, gradient: "bg-gradient-to-r from-verde-700 to-verde-900" },
+    { icon: Coffee, gradient: "bg-gradient-to-tr from-verde-600 to-verde-800" },
+    { icon: Briefcase, gradient: "bg-gradient-to-tl from-verde-700 to-verde-950" },
+    { icon: BookOpen, gradient: "bg-gradient-to-b from-verde-600 to-verde-800" },
+  ];
+
   return (
     <>
-      <PageHero
-        eyebrow={t("eyebrow")}
-        title={t("title")}
-        subtitle={t("subtitle")}
-        crumbs={[{ label: tNav("home"), href: "/" }, { label: tNav("about") }]}
-      />
+      {/* Hero */}
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-32 pb-24 md:pt-40 md:pb-32">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900)_0%,var(--verde-950)_70%)]"
+        />
 
-      {/* Story */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
-        <div className="container-wide grid lg:grid-cols-[1.4fr_1fr] gap-14 items-start">
+        {/* Decorative giant quotation mark */}
+        <span
+          aria-hidden
+          className="absolute right-0 top-1/2 -translate-y-1/2 pr-4 md:pr-16 font-display text-white opacity-[0.03] select-none pointer-events-none leading-none"
+          style={{ fontSize: "clamp(180px, 26vw, 420px)" }}
+        >
+          &ldquo;
+        </span>
+
+        <div className="container-wide relative">
+          <nav
+            aria-label="Breadcrumb"
+            className="text-sm text-white/40 mb-6"
+          >
+            <Link href="/" className="hover:text-gold-500 transition-colors">
+              {tNav("home")}
+            </Link>
+            <span className="text-white/20 mx-2">/</span>
+            <span className="text-white/60">{tNav("about")}</span>
+          </nav>
+
+          <SectionEyebrow>{t("eyebrow")}</SectionEyebrow>
+          <h1
+            className="mt-3 font-display text-white max-w-4xl"
+            style={{ fontSize: "clamp(2.5rem, 5.2vw, 4.5rem)", lineHeight: 1.04 }}
+          >
+            {t("title")}
+          </h1>
+          <GoldAccentLine className="mt-6" />
+          <p className="mt-6 text-white/70 max-w-2xl text-lg leading-relaxed">
+            {t("subtitle")}
+          </p>
+        </div>
+      </section>
+
+      {/* Our Story */}
+      <section className="bg-cream text-verde-950 section-y">
+        <div className="container-wide grid lg:grid-cols-[1.4fr_1fr] gap-14 lg:gap-20 items-start">
           <div>
             <SectionEyebrow>{t("story.eyebrow")}</SectionEyebrow>
-            <h2 className="mt-3 font-display text-4xl md:text-5xl">{t("story.title")}</h2>
+            <h2
+              className="mt-3 font-display text-verde-950"
+              style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
+            >
+              {t("story.title")}
+            </h2>
             <GoldAccentLine className="mt-5" />
-            <div className="mt-7 space-y-5 text-[var(--text-dark-secondary)] leading-relaxed">
+            <div className="mt-7 space-y-5 text-verde-950/60 leading-relaxed">
               <p>{t("story.p1")}</p>
               <p>{t("story.p2")}</p>
               <p>{t("story.p3")}</p>
               <p>{t("story.p4")}</p>
             </div>
-            <ul className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
-              {["founded", "employees", "families"].map((k) => (
-                <li key={k} className="card-accent p-4">
-                  <p className="font-display text-xl text-[var(--verde-800)]">{t(`story.milestones.${k}.value`)}</p>
-                  <p className="text-xs mt-0.5 text-[var(--text-dark-secondary)]">{t(`story.milestones.${k}.label`)}</p>
+
+            {/* Milestone badges */}
+            <ul className="flex flex-wrap gap-4 mt-8 pt-8 border-t border-verde-950/10">
+              {milestones.map((k) => (
+                <li
+                  key={k}
+                  className="px-5 py-3 rounded-xl border border-verde-950/[0.06] bg-white shadow-sm"
+                >
+                  <p className="text-2xl font-display text-verde-950 leading-none">
+                    {t(`story.milestones.${k}.value`)}
+                  </p>
+                  <p className="text-xs text-verde-950/50 mt-1">
+                    {t(`story.milestones.${k}.label`)}
+                  </p>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-[var(--verde-800)] shadow-xl">
-            <div className="absolute inset-0 bg-gradient-to-br from-[var(--verde-700)] via-[var(--verde-800)] to-[var(--verde-950)]" />
-            <div aria-hidden className="absolute inset-0 bg-[radial-gradient(circle_at_40%_30%,rgba(200,169,81,0.28),transparent_55%)]" />
-            <div className="absolute bottom-0 inset-x-0 p-6 text-white">
-              <p className="italic text-sm">{t("story.imageCaption")}</p>
+
+          {/* Layered image composition */}
+          <div className="relative mx-auto lg:mx-0 w-full max-w-md">
+            {/* Back offset card */}
+            <div
+              aria-hidden
+              className="absolute -bottom-3 -left-3 w-[calc(100%-20px)] aspect-[4/3] rounded-2xl bg-verde-700/50 blur-[1px] -z-10"
+            />
+
+            {/* Main image card */}
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-white/10 bg-gradient-to-br from-verde-600 to-verde-800">
+              <div
+                aria-hidden
+                className="absolute inset-0 bg-[radial-gradient(circle_at_40%_30%,rgba(200,169,81,0.18),transparent_55%)]"
+              />
+              <div className="absolute inset-0 grid place-items-center">
+                <Building size={96} className="text-white/10" strokeWidth={1.25} />
+              </div>
+            </div>
+
+            {/* Floating caption card */}
+            <div className="absolute bottom-4 right-4 bg-cream rounded-lg px-4 py-2 shadow-lg">
+              <p className="text-sm text-verde-950/70 font-medium">
+                {t("story.imageCaption")}
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Mission */}
-      <section className="noise-bg bg-[var(--verde-950)] text-white section-y relative overflow-hidden">
-        <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--verde-900),var(--verde-950)_70%)]" />
+      {/* Mission & Values */}
+      <section className="noise-bg bg-verde-950 text-white section-y relative overflow-hidden">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--verde-900),var(--verde-950)_70%)]"
+        />
+
         <div className="container-wide relative">
           <SectionEyebrow>{t("mission.eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("mission.title")}</h2>
+          <h2
+            className="mt-3 font-display text-white"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
+          >
+            {t("mission.title")}
+          </h2>
           <GoldAccentLine className="mt-5" />
 
-          <div className="mt-14 mx-auto max-w-4xl text-center">
-            <Quote className="mx-auto text-[var(--gold-500)]" size={44} />
-            <p className="mt-6 font-display text-2xl md:text-4xl leading-[1.2] text-white">
-              &ldquo;{t("mission.quote")}&rdquo;
+          {/* Large quote */}
+          <div className="relative max-w-3xl mx-auto mt-16 text-center px-4">
+            <span
+              aria-hidden
+              className="absolute -top-6 -left-2 text-6xl text-gold-500/30 font-display leading-none select-none pointer-events-none"
+            >
+              &ldquo;
+            </span>
+            <p className="text-2xl md:text-3xl font-display text-white/90 italic leading-relaxed">
+              {t("mission.quote")}
             </p>
+            <span
+              aria-hidden
+              className="absolute -bottom-10 -right-2 text-6xl text-gold-500/30 font-display leading-none select-none pointer-events-none"
+            >
+              &rdquo;
+            </span>
           </div>
 
-          <ul className="mt-16 grid md:grid-cols-3 gap-5">
+          {/* Value cards */}
+          <ul className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
             {values.map((v) => (
-              <li key={v.key} className="card-dark p-8">
-                <v.icon className="text-[var(--gold-500)]" size={26} />
-                <h3 className="mt-4 font-display text-2xl">{t(`mission.values.${v.key}.title`)}</h3>
-                <p className="mt-2 text-white/65 leading-relaxed text-sm">{t(`mission.values.${v.key}.desc`)}</p>
+              <li
+                key={v.key}
+                className="text-center px-6 py-8 rounded-2xl transition-colors duration-300 hover:bg-white/[0.08]"
+              >
+                <span className="w-14 h-14 mx-auto mb-5 rounded-2xl bg-white/[0.06] border border-white/[0.08] grid place-items-center">
+                  <v.icon className="text-gold-500" size={24} />
+                </span>
+                <h3 className="text-lg font-semibold text-white mb-3">
+                  {t(`mission.values.${v.key}.title`)}
+                </h3>
+                <p className="text-sm text-white/50 leading-relaxed max-w-[280px] mx-auto">
+                  {t(`mission.values.${v.key}.desc`)}
+                </p>
               </li>
             ))}
           </ul>
@@ -114,42 +249,104 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       </section>
 
       {/* By the numbers */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] py-16">
-        <div className="container-wide grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8">
+      <section className="bg-cream text-verde-950 py-20">
+        <div className="container-wide flex flex-wrap items-center justify-center gap-10 md:gap-16">
           {stats.map((s, i) => (
-            <div key={s.key} className={`text-center md:text-left ${i < stats.length - 1 ? "md:border-r md:border-black/10 md:pr-4" : ""}`}>
-              <p className="font-display text-5xl text-[var(--verde-800)] leading-none">
-                <CountUp value={s.value} suffix={s.suffix ?? ""} />
-              </p>
-              <p className="mt-2 text-sm text-[var(--text-dark-secondary)]">{t(`numbers.${s.key}`)}</p>
-            </div>
+            <Fragment key={s.key}>
+              <div className="text-center">
+                <p className="font-display text-5xl md:text-6xl text-verde-950 tabular-nums leading-none">
+                  <CountUp value={s.value} suffix={s.suffix ?? ""} />
+                </p>
+                <p className="mt-2 text-sm text-verde-950/40">
+                  {t(`numbers.${s.key}`)}
+                </p>
+              </div>
+              {i < stats.length - 1 && (
+                <span
+                  aria-hidden
+                  className="hidden md:block w-px h-14 bg-verde-950/10 self-center"
+                />
+              )}
+            </Fragment>
           ))}
         </div>
       </section>
 
-      {/* Office */}
-      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
+      {/* Office / Culture */}
+      <section className="noise-bg bg-verde-950 text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("office.eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("office.title")}</h2>
+          <h2
+            className="mt-3 font-display text-white"
+            style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
+          >
+            {t("office.title")}
+          </h2>
           <GoldAccentLine className="mt-5" />
-          <div className="mt-12 grid lg:grid-cols-[1.5fr_1fr] gap-10">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {Array.from({ length: 6 }).map((_, i) => (
-                <div key={i} className="aspect-[4/3] rounded-xl overflow-hidden relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-[var(--verde-700)] via-[var(--verde-800)] to-[var(--verde-950)]" />
-                  <div aria-hidden className="absolute inset-0 bg-[radial-gradient(circle_at_35%_35%,rgba(200,169,81,0.22),transparent_55%)]" />
+
+          <div className="mt-12 grid lg:grid-cols-[1.6fr_1fr] gap-8 lg:gap-10 items-start">
+            {/* Photo gallery */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+              {galleryTiles.map((tile, i) => (
+                <div
+                  key={i}
+                  className={`group relative aspect-square rounded-xl overflow-hidden border border-white/[0.06] ${tile.gradient}`}
+                >
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 bg-[radial-gradient(circle_at_35%_35%,rgba(200,169,81,0.12),transparent_55%)]"
+                  />
+                  <div className="absolute inset-0 grid place-items-center transition-transform duration-500 group-hover:scale-[1.08]">
+                    <tile.icon
+                      size={48}
+                      className="text-white/10"
+                      strokeWidth={1.25}
+                    />
+                  </div>
                 </div>
               ))}
             </div>
-            <address className="not-italic text-white/75 space-y-2">
-              <p className="font-semibold text-white">{t("office.addressLabel")}</p>
-              <p>850 NW 42nd Ave, Suite 306</p>
-              <p>Miami, FL 33126</p>
-              <p className="pt-3">{t("office.hours")}: Mon–Fri 9AM–6PM EST</p>
-              <p className="pt-3"><a href="tel:+13057863003" className="hover:text-[var(--gold-500)]">(305) 786-3003</a></p>
-              <p><a href="mailto:info@verdelaw.com" className="hover:text-[var(--gold-500)]">info@verdelaw.com</a></p>
-            </address>
+
+            {/* Contact info card */}
+            <aside className="bg-white/[0.04] border border-white/[0.08] rounded-xl p-6">
+              <h3 className="font-display text-2xl text-white mb-5">
+                {t("office.addressLabel")}
+              </h3>
+              <ul className="space-y-4 text-white/75">
+                <li className="flex items-start gap-3 text-sm">
+                  <MapPin className="text-gold-500 w-4 h-4 mt-0.5 shrink-0" />
+                  <span>
+                    {FIRM.address.street}
+                    <br />
+                    {FIRM.address.city}, {FIRM.address.state} {FIRM.address.zip}
+                  </span>
+                </li>
+                <li className="flex items-center gap-3 text-sm">
+                  <Clock className="text-gold-500 w-4 h-4 shrink-0" />
+                  <span>
+                    {t("office.hours")}: {FIRM.hours}
+                  </span>
+                </li>
+                <li className="flex items-center gap-3 text-sm">
+                  <Phone className="text-gold-500 w-4 h-4 shrink-0" />
+                  <a
+                    href={FIRM.phoneHref}
+                    className="hover:text-gold-500 transition-colors"
+                  >
+                    {FIRM.phoneDisplay}
+                  </a>
+                </li>
+                <li className="flex items-center gap-3 text-sm">
+                  <Mail className="text-gold-500 w-4 h-4 shrink-0" />
+                  <a
+                    href={`mailto:${FIRM.email}`}
+                    className="hover:text-gold-500 transition-colors"
+                  >
+                    {FIRM.email}
+                  </a>
+                </li>
+              </ul>
+            </aside>
           </div>
         </div>
       </section>
