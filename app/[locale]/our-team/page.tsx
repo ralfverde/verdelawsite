@@ -96,7 +96,12 @@ export default async function TeamPage({
                 {t("join.body")}
               </p>
             </div>
-            <a href="mailto:info@verdelaw.com" className="cta-outline shrink-0">
+            <a
+              href="https://www.indeed.com/cmp/Verde-Law"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-outline shrink-0"
+            >
               {t("join.cta")}
               <ArrowRight size={16} />
             </a>
