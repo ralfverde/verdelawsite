@@ -50,25 +50,16 @@ export function LoadingScreen() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             >
-              <Logo />
+              <Logo size="lg" />
             </motion.div>
 
             <motion.div
               initial={{ width: 0 }}
               animate={{ width: 120 }}
               transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              className="h-[1px] bg-gold-500 mt-6"
+              className="h-[1px] bg-gold-500 mt-8"
               aria-hidden
             />
-
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.6 }}
-              className="mt-6 text-[10px] tracking-[0.3em] text-gold-500/60"
-            >
-              IMMIGRATION ATTORNEYS
-            </motion.p>
           </div>
         </motion.div>
       )}

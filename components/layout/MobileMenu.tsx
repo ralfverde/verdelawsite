@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { X, Phone, MessageCircle } from "lucide-react";
+import { Logo } from "./Logo";
 import { LanguageToggle } from "./LanguageToggle";
 import { FIRM } from "@/lib/constants";
 import { useEffect } from "react";
@@ -41,7 +42,7 @@ export function MobileMenu({ open, onClose, items }: Props) {
           aria-modal="true"
         >
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/5">
-            <span className="text-white font-heading font-bold text-lg tracking-tight">Verde Law</span>
+            <Logo size="sm" />
             <button
               type="button"
               onClick={onClose}
