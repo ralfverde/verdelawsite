@@ -264,6 +264,31 @@ p {
   }
 }
 
+/* CountUp completion highlight — brief color flash + underline sweep */
+@keyframes count-flash {
+  0%, 100% { color: inherit; }
+  30% { color: var(--gold-500); }
+}
+@keyframes count-underline {
+  0% { width: 0; opacity: 0; }
+  30% { width: 100%; opacity: 1; }
+  100% { width: 0; opacity: 0; }
+}
+.count-highlight {
+  position: relative;
+  display: inline-block;
+  animation: count-flash 0.6s ease-out;
+}
+.count-highlight::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  background: var(--gold-500);
+  animation: count-underline 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
 /* Animated underline for inline text links */
 .link-underline {
   position: relative;

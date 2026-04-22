@@ -19,7 +19,10 @@ type Props = {
  *    values every ~50ms, in the ballpark of the target.
  *  - Phase 2 (remaining 33%): eases from the last random value to
  *    the final target with a cubic ease-out.
- * Respects prefers-reduced-motion by snapping straight to the target.
+ *  - Phase 3 (on settle): flashes gold + sweeps a gold underline for
+ *    600ms via the .count-highlight utility in globals.css.
+ * Respects prefers-reduced-motion by snapping straight to the target
+ * without the highlight.
  */
 export function CountUp({
   value,
@@ -32,6 +35,7 @@ export function CountUp({
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
   const [display, setDisplay] = useState(0);
+  const [highlighted, setHighlighted] = useState(false);
 
   useEffect(() => {
     if (!inView) return;
@@ -50,14 +54,14 @@ export function CountUp({
     let lastRandom = 0;
 
     const randomTimer = setInterval(() => {
-      // Keep the tick range visually close to the target so the
-      // transition into the settle phase isn't jarring.
       const jitter = Math.random() * value * 1.1;
       lastRandom = jitter;
       setDisplay(jitter);
     }, 50);
 
     let raf: number | undefined;
+    let highlightTimer: ReturnType<typeof setTimeout> | undefined;
+    let clearHighlight: ReturnType<typeof setTimeout> | undefined;
 
     const stopRandom = setTimeout(() => {
       clearInterval(randomTimer);
@@ -67,8 +71,14 @@ export function CountUp({
         const t = Math.min(1, (now - settleStart) / settleMs);
         const eased = 1 - Math.pow(1 - t, 3);
         setDisplay(from + (value - from) * eased);
-        if (t < 1) raf = requestAnimationFrame(step);
-        else setDisplay(value);
+        if (t < 1) {
+          raf = requestAnimationFrame(step);
+        } else {
+          setDisplay(value);
+          // Kick off highlight animation
+          setHighlighted(true);
+          clearHighlight = setTimeout(() => setHighlighted(false), 700);
+        }
       }
       raf = requestAnimationFrame(step);
     }, randomMs);
@@ -76,6 +86,8 @@ export function CountUp({
     return () => {
       clearInterval(randomTimer);
       clearTimeout(stopRandom);
+      if (highlightTimer) clearTimeout(highlightTimer);
+      if (clearHighlight) clearTimeout(clearHighlight);
       if (raf) cancelAnimationFrame(raf);
     };
   }, [inView, value, duration]);
@@ -86,7 +98,10 @@ export function CountUp({
       : Math.round(display).toLocaleString();
 
   return (
-    <span ref={ref} className={className}>
+    <span
+      ref={ref}
+      className={`${highlighted ? "count-highlight" : ""} ${className}`.trim()}
+    >
       {prefix}
       {formatted}
       {suffix}

@@ -6,6 +6,7 @@ import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { Accordion } from "@/components/ui/Accordion";
 import { SectionDivider } from "@/components/ui/SectionDivider";
+import { ReadingProgress } from "@/components/ui/ReadingProgress";
 import { NewsletterForm } from "@/components/education/NewsletterForm";
 import {
   Play,
@@ -77,6 +78,7 @@ export default async function EducationPage({
 
   return (
     <>
+      <ReadingProgress />
       <PageHero
         eyebrow={t("eyebrow")}
         title={t("title")}

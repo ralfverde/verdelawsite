@@ -8,6 +8,7 @@ import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { SectionDivider } from "@/components/ui/SectionDivider";
 import { TextReveal } from "@/components/ui/TextReveal";
 import { CountUp } from "@/components/ui/CountUp";
+import { ReadingProgress } from "@/components/ui/ReadingProgress";
 import { Link } from "@/i18n/navigation";
 import {
   Heart,
@@ -84,6 +85,7 @@ export default async function AboutPage({
 
   return (
     <>
+      <ReadingProgress />
       {/* Hero */}
       <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-32 pb-24 md:pt-40 md:pb-32">
         <div

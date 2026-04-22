@@ -119,7 +119,7 @@ export default async function VerdePlusPage({
             <div className="container-wide grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
               {/* Phone side */}
               <div className={`${phoneFirst ? "md:order-1" : "md:order-2"}`}>
-                <PhoneMockup float />
+                <PhoneMockup parallax />
               </div>
 
               {/* Text side */}

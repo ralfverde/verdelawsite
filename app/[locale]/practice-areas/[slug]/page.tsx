@@ -8,8 +8,10 @@ import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { TextReveal } from "@/components/ui/TextReveal";
+import { ReadingProgress } from "@/components/ui/ReadingProgress";
 import { iconMap } from "@/components/practice/iconMap";
 import { PeopleViewing } from "@/components/practice/PeopleViewing";
+import { StickySidebar } from "@/components/practice/StickySidebar";
 import { Link } from "@/i18n/navigation";
 import {
   ArrowRight,
@@ -99,6 +101,8 @@ export default async function PracticeAreaDetailPage({
 
   return (
     <>
+      <ReadingProgress />
+      <StickySidebar serviceTitle={t(`${svc.id}.title`)} price={svc.price} />
       {/* Hero */}
       <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-32 pb-20 md:pt-40 md:pb-28">
         <div

@@ -7,7 +7,6 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
 import { StickyMobileCTA } from "@/components/layout/StickyMobileCTA";
-import { ScrollProgress } from "@/components/layout/ScrollProgress";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { CookieConsent } from "@/components/layout/CookieConsent";
 import { LoadingScreen } from "@/components/layout/LoadingScreen";
@@ -35,7 +34,6 @@ export default async function LocaleLayout({
     <NextIntlClientProvider locale={locale} messages={messages}>
       <LenisProvider>
         <LoadingScreen />
-        <ScrollProgress />
         <Navbar />
         <main id="main" className="pt-0">
           <PageTransition>{children}</PageTransition>

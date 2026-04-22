@@ -43,17 +43,27 @@ export function ProcessSteps() {
           {steps.map((step, i) => (
             <Fragment key={step.key}>
               <motion.div
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.6, delay: i * 0.2, ease: easeOut }}
+                transition={{ duration: 0.6, delay: i * 0.6, ease: easeOut }}
                 className="flex flex-col items-center text-center px-4 max-w-[240px] mx-auto"
               >
-                <div className="group w-16 h-16 rounded-full border-2 border-gold-500 grid place-items-center transition-colors duration-300 hover:bg-gold-500">
+                <motion.div
+                  initial={{ scale: 0 }}
+                  whileInView={{ scale: 1 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{
+                    duration: 0.4,
+                    delay: i * 0.6,
+                    ease: easeOut,
+                  }}
+                  className="group w-16 h-16 rounded-full border-2 border-gold-500 grid place-items-center transition-colors duration-300 hover:bg-gold-500"
+                >
                   <span className="text-2xl font-display text-gold-500 group-hover:text-verde-950 transition-colors duration-300">
                     {i + 1}
                   </span>
-                </div>
+                </motion.div>
                 <step.icon className="text-gold-500/60 mt-4" size={22} />
                 <h3 className="text-lg font-semibold text-white mt-4 mb-2">
                   {t(`${step.key}.title`)}
@@ -68,8 +78,8 @@ export function ProcessSteps() {
                   whileInView={{ scaleX: 1 }}
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{
-                    duration: 0.7,
-                    delay: 0.2 + i * 0.2 + 0.3,
+                    duration: 0.6,
+                    delay: i * 0.6 + 0.4,
                     ease: easeOut,
                   }}
                   style={{ transformOrigin: "0% 50%" }}
