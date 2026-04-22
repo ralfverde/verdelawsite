@@ -4,7 +4,6 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { PhoneMockup } from "@/components/verdeplus/PhoneMockup";
-import { iconMap as verdeIcons } from "@/components/practice/iconMap";
 import {
   Route,
   BarChart3,
@@ -16,8 +15,12 @@ import {
   Minus,
   Smartphone,
   PlayCircle,
+  Apple,
 } from "lucide-react";
-import { verdePlusFeatures, verdePlusComparisonRows } from "@/data/verde-plus-features";
+import {
+  verdePlusFeatures,
+  verdePlusComparisonRows,
+} from "@/data/verde-plus-features";
 import { buildMetadata } from "@/lib/seo";
 
 const featureIcons: Record<string, typeof Route> = {
@@ -29,7 +32,11 @@ const featureIcons: Record<string, typeof Route> = {
   MessagesSquare,
 };
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: "en" | "es" }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: "en" | "es" }>;
+}): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "verdePlus.seo" });
   return buildMetadata({
@@ -41,31 +48,42 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: "
   });
 }
 
-export default async function VerdePlusPage({ params }: { params: Promise<{ locale: "en" | "es" }> }) {
+export default async function VerdePlusPage({
+  params,
+}: {
+  params: Promise<{ locale: "en" | "es" }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("verdePlus");
-  // iconMap from practice/iconMap imported but unused in this page
-  void verdeIcons;
+  void locale;
 
   return (
     <>
       {/* Hero */}
-      <section className="noise-bg relative overflow-hidden bg-[var(--verde-950)] text-white pt-32 pb-24 md:pt-40 md:pb-32">
-        <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900),var(--verde-950)_70%)]" />
-        <div aria-hidden className="absolute inset-x-0 -bottom-20 h-40 bg-gradient-to-t from-[var(--gold-500)]/20 to-transparent" />
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-32 pb-24 md:pt-40 md:pb-32">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900),var(--verde-950)_70%)]"
+        />
+        <div
+          aria-hidden
+          className="absolute inset-x-0 -bottom-20 h-40 bg-gradient-to-t from-gold-500/20 to-transparent"
+        />
 
         <div className="container-wide relative grid lg:grid-cols-[1.1fr_1fr] gap-14 items-center">
           <div>
             <SectionEyebrow>VERDE+</SectionEyebrow>
             <h1
               className="mt-4 font-display text-white"
-              style={{ fontSize: "clamp(40px,5.6vw,78px)", lineHeight: 1.04 }}
+              style={{ fontSize: "clamp(2.5rem, 5.6vw, 5rem)", lineHeight: 1.04 }}
             >
               {t("hero.title")}
             </h1>
             <GoldAccentLine className="mt-6" />
-            <p className="mt-7 text-white/75 text-lg max-w-xl">{t("hero.subtitle")}</p>
+            <p className="mt-7 text-white/75 text-lg max-w-xl leading-relaxed">
+              {t("hero.subtitle")}
+            </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <a href="#" className="cta-gold">
                 <Smartphone size={18} /> {t("hero.ctaDownload")}
@@ -76,68 +94,59 @@ export default async function VerdePlusPage({ params }: { params: Promise<{ loca
             </div>
           </div>
 
-          <PhoneMockup>
-            <div className="h-4 w-24 rounded-full bg-[var(--gold-500)]/60" />
-            <div className="h-5 w-40 rounded bg-white/70" />
-            <div className="mt-3 h-24 rounded-xl bg-white/5 border border-white/10 p-3 flex flex-col gap-2">
-              <div className="h-2 w-20 rounded bg-white/30" />
-              <div className="h-2 w-24 rounded bg-white/20" />
-              <div className="h-2 w-16 rounded bg-[var(--gold-500)]/60" />
-            </div>
-            <div className="h-16 rounded-xl bg-[var(--gold-500)]/25 border border-[var(--gold-500)]/50 p-3 flex items-center">
-              <div className="h-3 w-28 rounded bg-white/70" />
-            </div>
-            <div className="h-10 rounded-xl bg-white/5 border border-white/10" />
-            <div className="h-10 rounded-xl bg-white/5 border border-white/10" />
-          </PhoneMockup>
+          <PhoneMockup float />
         </div>
       </section>
 
-      {/* Features */}
       <div id="features" />
+
+      {/* Features (alternating) */}
       {verdePlusFeatures.map((f, i) => {
         const Icon = featureIcons[f.icon] ?? Route;
         const isDark = i % 2 === 1;
-        const reverse = i % 2 === 1;
+        const phoneFirst = i % 2 === 1;
+
         return (
           <section
             key={f.id}
-            className={`section-y ${isDark ? "bg-[var(--verde-950)] text-white" : "bg-[var(--cream)] text-[var(--verde-950)]"}`}
+            className={`${isDark ? "noise-bg bg-verde-950 text-white" : "bg-cream text-verde-950"} py-20 md:py-28`}
           >
-            <div className={`container-wide grid lg:grid-cols-2 gap-14 items-center ${reverse ? "lg:[&>*:first-child]:order-2" : ""}`}>
-              <div className="mx-auto">
-                <PhoneMockup className={isDark ? "" : "!border-[var(--verde-800)]"}>
-                  <div className="h-3 w-20 rounded-full bg-[var(--gold-500)]/60" />
-                  <div className="h-4 w-32 rounded bg-white/70" />
-                  <div className="mt-3 flex gap-2">
-                    <span className="h-8 w-8 rounded-lg bg-[var(--gold-500)]/25 border border-[var(--gold-500)]/50" />
-                    <div className="flex-1 h-8 rounded-lg bg-white/5 border border-white/10" />
-                  </div>
-                  <div className="h-32 rounded-xl bg-white/5 border border-white/10 p-3 flex flex-col gap-2">
-                    <div className="h-2 w-16 rounded bg-[var(--gold-500)]/60" />
-                    <div className="h-2 w-24 rounded bg-white/30" />
-                    <div className="h-2 w-20 rounded bg-white/20" />
-                    <div className="h-2 w-28 rounded bg-white/20" />
-                  </div>
-                  <div className="h-12 rounded-xl bg-white/5 border border-white/10" />
-                  <div className="h-8 rounded-xl bg-[var(--gold-500)]/25 border border-[var(--gold-500)]/50" />
-                </PhoneMockup>
+            <div className="container-wide grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+              {/* Phone side */}
+              <div className={`${phoneFirst ? "md:order-1" : "md:order-2"}`}>
+                <PhoneMockup float />
               </div>
-              <div>
-                <Icon className={`text-[var(--gold-500)]`} size={28} />
-                <SectionEyebrow className="mt-4 block">{t(`features.${f.id}.eyebrow`)}</SectionEyebrow>
-                <h2 className={`mt-3 font-display text-3xl md:text-5xl leading-[1.08] ${isDark ? "text-white" : "text-[var(--verde-950)]"}`}>
+
+              {/* Text side */}
+              <div className={`${phoneFirst ? "md:order-2" : "md:order-1"}`}>
+                <div
+                  className={`w-10 h-10 rounded-xl bg-gold-500/10 grid place-items-center mb-5`}
+                >
+                  <Icon className="text-gold-500 w-5 h-5" />
+                </div>
+                <SectionEyebrow className="block mb-3">
+                  {t(`features.${f.id}.eyebrow`)}
+                </SectionEyebrow>
+                <h2
+                  className={`font-display leading-tight mb-4 ${isDark ? "text-white" : "text-verde-950"}`}
+                  style={{
+                    fontSize: "clamp(1.75rem, 3.4vw, 2.5rem)",
+                  }}
+                >
                   {t(`features.${f.id}.title`)}
                 </h2>
-                <GoldAccentLine className="mt-5" />
-                <p className={`mt-7 leading-relaxed max-w-lg ${isDark ? "text-white/75" : "text-[var(--text-dark-secondary)]"}`}>
+                <p
+                  className={`text-base leading-relaxed mb-6 max-w-lg ${isDark ? "text-white/60" : "text-verde-950/60"}`}
+                >
                   {t(`features.${f.id}.desc`)}
                 </p>
-                <ul className="mt-6 space-y-3">
+                <ul className="space-y-3">
                   {[1, 2, 3].map((h) => (
-                    <li key={h} className="flex items-center gap-3">
-                      <Check size={18} className="text-[var(--gold-500)] shrink-0" />
-                      <span className={`${isDark ? "text-white/75" : "text-[var(--text-dark-secondary)]"}`}>
+                    <li key={h} className="flex items-start gap-3">
+                      <Check className="text-gold-500 w-5 h-5 mt-0.5 shrink-0" />
+                      <span
+                        className={`text-sm ${isDark ? "text-white/50" : "text-verde-950/50"}`}
+                      >
                         {t(`features.${f.id}.h${h}`)}
                       </span>
                     </li>
@@ -150,60 +159,114 @@ export default async function VerdePlusPage({ params }: { params: Promise<{ loca
       })}
 
       {/* Comparison */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
+      <section className="bg-cream text-verde-950 section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("comparison.eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("comparison.title")}</h2>
+          <h2
+            className="mt-3 font-display text-verde-950"
+            style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.06 }}
+          >
+            {t("comparison.title")}
+          </h2>
           <GoldAccentLine className="mt-5" />
 
-          <div className="mt-12 overflow-x-auto">
-            <div className="min-w-[620px] grid grid-cols-[1.6fr_1fr_1fr] rounded-2xl overflow-hidden border border-black/10 bg-white">
-              <div className="p-5 font-semibold text-[var(--text-dark-secondary)] text-sm uppercase tracking-[0.1em]">
-                {t("comparison.feature")}
-              </div>
-              <div className="p-5 font-display text-center border-l border-black/10">
-                {t("comparison.free")}
-              </div>
-              <div className="p-5 font-display text-center border-l border-black/10 relative bg-[var(--gold-500)]/10">
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] font-bold uppercase tracking-[0.12em] bg-[var(--gold-500)] text-[var(--verde-950)] px-3 py-1 rounded-full">
-                  {t("comparison.recommended")}
-                </span>
-                {t("comparison.client")}
+          <div className="mt-12 overflow-x-auto -mx-4 px-4">
+            <div className="min-w-[620px] rounded-xl overflow-hidden border border-verde-950/10 bg-white">
+              {/* Header row */}
+              <div className="grid grid-cols-[1.6fr_1fr_1fr] bg-verde-50 border-b border-verde-950/10">
+                <div className="px-6 py-4 text-sm font-semibold text-verde-950 sticky left-0 bg-verde-50 z-10">
+                  {t("comparison.feature")}
+                </div>
+                <div className="px-6 py-4 text-center text-sm font-semibold text-verde-950">
+                  {t("comparison.free")}
+                </div>
+                <div className="px-6 py-4 text-center text-sm font-semibold text-verde-950 relative bg-gold-500/5 border-t-2 border-gold-500">
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] font-bold uppercase tracking-[0.12em] bg-gold-500 text-verde-950 px-3 py-1 rounded-full whitespace-nowrap">
+                    {t("comparison.recommended")}
+                  </span>
+                  {t("comparison.client")}
+                </div>
               </div>
 
-              {verdePlusComparisonRows.map((row, i) => (
-                <div key={row} className={`contents ${i % 2 === 0 ? "" : ""}`}>
-                  <div className={`p-4 text-sm border-t border-black/10 ${i % 2 ? "bg-[var(--cream-dark)]/50" : ""}`}>
-                    {t(`comparison.rows.${row}.label`)}
+              {/* Body rows */}
+              {verdePlusComparisonRows.map((row, i) => {
+                const isOdd = i % 2 === 1;
+                const rowBg = isOdd ? "bg-verde-50/50" : "bg-white";
+                return (
+                  <div
+                    key={row}
+                    className={`grid grid-cols-[1.6fr_1fr_1fr] border-t border-verde-950/[0.06] ${rowBg}`}
+                  >
+                    <div
+                      className={`px-6 py-4 text-sm text-verde-950 sticky left-0 ${rowBg} z-10`}
+                    >
+                      {t(`comparison.rows.${row}.label`)}
+                    </div>
+                    <div className="px-6 py-4 text-center">
+                      <RowValue value={t(`comparison.rows.${row}.free`)} />
+                    </div>
+                    <div className="px-6 py-4 text-center bg-gold-500/5">
+                      <RowValue
+                        value={t(`comparison.rows.${row}.client`)}
+                        emphasis
+                      />
+                    </div>
                   </div>
-                  <div className={`p-4 text-center border-t border-l border-black/10 ${i % 2 ? "bg-[var(--cream-dark)]/50" : ""}`}>
-                    <RowValue value={t(`comparison.rows.${row}.free`)} />
-                  </div>
-                  <div className={`p-4 text-center border-t border-l border-black/10 bg-[var(--gold-500)]/10`}>
-                    <RowValue value={t(`comparison.rows.${row}.client`)} />
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>
       </section>
 
       {/* Download CTA */}
-      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
-        <div className="container-wide text-center">
-          <PhoneMockup />
-          <h2 className="mt-12 font-display text-3xl md:text-5xl">{t("download.title")}</h2>
-          <p className="mt-4 text-white/75 max-w-2xl mx-auto">{t("download.subtitle")}</p>
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <a href="#" className="cta-gold">
-              <Smartphone size={18} /> {t("download.appStore")}
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white py-24 text-center">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(200,169,81,0.06),transparent_70%)]"
+        />
+        <div className="container-wide relative">
+          <PhoneMockup float />
+
+          <h2
+            className="mt-12 font-display text-white mb-3"
+            style={{ fontSize: "clamp(1.875rem, 3.6vw, 2.5rem)", lineHeight: 1.1 }}
+          >
+            {t("download.title")}
+          </h2>
+          <p className="text-white/50 mb-8 max-w-xl mx-auto">
+            {t("download.subtitle")}
+          </p>
+
+          <div className="flex items-center justify-center gap-4 flex-wrap">
+            <a
+              href="#"
+              className="flex items-center gap-3 px-6 py-3 rounded-xl bg-white/[0.06] border border-white/10 hover:bg-white/[0.1] transition-colors"
+            >
+              <Apple className="text-white w-6 h-6" />
+              <span className="text-left">
+                <span className="block text-xs text-white/40">
+                  Download on the
+                </span>
+                <span className="block text-sm font-semibold text-white">
+                  {t("download.appStore")}
+                </span>
+              </span>
             </a>
-            <a href="#" className="cta-outline">
-              <Smartphone size={18} /> {t("download.playStore")}
+            <a
+              href="#"
+              className="flex items-center gap-3 px-6 py-3 rounded-xl bg-white/[0.06] border border-white/10 hover:bg-white/[0.1] transition-colors"
+            >
+              <PlayCircle className="text-white w-6 h-6" />
+              <span className="text-left">
+                <span className="block text-xs text-white/40">Get it on</span>
+                <span className="block text-sm font-semibold text-white">
+                  {t("download.playStore")}
+                </span>
+              </span>
             </a>
           </div>
-          <p className="mt-6 text-[var(--gold-500)] font-semibold">{t("download.tagline")}</p>
+          <p className="text-sm text-white/30 mt-4">{t("download.tagline")}</p>
         </div>
       </section>
 
@@ -212,8 +275,16 @@ export default async function VerdePlusPage({ params }: { params: Promise<{ loca
   );
 }
 
-function RowValue({ value }: { value: string }) {
-  if (value === "yes") return <Check size={18} className="mx-auto text-[var(--verde-600)]" />;
-  if (value === "no") return <Minus size={18} className="mx-auto text-black/30" />;
-  return <span className="text-sm">{value}</span>;
+function RowValue({ value, emphasis = false }: { value: string; emphasis?: boolean }) {
+  if (value === "yes")
+    return <Check className="mx-auto text-verde-600 w-5 h-5" />;
+  if (value === "no")
+    return <Minus className="mx-auto text-verde-950/20 w-5 h-5" />;
+  return (
+    <span
+      className={`text-xs font-medium ${emphasis ? "text-gold-600" : "text-verde-950/50"}`}
+    >
+      {value}
+    </span>
+  );
 }

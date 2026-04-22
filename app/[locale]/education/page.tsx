@@ -6,13 +6,23 @@ import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { Accordion } from "@/components/ui/Accordion";
 import { NewsletterForm } from "@/components/education/NewsletterForm";
-import { Link } from "@/i18n/navigation";
-import { Play, ArrowRight, Youtube, Instagram, Music2 } from "lucide-react";
+import {
+  Play,
+  ArrowRight,
+  Youtube,
+  Instagram,
+  Music2,
+  BookOpen,
+} from "lucide-react";
 import { globalFaqIds } from "@/data/faq";
 import { FIRM } from "@/lib/constants";
 import { buildMetadata } from "@/lib/seo";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: "en" | "es" }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: "en" | "es" }>;
+}): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "education.seo" });
   return buildMetadata({
@@ -24,7 +34,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: "
   });
 }
 
-export default async function EducationPage({ params }: { params: Promise<{ locale: "en" | "es" }> }) {
+export default async function EducationPage({
+  params,
+}: {
+  params: Promise<{ locale: "en" | "es" }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("education");
@@ -32,7 +46,16 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
   const tFaq = await getTranslations("globalFaq");
 
   const articles = ["a1", "a2", "a3", "a4", "a5", "a6"];
-  const categories = ["all", "deportation", "asylum", "bond", "family", "work", "citizenship", "news"];
+  const categories = [
+    "all",
+    "deportation",
+    "asylum",
+    "bond",
+    "family",
+    "work",
+    "citizenship",
+    "news",
+  ];
   const videos = ["v1", "v2", "v3", "v4", "v5", "v6"];
 
   const faqItems = globalFaqIds.map((id) => ({
@@ -61,10 +84,15 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
       />
 
       {/* Articles */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
+      <section className="bg-cream text-verde-950 section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("articles.eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("articles.title")}</h2>
+          <h2
+            className="mt-3 font-display text-verde-950"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
+          >
+            {t("articles.title")}
+          </h2>
           <GoldAccentLine className="mt-5" />
 
           <div className="mt-8 flex flex-wrap gap-2">
@@ -73,8 +101,8 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
                 key={c}
                 className={`text-xs font-semibold uppercase tracking-[0.12em] px-3 py-1.5 rounded-full border ${
                   c === "all"
-                    ? "bg-[var(--verde-800)] text-white border-[var(--verde-800)]"
-                    : "border-black/15 text-[var(--text-dark-secondary)]"
+                    ? "bg-verde-950 text-white border-verde-950"
+                    : "border-verde-950/10 text-verde-950/50"
                 }`}
               >
                 {t(`articles.categories.${c}`)}
@@ -82,21 +110,44 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
             ))}
           </div>
 
-          <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.map((a) => (
-              <article key={a} className="card-light p-7 flex flex-col gap-4">
-                <span className="inline-block text-[11px] uppercase tracking-[0.15em] font-semibold text-[var(--gold-600)]">
-                  {t(`articles.items.${a}.category`)}
-                </span>
-                <h3 className="font-display text-xl leading-snug">{t(`articles.items.${a}.title`)}</h3>
-                <p className="text-sm text-[var(--text-dark-secondary)] leading-relaxed flex-1">
-                  {t(`articles.items.${a}.excerpt`)}
-                </p>
-                <div className="flex items-center justify-between pt-4 border-t border-black/10 text-xs text-[var(--text-dark-secondary)]">
-                  <span>{t(`articles.items.${a}.date`)} · {t(`articles.items.${a}.readTime`)}</span>
-                  <span className="inline-flex items-center gap-1 font-semibold text-[var(--gold-600)]">
-                    {t("articles.readMore")} <ArrowRight size={14} />
+              <article
+                key={a}
+                className="group bg-white rounded-xl overflow-hidden border border-verde-950/[0.04] hover:shadow-xl hover:shadow-verde-950/[0.04] hover:-translate-y-1 transition-all duration-300 flex flex-col"
+              >
+                {/* Image area */}
+                <div className="relative aspect-[16/9] bg-gradient-to-br from-verde-700 to-verde-900 overflow-hidden">
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 bg-[radial-gradient(circle_at_40%_35%,rgba(200,169,81,0.18),transparent_55%)]"
+                  />
+                  <div className="absolute inset-0 grid place-items-center">
+                    <BookOpen className="text-white/10" size={48} strokeWidth={1.25} />
+                  </div>
+                  <span className="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-gold-500/90 text-verde-950">
+                    {t(`articles.items.${a}.category`)}
                   </span>
+                </div>
+
+                {/* Content */}
+                <div className="p-5 flex flex-col flex-1">
+                  <h3 className="text-base font-display text-verde-950 mb-2 line-clamp-2 group-hover:text-verde-700 transition-colors">
+                    {t(`articles.items.${a}.title`)}
+                  </h3>
+                  <p className="text-sm text-verde-950/50 line-clamp-2 mb-4">
+                    {t(`articles.items.${a}.excerpt`)}
+                  </p>
+                  <div className="mt-auto flex items-center justify-between">
+                    <span className="text-xs text-verde-950/30">
+                      {t(`articles.items.${a}.date`)} ·{" "}
+                      {t(`articles.items.${a}.readTime`)}
+                    </span>
+                    <span className="text-sm text-gold-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity inline-flex items-center gap-1">
+                      {t("articles.readMore")}
+                      <ArrowRight size={14} />
+                    </span>
+                  </div>
                 </div>
               </article>
             ))}
@@ -105,33 +156,46 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
       </section>
 
       {/* Videos */}
-      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-verde-950 text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("videos.eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("videos.title")}</h2>
+          <h2
+            className="mt-3 font-display"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
+          >
+            {t("videos.title")}
+          </h2>
           <GoldAccentLine className="mt-5" />
-          <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {videos.map((v) => (
               <a
                 key={v}
                 href={FIRM.social.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative aspect-video rounded-xl overflow-hidden bg-[var(--verde-800)] block"
+                className="group relative aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-verde-800 to-verde-950 cursor-pointer"
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-[var(--verde-700)] via-[var(--verde-800)] to-[var(--verde-950)]" />
-                <div aria-hidden className="absolute inset-0 bg-[radial-gradient(circle_at_45%_40%,rgba(200,169,81,0.25),transparent_55%)]" />
-                <div className="absolute inset-0 grid place-items-center group-hover:scale-110 transition-transform duration-500">
-                  <span className="grid place-items-center rounded-full bg-[var(--gold-500)] text-[var(--verde-950)]" style={{ width: 56, height: 56 }}>
-                    <Play size={20} className="translate-x-0.5" fill="currentColor" />
+                <div
+                  aria-hidden
+                  className="absolute inset-0 bg-[radial-gradient(circle_at_45%_40%,rgba(200,169,81,0.22),transparent_55%)]"
+                />
+                <div className="absolute inset-0 grid place-items-center">
+                  <span className="w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 grid place-items-center transition-all duration-300 group-hover:bg-white/20 group-hover:scale-110">
+                    <Play size={22} className="text-white translate-x-0.5" fill="currentColor" />
                   </span>
                 </div>
-                <div className="absolute bottom-4 inset-x-4 text-white">
-                  <p className="font-display text-base leading-tight">{t(`videos.items.${v}.title`)}</p>
-                </div>
+                <div
+                  aria-hidden
+                  className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black/70 to-transparent"
+                />
+                <p className="absolute bottom-0 left-0 right-0 p-4 text-sm font-medium text-white leading-snug">
+                  {t(`videos.items.${v}.title`)}
+                </p>
               </a>
             ))}
           </div>
+
           <div className="mt-10 flex justify-center">
             <a
               href={FIRM.social.youtube}
@@ -146,10 +210,15 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
       </section>
 
       {/* FAQ */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
+      <section className="bg-cream text-verde-950 section-y">
         <div className="container-wide max-w-4xl">
           <SectionEyebrow>{t("faq.eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("faq.title")}</h2>
+          <h2
+            className="mt-3 font-display text-verde-950"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
+          >
+            {t("faq.title")}
+          </h2>
           <GoldAccentLine className="mt-5" />
           <div className="mt-10">
             <Accordion items={faqItems} />
@@ -158,24 +227,51 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
       </section>
 
       {/* Newsletter */}
-      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
-        <div className="container-wide grid lg:grid-cols-2 gap-10 items-center">
-          <div>
-            <SectionEyebrow>{t("newsletter.eyebrow")}</SectionEyebrow>
-            <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("newsletter.title")}</h2>
-            <GoldAccentLine className="mt-5" />
-            <p className="mt-6 text-white/75 leading-relaxed max-w-xl">{t("newsletter.body")}</p>
-            <div className="mt-5 flex gap-3">
-              <Link href="/education" className="inline-flex items-center gap-2 text-[var(--gold-500)] hover:text-[var(--gold-400)]">
-                <Instagram size={18} /> {t("newsletter.follow")}
-              </Link>
-              <span className="text-white/30">·</span>
-              <a href={FIRM.social.tiktok} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-[var(--gold-500)] hover:text-[var(--gold-400)]">
-                <Music2 size={18} /> TikTok
-              </a>
+      <section className="noise-bg bg-verde-950 text-white py-20">
+        <div className="container-wide">
+          <div className="bg-verde-900 rounded-2xl p-8 md:p-12 max-w-4xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
+            <div className="flex-[0_0_58%] max-w-[58ch]">
+              <SectionEyebrow>{t("newsletter.eyebrow")}</SectionEyebrow>
+              <h2 className="mt-3 text-2xl md:text-3xl font-display text-white mb-3">
+                {t("newsletter.title")}
+              </h2>
+              <p className="text-sm text-white/50 leading-relaxed">
+                {t("newsletter.body")}
+              </p>
+              <div className="mt-4 flex gap-4">
+                <a
+                  href={FIRM.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="text-white/40 hover:text-gold-500 transition-colors"
+                >
+                  <Instagram size={18} />
+                </a>
+                <a
+                  href={FIRM.social.tiktok}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="TikTok"
+                  className="text-white/40 hover:text-gold-500 transition-colors"
+                >
+                  <Music2 size={18} />
+                </a>
+                <a
+                  href={FIRM.social.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                  className="text-white/40 hover:text-gold-500 transition-colors"
+                >
+                  <Youtube size={18} />
+                </a>
+              </div>
+            </div>
+            <div className="flex-1 w-full">
+              <NewsletterForm />
             </div>
           </div>
-          <NewsletterForm />
         </div>
       </section>
 

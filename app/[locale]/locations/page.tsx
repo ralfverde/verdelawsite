@@ -6,11 +6,23 @@ import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { USMapSVG } from "@/components/locations/USMapSVG";
-import { Phone, Clock, MapPin, MessageCircle, Video } from "lucide-react";
+import {
+  Phone,
+  Clock,
+  MapPin,
+  MessageCircle,
+  Video,
+  ArrowUpRight,
+  Mail,
+} from "lucide-react";
 import { FIRM } from "@/lib/constants";
 import { buildMetadata } from "@/lib/seo";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: "en" | "es" }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: "en" | "es" }>;
+}): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "locations.seo" });
   return buildMetadata({
@@ -22,13 +34,30 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: "
   });
 }
 
-export default async function LocationsPage({ params }: { params: Promise<{ locale: "en" | "es" }> }) {
+export default async function LocationsPage({
+  params,
+}: {
+  params: Promise<{ locale: "en" | "es" }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("locations");
   const tNav = await getTranslations("nav");
 
-  const topStates = ["florida", "texas", "california", "newYork", "illinois", "georgia", "arizona", "nevada"];
+  const topStates = [
+    "florida",
+    "texas",
+    "california",
+    "newYork",
+    "illinois",
+    "georgia",
+    "arizona",
+    "nevada",
+  ];
+
+  const mapDirectionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
+    `${FIRM.address.street}, ${FIRM.address.city}, ${FIRM.address.state} ${FIRM.address.zip}`
+  )}`;
 
   return (
     <>
@@ -40,74 +69,104 @@ export default async function LocationsPage({ params }: { params: Promise<{ loca
       />
 
       {/* Office + Map */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
-        <div className="container-wide grid lg:grid-cols-[1.3fr_1fr] gap-10 items-start">
-          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-black/10">
+      <section className="bg-cream text-verde-950 section-y">
+        <div className="container-wide grid lg:grid-cols-[1.3fr_1fr] gap-10 items-stretch">
+          {/* Framed map */}
+          <div className="rounded-2xl overflow-hidden border border-verde-950/10 shadow-lg">
             <iframe
               title="Office Location Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.2!2d-80.301!3d25.778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQ2JzQwLjgiTiA4MMKwMTgnMDMuNiJX!5e0!3m2!1sen!2sus!4v1700000000000"
-              width="100%"
-              height="100%"
+              className="w-full h-[350px] md:h-[400px]"
               style={{ border: 0 }}
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          <div>
+
+          {/* Office info card */}
+          <div className="bg-cream rounded-2xl p-8 border border-verde-950/5 shadow-sm">
             <SectionEyebrow>{t("office.eyebrow")}</SectionEyebrow>
-            <h2 className="mt-3 font-display text-3xl md:text-4xl">{t("office.title")}</h2>
-            <GoldAccentLine className="mt-5" />
-            <ul className="mt-7 space-y-4 text-sm">
-              <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-[var(--gold-600)] mt-0.5 shrink-0" />
-                <span>
-                  {FIRM.address.street}<br />
+            <h2 className="mt-3 font-display text-2xl text-verde-950 mb-6">
+              {t("office.title")}
+            </h2>
+
+            <ul className="space-y-1">
+              <li className="flex items-start gap-3 py-2">
+                <MapPin className="text-gold-500 w-5 h-5 mt-0.5 shrink-0" />
+                <span className="text-sm text-verde-950/70">
+                  {FIRM.address.street}
+                  <br />
                   {FIRM.address.city}, {FIRM.address.state} {FIRM.address.zip}
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <Phone size={18} className="text-[var(--gold-600)] mt-0.5 shrink-0" />
-                <a href={FIRM.phoneHref} className="hover:text-[var(--verde-700)]">{FIRM.phoneDisplay}</a>
+              <li className="flex items-start gap-3 py-2">
+                <Phone className="text-gold-500 w-5 h-5 mt-0.5 shrink-0" />
+                <a
+                  href={FIRM.phoneHref}
+                  className="text-sm text-verde-950/70 hover:text-verde-700 transition-colors"
+                >
+                  {FIRM.phoneDisplay}
+                </a>
               </li>
-              <li className="flex items-start gap-3">
-                <Clock size={18} className="text-[var(--gold-600)] mt-0.5 shrink-0" />
-                <span>{FIRM.hours}</span>
+              <li className="flex items-start gap-3 py-2">
+                <Clock className="text-gold-500 w-5 h-5 mt-0.5 shrink-0" />
+                <span className="text-sm text-verde-950/70">{FIRM.hours}</span>
+              </li>
+              <li className="flex items-start gap-3 py-2">
+                <Mail className="text-gold-500 w-5 h-5 mt-0.5 shrink-0" />
+                <a
+                  href={`mailto:${FIRM.email}`}
+                  className="text-sm text-verde-950/70 hover:text-verde-700 transition-colors"
+                >
+                  {FIRM.email}
+                </a>
               </li>
             </ul>
+
             <a
-              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
-                `${FIRM.address.street}, ${FIRM.address.city}, ${FIRM.address.state} ${FIRM.address.zip}`
-              )}`}
+              href={mapDirectionsHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-gold mt-7 text-sm"
+              className="inline-flex items-center gap-2 mt-6 text-sm font-medium text-gold-600 hover:underline"
             >
               {t("office.directions")}
+              <ArrowUpRight size={14} />
             </a>
           </div>
         </div>
       </section>
 
       {/* National coverage */}
-      <section className="noise-bg bg-[var(--verde-950)] text-white section-y">
+      <section className="noise-bg bg-verde-950 text-white section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("national.eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("national.title")}</h2>
+          <h2
+            className="mt-3 font-display"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
+          >
+            {t("national.title")}
+          </h2>
           <GoldAccentLine className="mt-5" />
 
           <div className="mt-12 grid lg:grid-cols-[1.4fr_1fr] gap-10 items-start">
             <USMapSVG />
             <div>
               <p className="text-white/75 leading-relaxed">{t("national.body")}</p>
-              <h3 className="mt-8 text-sm uppercase tracking-[0.15em] font-semibold text-[var(--gold-500)]">
+
+              <h3 className="mt-8 text-xs uppercase tracking-[0.15em] font-semibold text-gold-500">
                 {t("national.topStatesLabel")}
               </h3>
-              <ul className="mt-3 grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-white/80">
+              <ul className="mt-4 grid grid-cols-2 gap-2">
                 {topStates.map((s) => (
                   <li key={s} className="flex items-center gap-2">
-                    <span className="h-[2px] w-3 bg-[var(--gold-500)]" aria-hidden />
-                    {t(`national.states.${s}`)}
+                    <span
+                      className="w-1.5 h-1.5 rounded-full bg-gold-500 shrink-0"
+                      aria-hidden
+                    />
+                    <span className="text-sm text-white/60">
+                      {t(`national.states.${s}`)}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -116,26 +175,38 @@ export default async function LocationsPage({ params }: { params: Promise<{ loca
         </div>
       </section>
 
-      {/* Virtual */}
-      <section className="bg-[var(--cream)] text-[var(--verde-950)] section-y">
+      {/* Virtual consultations */}
+      <section className="bg-cream text-verde-950 section-y">
         <div className="container-wide">
           <SectionEyebrow>{t("virtual.eyebrow")}</SectionEyebrow>
-          <h2 className="mt-3 font-display text-3xl md:text-5xl">{t("virtual.title")}</h2>
+          <h2
+            className="mt-3 font-display text-verde-950"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)", lineHeight: 1.06 }}
+          >
+            {t("virtual.title")}
+          </h2>
           <GoldAccentLine className="mt-5" />
-          <p className="mt-6 text-[var(--text-dark-secondary)] max-w-2xl leading-relaxed">
+          <p className="mt-6 text-verde-950/60 max-w-2xl leading-relaxed">
             {t("virtual.body")}
           </p>
 
-          <ul className="mt-10 grid md:grid-cols-3 gap-5">
+          <ul className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { key: "phone", icon: Phone },
               { key: "whatsapp", icon: MessageCircle },
               { key: "video", icon: Video },
             ].map((v) => (
-              <li key={v.key} className="card-light p-7">
-                <v.icon className="text-[var(--gold-600)]" size={26} />
-                <h3 className="mt-4 font-display text-xl">{t(`virtual.channels.${v.key}.title`)}</h3>
-                <p className="mt-2 text-sm text-[var(--text-dark-secondary)] leading-relaxed">
+              <li
+                key={v.key}
+                className="bg-cream rounded-xl p-6 border border-verde-950/5 text-center shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+              >
+                <span className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-verde-100 grid place-items-center">
+                  <v.icon className="text-verde-700 w-6 h-6" />
+                </span>
+                <h3 className="text-lg font-semibold text-verde-950 mb-2">
+                  {t(`virtual.channels.${v.key}.title`)}
+                </h3>
+                <p className="text-sm text-verde-950/50 leading-relaxed">
                   {t(`virtual.channels.${v.key}.desc`)}
                 </p>
               </li>

@@ -7,11 +7,11 @@ export function NewsletterForm() {
 
   return (
     <form
-      className="card-dark p-7"
+      className="w-full"
       onSubmit={(e) => e.preventDefault()}
       aria-label={t("formLabel")}
     >
-      <label htmlFor="news-email" className="text-sm text-white/75">
+      <label htmlFor="news-email" className="sr-only">
         {t("emailLabel")}
       </label>
       <input
@@ -20,12 +20,15 @@ export function NewsletterForm() {
         type="email"
         required
         placeholder={t("emailPlaceholder")}
-        className="mt-2 w-full rounded-lg bg-[var(--verde-900)] border border-white/10 px-4 py-3 text-white placeholder:text-white/40 focus:border-[var(--gold-500)] outline-none"
+        className="w-full bg-white/[0.06] border border-white/10 rounded-lg px-4 py-3 text-white placeholder:text-white/30 focus:border-gold-500/50 focus:outline-none focus:ring-2 focus:ring-gold-500/10 transition-all"
       />
-      <button type="submit" className="cta-gold mt-4 w-full justify-center text-sm">
+      <button
+        type="submit"
+        className="mt-3 w-full bg-gold-500 text-verde-950 py-3 rounded-lg font-semibold hover:bg-gold-400 transition-colors"
+      >
         {t("subscribe")}
       </button>
-      <p className="text-xs text-white/50 mt-3">{t("legal")}</p>
+      <p className="text-xs text-white/25 mt-2">{t("legal")}</p>
     </form>
   );
 }
