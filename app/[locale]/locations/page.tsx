@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/ui/PageHero";
 import { FinalCTA } from "@/components/sections/FinalCTA";
-import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { USMapSVG } from "@/components/locations/USMapSVG";
@@ -213,7 +212,6 @@ export default async function LocationsPage({
         </div>
       </section>
 
-      <CTABanner variant="dark" titleKey="bannerDark.title" />
       <FinalCTA />
     </>
   );
