@@ -17,13 +17,65 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Verde Law, PLLC · Humanitarian Immigration Attorneys",
-  description:
-    "Miami-based humanitarian immigration law firm serving Spanish-speaking immigrants across all 50 states.",
   metadataBase: new URL("https://verdelaw.com"),
+  title: {
+    template: "%s | Verde Law — Immigration Attorneys",
+    default:
+      "Verde Law — Immigration Attorneys | Miami | All 50 States",
+  },
+  description:
+    "Verde Law is a Miami-based immigration law firm serving all 50 states. Deportation defense, asylum, bond hearings, family petitions. Free consultation.",
+  keywords: [
+    "immigration lawyer",
+    "immigration attorney Miami",
+    "deportation defense",
+    "asylum lawyer",
+    "bond hearing",
+    "VAWA",
+    "U-visa",
+    "abogado de inmigración",
+    "defensa de deportación",
+    "abogado de asilo",
+    "Verde Law",
+    "Rafael Verde",
+  ],
+  authors: [{ name: "Verde Law, PLLC" }],
+  creator: "Verde Law, PLLC",
+  publisher: "Verde Law, PLLC",
+  formatDetection: { telephone: true, email: true, address: true },
   icons: {
     icon: "/favicon.png",
     apple: "/favicon.png",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    alternateLocale: "es_US",
+    siteName: "Verde Law",
+    url: "https://verdelaw.com",
+    images: [
+      {
+        url: "/images/verde-law-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Verde Law — Immigration Attorneys",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@verdelawfirm",
   },
 };
 

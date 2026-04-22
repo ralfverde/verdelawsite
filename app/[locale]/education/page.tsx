@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 import { globalFaqIds } from "@/data/faq";
 import { FIRM } from "@/lib/constants";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, faqSchema, breadcrumbSchema } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -67,15 +67,16 @@ export default async function EducationPage({
     answer: tFaq(`${id}.answer`),
   }));
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqItems.map((f) => ({
-      "@type": "Question",
-      name: f.question,
-      acceptedAnswer: { "@type": "Answer", text: f.answer },
-    })),
-  };
+  const faqLd = faqSchema(
+    faqItems.map((f) => ({ question: f.question, answer: f.answer })),
+  );
+
+  const basePath = locale === "es" ? "/es" : "";
+  const eduPath = locale === "es" ? "/es/educacion" : "/education";
+  const crumbs = breadcrumbSchema([
+    { name: tNav("home"), path: `${basePath}/` },
+    { name: tNav("education"), path: eduPath },
+  ]);
 
   return (
     <>
@@ -299,7 +300,11 @@ export default async function EducationPage({
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
     </>
   );

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/home/Hero";
 import { SocialProof } from "@/components/home/SocialProof";
@@ -6,12 +7,27 @@ import { TrustBar } from "@/components/home/TrustBar";
 import { PracticeOverview } from "@/components/home/PracticeOverview";
 import { WhyVerde } from "@/components/home/WhyVerde";
 import { CaseResults } from "@/components/home/CaseResults";
-import { ProcessSteps } from "@/components/home/ProcessSteps";
-import { Testimonials } from "@/components/home/Testimonials";
-import { AttorneyFeature } from "@/components/home/AttorneyFeature";
-import { VideoShowcase } from "@/components/home/VideoShowcase";
-import { VerdePlusTeaser } from "@/components/home/VerdePlusTeaser";
-import { EligibilityQuiz } from "@/components/home/EligibilityQuiz";
+// Below-the-fold components get their JS split so the initial bundle
+// only has to carry Hero + SocialProof + the first couple of sections.
+// Each still SSRs (default) so SEO sees the full content.
+const ProcessSteps = dynamic(() =>
+  import("@/components/home/ProcessSteps").then((m) => ({ default: m.ProcessSteps })),
+);
+const Testimonials = dynamic(() =>
+  import("@/components/home/Testimonials").then((m) => ({ default: m.Testimonials })),
+);
+const AttorneyFeature = dynamic(() =>
+  import("@/components/home/AttorneyFeature").then((m) => ({ default: m.AttorneyFeature })),
+);
+const VideoShowcase = dynamic(() =>
+  import("@/components/home/VideoShowcase").then((m) => ({ default: m.VideoShowcase })),
+);
+const VerdePlusTeaser = dynamic(() =>
+  import("@/components/home/VerdePlusTeaser").then((m) => ({ default: m.VerdePlusTeaser })),
+);
+const EligibilityQuiz = dynamic(() =>
+  import("@/components/home/EligibilityQuiz").then((m) => ({ default: m.EligibilityQuiz })),
+);
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";

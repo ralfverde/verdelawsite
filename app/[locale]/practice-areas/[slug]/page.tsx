@@ -20,7 +20,7 @@ import {
   Building2,
   Info,
 } from "lucide-react";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, breadcrumbSchema, faqSchema } from "@/lib/seo";
 
 export function generateStaticParams() {
   return services.flatMap((s) => [
@@ -89,6 +89,19 @@ export default async function PracticeAreaDetailPage({
     },
     areaServed: "United States",
   };
+
+  const basePath = locale === "es" ? "/es" : "";
+  const paBase =
+    locale === "es" ? "/es/areas-de-practica" : "/practice-areas";
+  const crumbs = breadcrumbSchema([
+    { name: tNav("home"), path: `${basePath}/` },
+    { name: tNav("practiceAreas"), path: paBase },
+    { name: t(`${svc.id}.title`), path: `${paBase}/${svc.slug[locale]}` },
+  ]);
+
+  const faqLd = faqSchema(
+    faqItems.map((f) => ({ question: f.question, answer: f.answer })),
+  );
 
   const badges = [
     { icon: Clock, label: t(`${svc.id}.timeline`) },
@@ -337,6 +350,14 @@ export default async function PracticeAreaDetailPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
     </>
   );

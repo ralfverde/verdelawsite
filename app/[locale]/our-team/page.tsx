@@ -8,7 +8,12 @@ import { GoldAccentLine } from "@/components/ui/GoldAccentLine";
 import { teamMembers } from "@/data/team";
 import { TeamRoleBadge } from "@/components/team/TeamRoleBadge";
 import { ArrowRight } from "lucide-react";
-import { buildMetadata } from "@/lib/seo";
+import {
+  buildMetadata,
+  attorneySchema,
+  breadcrumbSchema,
+  SITE_URL,
+} from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -35,6 +40,30 @@ export default async function TeamPage({
   setRequestLocale(locale);
   const t = await getTranslations("team");
   const tNav = await getTranslations("nav");
+
+  const basePath = locale === "es" ? "/es" : "";
+  const teamPath = locale === "es" ? "/es/nuestro-equipo" : "/our-team";
+  const crumbs = breadcrumbSchema([
+    { name: tNav("home"), path: `${basePath}/` },
+    { name: tNav("team"), path: teamPath },
+  ]);
+
+  // Attorney schema for every attorney (members with a credentials array).
+  // The team data marks attorneys via their presence in the first two
+  // entries or via custom keys, but here we map the two known roles.
+  const attorneySchemas = teamMembers
+    .filter((m) =>
+      m.role.en === "Managing Attorney" ||
+      m.role.en === "Associate Attorney",
+    )
+    .map((m) =>
+      attorneySchema({
+        name: m.name,
+        jobTitle: m.role[locale],
+        image: `${SITE_URL}${m.photo}`,
+        knowsLanguage: ["English", "Spanish"],
+      }),
+    );
 
   return (
     <>
@@ -110,6 +139,18 @@ export default async function TeamPage({
       </section>
 
       <FinalCTA />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
+      {attorneySchemas.map((s, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }}
+        />
+      ))}
     </>
   );
 }
