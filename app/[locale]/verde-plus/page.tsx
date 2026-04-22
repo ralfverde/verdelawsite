@@ -63,7 +63,7 @@ export default async function VerdePlusPage({
   return (
     <>
       {/* Hero */}
-      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-28 pb-16 md:pt-32 md:pb-20">
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-28 pb-14 md:pt-32 md:pb-16">
         <div
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900),var(--verde-950)_70%)]"
@@ -224,7 +224,7 @@ export default async function VerdePlusPage({
       </section>
 
       {/* Download CTA */}
-      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white py-16 md:py-20 text-center">
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white py-14 md:py-16 text-center">
         <div
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(200,169,81,0.06),transparent_70%)]"

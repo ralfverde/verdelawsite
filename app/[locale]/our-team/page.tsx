@@ -84,7 +84,7 @@ export default async function TeamPage({
       </section>
 
       {/* Careers */}
-      <section className="bg-cream text-verde-950 py-16">
+      <section className="bg-cream text-verde-950 py-14 md:py-16">
         <div className="container-wide">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 max-w-4xl mx-auto">
             <div className="text-center md:text-left">

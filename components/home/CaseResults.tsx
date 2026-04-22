@@ -12,7 +12,7 @@ export function CaseResults() {
   const t = useTranslations("caseResults");
 
   return (
-    <section className="bg-cream text-verde-950 py-16 md:py-20">
+    <section className="bg-cream text-verde-950 py-14 md:py-16">
       <motion.div
         variants={fadeUp}
         initial="hidden"

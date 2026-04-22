@@ -68,7 +68,7 @@ export function PracticeTabs() {
         </div>
       </div>
 
-      <div className="container-wide pt-10 pb-16 md:pb-20">
+      <div className="container-wide pt-10 pb-14 md:pb-16">
         {/* Category description (only shown when filtered) */}
         <AnimatePresence mode="wait">
           {active !== "all" && (

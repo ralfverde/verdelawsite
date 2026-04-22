@@ -48,7 +48,7 @@ export function Hero() {
 
       <FloatingOrbs />
 
-      <div className="container-wide relative grid lg:grid-cols-[1.15fr_1fr] gap-12 lg:gap-16 items-center pt-28 pb-20 lg:py-24">
+      <div className="container-wide relative grid lg:grid-cols-[1.15fr_1fr] gap-12 lg:gap-16 items-center pt-28 pb-14 md:pt-32 md:pb-16">
         {/* Left: copy */}
         <div>
           <motion.p

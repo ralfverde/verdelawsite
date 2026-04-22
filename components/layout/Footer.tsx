@@ -21,7 +21,7 @@ export function Footer() {
 
   return (
     <footer className="bg-[var(--verde-900)] text-white border-t border-[var(--gold-500)]/40">
-      <div className="container-wide pt-14 pb-10">
+      <div className="container-wide pt-14 md:pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-5">
             <Logo />

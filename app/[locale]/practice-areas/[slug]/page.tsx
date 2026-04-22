@@ -101,7 +101,7 @@ export default async function PracticeAreaDetailPage({
       <ReadingProgress />
       <StickySidebar serviceTitle={t(`${svc.id}.title`)} />
       {/* Hero */}
-      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-28 pb-14 md:pt-32 md:pb-20">
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-28 pb-14 md:pt-32 md:pb-16">
         <div
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900)_0%,var(--verde-950)_70%)]"
@@ -291,7 +291,7 @@ export default async function PracticeAreaDetailPage({
 
       {/* Related services */}
       {related.length > 0 && (
-        <section className="noise-bg bg-verde-950 text-white py-20">
+        <section className="noise-bg bg-verde-950 text-white py-14 md:py-16">
           <div className="container-wide">
             <SectionEyebrow>{tPage("relatedEyebrow")}</SectionEyebrow>
             <h2 className="mt-3 font-heading text-2xl md:text-4xl text-white">

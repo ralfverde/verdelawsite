@@ -30,7 +30,7 @@ export function SectionWrapper({
     <Tag
       id={id}
       aria-label={ariaLabel}
-      className={`relative ${padded ? "py-16 md:py-20" : ""} ${dark ? "noise-bg" : ""} ${className}`}
+      className={`relative ${padded ? "py-14 md:py-16" : ""} ${dark ? "noise-bg" : ""} ${className}`}
     >
       <motion.div
         variants={fadeUp}

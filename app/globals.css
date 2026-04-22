@@ -338,19 +338,20 @@ p, .text-body {
   padding-inline: var(--section-padding-x);
 }
 
-/* Verde Law spacing system.
- * .section-y is the default vertical rhythm between content sections.
- * Kept deliberately tight (64–80px per side = 128–160px combined) so
- * sections feel connected rather than separated by empty page
- * breaks. Heroes, stats bars, and the footer set their own values. */
+/* Verde Law spacing system — three tiers, nothing else.
+ *   Tier 1 (standard):  py-14 md:py-16   (56/64 px per side)
+ *   Tier 2 (heroes):    pt-28 pb-14 md:pt-32 md:pb-16
+ *   Tier 3 (compact):   py-10 md:py-12   (stats bar, CTA banners)
+ * .section-y mirrors Tier 1 so every section using it lands on the
+ * same rhythm as the Tailwind classes. */
 .section-y {
-  padding-block: 4rem;
+  padding-block: 3.5rem;
 }
 @media (min-width: 768px) {
-  .section-y { padding-block: 5rem; }
+  .section-y { padding-block: 4rem; }
 }
 @media (min-width: 1024px) {
-  .section-y { padding-block: 5rem; }
+  .section-y { padding-block: 4rem; }
 }
 
 .cta-gold {

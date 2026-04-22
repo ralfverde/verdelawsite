@@ -57,7 +57,7 @@ export default async function TermsPage({
       </section>
 
       {/* Content */}
-      <section className="bg-cream text-verde-950 py-16">
+      <section className="bg-cream text-verde-950 py-14 md:py-16">
         <div className="container-wide max-w-3xl mx-auto space-y-10">
           {sections.map((s) => (
             <article key={s} className="space-y-3">

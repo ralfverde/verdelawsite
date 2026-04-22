@@ -21,7 +21,7 @@ export function PageHero({
   crumbs?: Crumb[];
 }) {
   return (
-    <section className="noise-bg relative overflow-hidden bg-[var(--verde-950)] text-white pt-28 pb-14 md:pt-32 md:pb-20">
+    <section className="noise-bg relative overflow-hidden bg-[var(--verde-950)] text-white pt-28 pb-14 md:pt-32 md:pb-16">
       <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900)_0%,var(--verde-950)_70%)]" />
       <div aria-hidden className="absolute inset-0 opacity-[0.04] [background-image:linear-gradient(45deg,transparent_45%,rgba(255,255,255,0.3)_49%,rgba(255,255,255,0.3)_51%,transparent_55%)] [background-size:32px_32px]" />
 

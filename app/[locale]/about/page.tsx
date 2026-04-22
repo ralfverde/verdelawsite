@@ -85,7 +85,7 @@ export default async function AboutPage({
     <>
       <ReadingProgress />
       {/* Hero */}
-      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-28 pb-16 md:pt-32 md:pb-20">
+      <section className="noise-bg relative overflow-hidden bg-verde-950 text-white pt-28 pb-14 md:pt-32 md:pb-16">
         <div
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--verde-900)_0%,var(--verde-950)_70%)]"
@@ -253,7 +253,7 @@ export default async function AboutPage({
       <SectionDivider variant="diagonal" direction="dark-to-light" />
 
       {/* By the numbers */}
-      <section className="bg-cream text-verde-950 py-10 md:py-14">
+      <section className="bg-cream text-verde-950 py-10 md:py-12">
         <div className="container-wide flex flex-wrap items-center justify-center gap-10 md:gap-16">
           {stats.map((s, i) => (
             <Fragment key={s.key}>

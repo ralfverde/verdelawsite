@@ -89,7 +89,7 @@ export default async function EducationPage({
       <SectionDivider variant="diagonal" direction="dark-to-light" />
 
       {/* Free PDF guides */}
-      <section className="bg-cream text-verde-950 py-16 md:py-20">
+      <section className="bg-cream text-verde-950 py-14 md:py-16">
         <div className="container-wide max-w-6xl">
           <div className="text-center mb-10">
             <SectionEyebrow>{t("guides.eyebrow")}</SectionEyebrow>
@@ -247,7 +247,7 @@ export default async function EducationPage({
       <SectionDivider variant="diagonal" direction="light-to-dark" />
 
       {/* Newsletter */}
-      <section className="noise-bg bg-verde-950 text-white py-20">
+      <section className="noise-bg bg-verde-950 text-white py-14 md:py-16">
         <div className="container-wide">
           <div className="bg-verde-900 rounded-2xl p-8 md:p-12 max-w-4xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
             <div className="flex-[0_0_58%] max-w-[58ch]">
