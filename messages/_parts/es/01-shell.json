@@ -14,15 +14,15 @@
     "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "eyebrow": "Abogados de Inmigración en Los 50 Estados",
-    "title": "Usted merece un abogado que conteste el teléfono, hable su idioma, y luche como si fuera personal.",
-    "subtitle": "Verde Law ha representado a miles de familias en corte de inmigración, desde audiencias de asilo hasta procedimientos de fianza y defensa contra la deportación. Su primera consulta es gratuita, confidencial, y sin ninguna presión para contratarnos.",
+    "eyebrow": "Abogados de Inmigración",
+    "title": "Defendemos su derecho a quedarse.",
+    "subtitle": "Defensa migratoria en los 50 estados. Su primera consulta siempre es gratuita.",
     "ctaPrimary": "Agendar Mi Consulta Gratuita",
     "ctaWhatsApp": "Envíenos un WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Fundador y Abogado Principal",
     "badges": {
-      "cases": "Miles de familias representadas",
+      "cases": "1,000 + familias representadas",
       "states": "Los 50 estados",
       "free": "Consulta gratuita, siempre"
     }

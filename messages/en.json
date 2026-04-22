@@ -14,15 +14,15 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "eyebrow": "Immigration Attorneys Serving All 50 States",
-    "title": "You deserve an attorney who answers the phone, speaks your language, and fights like it's personal.",
-    "subtitle": "Verde Law has represented thousands of families in immigration court, from asylum hearings to bond proceedings to deportation defense. Your first consultation is free, confidential, and comes with zero pressure to hire us.",
+    "eyebrow": "Immigration Attorneys",
+    "title": "Defending your right to stay.",
+    "subtitle": "Immigration defense in all 50 states. Your first consultation is always free.",
     "ctaPrimary": "Schedule My Free Consultation",
     "ctaWhatsApp": "Send us a WhatsApp",
     "portraitName": "Rafael Verde, Esq.",
     "portraitRole": "Founder & Managing Attorney",
     "badges": {
-      "cases": "Thousands of families represented",
+      "cases": "1,000 + families represented",
       "states": "All 50 states",
       "free": "Free consultation, always"
     }
