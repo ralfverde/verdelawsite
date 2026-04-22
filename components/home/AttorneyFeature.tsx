@@ -22,13 +22,13 @@ export function AttorneyFeature() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="relative rounded-2xl overflow-hidden border border-white/[0.08] bg-black shadow-[0_20px_60px_rgba(13,43,30,0.4)] max-w-md w-full mx-auto lg:mx-0"
+          className="relative rounded-2xl overflow-hidden border border-white/[0.08] shadow-[0_20px_60px_rgba(13,43,30,0.4)] max-w-md w-full mx-auto lg:mx-0"
         >
           <Image
-            src="/images/rafael-verde-headshot.jpg"
+            src="/images/rafael-verde-hero.png"
             alt={`${t("name")}, ${t("role")}`}
-            width={400}
-            height={533}
+            width={480}
+            height={720}
             className="w-full h-auto object-cover"
             sizes="(min-width: 1024px) 400px, (min-width: 640px) 360px, 100vw"
           />
