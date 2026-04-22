@@ -21,13 +21,13 @@
         "message": "Tell us briefly (optional)"
       },
       "caseTypes": {
-        "deportation": "Someone I love was detained",
-        "asylum": "I'm afraid to return to my home country",
-        "bond": "My family member is in ICE custody",
-        "family": "I want to bring family to the U.S.",
-        "vawa": "I'm a victim of abuse or a crime",
-        "citizenship": "I want to become a U.S. citizen",
-        "other": "Other / not sure yet"
+        "deportation": "I'm in removal proceedings",
+        "asylum": "I want to apply for asylum",
+        "bond": "Someone I love was detained",
+        "family": "I need help with a family petition",
+        "vawa": "I'm a survivor of abuse or a crime",
+        "citizenship": "I need a work permit or citizenship",
+        "other": "Something else"
       },
       "submit": "Send my free case review",
       "submitting": "Sending…",

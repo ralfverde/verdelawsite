@@ -14,7 +14,7 @@
       "caseTracker": {
         "eyebrow": "Feature 01",
         "title": "Know exactly where your case stands.",
-        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you see what's happening and when.",
+        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you can see what's happening next — and when.",
         "h1": "Visual timeline of your case",
         "h2": "Automatic notifications on changes",
         "h3": "24/7 access from any device"
@@ -22,7 +22,7 @@
       "judgeStats": {
         "eyebrow": "Feature 02",
         "title": "Know your judge before the hearing.",
-        "desc": "Real approval rates for every immigration judge in your jurisdiction. Know what you're walking into, so nothing surprises you.",
+        "desc": "Access real approval statistics for immigration judges in your jurisdiction. Know what you're walking into, so nothing surprises you.",
         "h1": "Approval rates by case type",
         "h2": "Historical decision patterns",
         "h3": "Compare judges in the same court"
@@ -30,7 +30,7 @@
       "documentScanner": {
         "eyebrow": "Feature 03",
         "title": "Digitize documents instantly.",
-        "desc": "Scan passports, work permits, and legal documents straight from your phone. Stored securely, shareable in one tap with your attorney.",
+        "desc": "Scan passports, work permits, and legal documents straight from your phone. Stored securely. Shareable to the legal team with one tap.",
         "h1": "Automatic document-type detection",
         "h2": "Encrypted cloud storage",
         "h3": "Share directly with your attorney"
@@ -38,7 +38,7 @@
       "aiAssistant": {
         "eyebrow": "Feature 04",
         "title": "Immediate answers to your questions.",
-        "desc": "Our AI assistant answers common immigration questions in Spanish, 24 hours a day. Attorney-verified, zero hallucinations on legal rules.",
+        "desc": "Our AI assistant answers common immigration questions in Spanish, 24 hours a day. Attorney-verified information on legal topics, in language you can actually understand.",
         "h1": "Available 24/7",
         "h2": "Answers in Spanish",
         "h3": "Information vetted by attorneys"
@@ -46,7 +46,7 @@
       "academy": {
         "eyebrow": "Feature 05",
         "title": "Learn your rights.",
-        "desc": "Free courses, step-by-step guides, and educational resources to understand the U.S. immigration system. Made for immigrants, in plain Spanish.",
+        "desc": "Free courses, step-by-step guides, and educational resources to understand how immigration works in your favor. Right in the app, at your pace.",
         "h1": "Video courses",
         "h2": "Downloadable guides",
         "h3": "Citizenship test prep"
@@ -54,7 +54,7 @@
       "community": {
         "eyebrow": "Feature 06",
         "title": "Connect with other immigrants.",
-        "desc": "Share experiences, ask questions, and find support in our community. Moderated by our team to keep it safe and respectful.",
+        "desc": "Share experiences, ask questions, and find support in our community. Moderated for safety and respect.",
         "h1": "Topic-based forums",
         "h2": "Success stories",
         "h3": "A support network that gets it"
@@ -87,7 +87,7 @@
       "subtitle": "Track your case, scan your documents, learn your rights — all in one app, in your language.",
       "appStore": "App Store",
       "playStore": "Google Play",
-      "tagline": "Free. For everyone."
+      "tagline": "It's free. For everyone."
     }
   }
 }

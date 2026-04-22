@@ -5,8 +5,8 @@
       "description": "Guías, artículos y videos gratuitos sobre derecho migratorio. Conozca sus derechos en el sistema de EE.UU."
     },
     "eyebrow": "Educación",
-    "title": "Educación migratoria, gratis y en su idioma.",
-    "subtitle": "Artículos cortos, guías paso a paso y videos directos sobre cómo funciona realmente el sistema migratorio de EE.UU. Sin tecnicismos.",
+    "title": "Educación migratoria, gratuita y en su idioma.",
+    "subtitle": "Artículos breves, guías paso a paso, y videos directos sobre cómo funciona realmente el sistema de inmigración de EE.UU. Sin jerga legal.",
     "articles": {
       "eyebrow": "Artículos y Guías",
       "title": "Lea lo que importa.",
@@ -81,12 +81,12 @@
     },
     "faq": {
       "eyebrow": "Preguntas Frecuentes",
-      "title": "Respuestas a las preguntas que más nos hacen."
+      "title": "Respuestas a las preguntas que más escuchamos."
     },
     "newsletter": {
       "eyebrow": "Manténgase Informado",
-      "title": "Noticias migratorias, directo de nosotros.",
-      "body": "Un correo al mes. Artículos nuevos, actualizaciones de política que afectan su caso y próximos webinars gratuitos. Sin spam, cancele cuando quiera.",
+      "title": "Noticias de inmigración, directamente de nosotros.",
+      "body": "Una o dos veces al mes: nuevos artículos, actualizaciones de políticas que afectan su caso, y talleres gratuitos próximos. Sin spam. Cancele cuando quiera.",
       "formLabel": "Suscripción al boletín",
       "emailLabel": "Correo electrónico",
       "emailPlaceholder": "usted@ejemplo.com",

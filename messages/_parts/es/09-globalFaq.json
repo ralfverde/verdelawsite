@@ -1,64 +1,64 @@
 {
   "globalFaq": {
     "consultation": {
-      "question": "¿Qué es una consulta gratis y qué incluye?",
-      "answer": "Una consulta gratis es una conversación de 20 a 30 minutos — por teléfono, WhatsApp o video — con un especialista de admisión o un abogado. Escuchamos lo que está pasando, identificamos los temas legales de su caso y le presentamos opciones honestas con números reales. No hay costo, no hay compromiso de contratarnos, y nada de lo que usted comparta sale del bufete."
+      "question": "¿Qué es una consulta gratuita y qué incluye?",
+      "answer": "Una consulta gratuita es una conversación de 15–30 minutos — por teléfono, WhatsApp, o video — con un especialista de intake o un abogado. Escuchamos lo que está pasando, identificamos los asuntos legales de su caso, y le damos opciones honestas con números reales. No tiene costo, no hay obligación de contratarnos, y nada de lo que comparta sale de la firma."
     },
     "cost": {
       "question": "¿Cuánto cuesta contratar un abogado de inmigración?",
-      "answer": "Nuestros servicios tienen tarifas fijas, publicadas en la página de Áreas de Práctica para que no haya sorpresas. Las tarifas van desde $750 por permisos de trabajo simples y solicitudes FOIA hasta $10,000+ por defensa de deportación compleja con apelaciones federales de circuito. Cada contrato incluye un plan de pagos por escrito."
+      "answer": "Nuestros servicios van desde $750 para presentaciones individuales hasta $11,000 para paquetes complejos como fianza más defensa de deportación. La mayoría de los casos caen entre $5,000 y $9,000. Cobramos tarifas fijas — nunca por hora — para que sepa el costo total antes de firmar. Los planes de pago siempre están disponibles."
     },
     "outsideFlorida": {
-      "question": "¿Puedo tener representación si no vivo en Florida?",
-      "answer": "Sí. La ley de inmigración es federal, así que un abogado licenciado en Florida puede representarlo en cortes de inmigración, oficinas de USCIS y cortes federales de circuito en todo el país. La mayor parte de la comunicación es remota; viajamos o comparecemos por video para las fechas de corte."
+      "question": "¿Pueden ayudarme si no vivo en Florida?",
+      "answer": "Sí. La ley de inmigración es federal, lo que significa que un abogado licenciado en Florida puede representarle en cualquier corte de inmigración, oficina de USCIS, o circuito de apelaciones federal del país. Manejamos casos en los 50 estados. La mayoría de las consultas ocurren por teléfono o WhatsApp — no necesita viajar a Miami."
     },
     "deportationOrder": {
-      "question": "¿Qué pasa si tengo una orden de deportación?",
-      "answer": "Una orden previa no significa que sus opciones se hayan acabado. Según el tipo de orden y cuándo se emitió, podemos presentar una moción para reabrir, una moción para suspender la deportación, una suspensión I-246 ante ICE, o una petición federal de habeas. El primer paso es obtener su A-file con una FOIA para saber exactamente qué hay en el expediente."
+      "question": "Ya tengo una orden de deportación. ¿Es demasiado tarde?",
+      "answer": "No necesariamente. Dependiendo de por qué y cuándo se emitió la orden, podemos presentar una moción para reabrir, una moción para reconsiderar, o una apelación. En algunos casos, podemos suspender la deportación mientras peleamos. Cada orden vieja es diferente — tráiganosla y le diremos, honestamente, qué todavía es posible."
     },
     "asylumProcess": {
       "question": "¿Cómo funciona el proceso de asilo?",
-      "answer": "El asilo tiene dos vías. El asilo afirmativo se presenta ante USCIS para personas que no están en proceso de deportación — lleva a una entrevista en la oficina de asilo. El asilo defensivo se busca dentro de la corte de inmigración como defensa a la deportación. Ambos requieren una declaración personal detallada, evidencia de respaldo y prueba de que usted teme persecución por un fundamento protegido."
+      "answer": "Hay dos vías: afirmativa (presentada ante USCIS si no está en proceso) y defensiva (planteada en corte de inmigración si sí lo está). De cualquier manera, el caso depende de su declaración personal y de la evidencia que la respalde. Los tiempos varían, pero la mayoría de los casos toman 12–36 meses. En la consulta le explicamos cómo se verá el suyo exactamente."
     },
     "bondHearing": {
-      "question": "¿Qué es una audiencia de fianza?",
-      "answer": "Una audiencia de fianza es cuando un juez de inmigración decide si una persona detenida puede ser liberada de la custodia de ICE mientras avanza el caso de deportación. El juez considera el riesgo de fuga, el peligro para la comunidad y los lazos comunitarios. Un caso preparado — con declaraciones juradas de patrocinador, récords tributarios y prueba de arraigo — cambia dramáticamente el resultado."
+      "question": "Mi familiar fue detenido por ICE. ¿Qué hacemos?",
+      "answer": "Llámenos inmediatamente — (305) 786-3003. Las primeras 48 horas son las que más importan. Presentamos la solicitud de fianza pocos días después de ser contratados, y la mayoría de nuestros clientes detenidos son liberados dentro de 3–4 semanas. No permita que su familiar firme nada — especialmente no salida voluntaria — hasta que haya hablado con un abogado."
     },
     "timeline": {
       "question": "¿Cuánto tardará mi caso?",
-      "answer": "Los tiempos dependen del tipo de caso y de la agencia. Los permisos de trabajo normalmente toman 3–6 meses. Las peticiones I-130 para familiares inmediatos van entre 8–16 meses. El asilo puede tardar años. La defensa de deportación en corte puede durar 12–36 meses. En su consulta le daremos un estimado realista para su caso específico."
+      "answer": "Los tiempos de inmigración son controlados por USCIS, las cortes de inmigración, y los calendarios federales — no por nosotros. Los permisos de trabajo normalmente toman 6–12 meses. Las audiencias de fianza ocurren en pocas semanas. El asilo y la defensa de deportación pueden durar de 1–3 años. Le daremos un estimado concreto para su caso específico durante la consulta — no una fantasía del mejor escenario."
     },
     "workWhilePending": {
-      "question": "¿Puedo trabajar mientras mi caso está pendiente?",
-      "answer": "Muchas veces sí — con un Documento de Autorización de Empleo (EAD), Formulario I-765. La elegibilidad depende del tipo de caso y de las fechas de presentación. Presentamos el EAD como parte de cada paquete de caso que califique."
+      "question": "¿Puedo trabajar legalmente mientras mi caso está pendiente?",
+      "answer": "En muchos casos, sí. Si usted califica, podemos presentar una solicitud de permiso de trabajo I-765 junto con su caso principal. Los solicitantes de asilo pueden aplicar 180 días después de presentar. Los solicitantes de ajuste de estatus pueden aplicar al mismo tiempo que la residencia. Le diremos exactamente cuándo y cómo durante la consulta."
     },
     "documents": {
-      "question": "¿Qué documentos debo traer a mi consulta?",
-      "answer": "Si los tiene: su pasaporte, cualquier trámite migratorio previo (notificaciones de USCIS o ICE, notificaciones de corte), cualquier solicitud que haya presentado antes, reportes policiales o evidencia si busca asilo/VAWA/Visa U, y los nombres y fechas de las relaciones familiares. Si no tiene documentos, venga igual — le diremos qué recolectar."
+      "question": "¿Qué documentos debo traer a la consulta?",
+      "answer": "Lo que tenga — pasaportes, documentos de casos previos, notificaciones de corte, I-94s, solicitudes antiguas, reportes policiales, récords médicos. Si no tiene nada, está bien también. Hablaremos de lo que recuerde y le diremos qué necesitamos reunir. Venga como está."
     },
     "paymentPlans": {
       "question": "¿Ofrecen planes de pago?",
-      "answer": "Sí. Cada contrato incluye un plan de pagos por escrito que divide la tarifa fija en cuotas manejables, normalmente con un depósito inicial razonable. Facturamos con transparencia — sin cargos sorpresa."
+      "answer": "Sí. Ofrecemos planes mensuales, quincenales, y semanales. La mayoría de los clientes pagan un pago inicial de $2,500–$3,000 y distribuyen el resto durante la vida del caso. También aceptamos Affirm Pay Later si prefiere financiar el monto total por adelantado. Nunca permitiremos que el costo sea la razón por la que no obtenga representación."
     },
     "vawaEligibility": {
-      "question": "¿Qué es VAWA y quién califica?",
-      "answer": "La Ley de Violencia Contra la Mujer (VAWA) permite que cónyuges, hijos y padres abusados por ciudadanos o residentes permanentes peticionen su propio estatus migratorio — de forma confidencial, sin el conocimiento ni la participación del abusador. Aplica a hombres y mujeres. El caso depende de la prueba del abuso y de la relación calificada."
+      "question": "¿Soy elegible para VAWA si no tengo un reporte policial?",
+      "answer": "Sí. VAWA usa un estándar de \"cualquier evidencia creíble.\" No necesita un reporte policial. No necesita una condena. Necesita su historia, contada claramente, respaldada por lo que tenga — fotografías, mensajes, récords médicos, notas de terapia, o declaraciones de amigos y familiares. Su agresor no es notificado. Nunca."
     },
     "iceDetention": {
       "question": "¿Qué debo hacer si ICE me detiene?",
-      "answer": "Mantenga la calma. Usted tiene derecho a guardar silencio, a hablar con un abogado y a negarse a firmar cualquier cosa hasta entender lo que dice. No firme una Orden Estipulada de Remoción ni un formulario de salida voluntaria sin consejo legal. Pida llamar a Verde Law — nuestro teléfono se contesta las 24 horas."
+      "answer": "Mantenga la calma. No firme ningún documento sin un abogado. Usted tiene derecho a permanecer en silencio y derecho a un abogado. Dé a ICE su nombre, pero no discuta su historial migratorio, su caso, o de dónde es. Llame a Verde Law inmediatamente al (305) 786-3003 o pida a un familiar que llame por usted. Manejamos casos de detenidos de forma de emergencia."
     },
     "detainedHelp": {
-      "question": "¿Pueden ayudar si mi familiar ya está detenido?",
-      "answer": "Sí. Los casos de detenidos son una de nuestras áreas principales. Nos movemos rápido en las audiencias de fianza, conocemos al personal de Krome y coordinamos traslados cuando ICE mueve a un ser querido a otro estado. Las primeras 48 horas importan — llámenos de inmediato."
+      "question": "¿Qué tan rápido pueden ayudar si mi familiar está detenido ahora mismo?",
+      "answer": "Atendemos llamadas de emergencia de detención el mismo día. Pedimos el A-file, identificamos la instalación, y ponemos un abogado en el caso en cuestión de horas. Las mociones de fianza se presentan típicamente en 3–5 días hábiles, y la mayoría de los clientes detenidos son liberados dentro de 3–4 semanas. Llame al (305) 786-3003 ahora — cada hora importa."
     },
     "uVisa": {
-      "question": "¿Qué es la Visa U?",
-      "answer": "La Visa U es un estatus migratorio para víctimas no ciudadanas de crímenes graves (violencia doméstica, agresión sexual, asalto con lesiones graves, tráfico humano y otros) que han sufrido un daño sustancial y son útiles a las autoridades. Requiere una certificación de la agencia investigadora y una declaración personal detallada. Las esperas actuales son largas, pero los solicitantes en la lista reciben autorización de trabajo y acción diferida."
+      "question": "¿Qué es una Visa U y califico?",
+      "answer": "La Visa U es para no ciudadanos que fueron víctimas de un crimen grave calificante (violencia doméstica, agresión sexual, asalto con lesiones graves, tráfico, y más) y cooperaron con las autoridades. Usted califica si sufrió un daño sustancial y tiene una certificación de las autoridades — que le ayudamos a obtener. Las listas de espera son largas, pero hay permisos de trabajo provisionales y acción diferida mientras espera."
     },
     "citizenship": {
-      "question": "¿Cómo me hago ciudadano estadounidense?",
-      "answer": "La mayoría de las personas aplican con el N-400 después de cinco años como residente permanente (tres si está casado con ciudadano). Se necesita residencia continua, presencia física, buen carácter moral y conocimientos básicos de inglés y cívica. Revisamos temas que podrían descarrilar la solicitud — impuestos, antecedentes penales, patrones de viaje — antes de presentar."
+      "question": "He sido residente por 5 años. ¿Debo aplicar para la ciudadanía?",
+      "answer": "Probablemente sí — pero depende de varias cosas: su presencia física, su historial de viajes, sus declaraciones de impuestos, y si tiene problemas criminales previos. Un N-400 mal presentado puede poner a un residente permanente en proceso de deportación. Hacemos una auditoría completa de elegibilidad antes de presentar para que su solicitud sea una celebración, no un riesgo."
     }
   }
 }

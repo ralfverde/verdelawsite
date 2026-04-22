@@ -1,8 +1,8 @@
 {
   "notFound": {
-    "title": "Page not found",
-    "body": "The page you're looking for doesn't exist or may have been moved. If you were headed somewhere specific, the links below can help — or call us directly.",
-    "cta": "Back to home",
-    "phone": "Call us at {phone}"
+    "title": "Page not found.",
+    "body": "The page you're looking for doesn't exist or has been moved. But we're still here — and your case still matters.",
+    "cta": "Back to Home",
+    "phone": "Need help? Call us at {phone}"
   }
 }

@@ -14,7 +14,7 @@
       "caseTracker": {
         "eyebrow": "Función 01",
         "title": "Sepa exactamente dónde está su caso.",
-        "desc": "Actualizaciones en tiempo real en cada paso de su asunto migratorio. Desde la firma del contrato hasta la decisión final, usted ve qué está pasando y cuándo.",
+        "desc": "Actualizaciones en tiempo real en cada paso de su asunto migratorio. Desde la firma del contrato hasta la decisión final, puede ver qué sigue — y cuándo.",
         "h1": "Línea de tiempo visual de su caso",
         "h2": "Notificaciones automáticas de cambios",
         "h3": "Acceso 24/7 desde cualquier dispositivo"
@@ -22,7 +22,7 @@
       "judgeStats": {
         "eyebrow": "Función 02",
         "title": "Conozca a su juez antes de la audiencia.",
-        "desc": "Tasas reales de aprobación de cada juez de inmigración en su jurisdicción. Sepa con qué se está enfrentando, para que nada lo tome por sorpresa.",
+        "desc": "Acceda a estadísticas reales de aprobación de los jueces de inmigración en su jurisdicción. Sepa a qué se enfrenta, para que nada le sorprenda.",
         "h1": "Tasas de aprobación por tipo de caso",
         "h2": "Patrones históricos de decisiones",
         "h3": "Compare jueces en la misma corte"
@@ -30,7 +30,7 @@
       "documentScanner": {
         "eyebrow": "Función 03",
         "title": "Digitalice documentos al instante.",
-        "desc": "Escanee pasaportes, permisos de trabajo y documentos legales directamente desde su teléfono. Guardados de forma segura y compartibles con su abogado en un solo toque.",
+        "desc": "Escanee pasaportes, permisos de trabajo, y documentos legales directamente desde su teléfono. Almacenados de forma segura. Compartibles con el equipo legal con un solo toque.",
         "h1": "Detección automática del tipo de documento",
         "h2": "Almacenamiento cifrado en la nube",
         "h3": "Compártalos directamente con su abogado"
@@ -38,7 +38,7 @@
       "aiAssistant": {
         "eyebrow": "Función 04",
         "title": "Respuestas inmediatas a sus preguntas.",
-        "desc": "Nuestro asistente de IA responde preguntas comunes de inmigración en español, las 24 horas. Verificado por abogados, cero invenciones sobre reglas legales.",
+        "desc": "Nuestro asistente de IA responde preguntas comunes de inmigración en español, las 24 horas del día. Información verificada por abogados sobre temas legales, en un lenguaje que realmente pueda entender.",
         "h1": "Disponible 24/7",
         "h2": "Respuestas en español",
         "h3": "Información revisada por abogados"
@@ -46,15 +46,15 @@
       "academy": {
         "eyebrow": "Función 05",
         "title": "Aprenda sus derechos.",
-        "desc": "Cursos gratuitos, guías paso a paso y recursos educativos para entender el sistema migratorio de EE.UU. Hecho para inmigrantes, en español claro.",
+        "desc": "Cursos gratuitos, guías paso a paso, y recursos educativos para entender cómo funciona la inmigración a su favor. Directamente en la app, a su ritmo.",
         "h1": "Cursos en video",
         "h2": "Guías descargables",
         "h3": "Preparación para el examen de ciudadanía"
       },
       "community": {
         "eyebrow": "Función 06",
-        "title": "Conéctese con otros inmigrantes.",
-        "desc": "Comparta experiencias, haga preguntas y encuentre apoyo en nuestra comunidad. Moderada por nuestro equipo para mantenerla segura y respetuosa.",
+        "title": "Conecte con otros inmigrantes.",
+        "desc": "Comparta experiencias, haga preguntas, y encuentre apoyo en nuestra comunidad. Moderada para garantizar seguridad y respeto.",
         "h1": "Foros por tema",
         "h2": "Historias de éxito",
         "h3": "Una red de apoyo que entiende"
@@ -62,7 +62,7 @@
     },
     "comparison": {
       "eyebrow": "Planes",
-      "title": "Funciones Gratis vs. Cliente.",
+      "title": "Funciones Gratuitas vs. Cliente.",
       "feature": "Función",
       "free": "Verde+ Gratis",
       "client": "Verde+ Cliente",
@@ -84,10 +84,10 @@
     },
     "download": {
       "title": "Descargue Verde+ hoy.",
-      "subtitle": "Siga su caso, escanee sus documentos, aprenda sus derechos — todo en una sola app, en su idioma.",
+      "subtitle": "Rastree su caso, escanee sus documentos, aprenda sus derechos — todo en una app, en su idioma.",
       "appStore": "App Store",
       "playStore": "Google Play",
-      "tagline": "Gratis. Para todos."
+      "tagline": "Es gratis. Para todos."
     }
   }
 }

@@ -1245,7 +1245,7 @@
     "newsletter": {
       "eyebrow": "Stay Informed",
       "title": "Immigration news, straight from us.",
-      "body": "One email a month. New articles, policy updates that affect your case, and upcoming free webinars. No spam, unsubscribe anytime.",
+      "body": "Once or twice a month: new articles, policy updates that affect your case, and upcoming free workshops. No spam. Unsubscribe anytime.",
       "formLabel": "Newsletter signup",
       "emailLabel": "Email address",
       "emailPlaceholder": "you@example.com",
@@ -1257,63 +1257,63 @@
   "globalFaq": {
     "consultation": {
       "question": "What is a free consultation and what does it include?",
-      "answer": "A free consultation is a 20–30 minute conversation — by phone, WhatsApp, or video — with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
+      "answer": "A free consultation is a 15–30 minute conversation — by phone, WhatsApp, or video — with an intake specialist or attorney. We listen to what's going on, identify the legal issues in your case, and give you honest options with real numbers. There is no cost, no obligation to hire us, and nothing you share ever leaves the firm."
     },
     "cost": {
       "question": "How much does it cost to hire an immigration attorney?",
-      "answer": "Our services are priced with flat fees, published on our Practice Areas page so there are no surprises. Fees range from $750 for simple work permits and FOIA requests to $10,000+ for complex removal defense with federal circuit appeals. Every engagement comes with a written payment plan."
+      "answer": "Our services range from $750 for standalone filings to $11,000 for complex packages like bond plus removal defense. Most cases fall between $5,000 and $9,000. We charge flat fees — never hourly — so you know the total cost before you sign. Payment plans are always available."
     },
     "outsideFlorida": {
-      "question": "Can I get representation if I don't live in Florida?",
-      "answer": "Yes. Immigration law is federal, so a Florida-licensed attorney can represent you in immigration courts, USCIS offices, and federal circuit courts across the country. Most of our communication is remote; we travel or appear by video for court dates."
+      "question": "Can you help me if I don't live in Florida?",
+      "answer": "Yes. Immigration law is federal, which means a Florida-licensed attorney can represent you in any immigration court, USCIS office, or federal appellate circuit in the country. We handle cases in all 50 states. Most consultations happen by phone or WhatsApp — you don't need to travel to Miami."
     },
     "deportationOrder": {
-      "question": "What happens if I have a deportation order?",
-      "answer": "A prior order does not mean your options are gone. Depending on the type of order and when it was issued, we may file a motion to reopen, a motion to stay removal, an I-246 stay of removal with ICE, or a federal habeas petition. The first step is obtaining your A-file through a FOIA so we know exactly what's on the record."
+      "question": "I already have a deportation order. Is it too late?",
+      "answer": "Not necessarily. Depending on why and when the order was issued, we may be able to file a motion to reopen, a motion to reconsider, or an appeal. In some cases, we can stay the removal while we fight. Every old order is different — bring us yours and we'll tell you, honestly, what's still possible."
     },
     "asylumProcess": {
       "question": "How does the asylum process work?",
-      "answer": "Asylum has two tracks. Affirmative asylum is filed with USCIS for people who are not in removal proceedings — it leads to an interview at the asylum office. Defensive asylum is pursued inside immigration court as a defense to removal. Both require a detailed personal declaration, corroborating evidence, and proof that you fear persecution on account of a protected ground."
+      "answer": "There are two tracks: affirmative (filed with USCIS if you're not in proceedings) and defensive (raised in immigration court if you are). Either way, the case turns on your personal declaration and the evidence corroborating it. Timelines vary, but most cases run 12–36 months. We walk you through exactly what yours will look like during the consultation."
     },
     "bondHearing": {
-      "question": "What is a bond hearing?",
-      "answer": "A bond hearing is when an immigration judge decides whether a detained person can be released from ICE custody while the removal case proceeds. The judge looks at flight risk, danger to the community, and community ties. A prepared case — with sponsor affidavits, tax records, and proof of ties — dramatically changes the outcome."
+      "question": "My family member was detained by ICE. What do we do?",
+      "answer": "Call us immediately — (305) 786-3003. The first 48 hours matter most. We file for bond within a few days of being retained, and most of our detained clients are released within 3–4 weeks. Do not have your family member sign anything — especially not voluntary departure — until they've spoken with an attorney."
     },
     "timeline": {
       "question": "How long will my case take?",
-      "answer": "Timelines depend on the case type and the agency. Work permits typically take 3–6 months. I-130 petitions for immediate relatives run 8–16 months. Asylum can take years. Removal defense in court can last 12–36 months. During your consultation we'll give you a realistic estimate for your specific case."
+      "answer": "Immigration timelines are controlled by USCIS, the immigration courts, and federal circuit schedules — not by us. Work permits typically take 6–12 months. Bond hearings happen within a few weeks. Asylum and removal defense can run 1–3 years. We'll give you a concrete estimate for your specific case during the consultation — not a best-case fantasy."
     },
     "workWhilePending": {
-      "question": "Can I work while my case is pending?",
-      "answer": "Often yes — through an Employment Authorization Document (EAD), Form I-765. Eligibility depends on the case type and filing dates. We file the EAD as part of every qualifying case package."
+      "question": "Can I work legally while my case is pending?",
+      "answer": "In many cases, yes. If you're eligible we can file an I-765 work permit application alongside your main case. Asylum applicants can apply 180 days after filing. Adjustment of status applicants can apply at the same time as the green card. We'll tell you exactly when and how during the consultation."
     },
     "documents": {
-      "question": "What documents should I bring to my consultation?",
-      "answer": "If you have them: your passport, any prior immigration paperwork (notices from USCIS or ICE, court notices), any prior applications you've filed, police reports or evidence if you're pursuing asylum/VAWA/U-visa, and the names and dates for family relationships. If you don't have documents, come anyway — we'll tell you what to gather."
+      "question": "What documents should I bring to the consultation?",
+      "answer": "Whatever you have — passports, prior case documents, court notices, I-94s, old applications, police reports, medical records. If you don't have anything, that's fine too. We'll talk through what you remember and tell you what we need to gather. Come as you are."
     },
     "paymentPlans": {
       "question": "Do you offer payment plans?",
-      "answer": "Yes. Every engagement includes a written payment plan that divides the flat fee into manageable installments, usually with a reasonable deposit up front. We bill transparently — no surprise charges."
+      "answer": "Yes. We offer monthly, biweekly, and weekly plans. Most clients pay a down payment of $2,500–$3,000 and spread the rest over the life of the case. We also accept Affirm Pay Later if you'd rather finance the full amount up front. We will never let cost be the reason you don't get representation."
     },
     "vawaEligibility": {
-      "question": "What is VAWA and who qualifies?",
-      "answer": "The Violence Against Women Act (VAWA) lets abused spouses, children, and parents of U.S. citizens or lawful permanent residents petition for their own immigration status — confidentially, without the abuser's knowledge or involvement. It applies to men and women. The case depends on proof of the abuse and the qualifying relationship."
+      "question": "Am I eligible for VAWA if I don't have a police report?",
+      "answer": "Yes. VAWA uses an \"any credible evidence\" standard. You do not need a police report. You do not need a conviction. You need your story, told clearly, supported by whatever you have — photographs, messages, medical records, therapy notes, or statements from friends and family. Your abuser is not notified. Ever."
     },
     "iceDetention": {
       "question": "What should I do if ICE detains me?",
-      "answer": "Stay calm. You have the right to remain silent, the right to speak with a lawyer, and the right to refuse to sign anything until you understand what it says. Do not sign a Stipulated Order of Removal or a voluntary departure form without legal advice. Ask to call Verde Law — our phone number is answered 24/7."
+      "answer": "Stay calm. Do not sign any documents without an attorney. You have the right to remain silent and the right to an attorney. Give ICE your name, but do not discuss your immigration history, your case, or where you're from. Call Verde Law immediately at (305) 786-3003 or have a family member call for you. We handle detained cases on an emergency basis."
     },
     "detainedHelp": {
-      "question": "Can you help if my family member is already detained?",
-      "answer": "Yes. Detained cases are one of our core practice areas. We move fast on bond hearings, we know the Krome facility staff, and we coordinate transfers when ICE moves a loved one to another state. The first 48 hours matter — call us right away."
+      "question": "How fast can you help if my family member is detained right now?",
+      "answer": "We take emergency detention calls the same day. We pull the A-file, identify the facility, and get an attorney on the case within hours. Bond motions are typically filed within 3–5 business days, and most detained clients are released within 3–4 weeks. Call (305) 786-3003 now — every hour matters."
     },
     "uVisa": {
-      "question": "What is the U-Visa?",
-      "answer": "The U-Visa is an immigration status for noncitizen victims of serious crimes (domestic violence, sexual assault, felonious assault, trafficking, and others) who have suffered substantial harm and are helpful to law enforcement. It requires a certification from the investigating agency and a detailed personal statement. Current waits are long, but applicants on the waitlist receive work authorization and deferred action."
+      "question": "What is a U-visa and do I qualify?",
+      "answer": "The U-visa is for noncitizens who were victims of a qualifying serious crime (domestic violence, sexual assault, felonious assault, trafficking, and more) and cooperated with law enforcement. You qualify if you suffered substantial harm and have a law enforcement certification — which we help you obtain. Waitlists are long, but interim work permits and deferred action are available while you wait."
     },
     "citizenship": {
-      "question": "How do I become a U.S. citizen?",
-      "answer": "Most people apply via the N-400 after five years as a lawful permanent resident (three years if married to a U.S. citizen). You need continuous residence, physical presence, good moral character, and basic English and civics. We audit for issues that could derail the application — taxes, criminal history, travel patterns — before we file."
+      "question": "I've been a green card holder for 5 years. Should I apply for citizenship?",
+      "answer": "Probably yes — but it depends on a few things: your physical presence, your travel history, your tax filings, and whether you have any prior criminal issues. A bad N-400 filing can put a lawful permanent resident into removal proceedings. We run a full eligibility audit before filing so your application is a celebration, not a risk."
     }
   },
   "verdePlus": {
@@ -1331,7 +1331,7 @@
       "caseTracker": {
         "eyebrow": "Feature 01",
         "title": "Know exactly where your case stands.",
-        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you see what's happening and when.",
+        "desc": "Real-time updates at every step of your immigration matter. From contract signing to final decision, you can see what's happening next — and when.",
         "h1": "Visual timeline of your case",
         "h2": "Automatic notifications on changes",
         "h3": "24/7 access from any device"
@@ -1339,7 +1339,7 @@
       "judgeStats": {
         "eyebrow": "Feature 02",
         "title": "Know your judge before the hearing.",
-        "desc": "Real approval rates for every immigration judge in your jurisdiction. Know what you're walking into, so nothing surprises you.",
+        "desc": "Access real approval statistics for immigration judges in your jurisdiction. Know what you're walking into, so nothing surprises you.",
         "h1": "Approval rates by case type",
         "h2": "Historical decision patterns",
         "h3": "Compare judges in the same court"
@@ -1347,7 +1347,7 @@
       "documentScanner": {
         "eyebrow": "Feature 03",
         "title": "Digitize documents instantly.",
-        "desc": "Scan passports, work permits, and legal documents straight from your phone. Stored securely, shareable in one tap with your attorney.",
+        "desc": "Scan passports, work permits, and legal documents straight from your phone. Stored securely. Shareable to the legal team with one tap.",
         "h1": "Automatic document-type detection",
         "h2": "Encrypted cloud storage",
         "h3": "Share directly with your attorney"
@@ -1355,7 +1355,7 @@
       "aiAssistant": {
         "eyebrow": "Feature 04",
         "title": "Immediate answers to your questions.",
-        "desc": "Our AI assistant answers common immigration questions in Spanish, 24 hours a day. Attorney-verified, zero hallucinations on legal rules.",
+        "desc": "Our AI assistant answers common immigration questions in Spanish, 24 hours a day. Attorney-verified information on legal topics, in language you can actually understand.",
         "h1": "Available 24/7",
         "h2": "Answers in Spanish",
         "h3": "Information vetted by attorneys"
@@ -1363,7 +1363,7 @@
       "academy": {
         "eyebrow": "Feature 05",
         "title": "Learn your rights.",
-        "desc": "Free courses, step-by-step guides, and educational resources to understand the U.S. immigration system. Made for immigrants, in plain Spanish.",
+        "desc": "Free courses, step-by-step guides, and educational resources to understand how immigration works in your favor. Right in the app, at your pace.",
         "h1": "Video courses",
         "h2": "Downloadable guides",
         "h3": "Citizenship test prep"
@@ -1371,7 +1371,7 @@
       "community": {
         "eyebrow": "Feature 06",
         "title": "Connect with other immigrants.",
-        "desc": "Share experiences, ask questions, and find support in our community. Moderated by our team to keep it safe and respectful.",
+        "desc": "Share experiences, ask questions, and find support in our community. Moderated for safety and respect.",
         "h1": "Topic-based forums",
         "h2": "Success stories",
         "h3": "A support network that gets it"
@@ -1452,7 +1452,7 @@
       "subtitle": "Track your case, scan your documents, learn your rights — all in one app, in your language.",
       "appStore": "App Store",
       "playStore": "Google Play",
-      "tagline": "Free. For everyone."
+      "tagline": "It's free. For everyone."
     }
   },
   "contact": {
@@ -1477,13 +1477,13 @@
         "message": "Tell us briefly (optional)"
       },
       "caseTypes": {
-        "deportation": "Someone I love was detained",
-        "asylum": "I'm afraid to return to my home country",
-        "bond": "My family member is in ICE custody",
-        "family": "I want to bring family to the U.S.",
-        "vawa": "I'm a victim of abuse or a crime",
-        "citizenship": "I want to become a U.S. citizen",
-        "other": "Other / not sure yet"
+        "deportation": "I'm in removal proceedings",
+        "asylum": "I want to apply for asylum",
+        "bond": "Someone I love was detained",
+        "family": "I need help with a family petition",
+        "vawa": "I'm a survivor of abuse or a crime",
+        "citizenship": "I need a work permit or citizenship",
+        "other": "Something else"
       },
       "submit": "Send my free case review",
       "submitting": "Sending…",
@@ -1553,10 +1553,10 @@
     }
   },
   "notFound": {
-    "title": "Page not found",
-    "body": "The page you're looking for doesn't exist or may have been moved. If you were headed somewhere specific, the links below can help — or call us directly.",
-    "cta": "Back to home",
-    "phone": "Call us at {phone}"
+    "title": "Page not found.",
+    "body": "The page you're looking for doesn't exist or has been moved. But we're still here — and your case still matters.",
+    "cta": "Back to Home",
+    "phone": "Need help? Call us at {phone}"
   },
   "quiz": {
     "sectionEyebrow": "Free Case Evaluation",
